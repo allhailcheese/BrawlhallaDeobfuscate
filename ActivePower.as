@@ -1056,7 +1056,8 @@ package
                         if(§_-D2f§ == §_-l3D§.§_-725§ && (!§_-2f§ || §_-F2V§.§_-l29§))
                         {
                             _loc30_ = false;
-                            _loc31_ = _loc23_;
+                            _loc31_ = _loc23_;// ground checking
+                            // collider and first frame?
                             if(§_-F2V§.§_-h14§ == uint(13) && _loc21_ == uint(§_-F2V§.§_-C2R§(§_-U1T§)))
                             {
                                 _loc30_ = true;
@@ -1064,6 +1065,7 @@ package
                             }
                             if(!_loc30_)
                             {
+                                // display power                                CenterOffsetX             CenterOffsetY                   AoERadiusX                  AoERadiusY         mLeftFacing gcheck? frame   targetPos
                                 §_-P4L§.§_-hL§.§_-14A§(§_-F2V§,uint(0),int(§_-F2V§.§_-B1V§[_loc21_]),int(§_-F2V§.§_-1Y§[_loc21_]),int(§_-F2V§.§_-71I§[_loc21_]),int(§_-F2V§.§_-s4V§[_loc21_]),§_-U2J§,_loc31_,§_-U1T§,§_-T3m§,§_-2f§);
                             }
                         }

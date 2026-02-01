@@ -4082,6 +4082,7 @@ package
                     §_-R52§.§_-14p§();
                 }
             }
+            // unexhaust dodge
             if(§_-K2t§() || _loc32_ || !§_-z2b§())
             {
                 §_-95j§(false);
@@ -5105,6 +5106,7 @@ package
                 }
             }
             var _loc5_:Boolean = §_-v2s§ + §_-452§.§_-M1h§ > param1;
+            // check dodge exhausted
             var _loc6_:Boolean = (§_-G46§.§_-84f§.§_-C4f§ & 64) != 0 && §_-n2S§();
             if(§_-j14§() && §_-62p§ + §_-g5r§ <= param1 && !_loc5_ && !_loc6_)
             {
@@ -8627,6 +8629,7 @@ package
                 }
             }
             _loc15_ = §_-F10§.§_-X2q§(param2,§_-z2b§(),_loc8_,(§_-G46§.§_-84f§.§_-C4f§ & 64) != 0,_loc10_);
+            // set dodge exhausted
             §_-95j§(§_-z2b§() && !_loc15_.§_-2I§);
             §_-s31§(true);
             §_-62p§ = param1;
