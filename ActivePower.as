@@ -78,7 +78,7 @@ package
         public var §_-Ks§:Boolean;
         
         public var §_-L3L§:Boolean;
-        
+        // cancel gravity
         public var §_-H2O§:Boolean;
         // released charge?
         public var §_-Q23§:Boolean;
@@ -928,16 +928,20 @@ package
                 _loc9_ = !!§_-F2V§.§_-B1S§ ? §_-8m§ : uint(0);
                 _loc15_ = 0;
                 _loc16_ = 0;
+                // ImpulseToPoint number, has damage
                 if(§_-F2V§.§_-95p§ != 0 && _loc5_)
                 {
+                    // IsMultihit and 
                     if(!!§_-F2V§.§_-3§ && §_-U1T§ < §_-F2V§.§_-25q§)
                     {
                         _loc16_ = 1;
                     }
+                    // EndOnHit
                     else if(§_-F2V§.§_-vj§)
                     {
                         _loc16_ = §_-F2V§.§_-95p§;
                     }
+                    // frames until reached
                     else if(§_-F2V§.§_-95p§ > _loc3_)
                     {
                         _loc16_ = uint(§_-F2V§.§_-95p§ - _loc3_);
@@ -1146,12 +1150,12 @@ package
                 _loc24_ = uint(§_-b2E§(param1,§_-U1T§,_loc15_,_loc5_));
                 _loc10_ = §_-U1T§;
                 
-                //                                                                    not air power or not holding down                             check for collision
+                //                                        ground check                    not air power or not holding down                             check for collision
                 if(!!_loc5_ && _loc24_ == uint(5) && §_-F2V§.§_-z2X§ && !§_-W2B§ && (!§_-F2V§.§_-qs§ || (§_-D2f§.§_-k4k§.§_-e7§ & uint(2)) == 0) && §_-L4F§(§_-U1T§,!§_-F2V§.§_-M1g§) != null)
                 {
                     §_-W2B§ = true;
                 }
-                // found relevant collision. min cancel time passed.
+                // found relevant collision. min cancel time passed. only useable for GroundPound/GroundPoundHB/GroundCheck/MeteorGrab/MeteorPound
                 //                                                  MinCancelTime
                 if(_loc24_ != uint(5) && _loc24_ != uint(0) && (§_-F2V§.§_-z4h§ == 0 || _loc3_ >= §_-F2V§.§_-z4h§))
                 {
@@ -1288,8 +1292,10 @@ package
                     if(!!§_-F2V§.§_-G7§ && §_-F2V§.§_-736§ != null)
                     {
                         _loc8_ = _loc7_ < int(§_-F2V§.§_-736§.length) ? Number(int(§_-F2V§.§_-736§[§_-U1T§])) : Number(int(§_-F2V§.§_-736§[0]));
+                        // not ImpulseMaxOnDCOnly
                         if(!§_-F2V§.§_-G2W§)
                         {
+                            // interpolate
                             _loc5_ = Number((_loc8_ - _loc5_) * §_-n1g§ + _loc5_);
                         }
                         else if(§_-n1g§ >= 1)
@@ -2429,6 +2435,7 @@ package
             {
                 //§_-T0§(false)
                 // this is the one thing i haven't figured out
+                // supposedly EndGroundPound?
                 §_-D2f§.§_-y2K§(0);
             }
             //throwing power

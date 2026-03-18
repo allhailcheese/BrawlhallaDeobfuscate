@@ -7981,8 +7981,8 @@ package
                 return;
             }
             §_-T2c§(§_-Ej§.§_-61u§);
-            var _loc2_:Number = §_-Ej§.§_-61u§.§_-N4Z§;
-            var _loc3_:Number = §_-Ej§.§_-61u§.§_-22Q§;
+            var _loc2_:Number = §_-Ej§.§_-61u§.§_-N4Z§;// offset x
+            var _loc3_:Number = §_-Ej§.§_-61u§.§_-22Q§;// offset y
             if(_loc2_ > 0 || _loc2_ < 0 || _loc3_ > 0 || _loc3_ < 0)
             {
                 _loc3_ += §_-Ej§.§_-61u§.§_-W11§ / 2 - 80;

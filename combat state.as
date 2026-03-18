@@ -1755,9 +1755,9 @@ package
         param5: uint castIndex
         param6: Point overrideVector
         param7: Boolean bFiringLeft
-        param8: Number velocityX*
+        param8: Number min(fwdVelocityX/60,1)
         param9: uint heldInput*
-        param10: uint unknown*
+        param10: uint impulseToPointFrame*
         param11: out Point impulseToPointResult*
         */
         public function §_-P1b§(param1:§_-Ej§, param2:Point, param3:Point, param4:§_-Y3o§, param5:uint, param6:Point, param7:Boolean, param8:Number, param9:uint, param10:uint, param11:Point) : Point
@@ -1779,6 +1779,7 @@ package
             }
             var _loc12_:int = param5;
             var _loc13_:Point = null;
+            // override vector, else source pos to target pos
             if(param6 != null)
             {
                 _loc13_ = new Point(param6.x,param6.y);
@@ -1792,6 +1793,7 @@ package
                 _loc14_ = int(param4.§_-S3V§[param5]);//impulse offset x
                 _loc15_ = int(param4.§_-iv§[param5]);//impulse offset y
                 _loc16_ = param4.§_-ZB§;//HeldDirOffsets
+                // HeldDirOffsets allows modifying the launch angle based on held input. but it's unused.
                 if(param9 != 0 && _loc16_ != null)
                 {
                     _loc17_ = 0;
@@ -1817,7 +1819,7 @@ package
                         _loc15_ += int(_loc16_[uint(2)]);
                     }
                 }
-                //MirrorImpulseOffset
+                //MirrorImpulseOffset. flip impulse offset x based on where the target is relative to source + MirrorOffsetCenter
                 if(!!param4.§_-G4W§ && param1 != null)
                 {
                     _loc17_ = !!param7 ? -param4.§_-Qs§ : param4.§_-Qs§;//MirrorOffsetCenter
@@ -1828,7 +1830,7 @@ package
                     _loc13_.x += !!param7 ? -_loc14_ : _loc14_;
                 }
                 _loc13_.y += _loc15_;
-                //LockTo45Degrees
+                //LockTo45Degrees. take whichever direction is longer and use that with 45deg
                 if(param4.§_-q4g§)
                 {
                     _loc18_ = Number(Math.abs(_loc13_.x));
@@ -1851,14 +1853,18 @@ package
                         _loc18_ = param1.§_-91b§;//damage
                         //                                                                  BaseDamage
                         _loc18_ += _loc12_ < int(param4.§_-O1Q§.length) ? Number(param4.§_-O1Q§[param5]) : Number(param4.§_-O1Q§[0]);
+                        // player damage / ToPointChangeDmg, cap at 1
                         _loc19_ = _loc18_ / param4.§_-V1D§;
                         if(_loc19_ > 1)
                         {
                             _loc19_ = 1;
                         }
+                        // modify impulse offset. so this makes it that the more damage, the more ToPointChangeX and ToPointChangeY take over
+                        // damage based angle!
                         _loc14_ += int(Math.round(_loc19_ * param4.§_-45j§));
                         _loc15_ += int(Math.round(_loc19_ * param4.§_-H25§));
                     }
+                    // apply impulse offset to source position
                     _loc18_ = param2.x;
                     _loc18_ += !!param7 ? -_loc14_ : _loc14_;
                     _loc19_ = Number(param2.y + _loc15_);
@@ -1868,17 +1874,19 @@ package
                         _loc17_ = int(param4.§_-m44§[param5]);
                         if(param4.§_-G2W§)//ImpulseMaxOnDCOnly
                         {
+                            // traveling forward at >= 60
                             if(param8 == 1)
                             {
-                                _loc18_ = _loc17_;
+                                _loc18_ = _loc17_;// use ImpulseOffsetMaxX
                             }
                             else
                             {
-                                _loc18_ = _loc14_;
+                                _loc18_ = _loc14_;// use impulse offset x
                             }
                         }
                         else
                         {
+                            // interpolate between impulse offset x and ImpulseOffsetMaxX based on speed
                             _loc18_ = Number(param8 * (_loc17_ - _loc14_) + _loc14_);
                         }
                         if(param7)
@@ -1889,44 +1897,54 @@ package
                     }
                     if(param10 > 0)
                     {
+                        // raycast source to impulse to point position
                         §_-xP§.§_-s2r§.x = _loc18_ - param2.x;
                         §_-xP§.§_-s2r§.y = _loc19_ - param2.y;
                         _loc20_ = §_-l3D§.§_-J2b§.§_-Y4g§(§_-M4U§.§_-42u§,param2.x,param2.y,§_-xP§.§_-s2r§,§_-xP§.§_-B4V§,null,null,null,uint(1),0,0,0);
+                        // raycast target to impulse to point position
                         if(_loc20_ == null)
                         {
                             §_-xP§.§_-s2r§.x = _loc18_ - param3.x;
                             §_-xP§.§_-s2r§.y = _loc19_ - param3.y;
                             _loc20_ = §_-l3D§.§_-J2b§.§_-Y4g§(§_-M4U§.§_-42u§,param3.x,param3.y,§_-xP§.§_-s2r§,§_-xP§.§_-B4V§,null,null,null,uint(1),0,0,0);
                         }
+                        // found collision in the way
                         if(_loc20_ != null)
                         {
                             //          vertical
                             if(_loc20_.startX == _loc20_.§_-a1T§ && _loc20_.§_-a2J§.x > 0 != §_-xP§.§_-s2r§.x > 0)
                             {
-                                _loc18_ = §_-xP§.§_-B4V§.x;
+                                _loc18_ = §_-xP§.§_-B4V§.x;// ceiling/floor position
                             }
                             //          horizontal
                             if(_loc20_.startY == _loc20_.§_-64f§ && _loc20_.§_-a2J§.y > 0 != §_-xP§.§_-s2r§.y > 0)
                             {
-                                _loc19_ = §_-xP§.§_-B4V§.y;
+                                _loc19_ = §_-xP§.§_-B4V§.y;// wall position
                             }
                         }
+                        // hurtbox stuff?
                         param1.§_-x3L§(§_-xP§.§_-z42§);
                         _loc18_ -= §_-xP§.§_-z42§.x;
                         _loc19_ -= §_-xP§.§_-z42§.y;
+                        // get difference from x position
                         _loc21_ = Number(Math.abs(_loc18_ - param1.§_-K3g§()));
                         _loc22_ = 4 * §_-K1R§.§_-C4I§;
+                        // frame stuff? needed velocity to reach desired position?
                         _loc23_ = Number(_loc21_ / (param10 * §_-K1R§.§_-C4I§) + (uint(param10 - 1)) * _loc22_ / 2);
+                        // overshooting?
                         if(_loc23_ < param10 * _loc22_)
                         {
                             _loc23_ = Number(Math.sqrt(8 * _loc21_));
                         }
+                        // same calculation but for y
                         _loc24_ = (_loc19_ - param3.y) / (param10 * §_-K1R§.§_-C4I§) - param10 * (param1.§_-Z12§ * §_-K1R§.§_-C4I§) / 2;
+                        
                         _loc13_.x = _loc18_ < param3.x ? -_loc23_ : _loc23_;
                         _loc13_.y = _loc24_;
                     }
                     else
                     {
+                        // calc as offset
                         _loc13_.x = _loc18_ - param3.x;
                         _loc13_.y = _loc19_ - param3.y;
                     }
@@ -2064,10 +2082,10 @@ package
         param11: bool bFiringLeft
         param12: uint itemVelocity
         param13: Point overrideVector
-        param14: Number velocityX(?)
+        param14: Number min(fwdVelocityX/60,1)
         param15: uint heldDir(?)
         param16: bool heavyInput(?)
-        param17: uint unknown*
+        param17: uint impulseToPointFrame*
         */
         //                       time         frame          power                                                                          hit index                     charge                                                                                   velx              helddir           heavy input
         public function §_-A46§(param1:uint, param2:uint, param3:§_-Y3o§, param4:§_-th§, param5:Point, param6:Point, param7:Vector.<§_-Ej§>, param8:uint, param9:Array, param10:uint = 0, param11:Boolean = false, param12:uint = 0, param13:Point = undefined, param14:Number = 1, param15:uint = 0, param16:Boolean = false, param17:uint = 0) : uint

@@ -839,8 +839,10 @@ package
                 return;
             }
             var _loc3_:Vector.<CustomArt> = §_-N3C§;
+            // in CostumeOverrides
             if(§_-75R§(param2))
             {
+                // use OverrideCustomArt
                 _loc3_ = §_-E12§;
             }
             var _loc4_:int = 0;
