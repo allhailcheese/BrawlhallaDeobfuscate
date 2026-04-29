@@ -1470,8 +1470,8 @@ package
             var _loc7_:Vector.<Number> = param1.§_-Z40§;
             var _loc8_:int = §_-LY§;
             var _loc9_:int = param2 != null && Boolean(param2.exists("NumFrames")) ? int(§_-g3S§.parseInt(param2.get("NumFrames"))) : _loc8_;
-            var _loc10_:uint = §_-l3D§.§_-K3B§.§_-f2F§.§_-a4S§;
-            var _loc11_:uint = param1.§_-d7§;
+            var _loc10_:uint = §_-l3D§.§_-K3B§.§_-f2F§.§_-a4S§;// LevelID
+            var _loc11_:uint = param1.§_-d7§;//numeric platID
             var _loc12_:Boolean = param2 != null && Boolean(param2.exists("CenterX")) || param2 != null && Boolean(param2.exists("CenterY"));
             var _loc13_:Number = param2 != null && Boolean(param2.exists("CenterX")) ? Number(§_-g3S§.parseFloat(param2.get("CenterX"))) : 0;
             var _loc14_:Number = param2 != null && Boolean(param2.exists("CenterY")) ? Number(§_-g3S§.parseFloat(param2.get("CenterY"))) : 0;
@@ -1777,7 +1777,7 @@ package
         }
         
         
-                                //xml                ???            ???            hasC            CX                CY                EI                EO                EP
+                                //xml           lvlid      platid            hasC            CX                CY                EI       EO        EP
         public function §_-o26§(param1:§_-C2J§, param2:uint, param3:uint, param4:Boolean, param5:Number, param6:Number, param7:Boolean, param8:Boolean, param9:uint) : Vector.<§_-K12§>
         {
             var _loc12_:* = null as IMap;

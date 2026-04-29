@@ -1,0 +1,1 @@
+computed by GetImpulseUnitVector in CombatState

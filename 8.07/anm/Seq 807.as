@@ -305,7 +305,7 @@ package
             var _loc21_:int = 0;
             if(§_-o1c§)
             {
-                param1 *= §_-q13§.§_-E3O§;
+                param1 *= §_-q13§.§_-E3O§;//MoveAnimSpeed
                 param1 *= §_-31s§;
             }
             else if(§_-i1E§ == §_-z1h§ || §_-i1E§ == §_-Cc§)
@@ -313,6 +313,7 @@ package
                 param1 *= §_-WA§;
             }
             param1 *= §_-L4Z§;
+            // Desynch
             if(§_-q13§.§_-v2c§)
             {
                 param1 *= 1 + (§_-f4c§.Random() - 0.5) * 0.2;
@@ -343,6 +344,7 @@ package
                         {
                             §_-X2E§ = false;
                         }
+                        //              free start
                         if(§_-C3f§ >= §_-i1E§.§_-k1N§)
                         {
                             §_-X2E§ = false;
@@ -830,12 +832,15 @@ package
             var _loc17_:int = int(§_-Yu§);
             if(_loc3_)
             {
+                // loop start
                 _loc18_ = int(§_-i1E§.§_-xQ§);
                 if(§_-i1E§ == §_-v49§ && _loc17_ < _loc18_)
                 {
+                    // frame count
                     _loc17_ = int(uint(§_-i1E§.§_-M5H§ - 1));
                     §_-Yu§ = _loc17_;
                 }
+                // run end
                 else if(§_-i1E§.§_-K1V§ != null)
                 {
                     _loc19_ = 0;
@@ -846,6 +851,7 @@ package
                         _loc9_ = §_-i1E§.§_-K1V§[_loc21_];
                         if(§_-D59§ <= _loc9_ && _loc9_ <= §_-Yu§)
                         {
+                            // recovery start
                             _loc17_ = int(§_-i1E§.§_-t4P§);
                             §_-Yu§ = _loc17_;
                         }
@@ -853,6 +859,7 @@ package
                 }
                 else
                 {
+                    // recovery start
                     _loc17_ = int(§_-i1E§.§_-t4P§);
                     §_-Yu§ = _loc17_;
                 }
@@ -860,13 +867,17 @@ package
             }
             else if(_loc4_)
             {
+                // loop start
                 _loc17_ = int(§_-i1E§.§_-xQ§);
                 §_-Yu§ = _loc17_;
             }
+            // recovery start
             _loc18_ = int(§_-i1E§.§_-t4P§);
+            // frame count
             _loc19_ = int(§_-i1E§.§_-M5H§);
             if(_loc6_ && _loc17_ >= _loc18_)
             {
+                // loop start
                 §_-C3f§ = §_-i1E§.§_-xQ§;
                 §_-Yu§ = §_-C3f§;
             }
@@ -918,6 +929,7 @@ package
                     §_-H43§ = true;
                 }
             }
+            //              free start
             if(§_-C3f§ >= §_-i1E§.§_-k1N§)
             {
                 §_-q1M§();

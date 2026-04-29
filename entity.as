@@ -6089,7 +6089,7 @@ package
             §_-j2A§ = §_-yz§.§_-Q1y§.get(param1);
         }
         
-        //only called from §_-63K§ in the entity thing
+        //only called from §_-63K§ in the combat state
         public function §_-53M§(param1:uint, param2:Boolean, param3:Boolean, param4:Boolean) : void
         {
             §_-EI§ = param3;

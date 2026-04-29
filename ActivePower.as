@@ -347,6 +347,7 @@ package
                 _loc8_ = Number(Number(_loc2_.§_-p1C§()) + _loc12_ * (_loc8_ - _loc2_.§_-p1C§()));
                 _loc9_ = Number(Number(_loc2_.§_-ze§()) + _loc12_ * (_loc9_ - _loc2_.§_-ze§()));
             }
+            // zariel gauntlets ssig and bow nsig
             else if(§_-F2V§.§_-d1N§ == uint(5) && §_-U3s§ != null)
             {
                 if(§_-D2f§.§_-I4N§())

@@ -2751,6 +2751,7 @@ package
                     //              not taunt
                     if(!_loc4_ && !_loc6_.§_-O4y§)
                     {
+                        //          currTime        hitArea             dir     throw?
                         §_-M4U§.§_-53M§(param1,_loc22_ != 0 || _loc26_,_loc19_,_loc33_);
                     }
                 }
