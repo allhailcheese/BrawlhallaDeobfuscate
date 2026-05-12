@@ -790,8 +790,10 @@ package
                     §_-D2f§.§_-E15§(true);
                 }
             }
+            //                              GCCancelTime
             if((§_-p3j§ & uint(2)) != 0 && _loc3_ < §_-F2V§.§_-t4C§)
             {
+                // cancel gravity
                 §_-H2O§ = true;
             }
             else if(§_-Ks§)
@@ -2040,7 +2042,9 @@ package
             var _loc13_:Number = 0;
             var _loc14_:Number = 0;
             var _loc15_:int = !!§_-U2J§ ? -_loc9_ : _loc9_;
+            // what teams it can hit based on damage?
             var _loc16_:uint = §_-F2V§.§_-g1k§ < 0 ? §_-K1R§.§_-h3Q§ : §_-K1R§.§_-G36§;
+            // IsSignature
             if(§_-F2V§.§_-92e§)
             {
                 _loc16_ |= §_-K1R§.§_-43f§;

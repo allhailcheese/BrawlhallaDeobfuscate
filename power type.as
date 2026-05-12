@@ -3216,6 +3216,7 @@ package
             }
         }
         
+        //                  ParseIndex(pt:PowerType, strArray:Array, numVector:Vector.<Number>, castIdx:uint, durrCount:uint) : Number
         public static function §_-U2S§(param1:§_-Y3o§, param2:Array, param3:Vector.<Number>, param4:Vector.<int>, param5:uint, param6:uint) : Number
         {
             var _loc17_:uint = 0;

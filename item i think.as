@@ -639,6 +639,7 @@ package
         }
         
         //if this returns false, dtor is called
+        // TickWorldItem
         public function §_-uj§(param1:uint, param2:Boolean) : Boolean
         {
             var _loc3_:uint = 0;
@@ -800,6 +801,7 @@ package
             return true;
         }
         
+        // TickPhysics(currTime: uint): void
         public function §_-i2Q§(param1:uint) : void
         {
             var _loc10_:* = null as §_-A1T§;

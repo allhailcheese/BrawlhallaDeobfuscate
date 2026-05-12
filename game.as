@@ -7055,6 +7055,7 @@ package
             return _loc1_;
         }
         
+        // GatherEntities
         // find entities intersecting with capsule
         //                      time         entity         X              Y              RX             RY             flags        out
         public function §_-z1N§(param1:uint, param2:§_-Ej§, param3:Number, param4:Number, param5:Number, param6:Number, param7:uint, param8:Vector.<§_-Ej§>) : void

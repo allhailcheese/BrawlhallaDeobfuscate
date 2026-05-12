@@ -558,6 +558,8 @@ package
             return _loc2_.h[param1];
         }
         
+        // this is used for animation from swf
+        //                      AnimFile                    AnimClass
         public function §_-A4B§(param1:String = undefined, param2:String = undefined) : MovieClip
         {
             var _loc3_:* = null as String;

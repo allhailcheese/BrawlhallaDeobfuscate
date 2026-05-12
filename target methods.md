@@ -23,7 +23,7 @@ This target method ignores like of sight.
 * Ranged - does damage to target entity. used for clashes and that's pretty much it.
 * GrabHit - like Ranged, but grab
 * GrabRelease - like Ranged, but releases the held entity
-* GroundCheckGrabHit - like GrabHit + PBAoEHB. only the first hitbox checks for collision.
+* GroundCheckGrabHit - like GrabHit + PBAoEHB. the first hitbox checks for collision and the rest hit.
 
 # Type 3: Path
 Uses a single hitbox. This hitbox is always centered on the target position.
@@ -70,6 +70,7 @@ This is used for chargeable attack. Aka sigs. Releasing the charge transitions t
 Hitboxes are placed relative to the source entity center.
 On every frame, source position set to source entity center (if it exists).
 This is like 6 + 8. Used for GPs. Unlike 6, ground touch transition is ComboName while releasing the charge is ComboOverrideIfRelease.
+The first hitbox in a cast checks for collision, the rest hit.
 
 * MeteorPound - chargeable power, cancels when touching collision or detecting collision with a hitbox.
 * MeteorGrab - like MeteorPound but grab. unused.
@@ -117,3 +118,11 @@ __NOTE ABOUT GRABS__
 HoldHitEnts decides if the power moves the entity around. Only the "grab" target methods are compatible with it.
 
 Grab target methods set their target entity to be either the hit entity if HoldHitEnts is false, or the held entity if HoldHitEnts is true. The held entity is set when a power with HoldHitEnts TRUE hits someone.
+
+__TRANSITION PRIORITY__
+* ComboOverrideIfButton
+* ComboOverrideIfDir
+* ComboOverrideIfHit
+* ComboOverrideIfWall
+* ComboOverrideIfRelease
+* ComboOverride

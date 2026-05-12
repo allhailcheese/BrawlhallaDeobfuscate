@@ -530,12 +530,14 @@ package
                 §_-M4U§.§_-N3U§.§_-q4Z§(uint(1) | uint(8388608),false,null,null);
             }
             var _loc4_:Point = §_-C3l§(param2,§_-x3u§);//throw velocity
+            //                                game  time   helditem         xpos                    ypos-30
             var _loc5_:§_-g3N§ = new §_-g3N§(§_-l3D§,param1,§_-y1j§,Number(§_-M4U§.§_-p1C§()),§_-M4U§.§_-ze§() - 30,uint(1));
             //aerial
             if(§_-M4U§.§_-go§())
             {
                 //height - 120
                 _loc6_ = §_-y1j§.§_-S1k§.§_-W11§ - 120;
+                // got floor?
                 if(§_-M4U§.§_-t14§(_loc6_))
                 {
                     _loc5_.§_-c4E§ = Number(Number(§_-M4U§.§_-ze§()) + _loc6_);
@@ -674,6 +676,7 @@ package
             §_-M4U§.§_-Q2Y§(§_-y44§.§_-U2J§);
         }
         
+        //                      power          spritething     anim source     targeent       targetpos       cast index
         public function §_-V1X§(param1:§_-Y3o§, param2:§_-c4y§, param3:uint, param4:§_-Ej§, param5:Point, param6:uint) : void
         {
             var _loc8_:Number = NaN;
@@ -695,15 +698,18 @@ package
             var _loc7_:uint = uint(param1.§_-C2R§(param6));
             switch(int(param3))
             {
+                // Feet
                 case 1:
                     param2.mTheDO3D.x = Number(§_-M4U§.§_-pn§());
                     param2.mTheDO3D.y = Number(§_-M4U§.§_-72X§());
                     break;
+                // Head
                 case 2:
                     param2.mTheDO3D.x = Number(§_-M4U§.§_-pn§());
                     _loc8_ = Number(§_-M4U§.§_-72X§());
                     param2.mTheDO3D.y = _loc8_ - §_-M4U§.§_-g33§.§_-W11§;
                     break;
+                // Ground (can't be set in the csv)
                 case 3:
                     _loc8_ = param5.x;
                     _loc9_ = param5.y;
@@ -732,16 +738,19 @@ package
                     param2.mTheDO3D.x = param5.x;
                     param2.mTheDO3D.y = param5.y;
                     break;
+                // TargetPos
                 case 4:
                     _loc8_ = param5 != null ? param5.x : Number(§_-M4U§.§_-pn§());
                     param2.mTheDO3D.x = _loc8_;
                     _loc9_ = param5 != null ? param5.y : Number(§_-M4U§.§_-72X§());
                     param2.mTheDO3D.y = _loc9_;
                     break;
+                // Center
                 case 5:
                     param2.mTheDO3D.x = Number(§_-M4U§.§_-D2s§());
                     param2.mTheDO3D.y = Number(§_-M4U§.§_-gy§());
                     break;
+                // OffsetCenter
                 case 6:
                     _loc17_ = int(param1.§_-B1V§[_loc7_]);
                     _loc18_ = int(param1.§_-1Y§[_loc7_]);
@@ -751,19 +760,24 @@ package
                     _loc9_ = Number(§_-M4U§.§_-gy§());
                     param2.mTheDO3D.y = Number(_loc9_ + _loc18_);
                     break;
+                // missing case 7: Socket
+                // TargetFeet
                 case 8:
                     param2.mTheDO3D.x = Number(param4.§_-pn§());
                     param2.mTheDO3D.y = Number(param4.§_-72X§());
                     break;
+                // TargetHead
                 case 9:
                     param2.mTheDO3D.x = Number(param4.§_-pn§());
                     _loc8_ = Number(param4.§_-72X§());
                     param2.mTheDO3D.y = _loc8_ - param4.§_-g33§.§_-W11§;
                     break;
+                // TargetCenter
                 case 10:
                     param2.mTheDO3D.x = Number(param4.§_-D2s§());
                     param2.mTheDO3D.y = Number(param4.§_-gy§());
                     break;
+                // AttackFeet
                 case 11:
                     _loc17_ = int(param1.§_-B1V§[_loc7_]);
                     _loc8_ = Number(§_-M4U§.§_-pn§());
@@ -771,6 +785,9 @@ package
                     param2.mTheDO3D.x = Number(_loc8_ + _loc18_);
                     param2.mTheDO3D.y = Number(§_-M4U§.§_-72X§());
                     break;
+                // missing case 12: Pet
+                // missing case 13: TargetHit
+                // OffsetTarget
                 case 14:
                     _loc17_ = int(param1.§_-B1V§[_loc7_]);
                     _loc18_ = int(param1.§_-1Y§[_loc7_]);
@@ -2332,6 +2349,7 @@ package
             return null;
         }
         
+        // try grab item
         public function §_-F4m§(param1:uint, param2:Boolean, param3:Boolean = false) : §_-g3N§
         {
             var _loc5_:uint = 0;
@@ -2513,9 +2531,10 @@ package
             {
                 _loc3_ = _loc1_++;
                 _loc4_ = §_-f46§[_loc3_];
-                //GravityCancelCloud
+                //                              GravityCancelCloud
                 if(!!_loc4_.§_-k2C§ && _loc4_.§_-F2V§ == §_-Y3o§.§_-H3J§)
                 {
+                    // should deactivate
                     _loc4_.§_-24Z§ = true;
                 }
             }

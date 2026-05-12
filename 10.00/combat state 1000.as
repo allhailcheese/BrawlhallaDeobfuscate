@@ -378,6 +378,7 @@ package
             }
         }
         
+        //called on gadget disarm
         public function §_-A4G§(param1:uint) : §_-E6f§
         {
             if(§_-E4I§ == null)
@@ -389,6 +390,7 @@ package
                 return null;
             }
             §_-Lk§.§_-up§.§_-c1A§(§_-83X§.§_-T4a§);
+            //has AlwaysEquipItem
             if(§_-U5o§.§_-715§.§_-s5n§.§_-52Z§)
             {
                 return null;
@@ -398,6 +400,7 @@ package
             var _loc4_:§_-a3g§ = §_-83X§;
             var _loc5_:Number = _loc4_.§_-p4F§.§_-61M§(_loc4_.§_-hK§);
             var _loc6_:§_-a3g§ = §_-83X§;
+            // new world item               game   
             var _loc7_:§_-E6f§ = new §_-E6f§(_loc2_,param1,_loc3_,_loc5_,_loc6_.§_-p4F§.§_-61M§(_loc6_.§_-H4X§) - 30,0);
             _loc7_.§_-845§ = 0;
             _loc7_.§_-h54§ = §_-83X§.§_-X2G§() ? 20 : -20;
@@ -405,7 +408,9 @@ package
             §_-U5o§.§_-t5G§.§_-D3z§(_loc7_);
             §_-x4X§(param1,256);
             _loc7_.§_-8H§ = true;
+            //team
             _loc7_.§_-55b§ = §_-83X§.§_-D1k§;
+            //ID
             _loc7_.§_-p2l§ = §_-83X§.§_-T4a§;
             return _loc7_;
         }
@@ -520,6 +525,8 @@ package
             }
         }
         
+        //throw
+        //                      time         charge time       input
         public function §_-a2s§(param1:uint, param2:uint, param3:uint) : void
         {
             var _loc11_:Number = NaN;
@@ -532,12 +539,13 @@ package
             {
                 §_-83X§.§_-C35§.§_-63R§(1 | 0x800000,false,null,null);
             }
-            var _loc4_:Point = §_-t1R§(param2,§_-RB§);
+            var _loc4_:Point = §_-t1R§(param2,§_-RB§);//throw velocity
             var _loc5_:§_-k4P§ = §_-U5o§;
             var _loc6_:§_-D1j§ = §_-E4I§;
             var _loc7_:§_-a3g§ = §_-83X§;
             var _loc8_:Number = _loc7_.§_-p4F§.§_-61M§(_loc7_.§_-hK§);
             var _loc9_:§_-a3g§ = §_-83X§;
+            //                                game  time   helditem  xpo            ypos-30
             var _loc10_:§_-E6f§ = new §_-E6f§(_loc5_,param1,_loc6_,_loc8_,_loc9_.§_-p4F§.§_-61M§(_loc9_.§_-H4X§) - 30,1);
             if(§_-83X§.§_-513§())
             {
@@ -2758,6 +2766,8 @@ package
             }
         }
         
+        //handle weapon disarm
+        //                      time           forcex         forcey
         public function §_-S20§(param1:uint, param2:Number, param3:Number) : §_-E6f§
         {
             if(§_-E4I§ == null)

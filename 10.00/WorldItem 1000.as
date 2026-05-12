@@ -219,7 +219,7 @@ package
         public var §_-61o§:Number;
         
         public var §_-4c§:uint;
-        
+        // creation time
         public var §_-845§:uint;
         
         public var §_-v53§:SpawnBot;
@@ -303,9 +303,10 @@ package
         public var §_-d1Z§:Array;
         
         public var §_-bq§:uint;
-        
+        // game
         public var §_-U5o§:§_-k4P§;
         
+        //                      game                time        helditem        xpos            ypos
         public function §_-E6f§(param1:§_-k4P§, param2:uint, param3:§_-D1j§, param4:Number, param5:Number, param6:uint)
         {
             §_-U5o§ = param1;
@@ -1610,6 +1611,7 @@ package
             }
         }
         
+        //                      held item
         public function §_-05s§(param1:§_-D1j§) : void
         {
             var _loc2_:§_-E8§ = null;

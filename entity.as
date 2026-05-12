@@ -3153,6 +3153,7 @@ package
             var _loc4_:§_-g3N§ = null;
             if(§_-p3I§.§_-y1j§ == null && !§_-B4B§() && (§_-Ko§ == uint(0) || §_-Ko§ == uint(5)))
             {
+                // try grab item
                 _loc4_ = §_-p3I§.§_-F4m§(param1,_loc3_);
             }
             if(_loc4_ != null && _loc4_.§_-319§ == uint(1))
@@ -7473,6 +7474,7 @@ package
             return false;
         }
         
+        // raycast param1 down?
         public function §_-t14§(param1:Number) : Boolean
         {
             if(param1 < 0)

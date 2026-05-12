@@ -3092,6 +3092,7 @@ package
             var _loc4_:§_-E6f§ = null;
             if(§_-I58§.§_-E4I§ == null && !§_-66R§() && (§_-95U§ & §_-a3g§.§_-k4X§) == 0 && (§_-05t§ == 0 || §_-05t§ == 5))
             {
+                // try grab item
                 _loc4_ = §_-I58§.§_-E5G§(param1,_loc3_);
             }
             if(_loc4_ != null && _loc4_.§_-G4f§ == 1)

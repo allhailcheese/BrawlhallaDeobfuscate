@@ -345,12 +345,14 @@ package
             {
                 _loc21_ = 0;
             }
+            // Self
             if(§[?§.targetMethod == 6)
             {
                 _loc16_ = new Vector.<Entity>();
                 _loc16_.push(§,!h§);
                 return _loc16_;
             }
+            // grab, Friend, ThrownItem
             if(§[?§.targetMethod == 2 || §[?§.targetMethod == 7 || §[?§.targetMethod == 23)
             {
                 _loc20_ = new Vector.<Entity>();
@@ -360,31 +362,38 @@ package
                 }
                 return _loc20_;
             }
+            // RangedAoE
             if(§[?§.targetMethod == 10)
             {
                 return aaGame.GatherEntities(currTime,§,!h§,_loc9_.x + _loc17_,_loc9_.y + _loc5_,_loc7_,_loc8_,_loc21_);
             }
+            // Path
             if(§[?§.targetMethod == 3)
             {
                 return aaGame.GatherEntities(currTime,§,!h§,_loc9_.x,_loc9_.y,_loc7_,_loc8_,_loc21_);
             }
+            // Wave
             if(§[?§.targetMethod == 11)
             {
                 return aaGame.GatherEntities(currTime,§,!h§,_loc9_.x,_loc9_.y + _loc5_,_loc7_,_loc8_,_loc21_);
             }
+            // Blast
             if(§[?§.targetMethod == 14)
             {
                 return aaGame.GatherEntities(currTime,§,!h§,ownerPhysCenterX + _loc17_,ownerPhysCenterY + _loc5_,_loc7_,_loc8_,_loc21_);
             }
+            // PBAoE, GroundPound, MeteorPound, Charge, Cleave
             if(§[?§.targetMethod == 5 || §[?§.targetMethod == 18 || §[?§.targetMethod == 21 || §[?§.targetMethod == 12 || §[?§.targetMethod == 15)
             {
                 return aaGame.GatherEntities(currTime,§,!h§,ownerPhysCenterX + _loc17_,ownerPhysCenterY + _loc5_,_loc7_,_loc8_,_loc21_);
             }
+            // Nova
             if(§[?§.targetMethod == 16)
             {
                 return aaGame.GatherEntities(currTime,§,!h§,ownerPhysCenterX + _loc17_,ownerPhysCenterY + _loc5_,§[?§.§0q§[castIndex],§[?§.§=%§[castIndex],_loc21_);
             }
             var _loc12_:uint = §[?§.GetRange(§,!h§);
+            // Melee
             if(§[?§.targetMethod == 1)
             {
                 if(_loc7_)

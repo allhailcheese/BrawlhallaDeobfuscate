@@ -78,6 +78,7 @@ package
             return param2;
         }
         
+        //                          AnimClass+_+name     AnimFile
         public static function §_-Q1X§(param1:String, param2:String) : Class
         {
             var _loc3_:String = String(§_-K5a§.§_-v3l§.get(param1));
