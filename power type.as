@@ -2624,11 +2624,11 @@ package
                     if(int(_loc40_.length) > 1)
                     {
                         _loc40_ = _loc40_[1].split("-");
-                        //CastTime after : after @ before -
+                        //CastTime after : after @ before - (anm start)
                         _loc4_.§_-WS§(int(_loc4_.§_-K2O§.length),§_-g3S§.parseInt(_loc40_[0]));
                         if(int(_loc40_.length) > 1)
                         {
-                            //CastTime after : after @ after -
+                            //CastTime after : after @ after - (anm end)
                             _loc4_.§_-WS§(uint(_loc45_ + int(_loc4_.§_-K2O§.length)),§_-g3S§.parseInt(_loc40_[1]),true);
                         }
                     }

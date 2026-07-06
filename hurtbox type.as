@@ -345,6 +345,7 @@ package
             }
         }
         
+            //                      frame           ? ??           posx            posy            facing
         public function §_-E1R§(param1:uint, param2:§_-t24§, param3:Number, param4:Number, param5:Boolean) : void
         {
             var _loc7_:uint = 0;

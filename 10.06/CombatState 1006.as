@@ -1646,6 +1646,7 @@ package
             return false;
         }
         
+        //                  charge time         purely vertical
         public function §_-y3u§(param1:uint, param2:Boolean) : Number
         {
             if(param1 > 1000)
@@ -1657,10 +1658,13 @@ package
             return _loc4_ * _loc3_;
         }
         
+        // calc throw velocity   charge time
         public function §_-G4K§(param1:uint, param2:uint, param3:Point = undefined) : Point
         {
+            //                                              ProximityTrigger                not soft
             if(§_-X5I§.§_-76k§ != null && §_-I1N§ != null && §_-I1N§.§_-z5V§.§_-83g§ && (§_-X5I§.§_-76k§.type & 2) == 0)
             {
+                // don't let them throw mines directly down
                 param2 &= ~2;
             }
             if(param3 == null)
@@ -1671,6 +1675,7 @@ package
             {
                 param3.setTo(0,0);
             }
+            // left/right
             if(param2 == 0)
             {
                 param3.x = §_-X5I§.§_-ZW§() ? -1 : 1;
@@ -1683,6 +1688,7 @@ package
             {
                 param3.x = 1;
             }
+            // up/down
             if((param2 & 1) != 0)
             {
                 param3.y = -1;
@@ -1693,6 +1699,7 @@ package
             }
             else
             {
+                // ThrownHorizontalY
                 param3.y = §_-I1N§.§_-z5V§.§_-j4A§;
             }
             var _loc4_:Number = §_-y3u§(param1,param3.x == 0);

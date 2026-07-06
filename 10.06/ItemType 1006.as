@@ -331,7 +331,7 @@ package
         public var §_-O3D§:String = null;
         
         public var §_-01A§:String = null;
-        
+        // elasticity
         public var §_-G3R§:Number = 0.6;
         
         public var mDuration:uint = 30000;

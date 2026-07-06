@@ -51,6 +51,7 @@ package
         public static var §_-73u§:Number = 0.5;
          
         // mbWasReleaseCancelled
+        // to my understanding, this is "was cancelled by release", NOT "release was cancelled"
         public var §_-W2B§:Boolean;
         
         public var §_-cF§:Boolean;
@@ -80,7 +81,7 @@ package
         public var §_-L3L§:Boolean;
         // cancel gravity
         public var §_-H2O§:Boolean;
-        // released charge?
+        // can release?
         public var §_-Q23§:Boolean;
         
         public var §_-U3F§:Boolean;
@@ -287,6 +288,7 @@ package
             {
                 _loc12_ = 0;
             }
+            // modern versions have extra logic here
             // no attack has this at 3          caspian gauntlets ssig
             if(§_-F2V§.§_-d1N§ == uint(3) || §_-F2V§.§_-d1N§ == uint(4) && Number(_loc2_.§_-ze§()) > Number(§_-D2f§.§_-ze§()))
             {
@@ -858,7 +860,7 @@ package
                 // CompleteAttackRelease
                 §_-qK§(_loc2_);
             }
-            // stance stuff
+            // can release and min charge passed?
             if(!§_-Ks§ && §_-Q23§ && _loc3_ > _loc4_)
             {
                 §_-W2X§(param1,_loc2_);
@@ -2624,6 +2626,7 @@ package
             }
         }
         
+        // mark release cancelled
         public function §_-W2X§(param1:uint, param2:uint) : void
         {
             if(!§_-Q23§)
@@ -2745,7 +2748,7 @@ package
             var _loc11_:uint = uint(int(Math.round((uint(param1 - param1 % 16)) / 16)));
             //not IsAirPower, and player is aerial
             var _loc12_:Boolean = !§_-F2V§.§_-qs§ && Boolean(§_-D2f§.§_-go§());
-            //(air power or not aerial) and no input besides light, and started holding sideways recently?
+            //(air power or not aerial) and no input besides light, and not ?
             if(!_loc12_ && !_loc10_ && !param9)
             {
                 return false;
@@ -2755,8 +2758,10 @@ package
             {
                 return false;
             }
+            // able to stance cancel out of a hit
             //                                     hit      MinCancelTime < 99
             var _loc13_:Boolean = !!_loc10_ && §_-j4i§ && §_-F2V§.§_-z4h§ < 99;
+            // if min cancel time is 99, can't stance cancel. otherwise, can stance cancel if hit or if min cancel time passed
             // not loc13 = not jump/dodge/heavy/throw, or missed, or MinCancelTime is 99
             //              MinCancelTime
             if(!_loc13_ && §_-F2V§.§_-z4h§ != 0 && _loc11_ < uint(§_-G2L§ + §_-F2V§.§_-z4h§))
@@ -2787,7 +2792,7 @@ package
             //no dodge, no jump, no heavy, no throw
             if(!(param5 || param4 || param7 || param8))
             {
-                // holding rightwards for long enough
+                // ?
                 return param9;
             }
             return true;
@@ -2964,6 +2969,7 @@ package
             }
         }
         
+        // called from player input
         //                      time        htime           dtime       jump           dodge           light            heavy           throw            ?
         public function §_-213§(param1:uint, param2:uint, param3:uint, param4:Boolean, param5:Boolean, param6:Boolean, param7:Boolean, param8:Boolean, param9:Boolean) : void
         {

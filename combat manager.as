@@ -962,14 +962,18 @@ package
             if(!!param2.§_-jg§ && !param19 && _loc21_.§_-y44§ != null)
             {
                 _loc43_ = _loc21_.§_-y44§.§_-F2V§;
+                // GroundCheckGrabHit
                 _loc44_ = !!param2.§_-fT§ && _loc22_ == _loc21_.§_-c4B§(_loc43_);
                 if(param2 == _loc43_ || _loc44_)
                 {
+                    // get held entity
                     _loc45_ = §_-l3D§.§_-GY§(_loc21_.§_-y44§.§_-32u§);
+                    // not holding anyone
                     if(_loc21_.§_-y44§.§_-32u§ == 0)
                     {
                         _loc42_ = true;
                     }
+                    // temmate and hit non-teammate. replace.
                     else if(_loc45_ != null && _loc45_.§_-42u§ == param5.§_-42u§ && param6.§_-42u§ != param5.§_-42u§)
                     {
                         _loc21_.§_-y44§.§_-G31§(param1);

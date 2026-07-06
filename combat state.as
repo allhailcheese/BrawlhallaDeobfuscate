@@ -2418,6 +2418,7 @@ package
                     {
                         _loc18_ = _loc14_.§_-319§ == uint(3);
                         //only allow picking items from your sidekick
+                        // not state 3 (sidekick?) or ?
                         if(!(!!_loc18_ && !§_-M4U§.§_-Z2x§(_loc14_)))
                         {
                             // not active or not light pickup
@@ -2435,6 +2436,7 @@ package
                                     {
                                         _loc5_ = uint(4);
                                     }
+                                    // thrown by us, weapon
                                     else if(_loc14_.§_-p2z§.§_-g4h§ == §_-M4U§.§_-j3U§ && _loc14_.§_-S1k§.§_-Ge§)
                                     {
                                         _loc5_ = uint(5);
@@ -2457,6 +2459,7 @@ package
                                             _loc6_ = _loc5_;
                                             _loc8_ = Number(§_-M4U§.§_-71d§(_loc10_));
                                         }
+                                        // break ties by checking distance
                                         else if(_loc5_ == _loc6_)
                                         {
                                             _loc9_ = Number(§_-M4U§.§_-71d§(_loc14_));

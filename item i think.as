@@ -2043,10 +2043,12 @@ package
                 _loc2_ = Number(§_-l3D§.§_-SY§.§_-m1h§(_loc2_,§_-H0§));
                 §_-l3D§.§_-SY§.§_-LK§(param1);
             }
+            // wall
             if(param1.startX == param1.§_-a1T§)
             {
                 §_-z2B§ *= -_loc2_;
             }
+            // floor
             else if(param1.startY == param1.§_-64f§)
             {
                 §_-54T§ *= -_loc2_;

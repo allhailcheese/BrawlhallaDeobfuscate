@@ -181,9 +181,9 @@ package
         public var §_-l1j§:Boolean;
         
         public var §_-K9§:Boolean;
-        
+        // velocity y?
         public var §_-Q6i§:Number;
-        
+        // velocity x?
         public var §_-c1Y§:Number;
         
         public var §_-e38§:uint;
@@ -191,7 +191,7 @@ package
         public var §_-u5A§:Number;
         
         public var §_-P2K§:Number;
-        
+        // throw time
         public var §_-C3w§:uint;
         
         public var §_-S3E§:uint;
@@ -233,11 +233,11 @@ package
         public var §_-Hi§:Number;
         
         public var §_-pw§:Number;
-        
+        // OnTriggeredPower
         public var §_-Y1j§:PowerType;
-        
+        // OnCollisionPower
         public var §_-t4T§:PowerType;
-        
+        // OnCaughtPower
         public var §_-i4w§:PowerType;
         
         public var §_-K21§:§_-G6u§;
@@ -658,6 +658,7 @@ package
             }
         }
         
+        // UpdateItemGfx?
         public function §_-qB§(param1:uint) : void
         {
             var _loc6_:Number = NaN;
@@ -884,8 +885,8 @@ package
             {
                 §_-s35§ = §_-c1Y§ < 0;
             }
-            §_-qB§(param1);
-            §_-731§();
+            §_-qB§(param1);// UpdateItemGfx
+            §_-731§();// DrawDebugGfx
             §_-Ec§(param1);
             return true;
         }
@@ -1079,7 +1080,9 @@ package
                         _loc18_ = §_-N6R§() - _loc15_;
                         _loc19_ = _loc17_ - _loc16_;
                         _loc20_ = Math.sqrt(_loc18_ * _loc18_ + _loc19_ * _loc19_);
+                        //                  1800                180
                         _loc21_ = §_-Z18§ ? §_-b35§.§_-455§ : §_-b35§.§_-F5W§;
+                        // how much time before come back based on velocity and time??
                         if(_loc20_ > 10 && uint(param1 - §_-C3w§) > _loc21_)
                         {
                             _loc22_ = 0 - §_-P2K§;
@@ -1409,7 +1412,7 @@ package
             }
         }
         
-        // ThrowBounce
+        // ThrownBounce
         public function §_-C3f§() : void
         {
             if(§_-z5V§.§_-C3x§ == "Volleyball")
@@ -1566,6 +1569,7 @@ package
             {
                 return false;
             }
+            // not WeaponCrate
             if(!§_-z5V§.§_-n3B§)
             {
                 return false;
@@ -1736,13 +1740,14 @@ package
             }
             if(§_-z5V§ != null)
             {
-                §_-G3R§ = §_-z5V§.§_-G3R§;
-                §_-t4T§ = PowerType.§_-i5u§(§_-z5V§.§_-t4T§);
-                §_-Y1j§ = PowerType.§_-i5u§(§_-z5V§.§_-Y1j§);
-                §_-i4w§ = PowerType.§_-i5u§(§_-z5V§.§_-i4w§);
+                §_-G3R§ = §_-z5V§.§_-G3R§; // elasticity
+                §_-t4T§ = PowerType.§_-i5u§(§_-z5V§.§_-t4T§);// OnCollisionPower
+                §_-Y1j§ = PowerType.§_-i5u§(§_-z5V§.§_-Y1j§);// OnTriggeredPower
+                §_-i4w§ = PowerType.§_-i5u§(§_-z5V§.§_-i4w§);// OnCaughtPower
             }
         }
         
+        // PredictWillHit(currTime:uint, targetEntity:Entity) : uint
         public function §_-u48§(param1:uint, param2:§_-a3a§) : uint
         {
             if(§_-N2J§ != 1)
@@ -2240,6 +2245,7 @@ package
             §_-i4A§(param1,_loc2_,null,new Point(0,0),_loc3_);
         }
         
+        // ExecuteThrownCollision(currTime:uint, ownerEnt:Entity, targetEnt:Entity) : void
         public function §_-PG§(param1:uint, param2:§_-a3a§, param3:§_-a3a§) : void
         {
             if(§_-N2J§ == 5 || §_-N2J§ == 7)
@@ -2254,19 +2260,24 @@ package
             // BoomerangHoming
             if(§_-z5V§.§_-i2e§ == 1 && §_-R3N§)
             {
+                // bitmask entities hit during boomerang?
                 §_-f3B§ |= _loc4_;
             }
+            // AllowRepeatedCollision
             if(§_-z5V§.§_-q5Q§)
             {
                 §_-U6I§ |= _loc4_;
             }
             §_-bd§ |= _loc4_;
-            param3.§_-z7§ = §_-z5V§.§_-K14§;
+            param3.§_-z7§ = §_-z5V§.§_-K14§;// ItemID
             param3.§_-H6o§ = §_-v1b§;
+            // OnCollision
             §_-i4A§(param1,param2,param3,new Point(§_-c1Y§,§_-Q6i§));
+            // !ForceNoCollisionBounce
             if(!§_-z5V§.§_-J4Y§)
             {
                 §_-v1b§ = true;
+                // ThrownBounce
                 §_-C3f§();
             }
         }
@@ -2317,6 +2328,7 @@ package
             §_-1g§.§_-152§(§_-41M§(),§_-q30§(),_loc2_,_loc2_,9);
         }
         
+        // DrawDebugGfx?
         public function §_-731§() : void
         {
             if(§_-g4p§ == null)
@@ -2456,6 +2468,7 @@ package
             if(!_loc8_)
             {
                 _loc10_ = _loc5_ ? §_-k2b§.§_-o5X§ : §_-k2b§.§_-d3v§ | §_-k2b§.§_-o5X§;
+                // GatherEntities
                 §_-n2X§.§_-p3C§(param1,_loc2_,§_-N6R§(),§_-eO§(),_loc6_,_loc6_,_loc10_,§_-b35§.§_-Xw§);
                 _loc11_ = 0;
                 _loc12_ = int(§_-b35§.§_-Xw§.length);
@@ -2473,6 +2486,7 @@ package
                                 if(_loc2_.§_-g3a§() && _loc2_.§_-HV§ == _loc14_.§_-O4D§)
                                 {
                                     _loc16_ = PowerType.§_-c4Z§[_loc2_.§_-Q6k§];
+                                    // TargetMethod not ThrownItem
                                     if(_loc16_ != null && _loc16_.§_-a5v§ != 11)
                                     {
                                         continue;
@@ -2553,14 +2567,17 @@ package
                 {
                     _loc2_ = _loc7_;
                 }
+                // ExecuteThrownCollision
                 §_-PG§(param1,_loc2_,_loc7_);
             }
             else if(§_-N2J§ == 1)
             {
                 _loc24_ = null;
                 _loc17_ = false;
+                // !CannotInitiateItemCollision
                 if(!§_-z5V§.§_-85I§)
                 {
+                    // GatherWorldItems
                     §_-n2X§.§_-cI§.§_-o56§(param1,_loc2_,§_-N6R§(),§_-eO§(),_loc6_,_loc6_,4,§_-b35§.§_-q56§);
                     _loc11_ = 0;
                     _loc12_ = int(§_-b35§.§_-q56§.length);
@@ -2693,6 +2710,7 @@ package
             return false;
         }
         
+        // CalculateBounceVector(line:CollisionLine) : void
         public function §_-w1j§(param1:§_-m3E§) : void
         {
             var _loc3_:Number = NaN;
@@ -2700,7 +2718,9 @@ package
             {
                 return;
             }
+            //                          bouncy
             var _loc2_:Number = (param1.type & §_-k2b§.§_-Z4k§) != 0 ? (1 + §_-G3R§) * 0.5 : §_-G3R§;
+            // gamemode
             if((param1.type & §_-k2b§.§_-L6s§) != 0)
             {
                 _loc2_ = §_-n2X§.§_-92J§.§_-X3l§.§_-d3j§.§_-Wv§(_loc2_,§_-v1b§,param1,true);

@@ -1201,6 +1201,7 @@ package
             //airborne or loc10 or jumped or dodged or siged or throwed
             if(§_-q1v§.§_-go§() || _loc10_ || param4 || param5 || param7 || param8)
             {
+                // stance thing
                 //             time   htime  dtime  jump  dodge  light  heavy  throw  ?
                 _loc9_.§_-213§(param1,param2,param3,param4,param5,param6,param7,param8,_loc10_);
             }

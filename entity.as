@@ -8014,6 +8014,7 @@ package
             {
                 _loc3_ = uint(§_-p3I§.§_-y44§.§_-p3f§);
             }
+            //              frame? ??           posx            posy            facing
             _loc2_.§_-E1R§(_loc3_,param1,Number(§_-p1C§()),Number(§_-ze§()),Boolean(§_-I4N§()));
         }
         
@@ -9670,21 +9671,27 @@ package
             //angle
             else
             {
+                // dot product
                 _loc8_ = Number(§_-Ej§.§_-m4y§.x * param2.§_-a2J§.x + §_-Ej§.§_-m4y§.y * param2.§_-a2J§.y);
+                // get movement orthogonal to collision line
                 §_-Ej§.§_-K2Z§.x = _loc8_ * param2.§_-a2J§.x;
                 §_-Ej§.§_-K2Z§.y = _loc8_ * param2.§_-a2J§.y;
+                // get movement parallel to collision line
                 _loc9_ = Number(§_-K27§());
                 §_-Ej§.§_-a2D§.x = _loc9_ - §_-Ej§.§_-K2Z§.x;
                 _loc11_ = Number(§_-75Y§());
                 §_-Ej§.§_-a2D§.y = _loc11_ - §_-Ej§.§_-K2Z§.y;
+                // -2.5 parallel movement
                 _loc12_ = §_-Ej§.§_-a2D§.length - 2.5;
                 if(_loc12_ < 0)
                 {
                     _loc12_ = 0;
                 }
                 §_-Ej§.§_-a2D§.normalize(_loc12_);
+                // multiply orthogonal part by 0.8
                 §_-Ej§.§_-K2Z§.x *= _loc3_;
                 §_-Ej§.§_-K2Z§.y *= _loc3_;
+                // reverse direction
                 §_-Ej§.§_-m4y§.x = §_-Ej§.§_-a2D§.x - §_-Ej§.§_-K2Z§.x;
                 §_-Ej§.§_-m4y§.y = §_-Ej§.§_-a2D§.y - §_-Ej§.§_-K2Z§.y;
                 if(§_-Ej§.§_-m4y§.length >= _loc4_)
