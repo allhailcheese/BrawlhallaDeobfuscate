@@ -291,6 +291,7 @@ package
                 return;
             }
             §_-G3Q§ = param1;
+            // cast count? frame count?
             var _loc2_:uint = §_-44a§ != null ? uint(int(§_-44a§.§_-V4m§.length)) : 0;
             if(§_-44a§ == null || _loc2_ <= §_-G3Q§)
             {

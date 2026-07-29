@@ -961,9 +961,11 @@ package
             // HoldHitEnts
             if(!!param2.§_-jg§ && !param19 && _loc21_.§_-y44§ != null)
             {
+                // active power's power
                 _loc43_ = _loc21_.§_-y44§.§_-F2V§;
                 // GroundCheckGrabHit
                 _loc44_ = !!param2.§_-fT§ && _loc22_ == _loc21_.§_-c4B§(_loc43_);
+                // can hold if the hitter is doing this power or if GroundCheckGrabHit and the origin power matches
                 if(param2 == _loc43_ || _loc44_)
                 {
                     // get held entity

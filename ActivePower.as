@@ -863,6 +863,7 @@ package
             // can release and min charge passed?
             if(!§_-Ks§ && §_-Q23§ && _loc3_ > _loc4_)
             {
+                // CompleteDirectionRelease?
                 §_-W2X§(param1,_loc2_);
             }
             var _loc6_:int = _loc3_;
@@ -973,6 +974,7 @@ package
                     _loc24_ = 0;
                     if(!_loc23_ || §_-F2V§.§_-h14§ == uint(2))
                     {
+                        // GetTargetList
                         §_-Xm§(param1,§_-U1T§,_loc21_,Number(§_-D2f§.§_-K3g§()),Number(§_-D2f§.§_-Q2P§()),_loc22_);
                         //AllowHitOnZeroDamage            not GroundCheck
                         if((_loc5_ || §_-F2V§.§_-V2e§) && !§_-F2V§.§_-wY§)
@@ -1598,6 +1600,7 @@ package
             return _loc4_ == §_-Y3o§.§_-2U§;
         }
         
+        // on the min charge time frame??
         public function §_-43G§(param1:uint) : Boolean
         {
             var _loc2_:uint = uint(int(Math.round((uint(param1 - param1 % 16)) / 16)));
@@ -2008,13 +2011,14 @@ package
             §_-W1N§ = param4;//heavy
         }
         
-        //called with bitneg of input direction
+        // HandleDirectionRelease(directionReleased: uint)
         public function §_-25T§(param1:uint) : void
         {
             §_-23y§ = param1;
         }
         
         //HandleAttackRelease(bForceDirectionRelease)
+        // ultimately called by player input
         public function §_-B2§(param1:Boolean = false) : void
         {
             §_-U3F§ = true;
@@ -2626,7 +2630,7 @@ package
             }
         }
         
-        // mark release cancelled
+        // CompleteDirectionRelease?
         public function §_-W2X§(param1:uint, param2:uint) : void
         {
             if(!§_-Q23§)

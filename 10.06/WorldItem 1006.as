@@ -1888,6 +1888,7 @@ package
             var _loc10_:Point = null;
             var _loc11_:Boolean = param5 != null && (§_-z5V§.§_-52f§ || param5.§_-z5V§.§_-52f§);
             var _loc12_:Boolean = §_-h1z§();
+            //                             ? OnTriggered : OnCollisionPower
             var _loc13_:PowerType = _loc12_ ? §_-Y1j§ : §_-t4T§;
             if(§_-z5V§.§_-n1q§)
             {
@@ -2481,8 +2482,12 @@ package
                         _loc15_ = uint(1 << _loc14_.§_-O4D§);
                         if(!((§_-bd§ & _loc15_) != 0 && §§pop()))
                         {
+                            //creation_time? > time-25f
+                            //creation_time >= time-24f
+                            //this is throw clash
                             if(_loc2_ != null && param1 < uint(§_-C3w§ + 400))
                             {
+                                //stunned and last hitter of loc2 is loc14
                                 if(_loc2_.§_-g3a§() && _loc2_.§_-HV§ == _loc14_.§_-O4D§)
                                 {
                                     _loc16_ = PowerType.§_-c4Z§[_loc2_.§_-Q6k§];
@@ -2492,18 +2497,23 @@ package
                                         continue;
                                     }
                                 }
+                                // in the case of same-frame hit, the attack always takes priority over the throw
                                 if(§_-C29§(_loc14_))
                                 {
                                     continue;
                                 }
                             }
+                            // sticking to someone
                             if(§_-n4z§ != 0 && §_-k1U§)
                             {
+                                // GetEntFromID
                                 §_-n2X§.§_-P6M§.get(int(§_-n4z§)).§_-d4v§(§_-b35§.§_-x2O§);
+                                // CheckCapsuleCollision
                                 _loc17_ = _loc14_.§_-865§(§_-b35§.§_-x2O§.§_-j47§,§_-b35§.§_-x2O§.§_-Z2w§,§_-b35§.§_-x2O§.§_-64u§,§_-b35§.§_-x2O§.§_-H4R§,§_-b35§.§_-x2O§.§_-v1§);
                             }
                             else
                             {
+                                // CheckCapsuleCollision
                                 _loc17_ = _loc14_.§_-865§(§_-N2q§.x + §_-41M§(),§_-N2q§.y + §_-q30§(),§_-I4X§.x,§_-I4X§.y,§_-i5B§);
                             }
                             if(!_loc17_ && _loc14_.§_-865§(§_-54H§,§_-n3v§ - _loc3_,§_-41M§() - §_-54H§,§_-q30§() - §_-n3v§,_loc4_))

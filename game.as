@@ -2174,6 +2174,7 @@ package
                 }
                 if(_loc18_)
                 {
+                    // tick power viewer
                     §_-P4L§.§_-hL§.§_-e2b§();
                 }
                 if(!!_loc2_ && !(!!§_-J3E§ && _loc9_ == 0) && _loc17_ / 16 % uint(5) == 1)
@@ -2245,6 +2246,7 @@ package
                     }
                     _loc22_ = 0;
                     _loc23_ = _loc1_;
+                    // ticket entity combat
                     while(_loc22_ < _loc23_)
                     {
                         _loc24_ = _loc22_++;
@@ -7071,17 +7073,17 @@ package
             }
             //TeamDamage
             var _loc9_:Boolean = (§_-T1o§.§_-D4a§ & uint(2)) != 0;
-            //bit 1
+            //bit 1 - only those we can hit
             var _loc10_:Boolean = (param7 & §_-K1R§.§_-G36§) != 0;
-            //bit 2
+            //bit 2 - only those we can't hit
             var _loc11_:Boolean = (param7 & §_-K1R§.§_-h3Q§) != 0;
-            //bit 4
+            //bit 4 - ignore if same team
             var _loc12_:Boolean = (param7 & §_-K1R§.§_-NN§) != 0;
-            //bit 8
+            //bit 8 - allow entities that can't be targeted. doesn't apply if ignoring our team.
             var _loc13_:Boolean = (param7 & §_-K1R§.§_-83P§) != 0;
             //bit 1 and 2 are off
             var _loc14_:Boolean = !_loc10_ && !_loc11_;
-            //bit 16
+            //bit 16 - is signature
             var _loc15_:Boolean = (param7 & §_-K1R§.§_-43f§) != 0;
             var _loc16_:int = 0;
             var _loc17_:int = int(§_-l14§.length);
@@ -7091,15 +7093,16 @@ package
                 _loc19_ = §_-l14§[_loc18_];
                 //can hit by team rules
                 _loc20_ = param2 == null || param2.§_-42u§ != _loc19_.§_-42u§ || param2 != _loc19_ && _loc9_;
-                //bit 4- false if same team. bit 8- 
+                //bit 4- ignore if same team. bit 8- allow those that can't be targeted
                 _loc21_ = !!_loc12_ ? Boolean(_loc19_.§_-1m§(param2,param1)) : (!!_loc13_ ? Boolean(_loc19_.§_-5Q§()) : Boolean(_loc19_.§_-n2n§(param1,_loc15_)));
+                // can't hit special gamemode entity?
                 if(§_-SY§.§_-Z46§(param2,_loc19_,_loc13_))
                 {
                     _loc21_ = false;
                 }
                 if(_loc21_)
                 {
-                    //bit 1 and can hit team, or bit 2 and can't hit team
+                    //bit 1 and can hit, or bit 2 and can't hit, or not bit 1/2
                     if(_loc14_ || !!_loc10_ && _loc20_ || !!_loc11_ && !_loc20_)
                     {
                         // CreateCapsule

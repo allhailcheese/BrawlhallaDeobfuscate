@@ -4765,6 +4765,7 @@ package
             }
         }
         
+        // tick entity combat
         public function §_-y4B§(param1:uint) : void
         {
             var _loc3_:Number = NaN;
@@ -6091,18 +6092,22 @@ package
         }
         
         //only called from §_-63K§ in the combat state
+        // i think this restores cd
+        //                      currTime        hitArea             dir     throw?
         public function §_-53M§(param1:uint, param2:Boolean, param3:Boolean, param4:Boolean) : void
         {
             §_-EI§ = param3;
             //hit or ??
             if(param2)
             {
+                // hit an attack
                 §_-L2o§ = param1;
                 §_-N16§ = 0;
             }
             else
             {
                 §_-L2o§ = 0;
+                // missed an attack
                 §_-N16§ = param1;
                 //not throw and not smth related to stances
                 if(!param4)
@@ -6158,6 +6163,7 @@ package
             }
         }
         
+        //                      lock dodge      reset cd state
         public function §_-F2i§(param1:Boolean, param2:Boolean) : void
         {
             §_-X2p§(param1);//DodgeLocked
@@ -8005,6 +8011,7 @@ package
             _loc3_.§_-T2c§(_loc4_,param1,_loc5_);
         }
         
+        // write hurtbox capsule to param1??
         public function §_-E1R§(param1:§_-t24§) : void
         {
             //get hurtbox?
@@ -9516,6 +9523,7 @@ package
             return false;
         }
         
+        // check same team
         public function §_-1m§(param1:§_-Ej§, param2:uint) : Boolean
         {
             if(param1.§_-42u§ == §_-42u§)

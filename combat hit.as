@@ -3,7 +3,7 @@ package
     public class §_-ma§
     {
          
-        //got hid ID
+        //target ID
         public var §_-p2G§:uint;
         
         public var §_-34u§:uint;

@@ -3196,6 +3196,7 @@ package
                     }
                 }
             }
+            // CastAnim L
             if(!!_loc4_.§_-Z1z§ && (_loc4_.§_-D5q§ != 0 || _loc4_.§_-nt§ != 0))
             {
                 §_-tP§.§_-hg§("Power " + _loc3_ + " Recover time after a loop has ended is not currently supported. Please use a combo power.");
@@ -3411,6 +3412,7 @@ package
                     _loc27_ = int(_loc26_ / param6 * _loc20_);
                     _loc28_ = int(_loc27_ * _loc25_);
                     _loc29_ = int((_loc27_ + 1) * _loc25_);
+                    // center offset x, center offset y, aoe radius x, aoe radius y
                     if(param4 != null && (param4 == param1.§_-B1V§ || param4 == param1.§_-1Y§ || param4 == param1.§_-71I§ || param4 == param1.§_-s4V§))
                     {
                         _loc30_ = uint(param5 + _loc28_);
@@ -3423,6 +3425,12 @@ package
                     }
                     _loc33_ = Number(§_-g3S§.parseFloat(_loc19_[_loc27_]));
                     _loc34_ = Number(§_-g3S§.parseFloat(_loc19_[_loc27_ + 1]));
+                    // loc29 - loc28 = loc25
+                    // loc25 = (param6-1)/loc20
+                    // loc27 = loc26/param6*loc20
+                    // loc28 = loc26*(param6-1)/param6 = loc26 * (1-1/param6)
+                    // loc26 - loc28 = loc26/param6
+                    // loc7 = loc33 + loc26/param6 * (loc34-loc33)/loc25
                     _loc7_ = Number((_loc26_ - _loc28_) * ((_loc34_ - _loc33_) / (_loc29_ - _loc28_)) + _loc33_);
                     _loc8_ = int(_loc7_);
                     if(param3 != null)

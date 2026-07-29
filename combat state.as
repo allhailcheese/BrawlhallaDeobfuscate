@@ -944,6 +944,7 @@ package
         //                      time        power        hit id override       charge time      ?
         public function §_-H4L§(param1:uint, param2:§_-Y3o§, param3:uint = 0, param4:uint = 0, param5:uint = 0) : Boolean
         {
+            // !CanCastPower
             if(!§_-C3O§(param2,param1))
             {
                 return false;
@@ -1019,12 +1020,13 @@ package
                     §_-Za§ = param1;
                 }
                 §_-y44§.§_-L3L§ = param3;
+                // dashjump + 0.5s
                 if(uint(§_-M4U§.§_-rX§ + 500) >= param1)
                 {
                     _loc13_ = §_-y44§;
                     _loc13_.§_-p3j§ |= uint(131072);
                 }
-                //end of fast dodge + 0.4s
+                //end of fast dodge + 0.25s
                 if(uint(§_-M4U§.§_-i4t§ + 250) >= param1)
                 {
                     _loc13_ = §_-y44§;
@@ -1385,7 +1387,7 @@ package
             §_-W26§(§_-Y3o§.§_-9c§);//SweatingOutSFX
         }
         
-        //called on release
+        // OnFireReleased. called by PlayerInput
         public function §_-24w§() : void
         {
             if(§_-y44§ != null)
@@ -1394,7 +1396,7 @@ package
             }
         }
         
-        //called with bitneg of input direction
+        // OnDirectionReleased(directionReleased: uint)
         public function §_-S1X§(param1:uint) : void
         {
             if(§_-y44§ != null)
@@ -2691,6 +2693,7 @@ package
             }
             // is background power?
             var _loc4_:Boolean = param2.§_-2f§;
+            // TickPower
             var _loc5_:Boolean = Boolean(param2.§_-g46§(param1));
             // no longer active
             if(!_loc5_)
@@ -2774,6 +2777,7 @@ package
                     if(!_loc4_ && !_loc6_.§_-O4y§)
                     {
                         //          currTime        hitArea             dir     throw?
+                        // give cd
                         §_-M4U§.§_-53M§(param1,_loc22_ != 0 || _loc26_,_loc19_,_loc33_);
                     }
                 }
@@ -2788,6 +2792,7 @@ package
                 {
                     _loc34_ = §_-H4z§(param1,param2,_loc6_,_loc13_);
                 }
+                // SpawnBotHorn
                 if(!_loc6_.§_-b3v§ && _loc34_ == null && _loc10_ != null)
                 {
                     _loc35_ = §_-M4U§.§_-35d§.§_-Q2C§;
@@ -2838,8 +2843,10 @@ package
                     {
                         if(_loc4_)
                         {
+                            // QueueAsBackgroundPower
                             _loc39_ = §_-v4U§(_loc36_,null,null,_loc7_,_loc8_,_loc32_);
                         }
+                        // QueuePowerType
                         else if(§_-H4L§(param1,_loc36_,_loc7_,_loc8_,_loc32_))
                         {
                             _loc39_ = §_-y44§;
@@ -2917,8 +2924,10 @@ package
                         {
                             _loc39_.§_-K1P§ = _loc20_;
                         }
+                        // PistolNeutralCombo
                         if(_loc36_.§_-Y2N§)
                         {
+                            // inherit hit amount?
                             _loc39_.§_-s4T§ = _loc22_;
                         }
                         if(_loc36_.§_-G1W§)
@@ -2954,6 +2963,7 @@ package
                         }
                         _loc39_.§_-V6§ = _loc37_;
                         _loc39_.§_-UK§ = _loc38_;
+                        // stance
                         if(_loc36_.§_-h14§ == uint(14))
                         {
                             §_-l3D§.§_-D3Q§.§_-53A§.push(_loc7_);

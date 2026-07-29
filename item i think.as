@@ -1547,8 +1547,10 @@ package
             return false;
         }
         
+        // whether param1 is hitting our owner entity with a non-throw.
         public function §_-m4v§(param1:§_-Ej§) : Boolean
         {
+            // combat hit
             var _loc4_:* = null as §_-ma§;
             if(§_-l3D§.§_-D3Q§.§_-d45§ == null)
             {
@@ -1568,6 +1570,7 @@ package
             {
                 _loc4_ = _loc3_[_loc2_];
                 _loc2_++;
+                // target id == _-MF and user id == param1 id
                 if(!(_loc4_.§_-p2G§ != §_-MF§ || _loc4_.§_-g4R§ != param1.§_-j3U§))
                 {
                     //not ThrownItem
@@ -1850,6 +1853,7 @@ package
                                         continue;
                                     }
                                 }
+                                // in the case of same-frame hit, the attack always takes priority over the throw
                                 if(§_-m4v§(_loc14_))
                                 {
                                     continue;
