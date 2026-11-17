@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PromoTypes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<PromoType StoreName="---Template---">
+		<StoreID>0</StoreID>
+		<DisplayName>Template</DisplayName>
+		<Description>WhatIDo</Description>
+		<Type>Template</Type>
+		<Item>-</Item>
+		<AllowDupes>False</AllowDupes>
+	</PromoType>
+	<PromoType StoreName="MetadevOrion">
+		<StoreID>1</StoreID>
+		<DisplayName>Metadev Orion</DisplayName>
+		<Description>Rewarded for tracking down a Dev at the galactic outer rim!</Description>
+		<Type>Costume</Type>
+		<Item>MetadevOrion</Item>
+		<AllowDupes>False</AllowDupes>
+	</PromoType>
+</PromoTypes>

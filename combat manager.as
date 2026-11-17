@@ -500,6 +500,7 @@ package
                     //                                                                                                                                                                                                                               drop through
                     //                                                                                                                                                                                                                                            hitwhenstunned?2:1
                     //                                                                                                                                                                                                                                                                  flags
+                    //                                                                                                                                                                                                                                                                                          force negated
                     //                                                                                                                                                                                                                                                                                                                        item idx
                     §_-Gl§(param1,_loc5_.§_-K1p§,_loc5_.§_-D33§,_loc5_.§_-Rl§,§_-l3D§.§_-GY§(_loc5_.§_-g4R§),§_-l3D§.§_-GY§(_loc5_.§_-p2G§),§_-i11§.§_-t4i§,_loc5_.§_-743§,_loc5_.§_-R4j§,_loc5_.§_-Qn§,_loc5_.§_-p3q§,_loc5_.§_-t4F§,_loc5_.§_-v2H§,_loc5_.§_-J4R§,_loc5_.§_-5s§,_loc5_.§_-o4J§,_loc5_.§_-61M§,_loc5_.§_-X29§,_loc5_.§_-HB§,_loc5_.§_-34u§);
                 }
@@ -724,8 +725,8 @@ package
         param15: uint hitWhenStunned?1:2 *
         param16: uint powerFlags*
         param17: PowerType ?
-        param18: Boolean ?
-        param19: Boolean ?
+        param18: Boolean forceNegated*
+        param19: Boolean grabNegated*
         param20: uint itemIdx*
         */
         public function §_-Gl§(param1:uint, param2:§_-Y3o§, param3:§_-tS§, param4:uint, param5:§_-Ej§, param6:§_-Ej§, param7:Point, param8:uint, param9:uint, param10:uint, param11:Number, param12:Number, param13:Boolean, param14:Boolean, param15:uint, param16:uint, param17:§_-Y3o§, param18:Boolean, param19:Boolean, param20:uint) : void
@@ -932,7 +933,7 @@ package
                 _loc39_ -= uint(5);//reduce stun by 5. won't this translate to like, -1f?
             }
             var _loc40_:Boolean = false;
-            if(_loc36_ != 0 && !param18)//has force and not ??
+            if(_loc36_ != 0 && !param18)//has force and not force negated
             {
                 //collision stuff                                           PBAoE/PBAoE/Smash/Grab
                 if(param5.§_-C5M§ != null && param5.§_-C5M§.§_-23H§ && (param2.§_-h14§ == uint(1) || param2.§_-h14§ == uint(8)))
@@ -989,7 +990,7 @@ package
                         //      time   hitee  stun   knockback
                         //                                 ImpulseToPoint through soft    thing   DoNotBounceOffNoSlideCeiling
                         §_-B3s§(param1,param6,_loc39_,param7,!!param14 && param2.§_-f4j§,false,param2.§_-A4o§);
-                        _loc21_.§_-y44§.§_-D4g§ = param1;
+                        _loc21_.§_-y44§.§_-D4g§ = param1;// set grab time
                         _loc21_.§_-y44§.§_-o3T§(param1);
                     }
                 }
@@ -1261,10 +1262,11 @@ package
         public function §_-E3q§(param1:uint, param2:§_-Ej§, param3:§_-Ej§, param4:Number, param5:§_-Y3o§, param6:uint, param7:§_-Y3o§) : void
         {
             //              time  damage  hitter power
+            // TakeDamage
             param3.§_-81H§(param1,param4,param2,param5,param6,param7);
             if(param3.§_-p3I§.§_-y1j§ != null)
             {
-                param3.§_-p3I§.§_-y1j§.§_-j5§ += param4;//add damage?
+                param3.§_-p3I§.§_-y1j§.§_-j5§ += param4;//add disarm damage
             }
         }
     }

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ChatChannelTypes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<ChatChannelType ChatChannelName="Template">
+		<ChatChannelID>0</ChatChannelID>
+		<DisplayName>-</DisplayName>
+	</ChatChannelType>
+	<ChatChannelType ChatChannelName="General">
+		<ChatChannelID>1</ChatChannelID>
+		<DisplayName>General</DisplayName>
+	</ChatChannelType>
+	<ChatChannelType ChatChannelName="Newbie">
+		<ChatChannelID>2</ChatChannelID>
+		<DisplayName>Newbie</DisplayName>
+	</ChatChannelType>
+</ChatChannelTypes>

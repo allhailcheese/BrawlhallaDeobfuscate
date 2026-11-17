@@ -114,6 +114,7 @@ package
             }
         }
         
+        // fire gfx
         public function §_-h3T§(param1:§_-h39§) : void
         {
             var _loc3_:* = null as Vector.<GfxType>;
@@ -188,6 +189,7 @@ package
             }
         }
         
+        // CastGfx
         public function §_-a3X§(param1:§_-h39§) : void
         {
             var _loc3_:* = null as Vector.<GfxType>;

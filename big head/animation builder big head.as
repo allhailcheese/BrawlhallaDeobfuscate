@@ -1424,6 +1424,7 @@ package
                     _loc39_ = new §_-t3y§(_loc11_,_loc25_);
                     if(_loc14_)
                     {
+                        // also big head
                         _loc39_.Scale(§_-Ac§.§_-U3X§);
                     }
                     _loc5_.§_-D2n§(_loc39_);

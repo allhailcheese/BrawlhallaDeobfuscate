@@ -1549,6 +1549,7 @@ package
             return _loc3_;
         }
         
+        // get origin power?
         public function §_-c4B§(param1:§_-Y3o§) : §_-Y3o§
         {
             if(param1 == null)
@@ -2802,12 +2803,15 @@ package
                     }
                 }
                 _loc36_ = null;
+                // has next power       active or   ?
                 if(_loc34_ != null && (_loc9_ || _loc33_))
                 {
                     _loc36_ = §_-Y3o§.§_-YP§(_loc34_);
                 }
+                //      grabbed              not xull cannon nsig hit, xull axe ssig hit, or caspian gauntlets ssig hit
                 if(param2.§_-D4g§ != 0 && (_loc36_ == null || !_loc36_.§_-15y§))
                 {
+                    // release hold
                     param2.§_-G31§(param1);
                 }
                 _loc37_ = 0;

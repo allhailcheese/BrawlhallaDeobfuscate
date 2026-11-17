@@ -121,6 +121,7 @@ package
         
         public var §_-u36§:§_-H39§;
         
+        //                      Game    type (0=hitbox,1=hurtbox) ?           power             leftFacing              isGroundCHeck?
         public function §_-850§(param1:§_-H39§, param2:uint, param3:Boolean, param4:PowerType, param5:Boolean = false, param6:Boolean = false)
         {
             §_-u36§ = param1;
@@ -153,6 +154,7 @@ package
         param9: boolean leftFacing
         param10: boolean isGroundCheck?
         param11: Point targetPos
+        param12: ?
         */
         public static function §_-b3w§(param1:§_-H39§, param2:PowerType, param3:uint, param4:Number, param5:Number, param6:Number, param7:Number, param8:uint, param9:Boolean, param10:Boolean, param11:Point = undefined, param12:Boolean = false) : §_-850§
         {
@@ -398,6 +400,7 @@ package
         {
             §_-r5y§ = param1;
             var _loc2_:uint = §_-X1G§.§_-H2Q§ != null ? uint(int(§_-X1G§.§_-H2Q§.length)) : 0;
+            // AllowHitOnZeroDamage
             if(!§_-X1G§.§_-rh§ && (_loc2_ <= param1 || §_-X1G§.§_-H2Q§[param1] == 0))
             {
                 §_-96Z§ = true;

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ChallengeTypes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<ChallengeType ChallengeName="Template">
+		<ChallengeID>0</ChallengeID>
+		<DisplayName>TemplateName</DisplayName>
+		<Scenario>ScenarioName</Scenario>
+		<Score>TIME</Score>
+	</ChallengeType>
+	<ChallengeType ChallengeName="StayAlive">
+		<ChallengeID>1</ChallengeID>
+		<DisplayName>Stay Alive</DisplayName>
+		<Scenario>survive</Scenario>
+		<Score>TIME</Score>
+	</ChallengeType>
+	<ChallengeType ChallengeName="GetAsManyKills">
+		<ChallengeID>2</ChallengeID>
+		<DisplayName>KO Fest!</DisplayName>
+		<Scenario>HowManyKOs</Scenario>
+		<Score>KO</Score>
+	</ChallengeType>
+	<ChallengeType ChallengeName="KillFast">
+		<ChallengeID>3</ChallengeID>
+		<DisplayName>Kill Them Quickly!</DisplayName>
+		<Scenario>KillThemFast</Scenario>
+		<Score>KO</Score>
+	</ChallengeType>
+	<ChallengeType ChallengeName="Tournament">
+		<ChallengeID>4</ChallengeID>
+		<DisplayName> </DisplayName>
+		<Scenario> </Scenario>
+		<Score> </Score>
+	</ChallengeType>
+</ChallengeTypes>

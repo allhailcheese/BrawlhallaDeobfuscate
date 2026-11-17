@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ScoringTypes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<ScoringType ScoringName="XLTemplate" Enabled="False">
+		<ScoringID>0</ScoringID>
+		<DisplayName>Template</DisplayName>
+		<DefaultGameModeType></DefaultGameModeType>
+		<ImportantItemType></ImportantItemType>
+		<Stock>FALSE</Stock>
+		<Points>FALSE</Points>
+		<Rounds>FALSE</Rounds>
+		<InvertScore>FALSE</InvertScore>
+		<CanEnterSuddenDeath>FALSE</CanEnterSuddenDeath>
+		<MustHaveTeams>FALSE</MustHaveTeams>
+		<FetchDuration>2000</FetchDuration>
+		<RespawnDuration>3000</RespawnDuration>
+		<DropDuration>700</DropDuration>
+		<RespawnTimesOnlyForSpecialEntities>false</RespawnTimesOnlyForSpecialEntities>
+		<DisableItemSpawning>false</DisableItemSpawning>
+	</ScoringType>
+	<ScoringType ScoringName="TIMED" Enabled="True">
+		<ScoringID>1</ScoringID>
+		<DisplayName>Timed Mode</DisplayName>
+		<DefaultGameModeType>Timed</DefaultGameModeType>
+		<CanEnterSuddenDeath>TRUE</CanEnterSuddenDeath>
+	</ScoringType>
+	<ScoringType ScoringName="STOCK" Enabled="True">
+		<ScoringID>2</ScoringID>
+		<DisplayName>Lives Mode</DisplayName>
+		<DefaultGameModeType>Stock</DefaultGameModeType>
+		<Stock>TRUE</Stock>
+		<CanEnterSuddenDeath>TRUE</CanEnterSuddenDeath>
+	</ScoringType>
+	<ScoringType ScoringName="BRAWLBALL" Enabled="False">
+		<ScoringID>3</ScoringID>
+		<DisplayName>Brawlball</DisplayName>
+		<DefaultGameModeType>Brawlball</DefaultGameModeType>
+		<ImportantItemType>BrawlballNoHit</ImportantItemType>
+		<Points>TRUE</Points>
+		<Rounds>TRUE</Rounds>
+		<MustHaveTeams>TRUE</MustHaveTeams>
+		<FetchDuration>100</FetchDuration>
+		<RespawnDuration>2000</RespawnDuration>
+		<DropDuration>500</DropDuration>
+		<DisableItemSpawning>true</DisableItemSpawning>
+	</ScoringType>
+	<ScoringType ScoringName="BOMBSKETBALL" Enabled="False">
+		<ScoringID>4</ScoringID>
+		<DisplayName>Bombsketball</DisplayName>
+		<DefaultGameModeType>Bombsketball</DefaultGameModeType>
+		<ImportantItemType>BombsketBallBomb</ImportantItemType>
+		<Points>TRUE</Points>
+		<MustHaveTeams>TRUE</MustHaveTeams>
+	</ScoringType>
+	<ScoringType ScoringName="JUGGERNAUT" Enabled="False">
+		<ScoringID>5</ScoringID>
+		<DisplayName>Juggernaut</DisplayName>
+		<DefaultGameModeType>Juggernaut</DefaultGameModeType>
+		<Stock>TRUE</Stock>
+	</ScoringType>
+	<ScoringType ScoringName="RICOCHET" Enabled="False">
+		<ScoringID>6</ScoringID>
+		<DisplayName>Ricochet</DisplayName>
+		<DefaultGameModeType>Ricochet</DefaultGameModeType>
+		<ImportantItemType>RicochetBomb</ImportantItemType>
+		<Stock>TRUE</Stock>
+		<DisableItemSpawning>true</DisableItemSpawning>
+	</ScoringType>
+	<ScoringType ScoringName="HOLDTHETHING" Enabled="False">
+		<ScoringID>7</ScoringID>
+		<DisplayName>Hold the Thing</DisplayName>
+		<DefaultGameModeType>HoldTheThing</DefaultGameModeType>
+		<ImportantItemType>Brawlball</ImportantItemType>
+		<Points>TRUE</Points>
+	</ScoringType>
+	<ScoringType ScoringName="CONQUEST" Enabled="False">
+		<ScoringID>8</ScoringID>
+		<DisplayName>Conquest</DisplayName>
+		<DefaultGameModeType>Conquest</DefaultGameModeType>
+		<CanEnterSuddenDeath>TRUE</CanEnterSuddenDeath>
+	</ScoringType>
+	<ScoringType ScoringName="DODGEBALL" Enabled="False">
+		<ScoringID>9</ScoringID>
+		<DisplayName>Dodgeball</DisplayName>
+		<DefaultGameModeType>Dodgeball</DefaultGameModeType>
+		<ImportantItemType>DodgeSpikeBall</ImportantItemType>
+		<Stock>TRUE</Stock>
+		<MustHaveTeams>TRUE</MustHaveTeams>
+		<DisableItemSpawning>true</DisableItemSpawning>
+	</ScoringType>
+	<ScoringType ScoringName="VOLLEYBALL" Enabled="False">
+		<ScoringID>10</ScoringID>
+		<DisplayName>Volleyball</DisplayName>
+		<DefaultGameModeType>Volleyball</DefaultGameModeType>
+		<FetchDuration>100</FetchDuration>
+		<RespawnDuration>400</RespawnDuration>
+		<DropDuration>700</DropDuration>
+		<RespawnTimesOnlyForSpecialEntities>TRUE</RespawnTimesOnlyForSpecialEntities>
+		<DisableItemSpawning>true</DisableItemSpawning>
+	</ScoringType>
+	<ScoringType ScoringName="GAUNTLET" Enabled="False">
+		<ScoringID>11</ScoringID>
+		<DisplayName>Gauntlet</DisplayName>
+		<DefaultGameModeType>Gauntlet</DefaultGameModeType>
+		<Points>TRUE</Points>
+		<Rounds>TRUE</Rounds>
+		<InvertScore>TRUE</InvertScore>
+		<DisableItemSpawning>true</DisableItemSpawning>
+	</ScoringType>
+	<ScoringType ScoringName="HOTPOTATO" Enabled="False">
+		<ScoringID>12</ScoringID>
+		<DisplayName>Hot Potato</DisplayName>
+		<DefaultGameModeType>HotPotato</DefaultGameModeType>
+		<InvertScore>TRUE</InvertScore>
+		<CanEnterSuddenDeath>TRUE</CanEnterSuddenDeath>
+	</ScoringType>
+	<ScoringType ScoringName="SOCCER" Enabled="False">
+		<ScoringID>13</ScoringID>
+		<DisplayName>Soccer</DisplayName>
+		<DefaultGameModeType>Soccer</DefaultGameModeType>
+		<ImportantItemType>SpikeBall</ImportantItemType>
+		<Points>TRUE</Points>
+		<Rounds>TRUE</Rounds>
+		<MustHaveTeams>TRUE</MustHaveTeams>
+		<DisableItemSpawning>true</DisableItemSpawning>
+	</ScoringType>
+	<ScoringType ScoringName="ARCADE" Enabled="False">
+		<ScoringID>14</ScoringID>
+		<DisplayName>Arcade Survival</DisplayName>
+		<DefaultGameModeType>ArcadeSurvival</DefaultGameModeType>
+		<Points>TRUE</Points>
+		<Rounds>TRUE</Rounds>
+	</ScoringType>
+</ScoringTypes>

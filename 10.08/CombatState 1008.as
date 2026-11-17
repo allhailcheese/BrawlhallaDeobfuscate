@@ -3056,8 +3056,10 @@ package
                 {
                     _loc35_ = false;
                 }
+                //throw?
                 if(_loc35_)
                 {
+                    //      time        chrage time                      input
                     §_-c4§(param1,uint(param2.§_-la§ * 16),§_-k5p§.§_-Nj§.§_-Y17§ & 15);
                 }
                 else if(_loc6_.§_-O1g§)

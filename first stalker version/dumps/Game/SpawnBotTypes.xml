@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<SpawnBotTypes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<SpawnBotType SpawnBotName="Template">
+		<SpawnBotID>0</SpawnBotID>
+		<AvailableInStore>false</AvailableInStore>
+		<DisplayName>---</DisplayName>
+		<IconName>a_Icon_SpawnBot_Standard</IconName>
+		<CustomArt>Gfx_Robots.swf/CustomArtName</CustomArt>
+		<HairLt_Define>--</HairLt_Define>
+		<Hair_Define>--</Hair_Define>
+		<HairDk_Define>--</HairDk_Define>
+		<Body1VL_Define>--</Body1VL_Define>
+		<Body1Lt_Define>--</Body1Lt_Define>
+		<Body1_Define>--</Body1_Define>
+		<Body1Dk_Define>--</Body1Dk_Define>
+		<Body1Acc_Define>--</Body1Acc_Define>
+		<Body2VL_Define>--</Body2VL_Define>
+		<Body2Lt_Define>--</Body2Lt_Define>
+		<Body2_Define>--</Body2_Define>
+		<Body2Dk_Define>--</Body2Dk_Define>
+		<Body2Acc_Define>--</Body2Acc_Define>
+		<SpecialVL_Define>--</SpecialVL_Define>
+		<SpecialLt_Define>--</SpecialLt_Define>
+		<Special_Define>--</Special_Define>
+		<SpecialDk_Define>--</SpecialDk_Define>
+		<HandsLt_Define>--</HandsLt_Define>
+		<HandsDk_Define>--</HandsDk_Define>
+		<HandsSkinLt_Define>--</HandsSkinLt_Define>
+		<HandsSkinDk_Define>--</HandsSkinDk_Define>
+		<WeaponVL_Define>--</WeaponVL_Define>
+		<WeaponLt_Define>--</WeaponLt_Define>
+		<Weapon_Define>--</Weapon_Define>
+		<WeaponDk_Define>--</WeaponDk_Define>
+	</SpawnBotType>
+	<SpawnBotType SpawnBotName="DEFAULT">
+		<SpawnBotID>1</SpawnBotID>
+		<AvailableInStore>false</AvailableInStore>
+		<DisplayName>VALKRI Mk 1</DisplayName>
+		<IconName>a_Icon_SpawnBot_Standard</IconName>
+	</SpawnBotType>
+	<SpawnBotType SpawnBotName="Collectors">
+		<SpawnBotID>2</SpawnBotID>
+		<AvailableInStore>false</AvailableInStore>
+		<DisplayName>Cogsworth</DisplayName>
+		<IconName>a_Icon_SpawnBot_Steampunk</IconName>
+		<CustomArt>Gfx_Robots.swf/Steampunk</CustomArt>
+	</SpawnBotType>
+	<SpawnBotType SpawnBotName="Space">
+		<SpawnBotID>3</SpawnBotID>
+		<AvailableInStore>false</AvailableInStore>
+		<DisplayName>Zoid</DisplayName>
+		<IconName>a_Icon_SpawnBot_Space</IconName>
+		<CustomArt>Gfx_Robots.swf/Space</CustomArt>
+	</SpawnBotType>
+	<SpawnBotType SpawnBotName="Skeleton">
+		<SpawnBotID>4</SpawnBotID>
+		<AvailableInStore>false</AvailableInStore>
+		<DisplayName>Bones</DisplayName>
+		<IconName>a_Icon_SpawnBot_Skeleton</IconName>
+		<CustomArt>Gfx_Robots.swf/Skeleton</CustomArt>
+	</SpawnBotType>
+	<SpawnBotType SpawnBotName="Junk">
+		<SpawnBotID>5</SpawnBotID>
+		<AvailableInStore>false</AvailableInStore>
+		<DisplayName>Junkz</DisplayName>
+		<IconName>a_Icon_SpawnBot_Junk</IconName>
+		<CustomArt>Gfx_Robots.swf/Junk</CustomArt>
+	</SpawnBotType>
+	<SpawnBotType SpawnBotName="Hawk">
+		<SpawnBotID>6</SpawnBotID>
+		<AvailableInStore>false</AvailableInStore>
+		<DisplayName>Falcor</DisplayName>
+		<IconName>a_Icon_SpawnBot_Hawk</IconName>
+		<CustomArt>Gfx_Robots.swf/Hawk</CustomArt>
+	</SpawnBotType>
+	<SpawnBotType SpawnBotName="Armor">
+		<SpawnBotID>7</SpawnBotID>
+		<AvailableInStore>false</AvailableInStore>
+		<DisplayName>Ironheart</DisplayName>
+		<IconName>a_Icon_SpawnBot_Armor</IconName>
+		<CustomArt>Gfx_Robots.swf/Armor</CustomArt>
+	</SpawnBotType>
+</SpawnBotTypes>

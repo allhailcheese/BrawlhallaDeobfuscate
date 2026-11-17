@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<MusicTypes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<MusicType MusicName="MusicTemplate">
+		<DisplayName>Template Theme</DisplayName>
+		<MusicID>0</MusicID>
+		<Intro>LevelXXIntro</Intro>
+		<Loop>LevelXXLoop</Loop>
+		<IntroLength>10000</IntroLength>
+	</MusicType>
+	<MusicType MusicName="DefaultBattle">
+		<DisplayName>Default Theme</DisplayName>
+		<MusicID>1</MusicID>
+		<Intro>Level01Intro</Intro>
+		<Loop>Level01Loop</Loop>
+		<IntroLength>15428</IntroLength>
+	</MusicType>
+	<MusicType MusicName="DefaultUI">
+		<DisplayName>UI Background Music</DisplayName>
+		<MusicID>2</MusicID>
+		<Loop>Brawlhalla_Menu</Loop>
+		<IntroLength>0</IntroLength>
+	</MusicType>
+	<MusicType MusicName="Level01Theme">
+		<DisplayName>Level 1 Theme</DisplayName>
+		<MusicID>3</MusicID>
+		<Intro>Level01Intro</Intro>
+		<Loop>Level01Loop</Loop>
+		<IntroLength>15428</IntroLength>
+	</MusicType>
+	<MusicType MusicName="Level02Theme">
+		<DisplayName>Level 2 Theme</DisplayName>
+		<MusicID>4</MusicID>
+		<Intro>Level02Intro</Intro>
+		<Loop>Level02Loop</Loop>
+		<IntroLength>16000</IntroLength>
+	</MusicType>
+	<MusicType MusicName="Level03Theme">
+		<DisplayName>Level 3 Theme</DisplayName>
+		<MusicID>5</MusicID>
+		<Intro>Level03Intro</Intro>
+		<Loop>Level03Loop</Loop>
+		<IntroLength>6620</IntroLength>
+	</MusicType>
+</MusicTypes>

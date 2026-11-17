@@ -1,0 +1,2072 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<WeaponSkinTypes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<WeaponSkinType WeaponSkinName="Template">
+		<WeaponSkinID>0</WeaponSkinID>
+		<BaseWeapon>Sword</BaseWeapon>
+		<OwnerHero>--</OwnerHero>
+		<DisplayName>--</DisplayName>
+		<Description>--</Description>
+		<WeaponIcon>--</WeaponIcon>
+		<CustomArt>Gfx_Weapons.swf/BasicSword</CustomArt>
+		<HairLt_Define>--</HairLt_Define>
+		<Hair_Define>--</Hair_Define>
+		<HairDk_Define>--</HairDk_Define>
+		<Body1VL_Define>--</Body1VL_Define>
+		<Body1Lt_Define>--</Body1Lt_Define>
+		<Body1_Define>--</Body1_Define>
+		<Body1Dk_Define>--</Body1Dk_Define>
+		<Body1Acc_Define>--</Body1Acc_Define>
+		<Body2VL_Define>--</Body2VL_Define>
+		<Body2Lt_Define>--</Body2Lt_Define>
+		<Body2_Define>--</Body2_Define>
+		<Body2Dk_Define>--</Body2Dk_Define>
+		<Body2Acc_Define>--</Body2Acc_Define>
+		<SpecialVL_Define>--</SpecialVL_Define>
+		<SpecialLt_Define>--</SpecialLt_Define>
+		<Special_Define>--</Special_Define>
+		<SpecialDk_Define>--</SpecialDk_Define>
+		<HandsLt_Define>--</HandsLt_Define>
+		<HandsDk_Define>--</HandsDk_Define>
+		<HandsSkinLt_Define>--</HandsSkinLt_Define>
+		<HandsSkinDk_Define>--</HandsSkinDk_Define>
+		<WeaponVL_Define>--</WeaponVL_Define>
+		<WeaponLt_Define>--</WeaponLt_Define>
+		<Weapon_Define>--</Weapon_Define>
+		<WeaponDk_Define>--</WeaponDk_Define>
+		<IconName>--</IconName>
+	</WeaponSkinType>
+	<WeaponSkinType WeaponSkinName="SwordViking">
+		<WeaponSkinID>1</WeaponSkinID>
+		<BaseWeapon>Sword</BaseWeapon>
+		<OwnerHero>Viking</OwnerHero>
+		<DisplayName>Broad Sword</DisplayName>
+		<Description>A fine sword of Viking design.</Description>
+		<WeaponIcon>a_SwordIcon_Bodvar</WeaponIcon>
+		<CustomArt>Gfx_Weapons.swf/Bodvar01</CustomArt>
+		<Hair_Define>0xECF185</Hair_Define>
+		<HairDk_Define>0x9CA75F</HairDk_Define>
+		<Body1Lt_Define>0x84CE6F</Body1Lt_Define>
+		<Body1_Define>0x3F985B</Body1_Define>
+		<Body2_Define>0x477860</Body2_Define>
+		<Body2Dk_Define>0x2D4A44</Body2Dk_Define>
+		<SpecialVL_Define>0xD2FFF2</SpecialVL_Define>
+		<SpecialLt_Define>0x20FFC1</SpecialLt_Define>
+		<Special_Define>0x00B98F</Special_Define>
+		<SpecialDk_Define>0x00A882</SpecialDk_Define>
+		<HandsLt_Define>0xBFFFFC</HandsLt_Define>
+		<HandsDk_Define>0x54ABEB</HandsDk_Define>
+		<Weapon_Define>0x57BDB0</Weapon_Define>
+		<WeaponDk_Define>0x3A9489</WeaponDk_Define>
+	</WeaponSkinType>
+	<WeaponSkinType WeaponSkinName="HammerViking">
+		<WeaponSkinID>2</WeaponSkinID>
+		<BaseWeapon>Hammer</BaseWeapon>
+		<OwnerHero>Viking</OwnerHero>
+		<DisplayName>Warhammer</DisplayName>
+		<Description>A fine hammer of Viking design.</Description>
+		<WeaponIcon>a_HammerIcon_Bodvar</WeaponIcon>
+		<CustomArt>Gfx_Weapons.swf/VikingHammer1</CustomArt>
+		<Hair_Define>0xECF185</Hair_Define>
+		<HairDk_Define>0x9CA75F</HairDk_Define>
+		<Body1Lt_Define>0x84CE6F</Body1Lt_Define>
+		<Body1_Define>0x3F985B</Body1_Define>
+		<Body2_Define>0x477860</Body2_Define>
+		<Body2Dk_Define>0x2D4A44</Body2Dk_Define>
+		<SpecialVL_Define>0xD2FFF2</SpecialVL_Define>
+		<SpecialLt_Define>0x20FFC1</SpecialLt_Define>
+		<Special_Define>0x00B98F</Special_Define>
+		<SpecialDk_Define>0x00A882</SpecialDk_Define>
+		<HandsLt_Define>0xBFFFFC</HandsLt_Define>
+		<HandsDk_Define>0x54ABEB</HandsDk_Define>
+		<Weapon_Define>0x57BDB0</Weapon_Define>
+		<WeaponDk_Define>0x3A9489</WeaponDk_Define>
+	</WeaponSkinType>
+	<WeaponSkinType WeaponSkinName="HammerCowgirl">
+		<WeaponSkinID>3</WeaponSkinID>
+		<BaseWeapon>Hammer</BaseWeapon>
+		<OwnerHero>Cowgirl</OwnerHero>
+		<DisplayName>Rail Hammer</DisplayName>
+		<CustomArt>Gfx_Weapons.swf/Cowgirl01</CustomArt>
+		<Hair_Define>0xA1210B</Hair_Define>
+		<HairDk_Define>0xC82D15</HairDk_Define>
+		<Body1VL_Define>0xFAEFDC</Body1VL_Define>
+		<Body1Lt_Define>0xFAB752</Body1Lt_Define>
+		<Body1_Define>0xCD9040</Body1_Define>
+		<Body1Dk_Define>0xAA520C</Body1Dk_Define>
+		<Body2_Define>0x6194B2</Body2_Define>
+		<Body2Dk_Define>0x23435A</Body2Dk_Define>
+		<Special_Define>0xEC1717</Special_Define>
+		<SpecialDk_Define>0xB80522</SpecialDk_Define>
+		<HandsLt_Define>0xBFFFFC</HandsLt_Define>
+		<HandsDk_Define>0x54ABEB</HandsDk_Define>
+		<WeaponVL_Define>0xDCDED1</WeaponVL_Define>
+		<WeaponLt_Define>0xB7BFA3</WeaponLt_Define>
+		<Weapon_Define>0x6B9472</Weapon_Define>
+		<WeaponDk_Define>0x354437</WeaponDk_Define>
+	</WeaponSkinType>
+	<WeaponSkinType WeaponSkinName="PistolCowgirl">
+		<WeaponSkinID>4</WeaponSkinID>
+		<BaseWeapon>Pistol</BaseWeapon>
+		<OwnerHero>Cowgirl</OwnerHero>
+		<DisplayName>Sixshooters</DisplayName>
+		<CustomArt>Gfx_Weapons.swf/Cowgirl01</CustomArt>
+		<Hair_Define>0xA1210B</Hair_Define>
+		<HairDk_Define>0xC82D15</HairDk_Define>
+		<Body1VL_Define>0xFAEFDC</Body1VL_Define>
+		<Body1Lt_Define>0xFAB752</Body1Lt_Define>
+		<Body1_Define>0xCD9040</Body1_Define>
+		<Body1Dk_Define>0xAA520C</Body1Dk_Define>
+		<Body2_Define>0x6194B2</Body2_Define>
+		<Body2Dk_Define>0x23435A</Body2Dk_Define>
+		<Special_Define>0xEC1717</Special_Define>
+		<SpecialDk_Define>0xB80522</SpecialDk_Define>
+		<HandsLt_Define>0xBFFFFC</HandsLt_Define>
+		<HandsDk_Define>0x54ABEB</HandsDk_Define>
+		<WeaponVL_Define>0xDCDED1</WeaponVL_Define>
+		<WeaponLt_Define>0xB7BFA3</WeaponLt_Define>
+		<Weapon_Define>0x6B9472</Weapon_Define>
+		<WeaponDk_Define>0x354437</WeaponDk_Define>
+	</WeaponSkinType>
+	<WeaponSkinType WeaponSkinName="SwordValkyrie">
+		<WeaponSkinID>5</WeaponSkinID>
+		<BaseWeapon>Sword</BaseWeapon>
+		<OwnerHero>Valkyrie</OwnerHero>
+		<DisplayName>Power Sword</DisplayName>
+		<CustomArt>Gfx_Weapons.swf/GoldKnight01</CustomArt>
+		<Body1VL_Define>0xFFF9AA</Body1VL_Define>
+		<Body1Lt_Define>0xFFE387</Body1Lt_Define>
+		<Body1_Define>0xFFC300</Body1_Define>
+		<Body1Dk_Define>0xFF801E</Body1Dk_Define>
+		<Body2Lt_Define>0xABE4F1</Body2Lt_Define>
+		<SpecialLt_Define>0x00FFFF</SpecialLt_Define>
+		<Special_Define>0x29FFFF</Special_Define>
+		<HandsLt_Define>0xBFFFFC</HandsLt_Define>
+		<HandsDk_Define>0x54ABEB</HandsDk_Define>
+	</WeaponSkinType>
+	<WeaponSkinType WeaponSkinName="PistolValkyrie">
+		<WeaponSkinID>6</WeaponSkinID>
+		<BaseWeapon>Pistol</BaseWeapon>
+		<OwnerHero>Valkyrie</OwnerHero>
+		<DisplayName>Blaster Pistols</DisplayName>
+		<CustomArt>Gfx_Weapons.swf/GoldKnight01</CustomArt>
+		<Body1VL_Define>0xFFF9AA</Body1VL_Define>
+		<Body1Lt_Define>0xFFE387</Body1Lt_Define>
+		<Body1_Define>0xFFC300</Body1_Define>
+		<Body1Dk_Define>0xFF801E</Body1Dk_Define>
+		<Body2Lt_Define>0xABE4F1</Body2Lt_Define>
+		<SpecialLt_Define>0x00FFFF</SpecialLt_Define>
+		<Special_Define>0x29FFFF</Special_Define>
+		<HandsLt_Define>0xBFFFFC</HandsLt_Define>
+		<HandsDk_Define>0x54ABEB</HandsDk_Define>
+	</WeaponSkinType>
+	<WeaponSkinType WeaponSkinName="RocketLanceAlien">
+		<WeaponSkinID>7</WeaponSkinID>
+		<BaseWeapon>RocketLance</BaseWeapon>
+		<OwnerHero>Alien</OwnerHero>
+		<DisplayName>Selenite Jet Lance</DisplayName>
+		<CustomArt>Gfx_Weapons.swf/Alien</CustomArt>
+		<Body1Lt_Define>0xBFFFFC</Body1Lt_Define>
+		<Body1_Define>0x54ABEB</Body1_Define>
+		<Body2Lt_Define>0xFF9799</Body2Lt_Define>
+		<Body2_Define>0xEB2C4E</Body2_Define>
+		<Body2Dk_Define>0x9F0F5A</Body2Dk_Define>
+		<SpecialVL_Define>0xFFFCF0</SpecialVL_Define>
+		<SpecialLt_Define>0xFFDD66</SpecialLt_Define>
+		<Special_Define>0xFF7962</Special_Define>
+	</WeaponSkinType>
+	<WeaponSkinType WeaponSkinName="PistolAlien">
+		<WeaponSkinID>8</WeaponSkinID>
+		<BaseWeapon>Pistol</BaseWeapon>
+		<OwnerHero>Alien</OwnerHero>
+		<DisplayName>Selenite Ray Guns</DisplayName>
+		<CustomArt>Gfx_Weapons.swf/Alien</CustomArt>
+		<Body1Lt_Define>0xBFFFFC</Body1Lt_Define>
+		<Body1_Define>0x54ABEB</Body1_Define>
+		<Body2Lt_Define>0xFF9799</Body2Lt_Define>
+		<Body2_Define>0xEB2C4E</Body2_Define>
+		<Body2Dk_Define>0x9F0F5A</Body2Dk_Define>
+		<SpecialVL_Define>0xFFFCF0</SpecialVL_Define>
+		<SpecialLt_Define>0xFFDD66</SpecialLt_Define>
+		<Special_Define>0xFF7962</Special_Define>
+	</WeaponSkinType>
+	<WeaponSkinType WeaponSkinName="SpearCaveman">
+		<WeaponSkinID>9</WeaponSkinID>
+		<BaseWeapon>Spear</BaseWeapon>
+		<OwnerHero>Caveman</OwnerHero>
+		<DisplayName>Hunting Spear</DisplayName>
+		<CustomArt>Gfx_Weapons.swf/Caveman</CustomArt>
+		<Body1VL_Define>0xF8E19C</Body1VL_Define>
+		<Body1Lt_Define>0xFDE0A6</Body1Lt_Define>
+		<Body1_Define>0xFB934D</Body1_Define>
+		<Body2_Define>0xC8D623</Body2_Define>
+		<Body2Dk_Define>0x6C963F</Body2Dk_Define>
+		<SpecialVL_Define>0xFEF9E7</SpecialVL_Define>
+		<Special_Define>0xF9B62B</Special_Define>
+		<SpecialDk_Define>0xEE630F</SpecialDk_Define>
+		<HandsSkinLt_Define>0xFFCC99</HandsSkinLt_Define>
+		<HandsSkinDk_Define>0xFF926C</HandsSkinDk_Define>
+	</WeaponSkinType>
+	<WeaponSkinType WeaponSkinName="HammerCaveman">
+		<WeaponSkinID>10</WeaponSkinID>
+		<BaseWeapon>Hammer</BaseWeapon>
+		<OwnerHero>Caveman</OwnerHero>
+		<DisplayName>Smasher</DisplayName>
+		<CustomArt>Gfx_Weapons.swf/Caveman</CustomArt>
+		<Body1VL_Define>0xF8E19C</Body1VL_Define>
+		<Body1Lt_Define>0xFDE0A6</Body1Lt_Define>
+		<Body1_Define>0xFB934D</Body1_Define>
+		<Body2_Define>0xC8D623</Body2_Define>
+		<Body2Dk_Define>0x6C963F</Body2Dk_Define>
+		<SpecialVL_Define>0xFEF9E7</SpecialVL_Define>
+		<Special_Define>0xF9B62B</Special_Define>
+		<SpecialDk_Define>0xEE630F</SpecialDk_Define>
+		<HandsSkinLt_Define>0xFFCC99</HandsSkinLt_Define>
+		<HandsSkinDk_Define>0xFF926C</HandsSkinDk_Define>
+	</WeaponSkinType>
+	<WeaponSkinType WeaponSkinName="SpearWitch">
+		<WeaponSkinID>11</WeaponSkinID>
+		<BaseWeapon>Spear</BaseWeapon>
+		<OwnerHero>Witch</OwnerHero>
+		<DisplayName>Serpent Spear</DisplayName>
+		<CustomArt>Gfx_Weapons.swf/Witch</CustomArt>
+		<HairLt_Define>0x0B7999</HairLt_Define>
+		<Hair_Define>0x063C5B</Hair_Define>
+		<HairDk_Define>0x0A1C2E</HairDk_Define>
+		<Body1VL_Define>0xA8FFF4</Body1VL_Define>
+		<Body1Lt_Define>0x32E4D2</Body1Lt_Define>
+		<Body1_Define>0x0999C4</Body1_Define>
+		<Body1Dk_Define>0x065697</Body1Dk_Define>
+		<Body2VL_Define>0xF3FFC4</Body2VL_Define>
+		<Body2Lt_Define>0xB8CF5C</Body2Lt_Define>
+		<SpecialLt_Define>0xB3FFBC</SpecialLt_Define>
+		<Special_Define>0x4DEA74</Special_Define>
+		<SpecialDk_Define>0x006C5F</SpecialDk_Define>
+		<HandsSkinLt_Define>0xFFCC99</HandsSkinLt_Define>
+		<HandsSkinDk_Define>0xFF926C</HandsSkinDk_Define>
+	</WeaponSkinType>
+	<WeaponSkinType WeaponSkinName="KatarWitch">
+		<WeaponSkinID>12</WeaponSkinID>
+		<BaseWeapon>Katar</BaseWeapon>
+		<OwnerHero>Witch</OwnerHero>
+		<DisplayName>Sacred Blades</DisplayName>
+		<CustomArt>Gfx_Weapons.swf/Witch</CustomArt>
+		<HairLt_Define>0x0B7999</HairLt_Define>
+		<Hair_Define>0x063C5B</Hair_Define>
+		<HairDk_Define>0x0A1C2E</HairDk_Define>
+		<Body1VL_Define>0xA8FFF4</Body1VL_Define>
+		<Body1Lt_Define>0x32E4D2</Body1Lt_Define>
+		<Body1_Define>0x0999C4</Body1_Define>
+		<Body1Dk_Define>0x065697</Body1Dk_Define>
+		<Body2VL_Define>0xF3FFC4</Body2VL_Define>
+		<Body2Lt_Define>0xB8CF5C</Body2Lt_Define>
+		<SpecialLt_Define>0xB3FFBC</SpecialLt_Define>
+		<Special_Define>0x4DEA74</Special_Define>
+		<SpecialDk_Define>0x006C5F</SpecialDk_Define>
+		<HandsSkinLt_Define>0xFFCC99</HandsSkinLt_Define>
+		<HandsSkinDk_Define>0xFF926C</HandsSkinDk_Define>
+	</WeaponSkinType>
+	<WeaponSkinType WeaponSkinName="KatarHighwayman">
+		<WeaponSkinID>13</WeaponSkinID>
+		<BaseWeapon>Katar</BaseWeapon>
+		<OwnerHero>Highwayman</OwnerHero>
+		<DisplayName>Assassin's Blades</DisplayName>
+		<CustomArt>Gfx_Weapons.swf/Highwayman</CustomArt>
+		<HairLt_Define>0xDFE258</HairLt_Define>
+		<Hair_Define>0x91BD35</Hair_Define>
+		<HairDk_Define>0x6B791A</HairDk_Define>
+		<Body1Lt_Define>0x9DB9C6</Body1Lt_Define>
+		<Body1_Define>0x5A788D</Body1_Define>
+		<Body1Dk_Define>0x253545</Body1Dk_Define>
+		<Body1Acc_Define>0x3E7D88</Body1Acc_Define>
+		<Body2Lt_Define>0xE7EAEB</Body2Lt_Define>
+		<Body2_Define>0x89A3A5</Body2_Define>
+		<Body2Acc_Define>0xB9E6DD</Body2Acc_Define>
+	</WeaponSkinType>
+	<WeaponSkinType WeaponSkinName="PistolHighwayman">
+		<WeaponSkinID>14</WeaponSkinID>
+		<BaseWeapon>Pistol</BaseWeapon>
+		<OwnerHero>Highwayman</OwnerHero>
+		<DisplayName>Highwayman's Flintlocks</DisplayName>
+		<CustomArt>Gfx_Weapons.swf/Highwayman</CustomArt>
+		<HairLt_Define>0xDFE258</HairLt_Define>
+		<Hair_Define>0x91BD35</Hair_Define>
+		<HairDk_Define>0x6B791A</HairDk_Define>
+		<Body1Lt_Define>0x9DB9C6</Body1Lt_Define>
+		<Body1_Define>0x5A788D</Body1_Define>
+		<Body1Dk_Define>0x253545</Body1Dk_Define>
+		<Body1Acc_Define>0x3E7D88</Body1Acc_Define>
+		<Body2Lt_Define>0xE7EAEB</Body2Lt_Define>
+		<Body2_Define>0x89A3A5</Body2_Define>
+		<Body2Acc_Define>0xB9E6DD</Body2Acc_Define>
+		<HandsLt_Define>0xBFFFFC</HandsLt_Define>
+		<HandsDk_Define>0x54ABEB</HandsDk_Define>
+	</WeaponSkinType>
+	<WeaponSkinType WeaponSkinName="SwordNinja">
+		<WeaponSkinID>15</WeaponSkinID>
+		<BaseWeapon>Sword</BaseWeapon>
+		<OwnerHero>Ninja</OwnerHero>
+		<DisplayName>Katana</DisplayName>
+		<CustomArt>Gfx_Weapons.swf/Ninja</CustomArt>
+		<HairLt_Define>0x584F4A</HairLt_Define>
+		<Hair_Define>0x332E2B</Hair_Define>
+		<HairDk_Define>0x24201E</HairDk_Define>
+		<Body1Lt_Define>0xD34562</Body1Lt_Define>
+		<Body1_Define>0x852E32</Body1_Define>
+		<Body1Dk_Define>0x6C2839</Body1Dk_Define>
+		<Body2Lt_Define>0x9F2F5F</Body2Lt_Define>
+		<Body2_Define>0x74184D</Body2_Define>
+		<Body2Dk_Define>0x411241</Body2Dk_Define>
+		<SpecialLt_Define>0xFF4848</SpecialLt_Define>
+		<Special_Define>0xCC0000</Special_Define>
+		<SpecialDk_Define>0x87053D</SpecialDk_Define>
+		<HandsSkinLt_Define>0xFFCC99</HandsSkinLt_Define>
+		<HandsSkinDk_Define>0xFF926C</HandsSkinDk_Define>
+	</WeaponSkinType>
+	<WeaponSkinType WeaponSkinName="SpearNinja">
+		<WeaponSkinID>16</WeaponSkinID>
+		<BaseWeapon>Spear</BaseWeapon>
+		<OwnerHero>Ninja</OwnerHero>
+		<DisplayName>Yari</DisplayName>
+		<CustomArt>Gfx_Weapons.swf/Ninja</CustomArt>
+		<HairLt_Define>0x584F4A</HairLt_Define>
+		<Hair_Define>0x332E2B</Hair_Define>
+		<HairDk_Define>0x24201E</HairDk_Define>
+		<Body1Lt_Define>0xD34562</Body1Lt_Define>
+		<Body1_Define>0x852E32</Body1_Define>
+		<Body1Dk_Define>0x6C2839</Body1Dk_Define>
+		<Body2Lt_Define>0x9F2F5F</Body2Lt_Define>
+		<Body2_Define>0x74184D</Body2_Define>
+		<Body2Dk_Define>0x411241</Body2Dk_Define>
+		<SpecialLt_Define>0xFF4848</SpecialLt_Define>
+		<Special_Define>0xCC0000</Special_Define>
+		<SpecialDk_Define>0x87053D</SpecialDk_Define>
+		<HandsSkinLt_Define>0xFFCC99</HandsSkinLt_Define>
+		<HandsSkinDk_Define>0xFF926C</HandsSkinDk_Define>
+	</WeaponSkinType>
+	<WeaponSkinType WeaponSkinName="SwordKnight">
+		<WeaponSkinID>17</WeaponSkinID>
+		<BaseWeapon>Sword</BaseWeapon>
+		<OwnerHero>Knight</OwnerHero>
+		<DisplayName>Long Sword</DisplayName>
+		<CustomArt>Gfx_Weapons.swf/Hotspur</CustomArt>
+		<HairLt_Define>0xFAD76B</HairLt_Define>
+		<Hair_Define>0xF5B120</Hair_Define>
+		<HairDk_Define>0xF2790B</HairDk_Define>
+		<Body1Lt_Define>0xD7DFDF</Body1Lt_Define>
+		<Body1_Define>0x81989A</Body1_Define>
+		<Body2Lt_Define>0xA8BFBF</Body2Lt_Define>
+		<Body2_Define>0x718686</Body2_Define>
+		<Body2Dk_Define>0x455760</Body2Dk_Define>
+		<SpecialVL_Define>0xF9FBD7</SpecialVL_Define>
+		<SpecialLt_Define>0xE2EB3D</SpecialLt_Define>
+		<Special_Define>0xC4C031</Special_Define>
+		<HandsLt_Define>0xBFFFFC</HandsLt_Define>
+		<HandsDk_Define>0x54ABEB</HandsDk_Define>
+		<WeaponVL_Define>0xC7D8D8</WeaponVL_Define>
+		<WeaponLt_Define>0x9FBDBD</WeaponLt_Define>
+		<Weapon_Define>0x52758F</Weapon_Define>
+		<WeaponDk_Define>0x2B3C4A</WeaponDk_Define>
+	</WeaponSkinType>
+	<WeaponSkinType WeaponSkinName="RocketLanceKnight">
+		<WeaponSkinID>18</WeaponSkinID>
+		<BaseWeapon>RocketLance</BaseWeapon>
+		<OwnerHero>Knight</OwnerHero>
+		<DisplayName>Tourney Lance</DisplayName>
+		<CustomArt>Gfx_Weapons.swf/Hotspur</CustomArt>
+		<HairLt_Define>0xFAD76B</HairLt_Define>
+		<Hair_Define>0xF5B120</Hair_Define>
+		<HairDk_Define>0xF2790B</HairDk_Define>
+		<Body1Lt_Define>0xD7DFDF</Body1Lt_Define>
+		<Body1_Define>0x81989A</Body1_Define>
+		<Body2Lt_Define>0xA8BFBF</Body2Lt_Define>
+		<Body2_Define>0x718686</Body2_Define>
+		<Body2Dk_Define>0x455760</Body2Dk_Define>
+		<SpecialVL_Define>0xF9FBD7</SpecialVL_Define>
+		<SpecialLt_Define>0xE2EB3D</SpecialLt_Define>
+		<Special_Define>0xC4C031</Special_Define>
+		<HandsLt_Define>0xBFFFFC</HandsLt_Define>
+		<HandsDk_Define>0x54ABEB</HandsDk_Define>
+		<WeaponVL_Define>0xC7D8D8</WeaponVL_Define>
+		<WeaponLt_Define>0x9FBDBD</WeaponLt_Define>
+		<Weapon_Define>0x52758F</Weapon_Define>
+		<WeaponDk_Define>0x2B3C4A</WeaponDk_Define>
+	</WeaponSkinType>
+	<WeaponSkinType WeaponSkinName="RocketLanceSteampunk">
+		<WeaponSkinID>19</WeaponSkinID>
+		<BaseWeapon>RocketLance</BaseWeapon>
+		<OwnerHero>Steampunk</OwnerHero>
+		<DisplayName>Steam Rocket</DisplayName>
+		<CustomArt>Gfx_Weapons.swf/Steampunk</CustomArt>
+		<HairLt_Define>0x711122</HairLt_Define>
+		<Hair_Define>0x4F021A</Hair_Define>
+		<HairDk_Define>0x3A0112</HairDk_Define>
+		<Body1VL_Define>0xEA86BA</Body1VL_Define>
+		<Body1Lt_Define>0xD64E8E</Body1Lt_Define>
+		<Body1_Define>0x9F0034</Body1_Define>
+		<Body1Dk_Define>0x59001D</Body1Dk_Define>
+		<Body2VL_Define>0xF8E7F1</Body2VL_Define>
+		<Body2Lt_Define>0xE1B5E1</Body2Lt_Define>
+		<Body2_Define>0xCE86C7</Body2_Define>
+		<Body2Dk_Define>0x9756A5</Body2Dk_Define>
+		<SpecialVL_Define>0xE5FFFC</SpecialVL_Define>
+		<SpecialLt_Define>0x28D0AE</SpecialLt_Define>
+		<Special_Define>0x0E8573</Special_Define>
+		<SpecialDk_Define>0x0A5967</SpecialDk_Define>
+		<HandsLt_Define>0xBFFFFC</HandsLt_Define>
+		<HandsDk_Define>0x54ABEB</HandsDk_Define>
+		<WeaponLt_Define>0xEFC472</WeaponLt_Define>
+		<Weapon_Define>0xBB8C2D</Weapon_Define>
+		<WeaponDk_Define>0xA05625</WeaponDk_Define>
+	</WeaponSkinType>
+	<WeaponSkinType WeaponSkinName="HammerSteampunk">
+		<WeaponSkinID>20</WeaponSkinID>
+		<BaseWeapon>Hammer</BaseWeapon>
+		<OwnerHero>Steampunk</OwnerHero>
+		<DisplayName>Pneumatic Hammer</DisplayName>
+		<CustomArt>Gfx_Weapons.swf/Steampunk</CustomArt>
+		<HairLt_Define>0x711122</HairLt_Define>
+		<Hair_Define>0x4F021A</Hair_Define>
+		<HairDk_Define>0x3A0112</HairDk_Define>
+		<Body1VL_Define>0xEA86BA</Body1VL_Define>
+		<Body1Lt_Define>0xD64E8E</Body1Lt_Define>
+		<Body1_Define>0x9F0034</Body1_Define>
+		<Body1Dk_Define>0x59001D</Body1Dk_Define>
+		<Body2VL_Define>0xF8E7F1</Body2VL_Define>
+		<Body2Lt_Define>0xE1B5E1</Body2Lt_Define>
+		<Body2_Define>0xCE86C7</Body2_Define>
+		<Body2Dk_Define>0x9756A5</Body2Dk_Define>
+		<SpecialVL_Define>0xE5FFFC</SpecialVL_Define>
+		<SpecialLt_Define>0x28D0AE</SpecialLt_Define>
+		<Special_Define>0x0E8573</Special_Define>
+		<SpecialDk_Define>0x0A5967</SpecialDk_Define>
+		<HandsLt_Define>0xBFFFFC</HandsLt_Define>
+		<HandsDk_Define>0x54ABEB</HandsDk_Define>
+		<WeaponLt_Define>0xEFC472</WeaponLt_Define>
+		<Weapon_Define>0xBB8C2D</Weapon_Define>
+		<WeaponDk_Define>0xA05625</WeaponDk_Define>
+	</WeaponSkinType>
+	<WeaponSkinType WeaponSkinName="SwordPirate">
+		<WeaponSkinID>21</WeaponSkinID>
+		<BaseWeapon>Sword</BaseWeapon>
+		<OwnerHero>Thatch</OwnerHero>
+		<DisplayName>Boarding Cutlass</DisplayName>
+		<CustomArt>Gfx_Weapons.swf/Pirate</CustomArt>
+		<Body1_Define>0xC9211D</Body1_Define>
+		<Body1Dk_Define>0x7E1225</Body1Dk_Define>
+		<Body1Acc_Define>0xAF342E</Body1Acc_Define>
+		<Body2VL_Define>0x44BBB8</Body2VL_Define>
+		<Body2Lt_Define>0x177B84</Body2Lt_Define>
+		<Body2_Define>0x7CDCB8</Body2_Define>
+		<Body2Dk_Define>0x2EA97B</Body2Dk_Define>
+		<HandsSkinLt_Define>0xFFCC99</HandsSkinLt_Define>
+		<HandsSkinDk_Define>0xFF926C</HandsSkinDk_Define>
+		<WeaponVL_Define>0xF7F4C8</WeaponVL_Define>
+		<WeaponLt_Define>0xB7BE7E</WeaponLt_Define>
+	</WeaponSkinType>
+	<WeaponSkinType WeaponSkinName="RocketLancePirate">
+		<WeaponSkinID>22</WeaponSkinID>
+		<BaseWeapon>RocketLance</BaseWeapon>
+		<OwnerHero>Thatch</OwnerHero>
+		<DisplayName>Black Powder Lance</DisplayName>
+		<CustomArt>Gfx_Weapons.swf/Pirate</CustomArt>
+		<Body1_Define>0xC9211D</Body1_Define>
+		<Body1Dk_Define>0x7E1225</Body1Dk_Define>
+		<Body1Acc_Define>0xAF342E</Body1Acc_Define>
+		<Body2VL_Define>0x44BBB8</Body2VL_Define>
+		<Body2Lt_Define>0x177B84</Body2Lt_Define>
+		<Body2_Define>0x7CDCB8</Body2_Define>
+		<Body2Dk_Define>0x2EA97B</Body2Dk_Define>
+		<HandsSkinLt_Define>0xFFCC99</HandsSkinLt_Define>
+		<HandsSkinDk_Define>0xFF926C</HandsSkinDk_Define>
+		<WeaponVL_Define>0xF7F4C8</WeaponVL_Define>
+		<WeaponLt_Define>0xB7BE7E</WeaponLt_Define>
+	</WeaponSkinType>
+	<WeaponSkinType WeaponSkinName="PistolCyber">
+		<WeaponSkinID>23</WeaponSkinID>
+		<BaseWeapon>Pistol</BaseWeapon>
+		<OwnerHero>Cyber</OwnerHero>
+		<DisplayName>Cyberlink Blasters</DisplayName>
+		<CustomArt>Gfx_Weapons.swf/Ada</CustomArt>
+		<HairLt_Define>0xD136E2</HairLt_Define>
+		<Hair_Define>0xA42BC1</Hair_Define>
+		<HairDk_Define>0x7322A8</HairDk_Define>
+		<Body1VL_Define>0xFFD2E0</Body1VL_Define>
+		<Body1Lt_Define>0xFF8CAE</Body1Lt_Define>
+		<Body1_Define>0xF93E84</Body1_Define>
+		<Body2Lt_Define>0xA93481</Body2Lt_Define>
+		<Body2_Define>0x8B1060</Body2_Define>
+		<Body2Dk_Define>0x5B0A3E</Body2Dk_Define>
+		<SpecialVL_Define>0xEBFFDF</SpecialVL_Define>
+		<SpecialLt_Define>0x9CFD84</SpecialLt_Define>
+		<SpecialDk_Define>0x007B82</SpecialDk_Define>
+		<HandsLt_Define>0xBFFFFC</HandsLt_Define>
+		<HandsDk_Define>0x54ABEB</HandsDk_Define>
+	</WeaponSkinType>
+	<WeaponSkinType WeaponSkinName="SpearCyber">
+		<WeaponSkinID>24</WeaponSkinID>
+		<BaseWeapon>Spear</BaseWeapon>
+		<OwnerHero>Cyber</OwnerHero>
+		<DisplayName>Cyberlink Spear</DisplayName>
+		<CustomArt>Gfx_Weapons.swf/Ada</CustomArt>
+		<HairLt_Define>0xD136E2</HairLt_Define>
+		<Hair_Define>0xA42BC1</Hair_Define>
+		<HairDk_Define>0x7322A8</HairDk_Define>
+		<Body1VL_Define>0xFFD2E0</Body1VL_Define>
+		<Body1Lt_Define>0xFF8CAE</Body1Lt_Define>
+		<Body1_Define>0xF93E84</Body1_Define>
+		<Body2Lt_Define>0xA93481</Body2Lt_Define>
+		<Body2_Define>0x8B1060</Body2_Define>
+		<Body2Dk_Define>0x5B0A3E</Body2Dk_Define>
+		<SpecialVL_Define>0xEBFFDF</SpecialVL_Define>
+		<SpecialLt_Define>0x9CFD84</SpecialLt_Define>
+		<SpecialDk_Define>0x007B82</SpecialDk_Define>
+		<HandsLt_Define>0xBFFFFC</HandsLt_Define>
+		<HandsDk_Define>0x54ABEB</HandsDk_Define>
+	</WeaponSkinType>
+	<WeaponSkinType WeaponSkinName="SwordAsgard">
+		<WeaponSkinID>25</WeaponSkinID>
+		<BaseWeapon>Sword</BaseWeapon>
+		<DisplayName>Asgardian Sword</DisplayName>
+		<Description>This sword is of Asgard</Description>
+		<WeaponIcon>a_SwordIcon_Asgard</WeaponIcon>
+		<CustomArt>Gfx_Weapons.swf/Asgard</CustomArt>
+		<Hair_Define>0xECF185</Hair_Define>
+		<HairDk_Define>0x9CA75F</HairDk_Define>
+		<Body1Lt_Define>0xF3A68B</Body1Lt_Define>
+		<Body1_Define>0xCF0E48</Body1_Define>
+		<Body1Dk_Define>0x761432</Body1Dk_Define>
+		<HandsLt_Define>0xBFFFFC</HandsLt_Define>
+		<HandsDk_Define>0x54ABEB</HandsDk_Define>
+		<Weapon_Define>0x57BDB0</Weapon_Define>
+		<WeaponDk_Define>0x3A9489</WeaponDk_Define>
+	</WeaponSkinType>
+	<WeaponSkinType WeaponSkinName="RocketLanceAsgard">
+		<WeaponSkinID>26</WeaponSkinID>
+		<BaseWeapon>RocketLance</BaseWeapon>
+		<DisplayName>Asgardian Lance</DisplayName>
+		<CustomArt>Gfx_Weapons.swf/Asgard</CustomArt>
+		<Hair_Define>0xECF185</Hair_Define>
+		<HairDk_Define>0x9CA75F</HairDk_Define>
+		<Body1Lt_Define>0xF3A68B</Body1Lt_Define>
+		<Body1_Define>0xCF0E48</Body1_Define>
+		<Body1Dk_Define>0x761432</Body1Dk_Define>
+		<HandsLt_Define>0xBFFFFC</HandsLt_Define>
+		<HandsDk_Define>0x54ABEB</HandsDk_Define>
+		<Weapon_Define>0x57BDB0</Weapon_Define>
+		<WeaponDk_Define>0x3A9489</WeaponDk_Define>
+	</WeaponSkinType>
+	<WeaponSkinType WeaponSkinName="HammerAsgard">
+		<WeaponSkinID>27</WeaponSkinID>
+		<BaseWeapon>Hammer</BaseWeapon>
+		<DisplayName>Asgardian Hammer</DisplayName>
+		<Description>This hammer is of Asgard</Description>
+		<WeaponIcon>a_HammerIcon_Asgard</WeaponIcon>
+		<CustomArt>Gfx_Weapons.swf/Asgard</CustomArt>
+		<Hair_Define>0xECF185</Hair_Define>
+		<HairDk_Define>0x9CA75F</HairDk_Define>
+		<Body1Lt_Define>0xF3A68B</Body1Lt_Define>
+		<Body1_Define>0xCF0E48</Body1_Define>
+		<Body1Dk_Define>0x761432</Body1Dk_Define>
+		<HandsLt_Define>0xBFFFFC</HandsLt_Define>
+		<HandsDk_Define>0x54ABEB</HandsDk_Define>
+		<Weapon_Define>0x57BDB0</Weapon_Define>
+		<WeaponDk_Define>0x3A9489</WeaponDk_Define>
+	</WeaponSkinType>
+	<WeaponSkinType WeaponSkinName="PistolAsgard">
+		<WeaponSkinID>28</WeaponSkinID>
+		<BaseWeapon>Pistol</BaseWeapon>
+		<DisplayName>Asgardian Blasters</DisplayName>
+		<CustomArt>Gfx_Weapons.swf/Asgard</CustomArt>
+		<Hair_Define>0xECF185</Hair_Define>
+		<HairDk_Define>0x9CA75F</HairDk_Define>
+		<Body1Lt_Define>0xF3A68B</Body1Lt_Define>
+		<Body1_Define>0xCF0E48</Body1_Define>
+		<Body1Dk_Define>0x761432</Body1Dk_Define>
+		<HandsLt_Define>0xBFFFFC</HandsLt_Define>
+		<HandsDk_Define>0x54ABEB</HandsDk_Define>
+		<Weapon_Define>0x57BDB0</Weapon_Define>
+		<WeaponDk_Define>0x3A9489</WeaponDk_Define>
+	</WeaponSkinType>
+	<WeaponSkinType WeaponSkinName="SpearAsgard">
+		<WeaponSkinID>29</WeaponSkinID>
+		<BaseWeapon>Spear</BaseWeapon>
+		<DisplayName>Asgardian Spear</DisplayName>
+		<CustomArt>Gfx_Weapons.swf/Asgard</CustomArt>
+		<Hair_Define>0xECF185</Hair_Define>
+		<HairDk_Define>0x9CA75F</HairDk_Define>
+		<Body1Lt_Define>0xF3A68B</Body1Lt_Define>
+		<Body1_Define>0xCF0E48</Body1_Define>
+		<Body1Dk_Define>0x761432</Body1Dk_Define>
+		<HandsLt_Define>0xBFFFFC</HandsLt_Define>
+		<HandsDk_Define>0x54ABEB</HandsDk_Define>
+		<Weapon_Define>0x57BDB0</Weapon_Define>
+		<WeaponDk_Define>0x3A9489</WeaponDk_Define>
+	</WeaponSkinType>
+	<WeaponSkinType WeaponSkinName="SwordBear">
+		<WeaponSkinID>30</WeaponSkinID>
+		<BaseWeapon>Sword</BaseWeapon>
+		<OwnerHero>Viking</OwnerHero>
+		<DisplayName>Bear Blade</DisplayName>
+		<Description>Wait. Bears use swords?</Description>
+		<WeaponIcon>a_SwordIcon_Bear</WeaponIcon>
+		<CustomArt>Gfx_Weapons.swf/Bear</CustomArt>
+		<HairLt_Define>0xDE6A22</HairLt_Define>
+		<Hair_Define>0xC14420</Hair_Define>
+		<HairDk_Define>0x971717</HairDk_Define>
+		<Body1_Define>0x6B1412</Body1_Define>
+		<Body1Dk_Define>0x350A09</Body1Dk_Define>
+		<Body2Lt_Define>0xE9963A</Body2Lt_Define>
+		<Body2_Define>0xC95F18</Body2_Define>
+		<SpecialVL_Define>0xFFFADD</SpecialVL_Define>
+		<SpecialLt_Define>0xFCD652</SpecialLt_Define>
+		<Special_Define>0xEB9947</Special_Define>
+		<HandsLt_Define>0xBFFFFC</HandsLt_Define>
+		<HandsDk_Define>0x54ABEB</HandsDk_Define>
+	</WeaponSkinType>
+	<WeaponSkinType WeaponSkinName="HammerBear">
+		<WeaponSkinID>31</WeaponSkinID>
+		<BaseWeapon>Hammer</BaseWeapon>
+		<OwnerHero>Viking</OwnerHero>
+		<DisplayName>The Hibernator</DisplayName>
+		<Description>Bear move!</Description>
+		<WeaponIcon>a_HammerIcon_Bodvar</WeaponIcon>
+		<CustomArt>Gfx_Weapons.swf/Bear</CustomArt>
+		<HairLt_Define>0xDE6A22</HairLt_Define>
+		<Hair_Define>0xC14420</Hair_Define>
+		<HairDk_Define>0x971717</HairDk_Define>
+		<Body1_Define>0x6B1412</Body1_Define>
+		<Body1Dk_Define>0x350A09</Body1Dk_Define>
+		<Body2Lt_Define>0xE9963A</Body2Lt_Define>
+		<Body2_Define>0xC95F18</Body2_Define>
+		<SpecialVL_Define>0xFFFADD</SpecialVL_Define>
+		<SpecialLt_Define>0xFCD652</SpecialLt_Define>
+		<Special_Define>0xEB9947</Special_Define>
+		<HandsLt_Define>0xBFFFFC</HandsLt_Define>
+		<HandsDk_Define>0x54ABEB</HandsDk_Define>
+	</WeaponSkinType>
+	<WeaponSkinType WeaponSkinName="SwordCyberViking">
+		<WeaponSkinID>32</WeaponSkinID>
+		<BaseWeapon>Sword</BaseWeapon>
+		<OwnerHero>Viking</OwnerHero>
+		<DisplayName>Plasma Cleaver</DisplayName>
+		<Description>Dis blade be cybertronic</Description>
+		<WeaponIcon>a_SwordIcon_Cyber</WeaponIcon>
+		<CustomArt>Gfx_Weapons.swf/CyberViking</CustomArt>
+		<Body1VL_Define>0x20FFC1</Body1VL_Define>
+		<Body1Lt_Define>0x00B98F</Body1Lt_Define>
+		<Body2Lt_Define>0x5AC9F0</Body2Lt_Define>
+		<Body2_Define>0x00698E</Body2_Define>
+		<Body2Dk_Define>0x00334F</Body2Dk_Define>
+		<Body2Acc_Define>0x0065CA</Body2Acc_Define>
+		<HandsLt_Define>0xBFFFFC</HandsLt_Define>
+		<HandsDk_Define>0x54ABEB</HandsDk_Define>
+	</WeaponSkinType>
+	<WeaponSkinType WeaponSkinName="HammerCyberViking">
+		<WeaponSkinID>33</WeaponSkinID>
+		<BaseWeapon>Hammer</BaseWeapon>
+		<OwnerHero>Viking</OwnerHero>
+		<DisplayName>Neutron Maul</DisplayName>
+		<Description>Dis hammer be cybertronic</Description>
+		<WeaponIcon>a_HammerIcon_Cyber</WeaponIcon>
+		<CustomArt>Gfx_Weapons.swf/CyberViking</CustomArt>
+		<Body1VL_Define>0x20FFC1</Body1VL_Define>
+		<Body1Lt_Define>0x00B98F</Body1Lt_Define>
+		<Body2Lt_Define>0x5AC9F0</Body2Lt_Define>
+		<Body2_Define>0x00698E</Body2_Define>
+		<Body2Dk_Define>0x00334F</Body2Dk_Define>
+		<Body2Acc_Define>0x0065CA</Body2Acc_Define>
+		<HandsLt_Define>0xBFFFFC</HandsLt_Define>
+		<HandsDk_Define>0x54ABEB</HandsDk_Define>
+	</WeaponSkinType>
+	<WeaponSkinType WeaponSkinName="SwordTrucker">
+		<WeaponSkinID>34</WeaponSkinID>
+		<BaseWeapon>Sword</BaseWeapon>
+		<OwnerHero>Viking</OwnerHero>
+		<DisplayName>Big ol' Knife</DisplayName>
+		<Description>Now that's a Knoife!</Description>
+		<WeaponIcon>a_SwordIcon_Trucker</WeaponIcon>
+		<CustomArt>Gfx_Weapons.swf/Trucker</CustomArt>
+		<Hair_Define>0xECF185</Hair_Define>
+		<HairDk_Define>0x9CA75F</HairDk_Define>
+		<Body1VL_Define>0xDE1D1D</Body1VL_Define>
+		<Body1Lt_Define>0x8D3232</Body1Lt_Define>
+		<Body1_Define>0x9F1C30</Body1_Define>
+		<Body1Dk_Define>0x5F1623</Body1Dk_Define>
+		<Body2_Define>0x427CDD</Body2_Define>
+		<Body2Dk_Define>0x233EBC</Body2Dk_Define>
+		<SpecialLt_Define>0x1146C4</SpecialLt_Define>
+		<Special_Define>0x0A2974</Special_Define>
+	</WeaponSkinType>
+	<WeaponSkinType WeaponSkinName="HammerTrucker">
+		<WeaponSkinID>35</WeaponSkinID>
+		<BaseWeapon>Hammer</BaseWeapon>
+		<OwnerHero>Viking</OwnerHero>
+		<DisplayName>Stop and Drop</DisplayName>
+		<Description>Ten-four rubber ducky</Description>
+		<WeaponIcon>a_HammerIcon_Trucker</WeaponIcon>
+		<CustomArt>Gfx_Weapons.swf/Trucker</CustomArt>
+		<Hair_Define>0xECF185</Hair_Define>
+		<HairDk_Define>0x9CA75F</HairDk_Define>
+		<Body1VL_Define>0xDE1D1D</Body1VL_Define>
+		<Body1Lt_Define>0x8D3232</Body1Lt_Define>
+		<Body1_Define>0x9F1C30</Body1_Define>
+		<Body1Dk_Define>0x5F1623</Body1Dk_Define>
+		<Body2_Define>0x427CDD</Body2_Define>
+		<Body2Dk_Define>0x233EBC</Body2Dk_Define>
+		<SpecialLt_Define>0x1146C4</SpecialLt_Define>
+		<Special_Define>0x0A2974</Special_Define>
+	</WeaponSkinType>
+	<WeaponSkinType WeaponSkinName="SpearVolstKnight">
+		<WeaponSkinID>36</WeaponSkinID>
+		<BaseWeapon>Spear</BaseWeapon>
+		<OwnerHero>Valkyrie</OwnerHero>
+		<DisplayName>Old School Spear</DisplayName>
+		<CustomArt>Gfx_Weapons.swf/VolstKnight</CustomArt>
+		<Hair_Define>0xE9D99C</Hair_Define>
+		<HairDk_Define>0x8F9140</HairDk_Define>
+		<Body1VL_Define>0xCEE4E7</Body1VL_Define>
+		<Body1Lt_Define>0x9CC9C8</Body1Lt_Define>
+		<Body1_Define>0x568989</Body1_Define>
+		<Body1Dk_Define>0x335151</Body1Dk_Define>
+		<HandsLt_Define>0xBFFFFC</HandsLt_Define>
+		<HandsDk_Define>0x54ABEB</HandsDk_Define>
+	</WeaponSkinType>
+	<WeaponSkinType WeaponSkinName="RocketLanceVolstKnight">
+		<WeaponSkinID>37</WeaponSkinID>
+		<BaseWeapon>RocketLance</BaseWeapon>
+		<OwnerHero>Valkyrie</OwnerHero>
+		<DisplayName>Rocket Powered Warhorse</DisplayName>
+		<CustomArt>Gfx_Weapons.swf/VolstKnight</CustomArt>
+		<Hair_Define>0xE9D99C</Hair_Define>
+		<HairDk_Define>0x8F9140</HairDk_Define>
+		<Body1VL_Define>0xCEE4E7</Body1VL_Define>
+		<Body1Lt_Define>0x9CC9C8</Body1Lt_Define>
+		<Body1_Define>0x568989</Body1_Define>
+		<Body1Dk_Define>0x335151</Body1Dk_Define>
+		<HandsLt_Define>0xBFFFFC</HandsLt_Define>
+		<HandsDk_Define>0x54ABEB</HandsDk_Define>
+	</WeaponSkinType>
+	<WeaponSkinType WeaponSkinName="SpearDeathAngel">
+		<WeaponSkinID>38</WeaponSkinID>
+		<BaseWeapon>Spear</BaseWeapon>
+		<OwnerHero>Valkyrie</OwnerHero>
+		<DisplayName>The Reaper</DisplayName>
+		<CustomArt>Gfx_Weapons.swf/DeathAngel</CustomArt>
+		<Body1_Define>0x00FFFF</Body1_Define>
+		<HandsLt_Define>0xBFFFFC</HandsLt_Define>
+		<HandsDk_Define>0x54ABEB</HandsDk_Define>
+		<WeaponVL_Define>0xBCD3E0</WeaponVL_Define>
+		<WeaponLt_Define>0xCFCFE7</WeaponLt_Define>
+		<Weapon_Define>0x6F7BB5</Weapon_Define>
+	</WeaponSkinType>
+	<WeaponSkinType WeaponSkinName="RocketLanceDeathAngel">
+		<WeaponSkinID>39</WeaponSkinID>
+		<BaseWeapon>RocketLance</BaseWeapon>
+		<OwnerHero>Valkyrie</OwnerHero>
+		<DisplayName>Rocket into Darkness</DisplayName>
+		<CustomArt>Gfx_Weapons.swf/DeathAngel</CustomArt>
+		<Body1_Define>0x00FFFF</Body1_Define>
+		<HandsLt_Define>0xBFFFFC</HandsLt_Define>
+		<HandsDk_Define>0x54ABEB</HandsDk_Define>
+		<WeaponVL_Define>0xBCD3E0</WeaponVL_Define>
+		<WeaponLt_Define>0xCFCFE7</WeaponLt_Define>
+		<Weapon_Define>0x6F7BB5</Weapon_Define>
+	</WeaponSkinType>
+	<WeaponSkinType WeaponSkinName="SpearAtomic">
+		<WeaponSkinID>40</WeaponSkinID>
+		<BaseWeapon>Spear</BaseWeapon>
+		<OwnerHero>Valkyrie</OwnerHero>
+		<DisplayName>Plutonium Pike</DisplayName>
+		<CustomArt>Gfx_Weapons.swf/Atomic</CustomArt>
+		<Body1Lt_Define>0xFFAB93</Body1Lt_Define>
+		<Body1_Define>0xF74940</Body1_Define>
+		<Body1Dk_Define>0xB90230</Body1Dk_Define>
+		<Body2_Define>0x5388B3</Body2_Define>
+		<Body2Dk_Define>0x4E6385</Body2Dk_Define>
+		<SpecialLt_Define>0x33FFFF</SpecialLt_Define>
+		<Special_Define>0x00FF00</Special_Define>
+		<HandsLt_Define>0xBFFFFC</HandsLt_Define>
+		<HandsDk_Define>0x54ABEB</HandsDk_Define>
+		<WeaponVL_Define>0xE0F0F1</WeaponVL_Define>
+		<WeaponLt_Define>0x95BACE</WeaponLt_Define>
+	</WeaponSkinType>
+	<WeaponSkinType WeaponSkinName="RocketLanceAtomic">
+		<WeaponSkinID>41</WeaponSkinID>
+		<BaseWeapon>RocketLance</BaseWeapon>
+		<OwnerHero>Valkyrie</OwnerHero>
+		<DisplayName>Atomic Rocket</DisplayName>
+		<CustomArt>Gfx_Weapons.swf/Atomic</CustomArt>
+		<Body1Lt_Define>0xFFAB93</Body1Lt_Define>
+		<Body1_Define>0xF74940</Body1_Define>
+		<Body1Dk_Define>0xB90230</Body1Dk_Define>
+		<Body2_Define>0x5388B3</Body2_Define>
+		<Body2Dk_Define>0x4E6385</Body2Dk_Define>
+		<SpecialLt_Define>0x33FFFF</SpecialLt_Define>
+		<Special_Define>0x00FF00</Special_Define>
+		<HandsLt_Define>0xBFFFFC</HandsLt_Define>
+		<HandsDk_Define>0x54ABEB</HandsDk_Define>
+		<WeaponVL_Define>0xE0F0F1</WeaponVL_Define>
+		<WeaponLt_Define>0x95BACE</WeaponLt_Define>
+	</WeaponSkinType>
+	<WeaponSkinType WeaponSkinName="PistolAlienViking">
+		<WeaponSkinID>42</WeaponSkinID>
+		<BaseWeapon>Pistol</BaseWeapon>
+		<OwnerHero>Alien</OwnerHero>
+		<DisplayName>Dark Elf Blasters</DisplayName>
+		<CustomArt>Gfx_Weapons.swf/AlienViking</CustomArt>
+		<Hair_Define>0x398277</Hair_Define>
+		<HairDk_Define>0x234F54</HairDk_Define>
+		<Body1_Define>0xBFFFFC</Body1_Define>
+		<Body1Dk_Define>0x54ABEB</Body1Dk_Define>
+		<Body2_Define>0xA6693C</Body2_Define>
+		<Body2Dk_Define>0x743C21</Body2Dk_Define>
+		<WeaponLt_Define>0xA4A08A</WeaponLt_Define>
+		<Weapon_Define>0x766B4B</Weapon_Define>
+	</WeaponSkinType>
+	<WeaponSkinType WeaponSkinName="RocketLanceAlienViking">
+		<WeaponSkinID>43</WeaponSkinID>
+		<BaseWeapon>RocketLance</BaseWeapon>
+		<OwnerHero>Alien</OwnerHero>
+		<DisplayName>Fire Giant Lance</DisplayName>
+		<CustomArt>Gfx_Weapons.swf/AlienViking</CustomArt>
+		<Hair_Define>0x398277</Hair_Define>
+		<HairDk_Define>0x234F54</HairDk_Define>
+		<Body1_Define>0xBFFFFC</Body1_Define>
+		<Body1Dk_Define>0x54ABEB</Body1Dk_Define>
+		<Body2_Define>0xA6693C</Body2_Define>
+		<Body2Dk_Define>0x743C21</Body2Dk_Define>
+		<WeaponLt_Define>0xA4A08A</WeaponLt_Define>
+		<Weapon_Define>0x766B4B</Weapon_Define>
+	</WeaponSkinType>
+	<WeaponSkinType WeaponSkinName="PistolEmperor">
+		<WeaponSkinID>44</WeaponSkinID>
+		<BaseWeapon>Pistol</BaseWeapon>
+		<OwnerHero>Alien</OwnerHero>
+		<DisplayName>Emperor's Own Blasters</DisplayName>
+		<CustomArt>Gfx_Weapons.swf/Emperor</CustomArt>
+		<Body1Lt_Define>0xCEB0F2</Body1Lt_Define>
+		<Body1_Define>0x8E4AE1</Body1_Define>
+		<Body1Dk_Define>0x5633BD</Body1Dk_Define>
+		<Body2_Define>0x425271</Body2_Define>
+		<Body2Dk_Define>0x273143</Body2Dk_Define>
+		<SpecialLt_Define>0xBFFFFC</SpecialLt_Define>
+		<Special_Define>0x54ABEB</Special_Define>
+	</WeaponSkinType>
+	<WeaponSkinType WeaponSkinName="RocketLanceEmperor">
+		<WeaponSkinID>45</WeaponSkinID>
+		<BaseWeapon>RocketLance</BaseWeapon>
+		<OwnerHero>Alien</OwnerHero>
+		<DisplayName>Imperial Star Lance</DisplayName>
+		<CustomArt>Gfx_Weapons.swf/Emperor</CustomArt>
+		<Body1Lt_Define>0xCEB0F2</Body1Lt_Define>
+		<Body1_Define>0x8E4AE1</Body1_Define>
+		<Body1Dk_Define>0x5633BD</Body1Dk_Define>
+		<Body2_Define>0x425271</Body2_Define>
+		<Body2Dk_Define>0x273143</Body2Dk_Define>
+		<SpecialLt_Define>0xBFFFFC</SpecialLt_Define>
+		<Special_Define>0x54ABEB</Special_Define>
+	</WeaponSkinType>
+	<WeaponSkinType WeaponSkinName="PistolRocker">
+		<WeaponSkinID>46</WeaponSkinID>
+		<BaseWeapon>Pistol</BaseWeapon>
+		<OwnerHero>Alien</OwnerHero>
+		<DisplayName>Bullet Hail of the King</DisplayName>
+		<CustomArt>Gfx_Weapons.swf/Rocker</CustomArt>
+		<Body1_Define>0xEC002F</Body1_Define>
+		<Body1Acc_Define>0xB00061</Body1Acc_Define>
+		<SpecialLt_Define>0xBFFFFC</SpecialLt_Define>
+		<Special_Define>0x54ABEB</Special_Define>
+	</WeaponSkinType>
+	<WeaponSkinType WeaponSkinName="RocketLanceRocker">
+		<WeaponSkinID>47</WeaponSkinID>
+		<BaseWeapon>RocketLance</BaseWeapon>
+		<OwnerHero>Alien</OwnerHero>
+		<DisplayName>Heartbreak Havoc</DisplayName>
+		<CustomArt>Gfx_Weapons.swf/Rocker</CustomArt>
+		<Body1_Define>0xEC002F</Body1_Define>
+		<Body1Acc_Define>0xB00061</Body1Acc_Define>
+		<SpecialLt_Define>0xBFFFFC</SpecialLt_Define>
+		<Special_Define>0x54ABEB</Special_Define>
+	</WeaponSkinType>
+	<WeaponSkinType WeaponSkinName="KatarCharmer">
+		<WeaponSkinID>48</WeaponSkinID>
+		<BaseWeapon>Katar</BaseWeapon>
+		<OwnerHero>Witch</OwnerHero>
+		<DisplayName>Beguiling Blades</DisplayName>
+		<CustomArt>Gfx_Weapons.swf/Charmer</CustomArt>
+		<HairLt_Define>0x0B7999</HairLt_Define>
+		<Hair_Define>0x063C5B</Hair_Define>
+		<HairDk_Define>0x0A1C2E</HairDk_Define>
+		<Body2Lt_Define>0x8056FA</Body2Lt_Define>
+		<Body2_Define>0x3D18CF</Body2_Define>
+		<Body2Dk_Define>0x1F0D73</Body2Dk_Define>
+		<SpecialVL_Define>0xF5F9CA</SpecialVL_Define>
+		<SpecialLt_Define>0xD8E785</SpecialLt_Define>
+		<Special_Define>0x97C86A</Special_Define>
+		<SpecialDk_Define>0x3D9653</SpecialDk_Define>
+	</WeaponSkinType>
+	<WeaponSkinType WeaponSkinName="SpearCharmer">
+		<WeaponSkinID>49</WeaponSkinID>
+		<BaseWeapon>Spear</BaseWeapon>
+		<OwnerHero>Witch</OwnerHero>
+		<DisplayName>Scintilating Spear</DisplayName>
+		<CustomArt>Gfx_Weapons.swf/Charmer</CustomArt>
+		<HairLt_Define>0x0B7999</HairLt_Define>
+		<Hair_Define>0x063C5B</Hair_Define>
+		<HairDk_Define>0x0A1C2E</HairDk_Define>
+		<Body2Lt_Define>0x8056FA</Body2Lt_Define>
+		<Body2_Define>0x3D18CF</Body2_Define>
+		<Body2Dk_Define>0x1F0D73</Body2Dk_Define>
+		<SpecialVL_Define>0xF5F9CA</SpecialVL_Define>
+		<SpecialLt_Define>0xD8E785</SpecialLt_Define>
+		<Special_Define>0x97C86A</Special_Define>
+		<SpecialDk_Define>0x3D9653</SpecialDk_Define>
+		<HandsSkinLt_Define>0xFFCC99</HandsSkinLt_Define>
+		<HandsSkinDk_Define>0xFF926C</HandsSkinDk_Define>
+	</WeaponSkinType>
+	<WeaponSkinType WeaponSkinName="KatarSnakeGod">
+		<WeaponSkinID>50</WeaponSkinID>
+		<BaseWeapon>Katar</BaseWeapon>
+		<OwnerHero>Witch</OwnerHero>
+		<DisplayName>Blades of Castigation</DisplayName>
+		<CustomArt>Gfx_Weapons.swf/SnakeGod</CustomArt>
+		<Body1VL_Define>0xFFFEE8</Body1VL_Define>
+		<Body1Lt_Define>0xFFDE6C</Body1Lt_Define>
+		<Body1Dk_Define>0xFF9D3E</Body1Dk_Define>
+		<Body1Acc_Define>0xFFC8B4</Body1Acc_Define>
+		<Body2VL_Define>0xFFFCEE</Body2VL_Define>
+		<Body2Lt_Define>0xFFE3A4</Body2Lt_Define>
+		<SpecialVL_Define>0xC4FFD9</SpecialVL_Define>
+		<Special_Define>0x00ECBD</Special_Define>
+		<SpecialDk_Define>0x00B08D</SpecialDk_Define>
+	</WeaponSkinType>
+	<WeaponSkinType WeaponSkinName="SpearSnakeGod">
+		<WeaponSkinID>51</WeaponSkinID>
+		<BaseWeapon>Spear</BaseWeapon>
+		<OwnerHero>Witch</OwnerHero>
+		<DisplayName>Spear of Retribution</DisplayName>
+		<CustomArt>Gfx_Weapons.swf/SnakeGod</CustomArt>
+		<Body1VL_Define>0xFFFEE8</Body1VL_Define>
+		<Body1Lt_Define>0xFFDE6C</Body1Lt_Define>
+		<Body1Dk_Define>0xFF9D3E</Body1Dk_Define>
+		<Body1Acc_Define>0xFFC8B4</Body1Acc_Define>
+		<Body2VL_Define>0xFFFCEE</Body2VL_Define>
+		<Body2Lt_Define>0xFFE3A4</Body2Lt_Define>
+		<SpecialVL_Define>0xC4FFD9</SpecialVL_Define>
+		<Special_Define>0x00ECBD</Special_Define>
+		<SpecialDk_Define>0x00B08D</SpecialDk_Define>
+		<HandsSkinLt_Define>0xFFCC99</HandsSkinLt_Define>
+		<HandsSkinDk_Define>0xFF926C</HandsSkinDk_Define>
+	</WeaponSkinType>
+	<WeaponSkinType WeaponSkinName="KatarExplorer">
+		<WeaponSkinID>52</WeaponSkinID>
+		<BaseWeapon>Katar</BaseWeapon>
+		<OwnerHero>Witch</OwnerHero>
+		<DisplayName>Bushwacker Blades</DisplayName>
+		<CustomArt>Gfx_Weapons.swf/Explorer</CustomArt>
+		<Body1_Define>0xC96971</Body1_Define>
+		<Body1Dk_Define>0x98325A</Body1Dk_Define>
+		<Body2Lt_Define>0xB8B135</Body2Lt_Define>
+		<Body2_Define>0x6D7400</Body2_Define>
+		<Special_Define>0x64D0A5</Special_Define>
+		<SpecialDk_Define>0x2C8D66</SpecialDk_Define>
+	</WeaponSkinType>
+	<WeaponSkinType WeaponSkinName="SpearExplorer">
+		<WeaponSkinID>53</WeaponSkinID>
+		<BaseWeapon>Spear</BaseWeapon>
+		<OwnerHero>Witch</OwnerHero>
+		<DisplayName>Museum-Quality Spear</DisplayName>
+		<CustomArt>Gfx_Weapons.swf/Explorer</CustomArt>
+		<Body1_Define>0xC96971</Body1_Define>
+		<Body1Dk_Define>0x98325A</Body1Dk_Define>
+		<Body2Lt_Define>0xB8B135</Body2Lt_Define>
+		<Body2_Define>0x6D7400</Body2_Define>
+		<Special_Define>0x64D0A5</Special_Define>
+		<SpecialDk_Define>0x2C8D66</SpecialDk_Define>
+	</WeaponSkinType>
+	<WeaponSkinType WeaponSkinName="HammerTriceratops">
+		<WeaponSkinID>54</WeaponSkinID>
+		<BaseWeapon>Hammer</BaseWeapon>
+		<OwnerHero>Caveman</OwnerHero>
+		<DisplayName>Horned Maul</DisplayName>
+		<CustomArt>Gfx_Weapons.swf/Triceratops</CustomArt>
+		<HairDk_Define>0x181E23</HairDk_Define>
+		<Body1_Define>0x6C361C</Body1_Define>
+		<Body1Dk_Define>0x3D160C</Body1Dk_Define>
+		<Body2VL_Define>0xF5F3D8</Body2VL_Define>
+		<Body2Lt_Define>0xE6DF93</Body2Lt_Define>
+		<Body2_Define>0x94A365</Body2_Define>
+		<Special_Define>0xFF0033</Special_Define>
+		<SpecialDk_Define>0x7A0537</SpecialDk_Define>
+		<HandsSkinLt_Define>0xFFCC99</HandsSkinLt_Define>
+		<HandsSkinDk_Define>0xFF926C</HandsSkinDk_Define>
+	</WeaponSkinType>
+	<WeaponSkinType WeaponSkinName="SpearTriceratops">
+		<WeaponSkinID>55</WeaponSkinID>
+		<BaseWeapon>Spear</BaseWeapon>
+		<OwnerHero>Caveman</OwnerHero>
+		<DisplayName>Bone Spear</DisplayName>
+		<CustomArt>Gfx_Weapons.swf/Triceratops</CustomArt>
+		<HairDk_Define>0x181E24</HairDk_Define>
+		<Body1_Define>0x6C361C</Body1_Define>
+		<Body1Dk_Define>0x3D160C</Body1Dk_Define>
+		<Body2VL_Define>0xF5F3D9</Body2VL_Define>
+		<Body2Lt_Define>0xE6DF94</Body2Lt_Define>
+		<Body2_Define>0x94A366</Body2_Define>
+		<Special_Define>0xFF0034</Special_Define>
+		<SpecialDk_Define>0x7A0538</SpecialDk_Define>
+		<HandsSkinLt_Define>0xFFCC100</HandsSkinLt_Define>
+		<HandsSkinDk_Define>0xFF926C</HandsSkinDk_Define>
+	</WeaponSkinType>
+	<WeaponSkinType WeaponSkinName="HammerMascot">
+		<WeaponSkinID>56</WeaponSkinID>
+		<BaseWeapon>Hammer</BaseWeapon>
+		<OwnerHero>Caveman</OwnerHero>
+		<DisplayName>Squish Hammer</DisplayName>
+		<CustomArt>Gfx_Weapons.swf/Mascot</CustomArt>
+		<HairDk_Define>0x940101</HairDk_Define>
+		<Body1Lt_Define>0xFFCC33</Body1Lt_Define>
+		<Body1_Define>0xFF952B</Body1_Define>
+		<Body2_Define>0xFA4F1D</Body2_Define>
+		<Body2Dk_Define>0xCC0202</Body2Dk_Define>
+		<SpecialVL_Define>0xF4FED8</SpecialVL_Define>
+		<SpecialLt_Define>0xBDE93C</SpecialLt_Define>
+		<HandsLt_Define>0xBFFFFC</HandsLt_Define>
+		<HandsDk_Define>0x54ABEB</HandsDk_Define>
+	</WeaponSkinType>
+	<WeaponSkinType WeaponSkinName="SpearMascot">
+		<WeaponSkinID>57</WeaponSkinID>
+		<BaseWeapon>Spear</BaseWeapon>
+		<OwnerHero>Caveman</OwnerHero>
+		<DisplayName>Number 1 Fan</DisplayName>
+		<CustomArt>Gfx_Weapons.swf/Mascot</CustomArt>
+		<HairDk_Define>0x940101</HairDk_Define>
+		<Body1Lt_Define>0xFFCC33</Body1Lt_Define>
+		<Body1_Define>0xFF952B</Body1_Define>
+		<Body2_Define>0xFA4F1D</Body2_Define>
+		<Body2Dk_Define>0xCC0202</Body2Dk_Define>
+		<SpecialVL_Define>0xF4FED8</SpecialVL_Define>
+		<SpecialLt_Define>0xBDE93C</SpecialLt_Define>
+		<HandsLt_Define>0xBFFFFC</HandsLt_Define>
+		<HandsDk_Define>0x54ABEB</HandsDk_Define>
+	</WeaponSkinType>
+	<WeaponSkinType WeaponSkinName="HammerSafari">
+		<WeaponSkinID>58</WeaponSkinID>
+		<BaseWeapon>Hammer</BaseWeapon>
+		<OwnerHero>Caveman</OwnerHero>
+		<DisplayName>That's A Hammer</DisplayName>
+		<CustomArt>Gfx_Weapons.swf/Safari</CustomArt>
+		<Hair_Define>0x314457</Hair_Define>
+		<HairDk_Define>0x181E23</HairDk_Define>
+		<Body1_Define>0x59771C</Body1_Define>
+		<Body1Dk_Define>0x3F470E</Body1Dk_Define>
+		<Body2Lt_Define>0xA28C35</Body2Lt_Define>
+		<Body2_Define>0x685B15</Body2_Define>
+		<Body2Dk_Define>0x473F0E</Body2Dk_Define>
+		<HandsSkinLt_Define>0xFFCC99</HandsSkinLt_Define>
+		<HandsSkinDk_Define>0xFF926C</HandsSkinDk_Define>
+		<WeaponLt_Define>0xDFD344</WeaponLt_Define>
+		<Weapon_Define>0x969B37</Weapon_Define>
+	</WeaponSkinType>
+	<WeaponSkinType WeaponSkinName="SpearSafari">
+		<WeaponSkinID>59</WeaponSkinID>
+		<BaseWeapon>Spear</BaseWeapon>
+		<OwnerHero>Caveman</OwnerHero>
+		<DisplayName>Pig Sticker</DisplayName>
+		<CustomArt>Gfx_Weapons.swf/Safari</CustomArt>
+		<Hair_Define>0x314457</Hair_Define>
+		<HairDk_Define>0x181E23</HairDk_Define>
+		<Body1_Define>0x59771C</Body1_Define>
+		<Body1Dk_Define>0x3F470E</Body1Dk_Define>
+		<Body2Lt_Define>0xA28C35</Body2Lt_Define>
+		<Body2_Define>0x685B15</Body2_Define>
+		<Body2Dk_Define>0x473F0E</Body2Dk_Define>
+		<HandsSkinLt_Define>0xFFCC99</HandsSkinLt_Define>
+		<HandsSkinDk_Define>0xFF926C</HandsSkinDk_Define>
+		<WeaponLt_Define>0xDFD344</WeaponLt_Define>
+		<Weapon_Define>0x969B37</Weapon_Define>
+	</WeaponSkinType>
+	<WeaponSkinType WeaponSkinName="KatarSpecOps">
+		<WeaponSkinID>60</WeaponSkinID>
+		<BaseWeapon>Katar</BaseWeapon>
+		<OwnerHero>Highwayman</OwnerHero>
+		<DisplayName>Carbon-Steel Knives</DisplayName>
+		<CustomArt>Gfx_Weapons.swf/SpecOps</CustomArt>
+		<Body1Lt_Define>0xA5C4C7</Body1Lt_Define>
+		<Body1_Define>0x71939D</Body1_Define>
+		<Body1Dk_Define>0x486173</Body1Dk_Define>
+		<Body2Lt_Define>0x68848C</Body2Lt_Define>
+		<Body2_Define>0x455052</Body2_Define>
+		<Body2Dk_Define>0x232D30</Body2Dk_Define>
+		<Body2Acc_Define>0x35545E</Body2Acc_Define>
+		<SpecialLt_Define>0xCAFFCA</SpecialLt_Define>
+		<Special_Define>0x66FF66</Special_Define>
+		<SpecialDk_Define>0x00C668</SpecialDk_Define>
+	</WeaponSkinType>
+	<WeaponSkinType WeaponSkinName="PistolSpecOps">
+		<WeaponSkinID>61</WeaponSkinID>
+		<BaseWeapon>Pistol</BaseWeapon>
+		<OwnerHero>Highwayman</OwnerHero>
+		<DisplayName>Tactical Sidearms</DisplayName>
+		<CustomArt>Gfx_Weapons.swf/SpecOps</CustomArt>
+		<Body1Lt_Define>0xA5C4C7</Body1Lt_Define>
+		<Body1_Define>0x71939D</Body1_Define>
+		<Body1Dk_Define>0x486173</Body1Dk_Define>
+		<Body2Lt_Define>0x68848C</Body2Lt_Define>
+		<Body2_Define>0x455052</Body2_Define>
+		<Body2Dk_Define>0x232D30</Body2Dk_Define>
+		<Body2Acc_Define>0x35545E</Body2Acc_Define>
+		<SpecialLt_Define>0xCAFFCA</SpecialLt_Define>
+		<Special_Define>0x66FF66</Special_Define>
+		<SpecialDk_Define>0x00C668</SpecialDk_Define>
+		<HandsLt_Define>0xBFFFFC</HandsLt_Define>
+		<HandsDk_Define>0x54ABEB</HandsDk_Define>
+	</WeaponSkinType>
+	<WeaponSkinType WeaponSkinName="KatarStealth">
+		<WeaponSkinID>62</WeaponSkinID>
+		<BaseWeapon>Katar</BaseWeapon>
+		<OwnerHero>Highwayman</OwnerHero>
+		<DisplayName>Executioner's Razors</DisplayName>
+		<CustomArt>Gfx_Weapons.swf/Stealth</CustomArt>
+		<HairLt_Define>0xDFE258</HairLt_Define>
+		<Hair_Define>0x91BD35</Hair_Define>
+		<HairDk_Define>0x6B791A</HairDk_Define>
+		<Body1Lt_Define>0x8C0000</Body1Lt_Define>
+		<Body1_Define>0x660000</Body1_Define>
+		<Body1Dk_Define>0x360114</Body1Dk_Define>
+		<Body1Acc_Define>0x6C0227</Body1Acc_Define>
+		<Body2Dk_Define>0x502746</Body2Dk_Define>
+	</WeaponSkinType>
+	<WeaponSkinType WeaponSkinName="PistolStealth">
+		<WeaponSkinID>63</WeaponSkinID>
+		<BaseWeapon>Pistol</BaseWeapon>
+		<OwnerHero>Highwayman</OwnerHero>
+		<DisplayName>Dueling Pistols</DisplayName>
+		<CustomArt>Gfx_Weapons.swf/Stealth</CustomArt>
+		<HairLt_Define>0xDFE258</HairLt_Define>
+		<Hair_Define>0x91BD35</Hair_Define>
+		<HairDk_Define>0x6B791A</HairDk_Define>
+		<Body1Lt_Define>0x8C0000</Body1Lt_Define>
+		<Body1_Define>0x660000</Body1_Define>
+		<Body1Dk_Define>0x360114</Body1Dk_Define>
+		<Body1Acc_Define>0x6C0227</Body1Acc_Define>
+		<Body2Dk_Define>0x502746</Body2Dk_Define>
+		<HandsLt_Define>0xBFFFFC</HandsLt_Define>
+		<HandsDk_Define>0x54ABEB</HandsDk_Define>
+	</WeaponSkinType>
+	<WeaponSkinType WeaponSkinName="KatarNapoleon">
+		<WeaponSkinID>64</WeaponSkinID>
+		<BaseWeapon>Katar</BaseWeapon>
+		<OwnerHero>Highwayman</OwnerHero>
+		<DisplayName>Blades of Austerlitz</DisplayName>
+		<CustomArt>Gfx_Weapons.swf/Napoleon</CustomArt>
+		<HairLt_Define>0xDFE258</HairLt_Define>
+		<Hair_Define>0x91BD35</Hair_Define>
+		<HairDk_Define>0x6B791A</HairDk_Define>
+		<Body1_Define>0x28569B</Body1_Define>
+		<Body1Dk_Define>0x1A285B</Body1Dk_Define>
+		<Body2Lt_Define>0x5C6483</Body2Lt_Define>
+		<Body2_Define>0x39415E</Body2_Define>
+		<Body2Dk_Define>0x1C2035</Body2Dk_Define>
+		<SpecialLt_Define>0xF08B80</SpecialLt_Define>
+		<Special_Define>0xE21D31</Special_Define>
+		<SpecialDk_Define>0x921242</SpecialDk_Define>
+	</WeaponSkinType>
+	<WeaponSkinType WeaponSkinName="PistolNapoleon">
+		<WeaponSkinID>65</WeaponSkinID>
+		<BaseWeapon>Pistol</BaseWeapon>
+		<OwnerHero>Highwayman</OwnerHero>
+		<DisplayName>Dragoon Flintlocks</DisplayName>
+		<CustomArt>Gfx_Weapons.swf/Napoleon</CustomArt>
+		<HairLt_Define>0xDFE258</HairLt_Define>
+		<Hair_Define>0x91BD35</Hair_Define>
+		<HairDk_Define>0x6B791A</HairDk_Define>
+		<Body1_Define>0x28569B</Body1_Define>
+		<Body1Dk_Define>0x1A285B</Body1Dk_Define>
+		<Body2Lt_Define>0x5C6483</Body2Lt_Define>
+		<Body2_Define>0x39415E</Body2_Define>
+		<Body2Dk_Define>0x1C2035</Body2Dk_Define>
+		<SpecialLt_Define>0xF08B80</SpecialLt_Define>
+		<Special_Define>0xE21D31</Special_Define>
+		<SpecialDk_Define>0x921242</SpecialDk_Define>
+		<HandsLt_Define>0xBFFFFC</HandsLt_Define>
+		<HandsDk_Define>0x54ABEB</HandsDk_Define>
+	</WeaponSkinType>
+	<WeaponSkinType WeaponSkinName="SwordTrackJacket">
+		<WeaponSkinID>66</WeaponSkinID>
+		<BaseWeapon>Sword</BaseWeapon>
+		<OwnerHero>Ninja</OwnerHero>
+		<DisplayName>Hattori Hanzo Sword</DisplayName>
+		<CustomArt>Gfx_Weapons.swf/TrackJacket</CustomArt>
+		<HairLt_Define>0x584F4A</HairLt_Define>
+		<Hair_Define>0x332E2B</Hair_Define>
+		<HairDk_Define>0x1C1817</HairDk_Define>
+		<Body1Lt_Define>0xFFEB59</Body1Lt_Define>
+		<Body1_Define>0xF0A70F</Body1_Define>
+		<Special_Define>0x656A40</Special_Define>
+		<SpecialDk_Define>0x3F4228</SpecialDk_Define>
+		<HandsSkinLt_Define>0xFFCC99</HandsSkinLt_Define>
+		<HandsSkinDk_Define>0xFF926C</HandsSkinDk_Define>
+	</WeaponSkinType>
+	<WeaponSkinType WeaponSkinName="SpearTrackJacket">
+		<WeaponSkinID>67</WeaponSkinID>
+		<BaseWeapon>Spear</BaseWeapon>
+		<OwnerHero>Ninja</OwnerHero>
+		<DisplayName>Seven Secrets Spear</DisplayName>
+		<CustomArt>Gfx_Weapons.swf/TrackJacket</CustomArt>
+		<HairLt_Define>0x584F4A</HairLt_Define>
+		<Hair_Define>0x332E2B</Hair_Define>
+		<HairDk_Define>0x1C1817</HairDk_Define>
+		<Body1Lt_Define>0xFFEB59</Body1Lt_Define>
+		<Body1_Define>0xF0A70F</Body1_Define>
+		<Special_Define>0x656A40</Special_Define>
+		<SpecialDk_Define>0x3F4228</SpecialDk_Define>
+		<HandsSkinLt_Define>0xFFCC99</HandsSkinLt_Define>
+		<HandsSkinDk_Define>0xFF926C</HandsSkinDk_Define>
+	</WeaponSkinType>
+	<WeaponSkinType WeaponSkinName="SwordOni">
+		<WeaponSkinID>68</WeaponSkinID>
+		<BaseWeapon>Sword</BaseWeapon>
+		<OwnerHero>Ninja</OwnerHero>
+		<DisplayName>Sword of the Demon</DisplayName>
+		<CustomArt>Gfx_Weapons.swf/Oni</CustomArt>
+		<Body1Lt_Define>0xAAE8E8</Body1Lt_Define>
+		<Body1_Define>0x64C8C8</Body1_Define>
+		<Body1Dk_Define>0x268899</Body1Dk_Define>
+		<Body2VL_Define>0xE0F3F5</Body2VL_Define>
+		<Body2Lt_Define>0xA5CCCF</Body2Lt_Define>
+		<Body2_Define>0x82AA97</Body2_Define>
+		<Body2Dk_Define>0x48777B</Body2Dk_Define>
+		<SpecialLt_Define>0xFF3C41</SpecialLt_Define>
+		<Special_Define>0xCC0033</Special_Define>
+		<SpecialDk_Define>0x78053C</SpecialDk_Define>
+		<HandsLt_Define>0xBFFFFC</HandsLt_Define>
+		<HandsDk_Define>0x54ABEB</HandsDk_Define>
+	</WeaponSkinType>
+	<WeaponSkinType WeaponSkinName="SpearOni">
+		<WeaponSkinID>69</WeaponSkinID>
+		<BaseWeapon>Spear</BaseWeapon>
+		<OwnerHero>Ninja</OwnerHero>
+		<DisplayName>Oni Spear</DisplayName>
+		<CustomArt>Gfx_Weapons.swf/Oni</CustomArt>
+		<Body1Lt_Define>0xAAE8E8</Body1Lt_Define>
+		<Body1_Define>0x64C8C8</Body1_Define>
+		<Body1Dk_Define>0x268899</Body1Dk_Define>
+		<Body2VL_Define>0xE0F3F5</Body2VL_Define>
+		<Body2Lt_Define>0xA5CCCF</Body2Lt_Define>
+		<Body2_Define>0x82AA97</Body2_Define>
+		<Body2Dk_Define>0x48777B</Body2Dk_Define>
+		<SpecialLt_Define>0xFF3C41</SpecialLt_Define>
+		<Special_Define>0xCC0033</Special_Define>
+		<SpecialDk_Define>0x78053C</SpecialDk_Define>
+		<HandsLt_Define>0xBFFFFC</HandsLt_Define>
+		<HandsDk_Define>0x54ABEB</HandsDk_Define>
+	</WeaponSkinType>
+	<WeaponSkinType WeaponSkinName="SwordShadow">
+		<WeaponSkinID>70</WeaponSkinID>
+		<BaseWeapon>Sword</BaseWeapon>
+		<OwnerHero>Ninja</OwnerHero>
+		<DisplayName>Shinobi Sword</DisplayName>
+		<CustomArt>Gfx_Weapons.swf/Shadow</CustomArt>
+		<Body1_Define>0x5A65E2</Body1_Define>
+		<Body1Dk_Define>0x2D3495</Body1Dk_Define>
+		<Body2Lt_Define>0x65699A</Body2Lt_Define>
+		<Body2_Define>0x393F6A</Body2_Define>
+		<Body2Dk_Define>0x171B3C</Body2Dk_Define>
+		<Special_Define>0xCC0000</Special_Define>
+		<SpecialDk_Define>0x87053D</SpecialDk_Define>
+		<HandsLt_Define>0xBFFFFC</HandsLt_Define>
+		<HandsDk_Define>0x54ABEB</HandsDk_Define>
+		<WeaponVL_Define>0xCDD3DA</WeaponVL_Define>
+		<WeaponLt_Define>0x879BAF</WeaponLt_Define>
+		<Weapon_Define>0x5A7187</Weapon_Define>
+	</WeaponSkinType>
+	<WeaponSkinType WeaponSkinName="SpearShadow">
+		<WeaponSkinID>71</WeaponSkinID>
+		<BaseWeapon>Spear</BaseWeapon>
+		<OwnerHero>Ninja</OwnerHero>
+		<DisplayName>Shadow Spear</DisplayName>
+		<CustomArt>Gfx_Weapons.swf/Shadow</CustomArt>
+		<Body1_Define>0x5A65E2</Body1_Define>
+		<Body1Dk_Define>0x2D3495</Body1Dk_Define>
+		<Body2Lt_Define>0x65699A</Body2Lt_Define>
+		<Body2_Define>0x393F6A</Body2_Define>
+		<Body2Dk_Define>0x171B3C</Body2Dk_Define>
+		<Special_Define>0xCC0000</Special_Define>
+		<SpecialDk_Define>0x87053D</SpecialDk_Define>
+		<HandsLt_Define>0xBFFFFC</HandsLt_Define>
+		<HandsDk_Define>0x54ABEB</HandsDk_Define>
+		<WeaponVL_Define>0xCDD3DA</WeaponVL_Define>
+		<WeaponLt_Define>0x879BAF</WeaponLt_Define>
+		<Weapon_Define>0x5A7187</Weapon_Define>
+	</WeaponSkinType>
+	<WeaponSkinType WeaponSkinName="SwordRanger">
+		<WeaponSkinID>72</WeaponSkinID>
+		<BaseWeapon>Sword</BaseWeapon>
+		<OwnerHero>Knight</OwnerHero>
+		<DisplayName>Sword of Justice</DisplayName>
+		<CustomArt>Gfx_Weapons.swf/Ranger</CustomArt>
+		<HairLt_Define>0xFAD76B</HairLt_Define>
+		<Hair_Define>0xF5B120</Hair_Define>
+		<HairDk_Define>0xF2790B</HairDk_Define>
+		<Body1Lt_Define>0x7E9D13</Body1Lt_Define>
+		<Body1_Define>0x508415</Body1_Define>
+		<Body1Dk_Define>0x204D11</Body1Dk_Define>
+		<Body2Lt_Define>0xC47C3C</Body2Lt_Define>
+		<Body2_Define>0x9C633D</Body2_Define>
+		<Body2Dk_Define>0x663333</Body2Dk_Define>
+		<HandsLt_Define>0xBFFFFC</HandsLt_Define>
+		<HandsDk_Define>0x54ABEB</HandsDk_Define>
+		<HandsSkinLt_Define>0xFFCC99</HandsSkinLt_Define>
+		<HandsSkinDk_Define>0xFF926C</HandsSkinDk_Define>
+		<WeaponVL_Define>0xB4BB9D</WeaponVL_Define>
+		<WeaponLt_Define>0x78826A</WeaponLt_Define>
+		<Weapon_Define>0x515847</Weapon_Define>
+		<WeaponDk_Define>0x262C23</WeaponDk_Define>
+	</WeaponSkinType>
+	<WeaponSkinType WeaponSkinName="RocketLanceRanger">
+		<WeaponSkinID>73</WeaponSkinID>
+		<BaseWeapon>RocketLance</BaseWeapon>
+		<OwnerHero>Knight</OwnerHero>
+		<DisplayName>Righter of Wrongs</DisplayName>
+		<CustomArt>Gfx_Weapons.swf/Ranger</CustomArt>
+		<HairLt_Define>0xFAD76B</HairLt_Define>
+		<Hair_Define>0xF5B120</Hair_Define>
+		<HairDk_Define>0xF2790B</HairDk_Define>
+		<Body1Lt_Define>0x7E9D13</Body1Lt_Define>
+		<Body1_Define>0x508415</Body1_Define>
+		<Body1Dk_Define>0x204D11</Body1Dk_Define>
+		<Body2Lt_Define>0xC47C3C</Body2Lt_Define>
+		<Body2_Define>0x9C633D</Body2_Define>
+		<Body2Dk_Define>0x663333</Body2Dk_Define>
+		<HandsLt_Define>0xBFFFFC</HandsLt_Define>
+		<HandsDk_Define>0x54ABEB</HandsDk_Define>
+		<HandsSkinLt_Define>0xFFCC99</HandsSkinLt_Define>
+		<HandsSkinDk_Define>0xFF926C</HandsSkinDk_Define>
+		<WeaponVL_Define>0xB4BB9D</WeaponVL_Define>
+		<WeaponLt_Define>0x78826A</WeaponLt_Define>
+		<Weapon_Define>0x515847</Weapon_Define>
+		<WeaponDk_Define>0x262C23</WeaponDk_Define>
+	</WeaponSkinType>
+	<WeaponSkinType WeaponSkinName="SwordKing">
+		<WeaponSkinID>74</WeaponSkinID>
+		<BaseWeapon>Sword</BaseWeapon>
+		<OwnerHero>Knight</OwnerHero>
+		<DisplayName>Royal Sword</DisplayName>
+		<CustomArt>Gfx_Weapons.swf/King</CustomArt>
+		<Body1Lt_Define>0xFBF2BF</Body1Lt_Define>
+		<Body1_Define>0xEAC75B</Body1_Define>
+		<Body1Dk_Define>0x989E4E</Body1Dk_Define>
+		<Body2VL_Define>0xBACACD</Body2VL_Define>
+		<Body2Lt_Define>0x809499</Body2Lt_Define>
+		<Body2_Define>0x445C6A</Body2_Define>
+		<Body2Dk_Define>0x253949</Body2Dk_Define>
+		<HandsLt_Define>0xBFFFFC</HandsLt_Define>
+		<HandsDk_Define>0x54ABEB</HandsDk_Define>
+	</WeaponSkinType>
+	<WeaponSkinType WeaponSkinName="RocketLanceKing">
+		<WeaponSkinID>75</WeaponSkinID>
+		<BaseWeapon>RocketLance</BaseWeapon>
+		<OwnerHero>Knight</OwnerHero>
+		<DisplayName>Kingly Lance</DisplayName>
+		<CustomArt>Gfx_Weapons.swf/King</CustomArt>
+		<Body1Lt_Define>0xFBF2BF</Body1Lt_Define>
+		<Body1_Define>0xEAC75B</Body1_Define>
+		<Body1Dk_Define>0x989E4E</Body1Dk_Define>
+		<Body2VL_Define>0xBACACD</Body2VL_Define>
+		<Body2Lt_Define>0x809499</Body2Lt_Define>
+		<Body2_Define>0x445C6A</Body2_Define>
+		<Body2Dk_Define>0x253949</Body2Dk_Define>
+		<HandsLt_Define>0xBFFFFC</HandsLt_Define>
+		<HandsDk_Define>0x54ABEB</HandsDk_Define>
+	</WeaponSkinType>
+	<WeaponSkinType WeaponSkinName="SwordClub">
+		<WeaponSkinID>76</WeaponSkinID>
+		<BaseWeapon>Sword</BaseWeapon>
+		<OwnerHero>Knight</OwnerHero>
+		<DisplayName>Pro-Tour Racket</DisplayName>
+		<CustomArt>Gfx_Weapons.swf/Club</CustomArt>
+		<HairLt_Define>0xFAD76B</HairLt_Define>
+		<Hair_Define>0xF5B120</Hair_Define>
+		<HairDk_Define>0xF2790B</HairDk_Define>
+		<Body1Lt_Define>0xF4AEBB</Body1Lt_Define>
+		<Body1_Define>0xE34F83</Body1_Define>
+		<Body2VL_Define>0xE0DFA9</Body2VL_Define>
+		<Body2Lt_Define>0xA5AE60</Body2Lt_Define>
+		<SpecialLt_Define>0x99FFFF</SpecialLt_Define>
+		<Special_Define>0x5FBCEF</Special_Define>
+		<HandsSkinLt_Define>0xFFCC99</HandsSkinLt_Define>
+		<HandsSkinDk_Define>0xFF926C</HandsSkinDk_Define>
+	</WeaponSkinType>
+	<WeaponSkinType WeaponSkinName="RocketLanceClub">
+		<WeaponSkinID>77</WeaponSkinID>
+		<BaseWeapon>RocketLance</BaseWeapon>
+		<OwnerHero>Knight</OwnerHero>
+		<DisplayName>World Champion Lance</DisplayName>
+		<CustomArt>Gfx_Weapons.swf/Club</CustomArt>
+		<HairLt_Define>0xFAD76B</HairLt_Define>
+		<Hair_Define>0xF5B120</Hair_Define>
+		<HairDk_Define>0xF2790B</HairDk_Define>
+		<Body1Lt_Define>0xF4AEBB</Body1Lt_Define>
+		<Body1_Define>0xE34F83</Body1_Define>
+		<Body2VL_Define>0xE0DFA9</Body2VL_Define>
+		<Body2Lt_Define>0xA5AE60</Body2Lt_Define>
+		<SpecialLt_Define>0x99FFFF</SpecialLt_Define>
+		<Special_Define>0x5FBCEF</Special_Define>
+		<HandsSkinLt_Define>0xFFCC99</HandsSkinLt_Define>
+		<HandsSkinDk_Define>0xFF926C</HandsSkinDk_Define>
+	</WeaponSkinType>
+	<WeaponSkinType WeaponSkinName="SwordZombie">
+		<WeaponSkinID>78</WeaponSkinID>
+		<BaseWeapon>Sword</BaseWeapon>
+		<OwnerHero>Thatch</OwnerHero>
+		<DisplayName>Sword of Davey Jones</DisplayName>
+		<CustomArt>Gfx_Weapons.swf/Zombie</CustomArt>
+		<Hair_Define>0x225348</Hair_Define>
+		<HairDk_Define>0x10262C</HairDk_Define>
+		<Body1Lt_Define>0x75B6C1</Body1Lt_Define>
+		<Body1_Define>0x468E9B</Body1_Define>
+		<Body1Dk_Define>0x2B697D</Body1Dk_Define>
+		<Body1Acc_Define>0x35959F</Body1Acc_Define>
+		<Body2Lt_Define>0x786732</Body2Lt_Define>
+		<Body2_Define>0x4B4925</Body2_Define>
+		<Body2Dk_Define>0x292D13</Body2Dk_Define>
+		<SpecialLt_Define>0xFAD8A9</SpecialLt_Define>
+		<Special_Define>0xEF965A</Special_Define>
+		<SpecialDk_Define>0xDD594A</SpecialDk_Define>
+		<HandsSkinLt_Define>0xFFCC99</HandsSkinLt_Define>
+		<HandsSkinDk_Define>0xFF926C</HandsSkinDk_Define>
+	</WeaponSkinType>
+	<WeaponSkinType WeaponSkinName="PistolZombie">
+		<WeaponSkinID>79</WeaponSkinID>
+		<BaseWeapon>Pistol</BaseWeapon>
+		<OwnerHero>Thatch</OwnerHero>
+		<DisplayName>Barnacle Blasters</DisplayName>
+		<CustomArt>Gfx_Weapons.swf/Zombie</CustomArt>
+		<Hair_Define>0x225348</Hair_Define>
+		<HairDk_Define>0x10262C</HairDk_Define>
+		<Body1Lt_Define>0x75B6C1</Body1Lt_Define>
+		<Body1_Define>0x468E9B</Body1_Define>
+		<Body1Dk_Define>0x2B697D</Body1Dk_Define>
+		<Body1Acc_Define>0x35959F</Body1Acc_Define>
+		<Body2Lt_Define>0x786732</Body2Lt_Define>
+		<Body2_Define>0x4B4925</Body2_Define>
+		<Body2Dk_Define>0x292D13</Body2Dk_Define>
+		<SpecialLt_Define>0xFAD8A9</SpecialLt_Define>
+		<Special_Define>0xEF965A</Special_Define>
+		<SpecialDk_Define>0xDD594A</SpecialDk_Define>
+		<HandsSkinLt_Define>0xFFCC99</HandsSkinLt_Define>
+		<HandsSkinDk_Define>0xFF926C</HandsSkinDk_Define>
+	</WeaponSkinType>
+	<WeaponSkinType WeaponSkinName="SwordCastaway">
+		<WeaponSkinID>80</WeaponSkinID>
+		<BaseWeapon>Sword</BaseWeapon>
+		<OwnerHero>Thatch</OwnerHero>
+		<DisplayName>Driftwood Chopper</DisplayName>
+		<CustomArt>Gfx_Weapons.swf/Castaway</CustomArt>
+		<Body1_Define>0x5C8AE0</Body1_Define>
+		<Body1Dk_Define>0x2152AD</Body1Dk_Define>
+		<Body2VL_Define>0xCA9951</Body2VL_Define>
+		<Body2Lt_Define>0x9E7230</Body2Lt_Define>
+		<Body2_Define>0x7D4813</Body2_Define>
+		<Body2Dk_Define>0x451C0E</Body2Dk_Define>
+	</WeaponSkinType>
+	<WeaponSkinType WeaponSkinName="PistolCastaway">
+		<WeaponSkinID>81</WeaponSkinID>
+		<BaseWeapon>Pistol</BaseWeapon>
+		<OwnerHero>Thatch</OwnerHero>
+		<DisplayName>Desert Island Blasters</DisplayName>
+		<CustomArt>Gfx_Weapons.swf/Castaway</CustomArt>
+		<Body1_Define>0x5C8AE0</Body1_Define>
+		<Body1Dk_Define>0x2152AD</Body1Dk_Define>
+		<Body2VL_Define>0xCA9951</Body2VL_Define>
+		<Body2Lt_Define>0x9E7230</Body2Lt_Define>
+		<Body2_Define>0x7D4813</Body2_Define>
+		<Body2Dk_Define>0x451C0E</Body2Dk_Define>
+	</WeaponSkinType>
+	<WeaponSkinType WeaponSkinName="SwordBiker">
+		<WeaponSkinID>82</WeaponSkinID>
+		<BaseWeapon>Sword</BaseWeapon>
+		<OwnerHero>Thatch</OwnerHero>
+		<DisplayName>Switchblade</DisplayName>
+		<CustomArt>Gfx_Weapons.swf/Biker</CustomArt>
+		<Body1_Define>0xDF0000</Body1_Define>
+		<Body1Dk_Define>0x8C0426</Body1Dk_Define>
+		<Body2Lt_Define>0x6F82A2</Body2Lt_Define>
+		<Body2_Define>0x50617C</Body2_Define>
+		<Body2Dk_Define>0x2D3A5B</Body2Dk_Define>
+		<Special_Define>0x004FC4</Special_Define>
+		<HandsLt_Define>0xBFFFFC</HandsLt_Define>
+		<HandsDk_Define>0x54ABEB</HandsDk_Define>
+	</WeaponSkinType>
+	<WeaponSkinType WeaponSkinName="PistolBiker">
+		<WeaponSkinID>83</WeaponSkinID>
+		<BaseWeapon>Pistol</BaseWeapon>
+		<OwnerHero>Thatch</OwnerHero>
+		<DisplayName>Big Dog Blasters</DisplayName>
+		<CustomArt>Gfx_Weapons.swf/Biker</CustomArt>
+		<Body1_Define>0xDF0000</Body1_Define>
+		<Body1Dk_Define>0x8C0426</Body1Dk_Define>
+		<Body2Lt_Define>0x6F82A2</Body2Lt_Define>
+		<Body2_Define>0x50617C</Body2_Define>
+		<Body2Dk_Define>0x2D3A5B</Body2Dk_Define>
+		<Special_Define>0x004FC4</Special_Define>
+		<HandsLt_Define>0xBFFFFC</HandsLt_Define>
+		<HandsDk_Define>0x54ABEB</HandsDk_Define>
+	</WeaponSkinType>
+	<WeaponSkinType WeaponSkinName="PistolSpace">
+		<WeaponSkinID>84</WeaponSkinID>
+		<BaseWeapon>Pistol</BaseWeapon>
+		<OwnerHero>Cowgirl</OwnerHero>
+		<DisplayName>Space Shooters</DisplayName>
+		<CustomArt>Gfx_Weapons.swf/Space</CustomArt>
+		<Body1Lt_Define>0xB0EAFF</Body1Lt_Define>
+		<Body1_Define>0x66CCFF</Body1_Define>
+		<Body1Dk_Define>0x1479E9</Body1Dk_Define>
+		<HandsLt_Define>0xBFFFFC</HandsLt_Define>
+		<HandsDk_Define>0x54ABEB</HandsDk_Define>
+	</WeaponSkinType>
+	<WeaponSkinType WeaponSkinName="HammerSpace">
+		<WeaponSkinID>85</WeaponSkinID>
+		<BaseWeapon>Hammer</BaseWeapon>
+		<OwnerHero>Cowgirl</OwnerHero>
+		<DisplayName>Sattelite Smash</DisplayName>
+		<CustomArt>Gfx_Weapons.swf/Space</CustomArt>
+		<Body1Lt_Define>0xB0EAFF</Body1Lt_Define>
+		<Body1_Define>0x66CCFF</Body1_Define>
+		<Body1Dk_Define>0x1479E9</Body1Dk_Define>
+		<HandsLt_Define>0xBFFFFC</HandsLt_Define>
+		<HandsDk_Define>0x54ABEB</HandsDk_Define>
+	</WeaponSkinType>
+	<WeaponSkinType WeaponSkinName="SpearValkyrie">
+		<WeaponSkinID>86</WeaponSkinID>
+		<BaseWeapon>Spear</BaseWeapon>
+		<OwnerHero>Valkyrie</OwnerHero>
+		<DisplayName>Sunforged Spear</DisplayName>
+		<CustomArt>Gfx_Weapons.swf/GoldKnight01</CustomArt>
+		<Body1VL_Define>0xFFF9AA</Body1VL_Define>
+		<Body1Lt_Define>0xFFE387</Body1Lt_Define>
+		<Body1_Define>0xFFC300</Body1_Define>
+		<Body1Dk_Define>0xFF801E</Body1Dk_Define>
+		<Body2Lt_Define>0xABE4F1</Body2Lt_Define>
+		<SpecialLt_Define>0x00FFFF</SpecialLt_Define>
+		<Special_Define>0x29FFFF</Special_Define>
+		<HandsLt_Define>0xBFFFFC</HandsLt_Define>
+		<HandsDk_Define>0x54ABEB</HandsDk_Define>
+	</WeaponSkinType>
+	<WeaponSkinType WeaponSkinName="RocketLanceValkyrie">
+		<WeaponSkinID>87</WeaponSkinID>
+		<BaseWeapon>RocketLance</BaseWeapon>
+		<OwnerHero>Valkyrie</OwnerHero>
+		<DisplayName>Armored Attack Rocket</DisplayName>
+		<CustomArt>Gfx_Weapons.swf/GoldKnight01</CustomArt>
+		<Body1VL_Define>0xFFF9AA</Body1VL_Define>
+		<Body1Lt_Define>0xFFE387</Body1Lt_Define>
+		<Body1_Define>0xFFC300</Body1_Define>
+		<Body1Dk_Define>0xFF801E</Body1Dk_Define>
+		<Body2Lt_Define>0xABE4F1</Body2Lt_Define>
+		<SpecialLt_Define>0x00FFFF</SpecialLt_Define>
+		<Special_Define>0x29FFFF</Special_Define>
+		<HandsLt_Define>0xBFFFFC</HandsLt_Define>
+		<HandsDk_Define>0x54ABEB</HandsDk_Define>
+	</WeaponSkinType>
+	<WeaponSkinType WeaponSkinName="PistolPirate">
+		<WeaponSkinID>88</WeaponSkinID>
+		<BaseWeapon>Pistol</BaseWeapon>
+		<OwnerHero>Thatch</OwnerHero>
+		<DisplayName>Hand Cannons</DisplayName>
+		<CustomArt>Gfx_Weapons.swf/Pirate</CustomArt>
+		<Body1_Define>0xC9211D</Body1_Define>
+		<Body1Dk_Define>0x7E1225</Body1Dk_Define>
+		<Body1Acc_Define>0xAF342E</Body1Acc_Define>
+		<Body2VL_Define>0x44BBB8</Body2VL_Define>
+		<Body2Lt_Define>0x177B84</Body2Lt_Define>
+		<Body2_Define>0x7CDCB8</Body2_Define>
+		<Body2Dk_Define>0x2EA97B</Body2Dk_Define>
+		<HandsSkinLt_Define>0xFFCC99</HandsSkinLt_Define>
+		<HandsSkinDk_Define>0xFF926C</HandsSkinDk_Define>
+		<WeaponVL_Define>0xF7F4C8</WeaponVL_Define>
+		<WeaponLt_Define>0xB7BE7E</WeaponLt_Define>
+	</WeaponSkinType>
+	<WeaponSkinType WeaponSkinName="PistolMecha">
+		<WeaponSkinID>89</WeaponSkinID>
+		<BaseWeapon>Pistol</BaseWeapon>
+		<DisplayName>Ebon Blasters</DisplayName>
+		<CustomArt>Gfx_Weapons.swf/Mech3</CustomArt>
+		<Body1Lt_Define>0xFEFDDE</Body1Lt_Define>
+		<Body1_Define>0xF8F06B</Body1_Define>
+		<Body1Dk_Define>0x94B34D</Body1Dk_Define>
+	</WeaponSkinType>
+	<WeaponSkinType WeaponSkinName="PistolPearlDerringer">
+		<WeaponSkinID>90</WeaponSkinID>
+		<BaseWeapon>Pistol</BaseWeapon>
+		<DisplayName>Mother of Pearl Blasters</DisplayName>
+		<CustomArt>Gfx_Weapons.swf/Silver</CustomArt>
+		<WeaponVL_Define>0xE7E0CF</WeaponVL_Define>
+		<WeaponLt_Define>0xDDD9CE</WeaponLt_Define>
+		<Weapon_Define>0xAA9E80</Weapon_Define>
+	</WeaponSkinType>
+	<WeaponSkinType WeaponSkinName="RocketLanceWarhead">
+		<WeaponSkinID>91</WeaponSkinID>
+		<BaseWeapon>RocketLance</BaseWeapon>
+		<DisplayName>Ultra-Lance</DisplayName>
+		<CustomArt>Gfx_Weapons.swf/Mech3</CustomArt>
+		<Body1VL_Define>0xFEFDDE</Body1VL_Define>
+		<Body1Lt_Define>0xF8F06B</Body1Lt_Define>
+		<Body1_Define>0xBDDA87</Body1_Define>
+		<Body1Dk_Define>0x94B34D</Body1Dk_Define>
+	</WeaponSkinType>
+	<WeaponSkinType WeaponSkinName="RocketLanceMechaDrill">
+		<WeaponSkinID>92</WeaponSkinID>
+		<BaseWeapon>RocketLance</BaseWeapon>
+		<DisplayName>Cobalt Mecha Lance</DisplayName>
+		<CustomArt>Gfx_Weapons.swf/Mech2</CustomArt>
+		<Body1Lt_Define>0x9FD4FF</Body1Lt_Define>
+		<Body1_Define>0x2380DC</Body1_Define>
+		<Body1Dk_Define>0x2B4BA2</Body1Dk_Define>
+	</WeaponSkinType>
+	<WeaponSkinType WeaponSkinName="SwordTwistedShadow">
+		<WeaponSkinID>93</WeaponSkinID>
+		<BaseWeapon>Sword</BaseWeapon>
+		<DisplayName>Dark Elf Flamberge</DisplayName>
+		<CustomArt>Gfx_Weapons.swf/Stealth</CustomArt>
+		<Body2_Define>0x660000</Body2_Define>
+		<Body2Dk_Define>0x360114</Body2Dk_Define>
+	</WeaponSkinType>
+	<WeaponSkinType WeaponSkinName="SwordSteamEdge">
+		<WeaponSkinID>94</WeaponSkinID>
+		<BaseWeapon>Sword</BaseWeapon>
+		<DisplayName>Steam-Charged Saber</DisplayName>
+		<CustomArt>Gfx_Weapons.swf/SteamSword4</CustomArt>
+		<Body1VL_Define>0xFFE888</Body1VL_Define>
+		<Body1Lt_Define>0xF3A734</Body1Lt_Define>
+		<Body1_Define>0xE7BC27</Body1_Define>
+		<Body1Dk_Define>0x8E4E00</Body1Dk_Define>
+		<Body2Lt_Define>0xE8CD62</Body2Lt_Define>
+		<Body2_Define>0xBC8D2E</Body2_Define>
+		<Body2Dk_Define>0x83480E</Body2Dk_Define>
+		<Body2Acc_Define>0xBE6B18</Body2Acc_Define>
+	</WeaponSkinType>
+	<WeaponSkinType WeaponSkinName="HammerMegaton">
+		<WeaponSkinID>95</WeaponSkinID>
+		<BaseWeapon>Hammer</BaseWeapon>
+		<DisplayName>Atom Smasher</DisplayName>
+		<CustomArt>Gfx_Weapons.swf/CyberHammer5</CustomArt>
+		<Body2Lt_Define>0x47587E</Body2Lt_Define>
+		<Body2_Define>0x4F5F6D</Body2_Define>
+		<Body2Dk_Define>0x282F3E</Body2Dk_Define>
+		<Special_Define>0xFC2C55</Special_Define>
+	</WeaponSkinType>
+	<WeaponSkinType WeaponSkinName="HammerMedieval">
+		<WeaponSkinID>96</WeaponSkinID>
+		<BaseWeapon>Hammer</BaseWeapon>
+		<DisplayName>Gothic Warhammer</DisplayName>
+		<CustomArt>Gfx_Weapons.swf/Knight</CustomArt>
+		<Body1Lt_Define>0xF9FBD7</Body1Lt_Define>
+		<Body1_Define>0xE2EB3D</Body1_Define>
+		<Body1Dk_Define>0xC4C031</Body1Dk_Define>
+	</WeaponSkinType>
+	<WeaponSkinType WeaponSkinName="KatarSuper">
+		<WeaponSkinID>97</WeaponSkinID>
+		<BaseWeapon>Katar</BaseWeapon>
+		<OwnerHero>Super</OwnerHero>
+		<DisplayName>Shock Katars</DisplayName>
+		<CustomArt>Gfx_Weapons.swf/Super</CustomArt>
+	</WeaponSkinType>
+	<WeaponSkinType WeaponSkinName="HammerSuper">
+		<WeaponSkinID>98</WeaponSkinID>
+		<BaseWeapon>Hammer</BaseWeapon>
+		<OwnerHero>Super</OwnerHero>
+		<DisplayName>Electro Hammer</DisplayName>
+		<CustomArt>Gfx_Weapons.swf/Super</CustomArt>
+	</WeaponSkinType>
+	<WeaponSkinType WeaponSkinName="RocketLanceSteamgirl">
+		<WeaponSkinID>99</WeaponSkinID>
+		<BaseWeapon>RocketLance</BaseWeapon>
+		<OwnerHero>Steampunk</OwnerHero>
+		<DisplayName>Aetheric Rocket Drill</DisplayName>
+		<CustomArt>Gfx_Weapons.swf/Steamgirl</CustomArt>
+		<HairLt_Define>0xC01D39</HairLt_Define>
+		<Hair_Define>0x97172E</Hair_Define>
+		<HairDk_Define>0x5F0E2D</HairDk_Define>
+		<Body1VL_Define>0xFFFDF0</Body1VL_Define>
+		<Body1Lt_Define>0xFDE86F</Body1Lt_Define>
+		<Body1_Define>0xCD670C</Body1_Define>
+		<Body1Acc_Define>0xFEA95C</Body1Acc_Define>
+		<Body2VL_Define>0xCB734E</Body2VL_Define>
+		<Body2Lt_Define>0x8D3225</Body2Lt_Define>
+		<Body2_Define>0x630822</Body2_Define>
+		<Body2Dk_Define>0x390413</Body2Dk_Define>
+		<SpecialVL_Define>0xF4FFDD</SpecialVL_Define>
+		<SpecialLt_Define>0xCCFF66</SpecialLt_Define>
+		<Special_Define>0xACDF11</Special_Define>
+		<HandsLt_Define>0xBFFFFC</HandsLt_Define>
+		<HandsDk_Define>0x54ABEB</HandsDk_Define>
+	</WeaponSkinType>
+	<WeaponSkinType WeaponSkinName="HammerSteamgirl">
+		<WeaponSkinID>100</WeaponSkinID>
+		<BaseWeapon>Hammer</BaseWeapon>
+		<OwnerHero>Steampunk</OwnerHero>
+		<DisplayName>Earthshaker Sesimic Sledge</DisplayName>
+		<CustomArt>Gfx_Weapons.swf/Steamgirl</CustomArt>
+		<HairLt_Define>0xC01D39</HairLt_Define>
+		<Hair_Define>0x97172E</Hair_Define>
+		<HairDk_Define>0x5F0E2D</HairDk_Define>
+		<Body1VL_Define>0xFFFDF0</Body1VL_Define>
+		<Body1Lt_Define>0xFDE86F</Body1Lt_Define>
+		<Body1_Define>0xCD670C</Body1_Define>
+		<Body1Acc_Define>0xFEA95C</Body1Acc_Define>
+		<Body2VL_Define>0xCB734E</Body2VL_Define>
+		<Body2Lt_Define>0x8D3225</Body2Lt_Define>
+		<Body2_Define>0x630822</Body2_Define>
+		<Body2Dk_Define>0x390413</Body2Dk_Define>
+		<SpecialVL_Define>0xF4FFDD</SpecialVL_Define>
+		<SpecialLt_Define>0xCCFF66</SpecialLt_Define>
+		<Special_Define>0xACDF11</Special_Define>
+		<HandsLt_Define>0xBFFFFC</HandsLt_Define>
+		<HandsDk_Define>0x54ABEB</HandsDk_Define>
+	</WeaponSkinType>
+	<WeaponSkinType WeaponSkinName="RocketLanceAviator">
+		<WeaponSkinID>101</WeaponSkinID>
+		<BaseWeapon>RocketLance</BaseWeapon>
+		<OwnerHero>Steampunk</OwnerHero>
+		<DisplayName>Aviator Test Rocket</DisplayName>
+		<CustomArt>Gfx_Weapons.swf/Aviator</CustomArt>
+		<HairLt_Define>0xC01D39</HairLt_Define>
+		<Hair_Define>0x97172E</Hair_Define>
+		<HairDk_Define>0x5F0E2D</HairDk_Define>
+		<Body1VL_Define>0xD98A51</Body1VL_Define>
+		<Body1Lt_Define>0xB4633D</Body1Lt_Define>
+		<Body1_Define>0x752B2B</Body1_Define>
+		<Body1Dk_Define>0x301B12</Body1Dk_Define>
+		<Body1Acc_Define>0x5B3322</Body1Acc_Define>
+		<Body2VL_Define>0x977E28</Body2VL_Define>
+		<Body2Lt_Define>0x65501D</Body2Lt_Define>
+		<Body2_Define>0x3E3011</Body2_Define>
+		<Body2Dk_Define>0x2D2B26</Body2Dk_Define>
+		<SpecialVL_Define>0xDBECF0</SpecialVL_Define>
+		<SpecialLt_Define>0x7BABB7</SpecialLt_Define>
+		<Special_Define>0x5087A5</Special_Define>
+		<HandsLt_Define>0xBFFFFC</HandsLt_Define>
+		<HandsDk_Define>0x54ABEB</HandsDk_Define>
+		<HandsSkinLt_Define>0xFFCC99</HandsSkinLt_Define>
+		<HandsSkinDk_Define>0xFF926C</HandsSkinDk_Define>
+	</WeaponSkinType>
+	<WeaponSkinType WeaponSkinName="HammerAviator">
+		<WeaponSkinID>102</WeaponSkinID>
+		<BaseWeapon>Hammer</BaseWeapon>
+		<OwnerHero>Steampunk</OwnerHero>
+		<DisplayName>Airship Engineer's Hammer</DisplayName>
+		<CustomArt>Gfx_Weapons.swf/Aviator</CustomArt>
+		<HairLt_Define>0xC01D39</HairLt_Define>
+		<Hair_Define>0x97172E</Hair_Define>
+		<HairDk_Define>0x5F0E2D</HairDk_Define>
+		<Body1VL_Define>0xD98A51</Body1VL_Define>
+		<Body1Lt_Define>0xB4633D</Body1Lt_Define>
+		<Body1_Define>0x752B2B</Body1_Define>
+		<Body1Dk_Define>0x301B12</Body1Dk_Define>
+		<Body1Acc_Define>0x5B3322</Body1Acc_Define>
+		<Body2VL_Define>0x977E28</Body2VL_Define>
+		<Body2Lt_Define>0x65501D</Body2Lt_Define>
+		<Body2_Define>0x3E3011</Body2_Define>
+		<Body2Dk_Define>0x2D2B26</Body2Dk_Define>
+		<SpecialVL_Define>0xDBECF0</SpecialVL_Define>
+		<SpecialLt_Define>0x7BABB7</SpecialLt_Define>
+		<Special_Define>0x5087A5</Special_Define>
+		<HandsLt_Define>0xBFFFFC</HandsLt_Define>
+		<HandsDk_Define>0x54ABEB</HandsDk_Define>
+		<HandsSkinLt_Define>0xFFCC99</HandsSkinLt_Define>
+		<HandsSkinDk_Define>0xFF926C</HandsSkinDk_Define>
+	</WeaponSkinType>
+	<WeaponSkinType WeaponSkinName="PistolHero">
+		<WeaponSkinID>103</WeaponSkinID>
+		<BaseWeapon>Pistol</BaseWeapon>
+		<OwnerHero>Cowgirl</OwnerHero>
+		<DisplayName>Silver Sixshooters</DisplayName>
+		<CustomArt>Gfx_Weapons.swf/Hero</CustomArt>
+		<HairLt_Define>0x40559F</HairLt_Define>
+		<Hair_Define>0x1D3678</Hair_Define>
+		<HairDk_Define>0x3E1511</HairDk_Define>
+		<Body1Lt_Define>0x505256</Body1Lt_Define>
+		<Body1_Define>0x333437</Body1_Define>
+		<Body1Dk_Define>0x181D25</Body1Dk_Define>
+		<Body2VL_Define>0xB9CAD2</Body2VL_Define>
+		<Body2Lt_Define>0x889EAC</Body2Lt_Define>
+		<Body2_Define>0x687C88</Body2_Define>
+		<Body2Dk_Define>0x4A5E66</Body2Dk_Define>
+		<Special_Define>0xFF3333</Special_Define>
+		<SpecialDk_Define>0xBB0638</SpecialDk_Define>
+		<HandsLt_Define>0xBFFFFC</HandsLt_Define>
+		<HandsDk_Define>0x54ABEB</HandsDk_Define>
+	</WeaponSkinType>
+	<WeaponSkinType WeaponSkinName="HammerHero">
+		<WeaponSkinID>104</WeaponSkinID>
+		<BaseWeapon>Hammer</BaseWeapon>
+		<OwnerHero>Cowgirl</OwnerHero>
+		<DisplayName>Silver Sledgehammer</DisplayName>
+		<CustomArt>Gfx_Weapons.swf/Hero</CustomArt>
+		<HairLt_Define>0x40559F</HairLt_Define>
+		<Hair_Define>0x1D3678</Hair_Define>
+		<HairDk_Define>0x3E1511</HairDk_Define>
+		<Body1Lt_Define>0x505256</Body1Lt_Define>
+		<Body1_Define>0x333437</Body1_Define>
+		<Body1Dk_Define>0x181D25</Body1Dk_Define>
+		<Body2VL_Define>0xB9CAD2</Body2VL_Define>
+		<Body2Lt_Define>0x889EAC</Body2Lt_Define>
+		<Body2_Define>0x687C88</Body2_Define>
+		<Body2Dk_Define>0x4A5E66</Body2Dk_Define>
+		<Special_Define>0xFF3333</Special_Define>
+		<SpecialDk_Define>0xBB0638</SpecialDk_Define>
+		<HandsLt_Define>0xBFFFFC</HandsLt_Define>
+		<HandsDk_Define>0x54ABEB</HandsDk_Define>
+	</WeaponSkinType>
+	<WeaponSkinType WeaponSkinName="KatarAsgard">
+		<WeaponSkinID>105</WeaponSkinID>
+		<BaseWeapon>Katar</BaseWeapon>
+		<DisplayName>Asgardian Katars</DisplayName>
+		<Description>This katar is of Asgard</Description>
+		<WeaponIcon>a_HammerIcon_Asgard</WeaponIcon>
+		<CustomArt>Gfx_Weapons.swf/Asgard</CustomArt>
+		<Hair_Define>0xECF185</Hair_Define>
+		<HairDk_Define>0x9CA75F</HairDk_Define>
+		<Body1Lt_Define>0xF3A68B</Body1Lt_Define>
+		<Body1_Define>0xCF0E48</Body1_Define>
+		<Body1Dk_Define>0x761432</Body1Dk_Define>
+		<Weapon_Define>0x57BDB0</Weapon_Define>
+		<WeaponDk_Define>0x3A9489</WeaponDk_Define>
+	</WeaponSkinType>
+	<WeaponSkinType WeaponSkinName="KatarDetective">
+		<WeaponSkinID>106</WeaponSkinID>
+		<BaseWeapon>Katar</BaseWeapon>
+		<OwnerHero>Super</OwnerHero>
+		<DisplayName>Back Alley Justice</DisplayName>
+		<CustomArt>Gfx_Weapons.swf/Detective</CustomArt>
+	</WeaponSkinType>
+	<WeaponSkinType WeaponSkinName="HammerDetective">
+		<WeaponSkinID>107</WeaponSkinID>
+		<BaseWeapon>Hammer</BaseWeapon>
+		<OwnerHero>Super</OwnerHero>
+		<DisplayName>Sledge Hammer</DisplayName>
+		<CustomArt>Gfx_Weapons.swf/Detective</CustomArt>
+	</WeaponSkinType>
+	<WeaponSkinType WeaponSkinName="KatarArmored">
+		<WeaponSkinID>108</WeaponSkinID>
+		<BaseWeapon>Katar</BaseWeapon>
+		<OwnerHero>Super</OwnerHero>
+		<DisplayName>High-Voltage Rippers</DisplayName>
+		<CustomArt>Gfx_Weapons.swf/Armored</CustomArt>
+	</WeaponSkinType>
+	<WeaponSkinType WeaponSkinName="HammerArmored">
+		<WeaponSkinID>109</WeaponSkinID>
+		<BaseWeapon>Hammer</BaseWeapon>
+		<OwnerHero>Super</OwnerHero>
+		<DisplayName>High-Impact Hammer</DisplayName>
+		<CustomArt>Gfx_Weapons.swf/Armored</CustomArt>
+	</WeaponSkinType>
+	<WeaponSkinType WeaponSkinName="PistolHacker">
+		<WeaponSkinID>110</WeaponSkinID>
+		<BaseWeapon>Pistol</BaseWeapon>
+		<OwnerHero>Cyber</OwnerHero>
+		<DisplayName>Thunder Bass Blasters</DisplayName>
+		<CustomArt>Gfx_Weapons.swf/Hacker</CustomArt>
+		<HairLt_Define>0xD136E2</HairLt_Define>
+		<Hair_Define>0xA42BC1</Hair_Define>
+		<HairDk_Define>0x7322A8</HairDk_Define>
+		<Body1VL_Define>0xFFD2E0</Body1VL_Define>
+		<Body1Lt_Define>0xFF8CAE</Body1Lt_Define>
+		<Body1_Define>0xF93E84</Body1_Define>
+		<Body2_Define>0x9E055E</Body2_Define>
+		<Body2Dk_Define>0x730454</Body2Dk_Define>
+		<SpecialVL_Define>0xF2FFF2</SpecialVL_Define>
+		<SpecialLt_Define>0x73FE70</SpecialLt_Define>
+		<Special_Define>0x28EC81</Special_Define>
+		<HandsLt_Define>0xBFFFFC</HandsLt_Define>
+		<HandsDk_Define>0x54ABEB</HandsDk_Define>
+	</WeaponSkinType>
+	<WeaponSkinType WeaponSkinName="SpearHacker">
+		<WeaponSkinID>111</WeaponSkinID>
+		<BaseWeapon>Spear</BaseWeapon>
+		<OwnerHero>Cyber</OwnerHero>
+		<DisplayName>Needle Drop Spear</DisplayName>
+		<CustomArt>Gfx_Weapons.swf/Hacker</CustomArt>
+		<HairLt_Define>0xD136E2</HairLt_Define>
+		<Hair_Define>0xA42BC1</Hair_Define>
+		<HairDk_Define>0x7322A8</HairDk_Define>
+		<Body1VL_Define>0xFFD2E0</Body1VL_Define>
+		<Body1Lt_Define>0xFF8CAE</Body1Lt_Define>
+		<Body1_Define>0xF93E84</Body1_Define>
+		<Body2_Define>0x9E055E</Body2_Define>
+		<Body2Dk_Define>0x730454</Body2Dk_Define>
+		<SpecialVL_Define>0xF2FFF2</SpecialVL_Define>
+		<SpecialLt_Define>0x73FE70</SpecialLt_Define>
+		<Special_Define>0x28EC81</Special_Define>
+		<HandsLt_Define>0xBFFFFC</HandsLt_Define>
+		<HandsDk_Define>0x54ABEB</HandsDk_Define>
+	</WeaponSkinType>
+	<WeaponSkinType WeaponSkinName="PistolFuture">
+		<WeaponSkinID>112</WeaponSkinID>
+		<BaseWeapon>Pistol</BaseWeapon>
+		<OwnerHero>Cyber</OwnerHero>
+		<DisplayName>Powerplay Blasters</DisplayName>
+		<CustomArt>Gfx_Weapons.swf/Future</CustomArt>
+		<HairLt_Define>0xD136E2</HairLt_Define>
+		<Hair_Define>0xA42BC1</Hair_Define>
+		<HairDk_Define>0x7322A8</HairDk_Define>
+		<Body1VL_Define>0xFFD2E0</Body1VL_Define>
+		<Body1Lt_Define>0xFF8CAE</Body1Lt_Define>
+		<Body1_Define>0xF93E84</Body1_Define>
+		<Body2Lt_Define>0x38E7B8</Body2Lt_Define>
+		<Body2Dk_Define>0x0085AA</Body2Dk_Define>
+		<SpecialVL_Define>0xF2FFF2</SpecialVL_Define>
+		<SpecialLt_Define>0x73FE70</SpecialLt_Define>
+		<Special_Define>0x28EC81</Special_Define>
+		<HandsLt_Define>0xBFFFFC</HandsLt_Define>
+		<HandsDk_Define>0x54ABEB</HandsDk_Define>
+	</WeaponSkinType>
+	<WeaponSkinType WeaponSkinName="SpearFuture">
+		<WeaponSkinID>113</WeaponSkinID>
+		<BaseWeapon>Spear</BaseWeapon>
+		<OwnerHero>Cyber</OwnerHero>
+		<DisplayName>Spear of the Future</DisplayName>
+		<CustomArt>Gfx_Weapons.swf/Future</CustomArt>
+		<HairLt_Define>0xD136E2</HairLt_Define>
+		<Hair_Define>0xA42BC1</Hair_Define>
+		<HairDk_Define>0x7322A8</HairDk_Define>
+		<Body1VL_Define>0xFFD2E0</Body1VL_Define>
+		<Body1Lt_Define>0xFF8CAE</Body1Lt_Define>
+		<Body1_Define>0xF93E84</Body1_Define>
+		<Body2Lt_Define>0x38E7B8</Body2Lt_Define>
+		<Body2Dk_Define>0x0085AA</Body2Dk_Define>
+		<SpecialVL_Define>0xF2FFF2</SpecialVL_Define>
+		<SpecialLt_Define>0x73FE70</SpecialLt_Define>
+		<Special_Define>0x28EC81</Special_Define>
+		<HandsLt_Define>0xBFFFFC</HandsLt_Define>
+		<HandsDk_Define>0x54ABEB</HandsDk_Define>
+	</WeaponSkinType>
+	<WeaponSkinType WeaponSkinName="SpearFlame1">
+		<WeaponSkinID>114</WeaponSkinID>
+		<BaseWeapon>Spear</BaseWeapon>
+		<DisplayName>Red-Hot Ranseur</DisplayName>
+		<CustomArt>Gfx_Weapons.swf/Flame1</CustomArt>
+		<Body1Lt_Define>0xFFC73F</Body1Lt_Define>
+		<Body1_Define>0xFF4933</Body1_Define>
+		<Body1Dk_Define>0x930018</Body1Dk_Define>
+	</WeaponSkinType>
+	<WeaponSkinType WeaponSkinName="SpearIce">
+		<WeaponSkinID>115</WeaponSkinID>
+		<BaseWeapon>Spear</BaseWeapon>
+		<DisplayName>Arctic Edge Spear</DisplayName>
+		<CustomArt>Gfx_Weapons.swf/Ice</CustomArt>
+		<Body1VL_Define>0xF0FDFF</Body1VL_Define>
+		<Body1Lt_Define>0x90E6FF</Body1Lt_Define>
+		<Body1_Define>0x28A8D2</Body1_Define>
+	</WeaponSkinType>
+	<WeaponSkinType WeaponSkinName="KatarTalon">
+		<WeaponSkinID>116</WeaponSkinID>
+		<BaseWeapon>Katar</BaseWeapon>
+		<DisplayName>Dragon Tooth Katars</DisplayName>
+		<CustomArt>Gfx_Weapons.swf/Talon</CustomArt>
+		<WeaponVL_Define>0xFCFCFC</WeaponVL_Define>
+		<WeaponLt_Define>0xCCD5D7</WeaponLt_Define>
+		<Weapon_Define>0x92BAD1</Weapon_Define>
+		<WeaponDk_Define>0x738E9D</WeaponDk_Define>
+	</WeaponSkinType>
+	<WeaponSkinType WeaponSkinName="KatarClaw">
+		<WeaponSkinID>117</WeaponSkinID>
+		<BaseWeapon>Katar</BaseWeapon>
+		<DisplayName>Bear Claws</DisplayName>
+		<CustomArt>Gfx_Weapons.swf/Claw</CustomArt>
+		<Body1Lt_Define>0xC14420</Body1Lt_Define>
+		<Body1_Define>0x971717</Body1_Define>
+	</WeaponSkinType>
+	<WeaponSkinType WeaponSkinName="BowBowTest">
+		<WeaponSkinID>118</WeaponSkinID>
+		<BaseWeapon>Bow</BaseWeapon>
+		<OwnerHero>BowTest</OwnerHero>
+		<DisplayName>Bow</DisplayName>
+		<CustomArt>Gfx_Weapons.swf/Claw</CustomArt>
+	</WeaponSkinType>
+	<WeaponSkinType WeaponSkinName="AxeAxeTest">
+		<WeaponSkinID>119</WeaponSkinID>
+		<BaseWeapon>Axe</BaseWeapon>
+		<OwnerHero>AxeTest</OwnerHero>
+		<DisplayName>Axe</DisplayName>
+		<WeaponIcon>a_HammerIcon_Cyber</WeaponIcon>
+		<CustomArt>Gfx_Weapons.swf/CyberViking</CustomArt>
+		<Body1VL_Define>0x20FFC1</Body1VL_Define>
+		<Body1Lt_Define>0x00B98F</Body1Lt_Define>
+		<Body2Lt_Define>0x5AC9F0</Body2Lt_Define>
+		<Body2_Define>0x00698E</Body2_Define>
+		<Body2Dk_Define>0x00334F</Body2Dk_Define>
+		<Body2Acc_Define>0x0065CA</Body2Acc_Define>
+		<HandsLt_Define>0xBFFFFC</HandsLt_Define>
+		<HandsDk_Define>0x54ABEB</HandsDk_Define>
+	</WeaponSkinType>
+	<WeaponSkinType WeaponSkinName="RocketLanceStalker">
+		<WeaponSkinID>120</WeaponSkinID>
+		<BaseWeapon>RocketLance</BaseWeapon>
+		<OwnerHero>Stalker</OwnerHero>
+		<DisplayName>Selenite Jet Lance</DisplayName>
+		<CustomArt>Gfx_Weapons.swf/Alien</CustomArt>
+		<Body1Lt_Define>0xBFFFFC</Body1Lt_Define>
+		<Body1_Define>0x54ABEB</Body1_Define>
+		<Body2Lt_Define>0xFF9799</Body2Lt_Define>
+		<Body2_Define>0xEB2C4E</Body2_Define>
+		<Body2Dk_Define>0x9F0F5A</Body2Dk_Define>
+		<SpecialVL_Define>0xFFFCF0</SpecialVL_Define>
+		<SpecialLt_Define>0xFFDD66</SpecialLt_Define>
+		<Special_Define>0xFF7962</Special_Define>
+	</WeaponSkinType>
+	<WeaponSkinType WeaponSkinName="KatarStalker">
+		<WeaponSkinID>121</WeaponSkinID>
+		<BaseWeapon>Katar</BaseWeapon>
+		<OwnerHero>Stalker</OwnerHero>
+		<DisplayName>Selenite Jet Lance</DisplayName>
+		<CustomArt>Gfx_Weapons.swf/SpecOps</CustomArt>
+	</WeaponSkinType>
+	<WeaponSkinType WeaponSkinName="HammerKasper">
+		<WeaponSkinID>122</WeaponSkinID>
+		<BaseWeapon>Hammer</BaseWeapon>
+		<DisplayName>The Cure Seeker</DisplayName>
+		<CustomArt>Gfx_Weapons.swf/Kasper</CustomArt>
+		<Body2VL_Define>0xE8E1FF</Body2VL_Define>
+		<Body2Lt_Define>0xBCB9DB</Body2Lt_Define>
+		<Body2_Define>0x8D8DC5</Body2_Define>
+		<Body2Dk_Define>0x4F5591</Body2Dk_Define>
+		<Body2Acc_Define>0x7B8BD5</Body2Acc_Define>
+	</WeaponSkinType>
+	<WeaponSkinType WeaponSkinName="SpearMetadev">
+		<WeaponSkinID>123</WeaponSkinID>
+		<BaseWeapon>Spear</BaseWeapon>
+		<OwnerHero>Valkyrie</OwnerHero>
+		<DisplayName>Starforged Spear</DisplayName>
+		<CustomArt>Gfx_Weapons.swf/MetadevOrion</CustomArt>
+		<Body1VL_Define>0xFFFFCC</Body1VL_Define>
+		<Body1Lt_Define>0xFFCD96</Body1Lt_Define>
+		<Body1_Define>0xFF6D12</Body1_Define>
+		<Body1Dk_Define>0xF4154B</Body1Dk_Define>
+		<Body1Acc_Define>0xFF9B82</Body1Acc_Define>
+		<SpecialVL_Define>0xD9FFF4</SpecialVL_Define>
+		<SpecialLt_Define>0x15FFBF</SpecialLt_Define>
+		<Special_Define>0x00D9D3</Special_Define>
+		<HandsLt_Define>0xBFFFFC</HandsLt_Define>
+		<HandsDk_Define>0x54ABEB</HandsDk_Define>
+	</WeaponSkinType>
+	<WeaponSkinType WeaponSkinName="RocketLanceMetadev">
+		<WeaponSkinID>124</WeaponSkinID>
+		<BaseWeapon>RocketLance</BaseWeapon>
+		<OwnerHero>Valkyrie</OwnerHero>
+		<DisplayName>Interstellar Rocket</DisplayName>
+		<CustomArt>Gfx_Weapons.swf/MetadevOrion</CustomArt>
+		<Body1VL_Define>0xFFFFCC</Body1VL_Define>
+		<Body1Lt_Define>0xFFCD96</Body1Lt_Define>
+		<Body1_Define>0xFF6D12</Body1_Define>
+		<Body1Dk_Define>0xF4154B</Body1Dk_Define>
+		<Body1Acc_Define>0xFF9B82</Body1Acc_Define>
+		<SpecialVL_Define>0xD9FFF4</SpecialVL_Define>
+		<SpecialLt_Define>0x15FFBF</SpecialLt_Define>
+		<Special_Define>0x00D9D3</Special_Define>
+		<HandsLt_Define>0xBFFFFC</HandsLt_Define>
+		<HandsDk_Define>0x54ABEB</HandsDk_Define>
+	</WeaponSkinType>
+</WeaponSkinTypes>

@@ -1,0 +1,1715 @@
+package
+{
+    import haxe.IMap;
+    import haxe.ds.IntMap;
+    import haxe.ds.StringMap;
+    import haxe.ds._IntMap.IntMapKeysIterator;
+    
+    public class §_-t15§
+    {
+        
+        public static var init__:Boolean;
+        
+        public static var §_-15J§:§_-a23§;
+        
+        public static var §_-f31§:IMap;
+        
+        public static var §_-Q4l§:IMap;
+        
+        public static var §_-x2R§:IMap;
+        
+        public static var §_-d4U§:IMap;
+        
+        public static var §_-K3§:IMap;
+        
+        public static var §_-J3n§:IMap;
+        
+        public static var §_-s3r§:IMap;
+        
+        public static var §_-J23§:IMap;
+        
+        public static var §_-m2u§:IMap;
+        
+        public static var §_-s25§:IMap;
+        
+        public static var §_-o4y§:IMap;
+        
+        public static var §_-04X§:IMap;
+        
+        public static var §_-71a§:IMap;
+        
+        public static var §_-s§:IMap;
+        
+        public static var §_-n26§:IMap;
+        
+        public static var §_-W3Q§:IMap;
+        
+        public static var §_-e1g§:IMap;
+        
+        public static var §_-32C§:IMap;
+        
+        public static var §_-933§:IMap;
+        
+        public static var §_-65e§:IMap;
+        
+        public static var §_-Lx§:IMap;
+        
+        public static var §_-P10§:Vector.<uint>;
+        
+        public static var §_-E4B§:IMap;
+        
+        public static var §_-M6L§:uint = 81;
+        
+        public static var §_-74M§:uint = 85;
+        
+        public static var §_-n56§:uint = 4;
+        
+        public static var §_-B3j§:uint = 0;
+        
+        public static var §_-o5E§:String = "Costume";
+        
+        public static var §_-r2d§:String = "WeaponSkin";
+        
+        public static var §_-k3O§:String = "SpawnBot";
+        
+        public static var §_-a4B§:String = "Taunt";
+        
+        public static var §_-I65§:String = "PlayerTheme";
+        
+        public static var §_-75k§:String = "RandomColor";
+        
+        public static var §_-G6w§:String = "Avatar";
+        
+        public static var §_-h2t§:String = "Podium";
+        
+        public static var §_-S48§:String = "KOEffect";
+        
+        public static var §_-Q5z§:String = "UniversalColor";
+        
+        public static var §_-W3S§:String = "MammothCoins";
+        
+        public static var §_-Y28§:String = "BattlePointsMult";
+        
+        public static var §_-H4o§:String = "Mission";
+        
+        public static var §_-cA§:String = "Border";
+        
+        public static var §_-76i§:String = "Moniker";
+        
+        public static var §_-Nu§:String = "Emoji";
+        
+        public static var §_-P6x§:String = "Cutscene";
+        
+        public static var §_-Q1N§:String = "EmitterGroup";
+        
+        public static var §_-n3w§:String = "Companion";
+        
+        public static var §_-i1P§:String = "LootTable";
+        
+        public static var §_-f5T§:String = "Single";
+        
+        public static var §_-A47§:String = "DoubleTall";
+        
+        public static var §_-9j§:String = "a_BPIconStateSingle";
+        
+        public static var §_-I4M§:String = "UI_BattlePass_RewardRarity_Common";
+        
+        public static var §_-556§:String = "UI_BattlePass_RewardRarity_Uncommon";
+        
+        public static var §_-s52§:String = "UI_BattlePass_RewardRarity_Rare";
+        
+        public static var §_-D6k§:String = "UI_BattlePass_RewardRarity_Legendary";
+        
+        public static var §_-C6y§:uint = 510118;
+        
+        public static var §_-94A§:uint = 895230;
+        
+        public static var §_-U5m§:uint = 7890902;
+        
+        public static var §_-31b§:uint = 16750876;
+        
+        public var §_-S3j§:Boolean;
+        
+        public var §_-256§:Boolean;
+        
+        public var §_-K3b§:Boolean;
+        
+        public var §_-64w§:Boolean;
+        
+        public var §_-SX§:String;
+        
+        public var §_-b8§:Number;
+        
+        public var §_-26n§:Number;
+        
+        public var §_-h3L§:Number;
+        
+        public var mType:String;
+        
+        public var §_-X6a§:uint;
+        
+        public var §_-F6t§:uint;
+        
+        public var mSigSwapImage2:String;
+        
+        public var mSigSwapImage1:String;
+        
+        public var §_-E2v§:uint;
+        
+        public var §_-Q3i§:String;
+        
+        public var §_-j3q§:uint;
+        
+        public var §_-G45§:String;
+        
+        public var §_-518§:String;
+        
+        public var §_-r3T§:String;
+        
+        public var §_-lx§:String;
+        
+        public var §_-E4D§:String;
+        
+        public var §_-Kc§:uint;
+        
+        public var §_-J2a§:uint;
+        
+        public function §_-t15§()
+        {
+        }
+        
+        public static function §_-k1F§(param1:§_-a23§) : void
+        {
+            §_-t15§.§_-15J§ = param1;
+        }
+        
+        public static function §_-g52§(param1:uint) : void
+        {
+            §_-t15§.§_-65e§.h[param1] = null;
+            §_-t15§.§_-Lx§.h[param1] = null;
+            var _loc2_:IMap = §_-t15§.§_-f31§;
+            var _loc3_:Vector.<§_-t15§> = new Vector.<§_-t15§>();
+            _loc2_.h[param1] = _loc3_;
+            _loc2_ = §_-t15§.§_-Q4l§;
+            var _loc4_:IMap = new IntMap();
+            _loc2_.h[param1] = _loc4_;
+            _loc2_ = §_-t15§.§_-x2R§;
+            _loc4_ = new IntMap();
+            _loc2_.h[param1] = _loc4_;
+            _loc2_ = §_-t15§.§_-d4U§;
+            _loc4_ = new IntMap();
+            _loc2_.h[param1] = _loc4_;
+            _loc2_ = §_-t15§.§_-K3§;
+            _loc4_ = new IntMap();
+            _loc2_.h[param1] = _loc4_;
+            _loc2_ = §_-t15§.§_-J3n§;
+            _loc4_ = new IntMap();
+            _loc2_.h[param1] = _loc4_;
+            _loc2_ = §_-t15§.§_-m2u§;
+            _loc4_ = new IntMap();
+            _loc2_.h[param1] = _loc4_;
+            §_-t15§.§_-s25§.h[param1] = 0;
+            _loc2_ = §_-t15§.§_-s§;
+            _loc4_ = new IntMap();
+            _loc2_.h[param1] = _loc4_;
+            _loc2_ = §_-t15§.§_-n26§;
+            _loc4_ = new IntMap();
+            _loc2_.h[param1] = _loc4_;
+            _loc2_ = §_-t15§.§_-o4y§;
+            _loc4_ = new IntMap();
+            _loc2_.h[param1] = _loc4_;
+            §_-t15§.§_-04X§.h[param1] = null;
+            §_-t15§.§_-71a§.h[param1] = null;
+            §_-t15§.§_-W3Q§.h[param1] = 0;
+            §_-t15§.§_-e1g§.h[param1] = 0;
+        }
+        
+        public static function §_-x3W§() : void
+        {
+            §_-t15§.§_-f31§ = new IntMap();
+            §_-t15§.§_-Q4l§ = new IntMap();
+            §_-t15§.§_-x2R§ = new IntMap();
+            §_-t15§.§_-d4U§ = new IntMap();
+            §_-t15§.§_-K3§ = new IntMap();
+            §_-t15§.§_-J3n§ = new IntMap();
+            §_-t15§.§_-s3r§ = new IntMap();
+            §_-t15§.§_-J23§ = new IntMap();
+            §_-t15§.§_-m2u§ = new IntMap();
+            §_-t15§.§_-s25§ = new IntMap();
+            §_-t15§.§_-o4y§ = new IntMap();
+            §_-t15§.§_-04X§ = new IntMap();
+            §_-t15§.§_-71a§ = new IntMap();
+            §_-t15§.§_-s§ = new IntMap();
+            §_-t15§.§_-n26§ = new IntMap();
+            §_-t15§.§_-W3Q§ = new IntMap();
+            §_-t15§.§_-e1g§ = new IntMap();
+            §_-t15§.§_-32C§ = new IntMap();
+            §_-t15§.§_-933§ = null;
+            §_-t15§.§_-65e§ = new IntMap();
+            §_-t15§.§_-Lx§ = new IntMap();
+            §_-t15§.§_-P10§ = new Vector.<uint>();
+        }
+        
+        public static function §_-R3H§(param1:§_-a23§) : void
+        {
+            var _loc5_:* = null as §_-a23§;
+            var _loc6_:* = null as §_-t15§;
+            var _loc7_:* = null as String;
+            var _loc8_:* = null as String;
+            var _loc9_:* = null as IMap;
+            var _loc10_:uint = 0;
+            var _loc11_:uint = 0;
+            var _loc12_:* = null;
+            var _loc13_:uint = 0;
+            var _loc14_:Boolean = false;
+            var _loc15_:* = null as IMap;
+            var _loc16_:* = null as Vector.<§_-t15§>;
+            var _loc17_:Boolean = false;
+            var _loc18_:* = null as IMap;
+            var _loc19_:* = null as Vector.<§_-t15§>;
+            var _loc22_:int = 0;
+            var _loc23_:int = 0;
+            var _loc24_:int = 0;
+            var _loc25_:int = 0;
+            var _loc2_:uint = 0;
+            var _loc3_:Boolean = false;
+            var _loc4_:* = param1.§_-V6N§();
+            while(Boolean(_loc4_.hasNext()))
+            {
+                _loc5_ = _loc4_.next();
+                _loc6_ = §_-t15§.§_-I6I§(_loc5_,_loc2_);
+                if(_loc6_ == null)
+                {
+                    if(_loc3_)
+                    {
+                        §_-Z6B§.§_-FX§("[BattlePassRewardType] multiple rewards have ID 0. Rewards with ID 0 will be treated as a template and ignored");
+                    }
+                    _loc3_ = true;
+                }
+                else
+                {
+                    if(_loc6_.§_-Kc§ == 0)
+                    {
+                        §_-Z6B§.§_-FX§("[BattlePassRewardType s" + ("" + _loc2_) + "] AddRewardFromXml return reward with mBattlePassID 0");
+                    }
+                    else if(_loc2_ == 0)
+                    {
+                        _loc2_ = _loc6_.§_-Kc§;
+                    }
+                    else if(_loc2_ != _loc6_.§_-Kc§)
+                    {
+                        §_-Z6B§.§_-FX§("[BattlePassRewardType s" + ("" + _loc2_) + "] Different mBattlePassID values found in same file: " + ("" + _loc2_) + " vs " + ("" + _loc6_.§_-Kc§));
+                    }
+                    if(§_-t15§.§_-x2R§.h[_loc2_].h[_loc6_.§_-E2v§] != null)
+                    {
+                        §_-Z6B§.§_-FX§("[BattlePassRewardType s" + ("" + _loc2_) + "] duplicate RewardID: " + ("" + _loc6_.§_-E2v§));
+                    }
+                    if(_loc6_.§_-64w§ && _loc6_.§_-X6a§ <= 1 && _loc6_.§_-j3q§ == 0)
+                    {
+                        §_-Z6B§.§_-FX§("[BattlePassRewardType s" + ("" + _loc2_) + "] cannot have free rewards at tier 1 in path " + "0" + ". RewardID: " + ("" + _loc6_.§_-E2v§));
+                    }
+                    if(_loc6_.§_-X6a§ > 85)
+                    {
+                        §_-Z6B§.§_-FX§("[BattlePassRewardType s" + ("" + _loc2_) + "] RewardID: " + ("" + _loc6_.§_-E2v§) + " has tier " + ("" + _loc6_.§_-X6a§) + " > " + "85");
+                    }
+                    if(_loc6_.§_-r3T§ == null)
+                    {
+                        §_-Z6B§.§_-FX§("[BattlePassRewardType s" + ("" + _loc2_) + "] Must have mIconStatesName for RewardID: " + ("" + _loc6_.§_-E2v§));
+                    }
+                    §_-t15§.§_-f31§.h[_loc2_].push(_loc6_);
+                    §_-t15§.§_-x2R§.h[_loc2_].h[_loc6_.§_-E2v§] = _loc6_;
+                    _loc7_ = _loc6_.mType;
+                    _loc8_ = _loc7_;
+                    if(_loc8_ == "Costume")
+                    {
+                        if(§_-t15§.§_-o4y§.get(_loc2_).get(_loc6_.§_-j3q§) == null || §_-t15§.§_-o4y§.get(_loc2_).get(_loc6_.§_-j3q§).§_-X6a§ < _loc6_.§_-X6a§)
+                        {
+                            §_-t15§.§_-o4y§.get(_loc2_).set(_loc6_.§_-j3q§,_loc6_);
+                        }
+                    }
+                    else if(_loc8_ == "Cutscene")
+                    {
+                        _loc9_ = §_-t15§.§_-m2u§.get(_loc2_);
+                        _loc10_ = _loc6_.§_-E2v§;
+                        _loc11_ = _loc2_;
+                        _loc12_ = §_-t15§.§_-s25§.get(_loc11_);
+                        _loc13_ = _loc12_ + 1;
+                        §_-t15§.§_-s25§.set(_loc11_,_loc13_);
+                        _loc13_ = _loc12_;
+                        _loc9_.set(_loc10_,_loc13_);
+                    }
+                    if(_loc6_ == §_-t15§.§_-65e§.h[_loc2_])
+                    {
+                        if(_loc6_.mType != "Avatar")
+                        {
+                            §_-Z6B§.§_-FX§("[BattlePassRewardType s" + ("" + _loc2_) + "] It\'s expected that the Completionist Bonus Reward is an Avatar, not a " + _loc6_.mType);
+                        }
+                        _loc14_ = _loc6_.§_-X6a§ != 0 || _loc6_.§_-j3q§ != 0;
+                    }
+                    else
+                    {
+                        if(_loc6_.§_-X6a§ == 0)
+                        {
+                            §_-Z6B§.§_-FX§("[BattlePassRewardType s" + ("" + _loc2_) + "] ID " + ("" + _loc6_.§_-E2v§) + " is in tier 0 but doesn\'t have <IsCompletionistBonus> set true");
+                        }
+                        _loc9_ = §_-t15§.§_-Q4l§.h[_loc2_];
+                        _loc10_ = _loc6_.§_-j3q§;
+                        if(!(_loc10_ in _loc9_.h))
+                        {
+                            _loc15_ = §_-t15§.§_-Q4l§.h[_loc2_];
+                            _loc11_ = _loc6_.§_-j3q§;
+                            _loc16_ = new Vector.<§_-t15§>();
+                            _loc15_.h[_loc11_] = _loc16_;
+                        }
+                        §_-t15§.§_-Q4l§.h[_loc2_].h[_loc6_.§_-j3q§].push(_loc6_);
+                        _loc15_ = §_-t15§.§_-s§.h[_loc2_];
+                        _loc11_ = _loc6_.§_-j3q§;
+                        if(_loc11_ in _loc15_.h)
+                        {
+                            _loc14_ = _loc6_.§_-X6a§ > §_-t15§.§_-s§.h[_loc2_].h[_loc6_.§_-j3q§];
+                        }
+                        else
+                        {
+                            _loc14_ = true;
+                        }
+                        if(_loc14_)
+                        {
+                            _loc13_ = _loc6_.§_-X6a§;
+                            §_-t15§.§_-s§.h[_loc2_].h[_loc6_.§_-j3q§] = _loc13_;
+                        }
+                        if(_loc6_.§_-64w§)
+                        {
+                            _loc18_ = §_-t15§.§_-n26§.h[_loc2_];
+                            _loc13_ = _loc6_.§_-j3q§;
+                            if(_loc13_ in _loc18_.h)
+                            {
+                                _loc17_ = _loc6_.§_-X6a§ > §_-t15§.§_-n26§.h[_loc2_].h[_loc6_.§_-j3q§];
+                            }
+                            else
+                            {
+                                _loc17_ = true;
+                            }
+                        }
+                        else
+                        {
+                            _loc17_ = false;
+                        }
+                        if(_loc17_)
+                        {
+                            _loc13_ = _loc6_.§_-X6a§;
+                            §_-t15§.§_-n26§.h[_loc2_].h[_loc6_.§_-j3q§] = _loc13_;
+                        }
+                        if(_loc6_.§_-j3q§ > §_-t15§.§_-W3Q§.h[_loc2_])
+                        {
+                            _loc13_ = _loc6_.§_-j3q§;
+                            §_-t15§.§_-W3Q§.h[_loc2_] = _loc13_;
+                        }
+                        if(_loc6_.mType != "Mission" && !_loc6_.§_-K3b§)
+                        {
+                            _loc16_ = §_-t15§.§_-d4U§.h[_loc2_].h[uint(_loc6_.§_-j3q§ << 16) | _loc6_.§_-X6a§];
+                            if(_loc16_ == null)
+                            {
+                                _loc18_ = §_-t15§.§_-d4U§.h[_loc2_];
+                                _loc13_ = uint(uint(_loc6_.§_-j3q§ << 16) | _loc6_.§_-X6a§);
+                                _loc19_ = new Vector.<§_-t15§>();
+                                _loc18_.h[_loc13_] = _loc19_;
+                                _loc16_ = _loc19_;
+                            }
+                            _loc16_.push(_loc6_);
+                            _loc18_ = _loc6_.§_-64w§ ? §_-t15§.§_-K3§.h[_loc2_] : §_-t15§.§_-J3n§.h[_loc2_];
+                            _loc16_ = _loc18_.h[uint(_loc6_.§_-j3q§ << 16) | _loc6_.§_-X6a§];
+                            if(_loc16_ == null)
+                            {
+                                _loc13_ = uint(uint(_loc6_.§_-j3q§ << 16) | _loc6_.§_-X6a§);
+                                _loc19_ = new Vector.<§_-t15§>();
+                                _loc18_.h[_loc13_] = _loc19_;
+                                _loc16_ = _loc19_;
+                            }
+                            _loc16_.push(_loc6_);
+                        }
+                    }
+                }
+            }
+            _loc14_ = _loc2_ == 0;
+            if(int(§_-t15§.§_-P10§.indexOf(_loc2_)) < 0)
+            {
+                §_-t15§.§_-P10§.push(_loc2_);
+            }
+            var _loc20_:int = int(0);
+            var _loc21_:int = int(uint(§_-t15§.§_-W3Q§.h[_loc2_] + 1));
+            while(_loc20_ < _loc21_)
+            {
+                _loc22_ = _loc20_++;
+                _loc10_ = §_-t15§.§_-s§.h[_loc2_].h[_loc22_];
+                if(_loc10_ == 0)
+                {
+                    §_-Z6B§.§_-FX§("[BattlePassRewardType s" + ("" + _loc2_) + "] Path " + _loc22_ + " has no rewards. Make sure no gaps in paths between 0 and max (" + §_-53H§.§_-96n§(§_-t15§.§_-W3Q§.get(_loc2_)) + ")");
+                }
+                else
+                {
+                    _loc11_ = _loc2_;
+                    _loc9_ = §_-t15§.§_-e1g§;
+                    _loc13_ = uint(_loc9_.h[_loc11_] + _loc10_);
+                    _loc9_.h[_loc11_] = _loc13_;
+                    _loc23_ = 1;
+                    _loc24_ = int(uint(_loc10_ + 1));
+                    while(_loc23_ < _loc24_)
+                    {
+                        _loc25_ = _loc23_++;
+                        _loc11_ = uint(_loc22_ << 16 | _loc25_);
+                        if(§_-t15§.§_-d4U§.h[_loc2_].h[_loc11_] == null)
+                        {
+                            §_-Z6B§.§_-FX§("[BattlePassRewardType s" + ("" + _loc2_) + "] Tier " + _loc25_ + " for Path " + _loc22_ + " has no rewards (max=" + ("" + _loc10_) + ")");
+                        }
+                        if(§_-t15§.§_-J3n§.h[_loc2_].h[_loc11_] == null)
+                        {
+                            §_-Z6B§.§_-FX§("[BattlePassRewardType s" + ("" + _loc2_) + "] Tier " + _loc25_ + " for Path " + _loc22_ + " has no paid rewards (max=" + ("" + _loc10_) + ")");
+                        }
+                    }
+                }
+            }
+        }
+        
+        public static function §_-I6I§(param1:§_-a23§, param2:uint) : §_-t15§
+        {
+            var _loc6_:* = null as §_-a23§;
+            var _loc7_:* = null as String;
+            var _loc16_:* = null as String;
+            var _loc3_:§_-t15§ = new §_-t15§();
+            _loc3_.§_-Kc§ = uint(param1 != null && param1.exists("BattlePassID") ? int(§_-53H§.parseInt(param1.get("BattlePassID"))) : int(0));
+            _loc3_.§_-X6a§ = uint(param1 != null && param1.exists("Tier") ? int(§_-53H§.parseInt(param1.get("Tier"))) : int(0));
+            _loc3_.§_-64w§ = param1 != null && param1.exists("IsFree") && param1.get("IsFree").toUpperCase() == "TRUE";
+            _loc3_.§_-j3q§ = uint(param1 != null && param1.exists("Path") ? int(§_-53H§.parseInt(param1.get("Path"))) : int(0));
+            if(_loc3_.§_-Kc§ != param2 && _loc3_.§_-Kc§ != 0)
+            {
+                param2 = _loc3_.§_-Kc§;
+                §_-t15§.§_-g52§(param2);
+            }
+            _loc3_.§_-h3L§ = 0;
+            _loc3_.§_-26n§ = 0;
+            _loc3_.§_-b8§ = 1;
+            _loc3_.§_-518§ = null;
+            _loc3_.§_-r3T§ = null;
+            var _loc4_:Boolean = false;
+            var _loc5_:* = param1.§_-V6N§();
+            while(Boolean(_loc5_.hasNext()))
+            {
+                _loc6_ = _loc5_.next();
+                if(_loc6_.§_-F3z§ != §_-a23§.§_-Vu§)
+                {
+                    throw "Bad node type, expected Element but found " + _loc6_.§_-F3z§;
+                }
+                _loc7_ = _loc6_.§_-21x§;
+                if(_loc7_ == "RewardID")
+                {
+                    _loc3_.§_-E2v§ = §_-Y4l§.§_-s5B§(_loc6_);
+                }
+                else if(_loc7_ == "Type")
+                {
+                    _loc3_.mType = §_-Y4l§.§_-x5z§(_loc6_);
+                }
+                else if(_loc7_ == "Item")
+                {
+                    _loc3_.§_-G45§ = §_-Y4l§.§_-x5z§(_loc6_);
+                }
+                else if(_loc7_ == "Amount")
+                {
+                    _loc3_.§_-J2a§ = §_-Y4l§.§_-s5B§(_loc6_);
+                }
+                else if(_loc7_ == "Rarity")
+                {
+                    _loc3_.§_-Q3i§ = §_-Y4l§.§_-x5z§(_loc6_);
+                }
+                else if(_loc7_ == "IconType")
+                {
+                    _loc3_.§_-518§ = §_-Y4l§.§_-x5z§(_loc6_);
+                }
+                else if(_loc7_ == "IconName")
+                {
+                    _loc3_.§_-lx§ = §_-Y4l§.§_-x5z§(_loc6_);
+                }
+                else if(_loc7_ == "IconStatesName")
+                {
+                    _loc3_.§_-r3T§ = §_-Y4l§.§_-x5z§(_loc6_);
+                }
+                else if(_loc7_ == "ViewOffsetX")
+                {
+                    _loc3_.§_-h3L§ = §_-Y4l§.§_-d16§(_loc6_);
+                }
+                else if(_loc7_ == "ViewOffsetY")
+                {
+                    _loc3_.§_-26n§ = §_-Y4l§.§_-d16§(_loc6_);
+                }
+                else if(_loc7_ == "ViewScale")
+                {
+                    _loc3_.§_-b8§ = §_-Y4l§.§_-d16§(_loc6_);
+                }
+                else if(_loc7_ == "ViewerIcon")
+                {
+                    _loc3_.§_-SX§ = §_-Y4l§.§_-x5z§(_loc6_);
+                }
+                else if(_loc7_ == "OnlyOnClassicCatchUp")
+                {
+                    _loc3_.§_-K3b§ = §_-Y4l§.§_-K1Q§(_loc6_);
+                }
+                else if(_loc7_ == "SkipOnClassicCatchUp")
+                {
+                    _loc3_.§_-256§ = §_-Y4l§.§_-K1Q§(_loc6_);
+                }
+                else if(_loc7_ == "IsCompletionistBonus")
+                {
+                    _loc4_ = §_-Y4l§.§_-K1Q§(_loc6_);
+                    if(_loc4_)
+                    {
+                        if(§_-t15§.§_-65e§.h[param2] != null)
+                        {
+                            §_-Z6B§.§_-FX§("[BattlePassRewardType s" + ("" + param2) + "] multiple have <IsCompletionistBonus> set to true");
+                        }
+                        §_-t15§.§_-65e§.h[param2] = _loc3_;
+                    }
+                }
+                else if(_loc7_ == "DescriptionKey")
+                {
+                    _loc3_.§_-E4D§ = §_-Y4l§.§_-x5z§(_loc6_);
+                }
+                else if(_loc7_ == "SigSwapImage1")
+                {
+                    _loc3_.mSigSwapImage1 = §_-Y4l§.§_-x5z§(_loc6_);
+                }
+                else if(_loc7_ == "SigSwapImage2")
+                {
+                    _loc3_.mSigSwapImage2 = §_-Y4l§.§_-x5z§(_loc6_);
+                }
+                else if(_loc7_ == "SkipWeaponDummyTypes")
+                {
+                    _loc3_.§_-S3j§ = §_-Y4l§.§_-K1Q§(_loc6_);
+                }
+                else
+                {
+                    §_-Z6B§.§_-FX§("[BattlePassRewardType s" + ("" + param2) + "] Unrecognized property: " + _loc7_);
+                }
+            }
+            if(_loc3_.§_-E2v§ == 0)
+            {
+                return null;
+            }
+            if(_loc3_.§_-518§ == null)
+            {
+                _loc3_.§_-518§ = "Single";
+            }
+            if(_loc3_.§_-r3T§ == null)
+            {
+                _loc3_.§_-r3T§ = "a_BPIconStateSingle";
+            }
+            var _loc8_:Boolean = false;
+            var _loc9_:Boolean = false;
+            var _loc10_:Boolean = false;
+            var _loc11_:Boolean = true;
+            var _loc12_:Boolean = uint(int(param2 / 100)) > 0;
+            var _loc13_:Boolean = false;
+            var _loc14_:Boolean = false;
+            var _loc15_:Boolean = false;
+            _loc7_ = _loc3_.mType;
+            _loc16_ = _loc7_;
+            if(_loc16_ == "BattlePointsMult")
+            {
+                _loc8_ = true;
+                _loc10_ = true;
+            }
+            else if(_loc16_ == "MammothCoins")
+            {
+                _loc8_ = true;
+                _loc10_ = true;
+                _loc13_ = _loc12_;
+                _loc14_ = _loc12_;
+            }
+            else if(_loc16_ == "Mission")
+            {
+                _loc9_ = true;
+                _loc11_ = false;
+            }
+            else if(_loc16_ == "Moniker")
+            {
+                _loc9_ = true;
+                _loc10_ = true;
+                _loc15_ = _loc12_;
+            }
+            else if(_loc16_ == "RandomColor")
+            {
+                _loc9_ = true;
+                _loc13_ = _loc12_;
+            }
+            else
+            {
+                while(true)
+                {
+                    if(_loc16_ != "Cutscene")
+                    {
+                        if(_loc16_ != "UniversalColor")
+                        {
+                            if(_loc16_ != "Avatar")
+                            {
+                                if(_loc16_ != "Border")
+                                {
+                                    if(_loc16_ != "Companion")
+                                    {
+                                        if(_loc16_ != "Costume")
+                                        {
+                                            if(_loc16_ != "EmitterGroup")
+                                            {
+                                                if(_loc16_ != "Emoji")
+                                                {
+                                                    if(_loc16_ != "KOEffect")
+                                                    {
+                                                        if(_loc16_ != "LootTable")
+                                                        {
+                                                            if(_loc16_ != "PlayerTheme")
+                                                            {
+                                                                if(_loc16_ != "Podium")
+                                                                {
+                                                                    if(_loc16_ != "SpawnBot")
+                                                                    {
+                                                                        if(_loc16_ != "Taunt")
+                                                                        {
+                                                                            if(_loc16_ != "WeaponSkin")
+                                                                            {
+                                                                                §_-Z6B§.§_-FX§("[BattlePassRewardType s" + ("" + param2) + "] Reward  " + ("" + _loc3_.§_-E2v§) + " has Unrecognized Type: " + _loc3_.mType);
+                                                                                break;
+                                                                            }
+                                                                        }
+                                                                    }
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                            _loc9_ = true;
+                            break;
+                        }
+                    }
+                    _loc9_ = true;
+                    _loc10_ = true;
+                    break;
+                }
+            }
+            if(_loc9_ != (_loc3_.§_-G45§ != null))
+            {
+                §_-Z6B§.§_-FX§("[BattlePassRewardType s" + ("" + param2) + "] Reward  " + ("" + _loc3_.§_-E2v§) + " of type " + _loc3_.mType + (_loc9_ ? " must" : " cannot") + " have an Item");
+            }
+            if(_loc8_ != (_loc3_.§_-J2a§ != 0))
+            {
+                §_-Z6B§.§_-FX§("[BattlePassRewardType s" + ("" + param2) + "] Reward  " + ("" + _loc3_.§_-E2v§) + " of type " + _loc3_.mType + (_loc8_ ? " must" : " cannot") + " have an Amount");
+            }
+            if(_loc11_ != (_loc3_.§_-lx§ != null))
+            {
+                §_-Z6B§.§_-FX§("[BattlePassRewardType s" + ("" + param2) + "] Reward  " + ("" + _loc3_.§_-E2v§) + " of type " + _loc3_.mType + (_loc11_ ? " must" : " cannot") + " have an IconName");
+            }
+            if(_loc3_.§_-256§ && !_loc13_)
+            {
+                §_-Z6B§.§_-FX§("[BattlePassRewardType s" + ("" + param2) + "] Reward  " + ("" + _loc3_.§_-E2v§) + " of type " + _loc3_.mType + " cannot have SkipOnClassicCatchUp set to true; " + (_loc12_ ? "" + ("" + param2) + " is not classic bp id" : "type cannot be skipped"));
+            }
+            if(!_loc3_.§_-256§ && _loc14_)
+            {
+                §_-Z6B§.§_-FX§("[BattlePassRewardType s" + ("" + param2) + "] All Rewards (this one is " + ("" + _loc3_.§_-E2v§) + ") of type " + _loc3_.mType + " MUST have SkipOnClassicCatchUp true since this is season has a classic id");
+            }
+            if(_loc3_.§_-K3b§ && !_loc15_)
+            {
+                §_-Z6B§.§_-FX§("[BattlePassRewardType s" + ("" + param2) + "] Reward  " + ("" + _loc3_.§_-E2v§) + " of type " + _loc3_.mType + " cannot have OnlyOnClassicCatchUp set to true; " + (_loc12_ ? "" + ("" + param2) + " is not classic bp id" : "type cannot be only for catchup"));
+            }
+            if(_loc3_.§_-S3j§ && _loc3_.mType != "Costume")
+            {
+                _loc7_ = "[BattlePassRewardType s" + ("" + param2) + "] Reward  " + ("" + _loc3_.§_-E2v§) + " has type " + _loc3_.mType + (" and SkipWeaponDummyTypes=true. field is only relevant to type " + "Costume");
+            }
+            if(_loc3_.§_-518§ != null && _loc3_.§_-518§ != "DoubleTall" && _loc3_.§_-518§ != "Single")
+            {
+                §_-Z6B§.§_-FX§("[BattlePassRewardType s" + ("" + param2) + "] Reward  " + ("" + _loc3_.§_-E2v§) + " has unrecognized IconType " + _loc3_.§_-518§);
+            }
+            if(_loc3_.§_-b8§ <= 0)
+            {
+                §_-Z6B§.§_-FX§("[BattlePassRewardType s" + ("" + param2) + "]  " + (_loc3_.§_-64w§ ? " Free" : " Paid") + " tier " + ("" + _loc3_.§_-X6a§) + " reward " + ("" + _loc3_.§_-E2v§) + " must use a ViewScale greater than zero");
+            }
+            if(_loc10_ != (_loc3_.§_-SX§ != null))
+            {
+                §_-Z6B§.§_-FX§("[BattlePassRewardType s" + ("" + param2) + "] Reward  " + ("" + _loc3_.§_-E2v§) + " of type " + _loc3_.mType + (_loc10_ ? " must" : " cannot") + " have a ViewerIcon");
+            }
+            _loc7_ = _loc3_.§_-Q3i§;
+            if(!(_loc7_ == null || _loc7_.length == 0))
+            {
+                _loc16_ = _loc3_.§_-611§();
+                if(_loc16_ == null || _loc16_.length == 0)
+                {
+                    §_-Z6B§.§_-FX§("[BattlePassRewardType s" + ("" + param2) + "] Reward  " + ("" + _loc3_.§_-E2v§) + " has invalid Rarity: \'" + _loc3_.§_-Q3i§ + "\'");
+                }
+            }
+            return _loc3_;
+        }
+        
+        public static function §_-Q3z§() : void
+        {
+            §_-t15§.§_-e27§();
+            §_-t15§.§_-Z2m§();
+            §_-t15§.§_-T54§();
+            §_-t15§.§_-n2w§();
+            §_-t15§.§_-nS§();
+        }
+        
+        public static function §_-Z2m§() : void
+        {
+            var _loc3_:uint = 0;
+            var _loc4_:* = null as IMap;
+            var _loc5_:* = null as Vector.<§_-810§>;
+            var _loc6_:int = 0;
+            var _loc7_:* = null as Vector.<§_-t15§>;
+            var _loc8_:* = null as §_-t15§;
+            var _loc9_:* = null as §_-810§;
+            var _loc1_:int = 0;
+            var _loc2_:Vector.<uint> = §_-t15§.§_-P10§;
+            while(_loc1_ < int(_loc2_.length))
+            {
+                _loc3_ = _loc2_[_loc1_];
+                _loc1_++;
+                _loc4_ = §_-810§.§_-D4c§;
+                _loc5_ = new Vector.<§_-810§>();
+                _loc4_.h[_loc3_] = _loc5_;
+                _loc6_ = 0;
+                _loc7_ = §_-t15§.§_-f31§.h[_loc3_];
+                while(_loc6_ < int(_loc7_.length))
+                {
+                    _loc8_ = _loc7_[_loc6_];
+                    _loc6_++;
+                    if(_loc8_.mType == "Mission")
+                    {
+                        _loc9_ = §_-810§.§_-B14§.get(_loc8_.§_-G45§);
+                        if(_loc9_ != null)
+                        {
+                            §_-810§.§_-D4c§.h[_loc3_].push(_loc9_);
+                            while(true)
+                            {
+                                _loc9_.§_-C6K§ = _loc8_;
+                                _loc9_ = _loc9_.§_-k1M§;
+                                if(!(_loc9_ != null && _loc9_.§_-C6K§ == null))
+                                {
+                                    break;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        
+        public static function §_-e27§() : void
+        {
+            var _loc3_:uint = 0;
+            var _loc4_:* = null as IMap;
+            var _loc5_:* = null as IMap;
+            var _loc6_:int = 0;
+            var _loc7_:* = null as Vector.<§_-t15§>;
+            var _loc8_:* = null as §_-t15§;
+            var _loc9_:* = null as String;
+            var _loc10_:Boolean = false;
+            var _loc11_:Boolean = false;
+            var _loc12_:Boolean = false;
+            var _loc13_:* = null as StringMap;
+            var _loc14_:* = null as StringMap;
+            var _loc15_:* = null as String;
+            var _loc16_:* = null as String;
+            var _loc17_:* = null as CostumeType;
+            var _loc18_:* = null as §_-A3s§;
+            var _loc19_:* = null as §_-o31§;
+            var _loc1_:int = 0;
+            var _loc2_:Vector.<uint> = §_-t15§.§_-P10§;
+            while(_loc1_ < int(_loc2_.length))
+            {
+                _loc3_ = _loc2_[_loc1_];
+                _loc1_++;
+                _loc4_ = §_-t15§.§_-32C§;
+                _loc5_ = new StringMap();
+                _loc4_.h[_loc3_] = _loc5_;
+                _loc6_ = 0;
+                _loc7_ = §_-t15§.§_-f31§.h[_loc3_];
+                while(_loc6_ < int(_loc7_.length))
+                {
+                    _loc8_ = _loc7_[_loc6_];
+                    _loc6_++;
+                    if(_loc8_.§_-G45§ != null)
+                    {
+                        _loc9_ = _loc8_.mType + "|" + _loc8_.§_-G45§;
+                        _loc13_ = §_-t15§.§_-32C§.h[_loc3_];
+                        if((_loc9_ in StringMap.reserved ? _loc13_.getReserved(_loc9_) : _loc13_.h[_loc9_]) != null)
+                        {
+                            _loc12_ = _loc8_.mType != "RandomColor";
+                        }
+                        else
+                        {
+                            _loc12_ = false;
+                        }
+                        if(_loc12_)
+                        {
+                            _loc11_ = _loc8_.mType != "WeaponSkin";
+                        }
+                        else
+                        {
+                            _loc11_ = false;
+                        }
+                        if(_loc11_)
+                        {
+                            _loc10_ = _loc8_.mType != "LootTable";
+                        }
+                        else
+                        {
+                            _loc10_ = false;
+                        }
+                        if(_loc10_)
+                        {
+                            §_-Z6B§.§_-FX§("[BattlePassRewardType s" + ("" + _loc3_) + "] Duplicate reward: " + _loc8_.mType + "-" + _loc8_.§_-G45§);
+                        }
+                        _loc14_ = §_-t15§.§_-32C§.h[_loc3_];
+                        if(_loc9_ in StringMap.reserved)
+                        {
+                            _loc14_.setReserved(_loc9_,_loc8_);
+                        }
+                        else
+                        {
+                            _loc14_.h[_loc9_] = _loc8_;
+                        }
+                        _loc15_ = _loc8_.mType;
+                        _loc16_ = _loc15_;
+                        if(_loc16_ == "Costume")
+                        {
+                            _loc17_ = CostumeType.§_-C5R§(_loc8_.§_-G45§);
+                            if(_loc17_ != null)
+                            {
+                                §_-t15§.§_-C1F§(_loc3_,_loc8_,_loc17_.mWeaponSkin1,1);
+                                §_-t15§.§_-C1F§(_loc3_,_loc8_,_loc17_.mWeaponSkin2,2);
+                                if(_loc17_.§_-I6F§ != null)
+                                {
+                                    §_-t15§.§_-04X§.set(_loc3_,_loc8_);
+                                }
+                            }
+                        }
+                        else if(_loc16_ == "Podium")
+                        {
+                            _loc18_ = §_-A3s§.§_-11I§(_loc8_.§_-G45§);
+                            if(_loc18_ != null && _loc18_.§_-I6F§ != null)
+                            {
+                                §_-t15§.§_-71a§.set(_loc3_,_loc8_);
+                            }
+                        }
+                        else
+                        {
+                            if(_loc16_ != "RandomColor")
+                            {
+                                if(_loc16_ != "UniversalColor")
+                                {
+                                    continue;
+                                }
+                            }
+                            _loc19_ = §_-o31§.§_-Zx§(_loc8_.§_-G45§);
+                            if(_loc19_ != null)
+                            {
+                                if(§_-t15§.§_-Lx§.get(_loc3_) == null)
+                                {
+                                    §_-t15§.§_-Lx§.set(_loc3_,_loc19_);
+                                }
+                                else if(§_-t15§.§_-Lx§.get(_loc3_) != _loc19_)
+                                {
+                                    §_-Z6B§.§_-FX§("[BattlePassRewardType s" + ("" + _loc3_) + "] All color rewards must be the same color. \'" + §_-t15§.§_-Lx§.get(_loc3_).mColorSchemeName + "\' vs \'" + _loc19_.mColorSchemeName + "\'");
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        
+        public static function §_-C1F§(param1:uint, param2:§_-t15§, param3:§_-z5t§, param4:uint) : void
+        {
+            var _loc5_:* = null as String;
+            var _loc6_:* = null as StringMap;
+            var _loc7_:* = null as String;
+            var _loc8_:* = null as StringMap;
+            if(param3 != null)
+            {
+                _loc5_ = "WeaponSkin" + "|" + param3.mWeaponSkinName;
+                _loc6_ = §_-t15§.§_-32C§.h[param1];
+                if((_loc5_ in StringMap.reserved ? _loc6_.getReserved(_loc5_) : _loc6_.h[_loc5_]) != null)
+                {
+                    _loc7_ = "[BattlePassRewardType s" + ("" + param1) + "] Duplicate reward: " + param2.mType + "-" + param2.§_-G45§ + " (from costume)";
+                }
+                _loc8_ = §_-t15§.§_-32C§.h[param1];
+                if(_loc5_ in StringMap.reserved)
+                {
+                    _loc8_.setReserved(_loc5_,param2);
+                }
+                else
+                {
+                    _loc8_.h[_loc5_] = param2;
+                }
+            }
+        }
+        
+        public static function §_-T54§() : void
+        {
+            var _loc2_:* = null as §_-a23§;
+            var _loc3_:uint = 0;
+            var _loc4_:* = null as String;
+            var _loc5_:* = null as String;
+            var _loc6_:* = null as String;
+            var _loc7_:Boolean = false;
+            var _loc8_:* = null as StringMap;
+            var _loc9_:* = null as StringMap;
+            var _loc10_:* = null as String;
+            §_-t15§.§_-933§ = new StringMap();
+            if(§_-t15§.§_-15J§ == null)
+            {
+                return;
+            }
+            var _loc1_:* = §_-t15§.§_-15J§.§_-V6N§();
+            while(Boolean(_loc1_.hasNext()))
+            {
+                _loc2_ = _loc1_.next();
+                _loc3_ = uint(_loc2_ != null && _loc2_.exists("Season") ? int(§_-53H§.parseInt(_loc2_.get("Season"))) : int(0));
+                if(_loc3_ != 0)
+                {
+                    _loc4_ = _loc2_.get("Type");
+                    _loc5_ = _loc2_.get("Item");
+                    if(!(_loc4_ == null || _loc5_ == null))
+                    {
+                        _loc6_ = _loc4_ + "|" + _loc5_;
+                        _loc8_ = §_-t15§.§_-933§;
+                        if(_loc6_ in StringMap.reserved ? _loc8_.existsReserved(_loc6_) : _loc6_ in _loc8_.h)
+                        {
+                            _loc9_ = §_-t15§.§_-933§;
+                            _loc7_ = (_loc6_ in StringMap.reserved ? _loc9_.getReserved(_loc6_) : _loc9_.h[_loc6_]) != _loc3_;
+                        }
+                        else
+                        {
+                            _loc7_ = false;
+                        }
+                        if(_loc7_)
+                        {
+                            _loc10_ = "[BattlePassRewardType] PastBattlePassRewardType " + _loc6_ + " appears in both season " + ("" + _loc3_) + " and " + §_-53H§.§_-96n§(§_-t15§.§_-933§.get(_loc6_));
+                        }
+                        _loc9_ = §_-t15§.§_-933§;
+                        if(_loc6_ in StringMap.reserved)
+                        {
+                            _loc9_.setReserved(_loc6_,_loc3_);
+                        }
+                        else
+                        {
+                            _loc9_.h[_loc6_] = _loc3_;
+                        }
+                    }
+                }
+            }
+            §_-t15§.§_-15J§ = null;
+        }
+        
+        public static function §_-i36§(param1:String, param2:String) : String
+        {
+            return param1 + "|" + param2;
+        }
+        
+        public static function §_-M52§(param1:uint, param2:uint) : uint
+        {
+            return uint(param2 << 16) | param1;
+        }
+        
+        public static function §_-w1G§(param1:String, param2:String, param3:uint) : void
+        {
+        }
+        
+        public static function §_-nS§() : void
+        {
+            var _loc3_:uint = 0;
+            var _loc4_:* = null as IMap;
+            var _loc5_:* = null as Vector.<§_-y3f§>;
+            var _loc6_:* = null as IMap;
+            var _loc7_:* = null;
+            var _loc8_:uint = 0;
+            var _loc9_:int = 0;
+            var _loc10_:int = 0;
+            var _loc11_:int = 0;
+            var _loc12_:* = null as Vector.<§_-t15§>;
+            var _loc13_:int = 0;
+            var _loc14_:int = 0;
+            var _loc15_:int = 0;
+            var _loc1_:int = 0;
+            var _loc2_:Vector.<uint> = §_-t15§.§_-P10§;
+            while(_loc1_ < int(_loc2_.length))
+            {
+                _loc3_ = _loc2_[_loc1_];
+                _loc1_++;
+                _loc4_ = §_-t15§.§_-s3r§;
+                _loc5_ = new Vector.<§_-y3f§>();
+                _loc4_.h[_loc3_] = _loc5_;
+                _loc4_ = §_-t15§.§_-J23§;
+                _loc6_ = new IntMap();
+                _loc4_.h[_loc3_] = _loc6_;
+                _loc7_ = new IntMapKeysIterator(§_-t15§.§_-s§.h[_loc3_].h);
+                while(Boolean(_loc7_.hasNext()))
+                {
+                    _loc8_ = uint(_loc7_.next());
+                    _loc9_ = 1;
+                    _loc10_ = int(uint(§_-t15§.§_-s§.h[_loc3_].h[_loc8_] + 1));
+                    while(_loc9_ < _loc10_)
+                    {
+                        _loc11_ = _loc9_++;
+                        _loc12_ = §_-t15§.§_-w3z§(_loc11_,_loc8_,false,_loc3_);
+                        if(_loc12_ != null)
+                        {
+                            _loc13_ = 0;
+                            _loc14_ = int(_loc12_.length);
+                            while(_loc13_ < _loc14_)
+                            {
+                                _loc15_ = _loc13_++;
+                                §_-t15§.§_-01G§(_loc3_,_loc12_[_loc15_],_loc15_);
+                            }
+                        }
+                        _loc12_ = §_-t15§.§_-w3z§(_loc11_,_loc8_,true,_loc3_);
+                        if(_loc12_ != null)
+                        {
+                            _loc13_ = 0;
+                            _loc14_ = int(_loc12_.length);
+                            while(_loc13_ < _loc14_)
+                            {
+                                _loc15_ = _loc13_++;
+                                §_-t15§.§_-01G§(_loc3_,_loc12_[_loc15_],_loc15_);
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        
+        public static function §_-01G§(param1:uint, param2:§_-t15§, param3:uint) : void
+        {
+            var _loc5_:* = null as IMap;
+            var _loc6_:uint = 0;
+            var _loc7_:* = null as Vector.<§_-y3f§>;
+            var _loc9_:* = null as §_-y3f§;
+            var _loc4_:Vector.<§_-y3f§> = §_-t15§.§_-J23§.h[param1].h[uint(param2.§_-j3q§ << 16) | param2.§_-X6a§];
+            if(_loc4_ == null)
+            {
+                _loc5_ = §_-t15§.§_-J23§.h[param1];
+                _loc6_ = uint(uint(param2.§_-j3q§ << 16) | param2.§_-X6a§);
+                _loc7_ = new Vector.<§_-y3f§>();
+                _loc5_.h[_loc6_] = _loc7_;
+                _loc4_ = _loc7_;
+            }
+            var _loc8_:Boolean = true;
+            if(int(_loc4_.length) != 0)
+            {
+                _loc9_ = _loc4_[int(_loc4_.length) - 1];
+                if(param2.§_-64w§ && _loc9_.§_-y1J§ == -1)
+                {
+                    _loc8_ = false;
+                    _loc9_.§_-y1J§ = param3;
+                }
+                else if(!param2.§_-64w§ && param2.§_-518§ == "DoubleTall")
+                {
+                    if(_loc9_.§_-Q6C§ == -1 && _loc9_.§_-c5n§ == -1)
+                    {
+                        _loc8_ = false;
+                        _loc9_.§_-Q6C§ = param3;
+                        _loc9_.§_-c5n§ = param3;
+                    }
+                }
+                else if(_loc9_.§_-Q6C§ == -1)
+                {
+                    _loc8_ = false;
+                    _loc9_.§_-Q6C§ = param3;
+                }
+                else if(_loc9_.§_-c5n§ == -1)
+                {
+                    _loc8_ = false;
+                    _loc9_.§_-c5n§ = param3;
+                }
+            }
+            if(_loc8_)
+            {
+                _loc9_ = new §_-y3f§(param2.§_-j3q§,param2.§_-X6a§);
+                if(param2.§_-64w§)
+                {
+                    _loc9_.§_-y1J§ = param3;
+                }
+                else
+                {
+                    _loc9_.§_-Q6C§ = param3;
+                    if(!param2.§_-64w§ && param2.§_-518§ == "DoubleTall")
+                    {
+                        _loc9_.§_-c5n§ = param3;
+                    }
+                }
+                _loc9_.§_-xR§ = int(§_-t15§.§_-s3r§.h[param1].length);
+                §_-t15§.§_-s3r§.h[param1].push(_loc9_);
+                _loc4_.push(_loc9_);
+            }
+        }
+        
+        public static function §_-n2w§() : void
+        {
+            var _loc3_:uint = 0;
+            var _loc4_:* = null;
+            var _loc5_:uint = 0;
+            var _loc6_:int = 0;
+            var _loc7_:int = 0;
+            var _loc8_:int = 0;
+            var _loc9_:* = null as Vector.<§_-t15§>;
+            var _loc10_:int = 0;
+            var _loc11_:int = 0;
+            var _loc12_:int = 0;
+            var _loc13_:* = null as §_-t15§;
+            var _loc14_:* = null as CostumeType;
+            var _loc15_:int = 0;
+            var _loc16_:int = 0;
+            var _loc17_:* = null as §_-z5t§;
+            var _loc18_:* = null as §_-t15§;
+            var _loc1_:int = 0;
+            var _loc2_:Vector.<uint> = §_-t15§.§_-P10§;
+            while(_loc1_ < int(_loc2_.length))
+            {
+                _loc3_ = _loc2_[_loc1_];
+                _loc1_++;
+                _loc4_ = new IntMapKeysIterator(§_-t15§.§_-s§.h[_loc3_].h);
+                while(Boolean(_loc4_.hasNext()))
+                {
+                    _loc5_ = uint(_loc4_.next());
+                    _loc6_ = 1;
+                    _loc7_ = int(uint(§_-t15§.§_-s§.h[_loc3_].h[_loc5_] + 1));
+                    while(_loc6_ < _loc7_)
+                    {
+                        _loc8_ = _loc6_++;
+                        _loc9_ = §_-t15§.§_-w3z§(_loc8_,_loc5_,false,_loc3_);
+                        if(_loc9_ != null)
+                        {
+                            _loc10_ = 0;
+                            _loc11_ = int(_loc9_.length);
+                            while(_loc10_ < _loc11_)
+                            {
+                                _loc12_ = _loc10_++;
+                                _loc13_ = _loc9_[_loc12_];
+                                if(!(_loc13_.mType != "Costume" || _loc13_.§_-S3j§))
+                                {
+                                    _loc14_ = CostumeType.§_-C5R§(_loc13_.§_-G45§);
+                                    if(_loc14_ != null)
+                                    {
+                                        _loc15_ = 1;
+                                        while(_loc15_ < 3)
+                                        {
+                                            _loc16_ = _loc15_++;
+                                            _loc17_ = _loc16_ == 1 ? _loc14_.mWeaponSkin1 : _loc14_.mWeaponSkin2;
+                                            if(_loc17_ != null)
+                                            {
+                                                _loc18_ = new §_-t15§();
+                                                _loc18_.§_-E2v§ = uint(_loc13_.§_-E2v§ + _loc16_ * 1000);
+                                                _loc18_.§_-G45§ = _loc17_.mWeaponSkinName;
+                                                _loc18_.mType = "WeaponSkin";
+                                                _loc18_.§_-lx§ = _loc13_.§_-lx§ + _loc17_.§_-q5d§;
+                                                _loc18_.§_-518§ = "Single";
+                                                _loc18_.§_-r3T§ = "a_BPIconStateSingle";
+                                                _loc18_.§_-j3q§ = _loc13_.§_-j3q§;
+                                                _loc18_.§_-X6a§ = _loc13_.§_-X6a§;
+                                                _loc18_.§_-Q3i§ = _loc13_.§_-Q3i§;
+                                                _loc18_.§_-64w§ = _loc13_.§_-64w§;
+                                                _loc18_.§_-h3L§ = 0;
+                                                _loc18_.§_-26n§ = 0;
+                                                _loc18_.§_-b8§ = 1;
+                                                §_-L20§.§_-33K§(_loc9_,_loc12_ + _loc16_,_loc18_);
+                                            }
+                                        }
+                                        break;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        
+        public static function §_-d5h§(param1:uint, param2:String, param3:String) : Boolean
+        {
+            var _loc5_:* = null as StringMap;
+            var _loc6_:* = null as String;
+            var _loc4_:IMap = §_-t15§.§_-32C§;
+            if(param1 in _loc4_.h)
+            {
+                _loc5_ = §_-t15§.§_-32C§.h[param1];
+                _loc6_ = param2 + "|" + param3;
+                if(_loc6_ in StringMap.reserved)
+                {
+                    return _loc5_.existsReserved(_loc6_);
+                }
+                return _loc6_ in _loc5_.h;
+            }
+            return false;
+        }
+        
+        public static function §_-L5O§(param1:uint, param2:String, param3:String) : §_-t15§
+        {
+            var _loc4_:* = null as StringMap;
+            var _loc5_:* = null as String;
+            if(§_-t15§.§_-d5h§(param1,param2,param3))
+            {
+                _loc4_ = §_-t15§.§_-32C§.h[param1];
+                _loc5_ = param2 + "|" + param3;
+                if(_loc5_ in StringMap.reserved)
+                {
+                    return _loc4_.getReserved(_loc5_);
+                }
+                return _loc4_.h[_loc5_];
+            }
+            return null;
+        }
+        
+        public static function §_-G5K§(param1:CostumeType) : uint
+        {
+            return §_-t15§.§_-Hl§("Costume",param1.mCostumeName);
+        }
+        
+        public static function §_-65v§(param1:§_-z5t§) : uint
+        {
+            return §_-t15§.§_-Hl§("WeaponSkin",param1.mWeaponSkinName);
+        }
+        
+        public static function §_-P4N§(param1:§_-o31§) : uint
+        {
+            return §_-t15§.§_-Hl§("UniversalColor",param1.mColorSchemeName);
+        }
+        
+        public static function §_-jx§(param1:§_-mu§) : uint
+        {
+            return §_-t15§.§_-Hl§("Taunt",param1.mTauntName);
+        }
+        
+        public static function §_-d3X§(param1:§_-L2N§) : uint
+        {
+            return §_-t15§.§_-Hl§("SpawnBot",param1.mSpawnBotName);
+        }
+        
+        public static function §_-WB§(param1:CompanionType) : uint
+        {
+            return §_-t15§.§_-Hl§("Companion",param1.§_-Ry§);
+        }
+        
+        public static function §_-U4U§(param1:§_-N5Y§) : uint
+        {
+            return §_-t15§.§_-Hl§("PlayerTheme",param1.§_-l1F§);
+        }
+        
+        public static function §_-M28§(param1:§_-U68§) : uint
+        {
+            return §_-t15§.§_-Hl§("KOEffect",param1.§_-B6s§);
+        }
+        
+        public static function §_-hE§(param1:§_-yQ§) : uint
+        {
+            return §_-t15§.§_-Hl§("Avatar",param1.§_-F5U§);
+        }
+        
+        public static function §_-05E§(param1:§_-84o§) : uint
+        {
+            return §_-t15§.§_-Hl§("Border",param1.§_-s18§);
+        }
+        
+        public static function §_-U56§(param1:§_-A3s§) : uint
+        {
+            return §_-t15§.§_-Hl§("Podium",param1.mPodiumName);
+        }
+        
+        public static function §_-Y10§(param1:§_-b5l§) : uint
+        {
+            return §_-t15§.§_-Hl§("Moniker",param1.§_-gy§);
+        }
+        
+        public static function §_-T7§(param1:§_-k2§) : uint
+        {
+            return §_-t15§.§_-Hl§("Emoji",param1.§_-A4u§);
+        }
+        
+        public static function §_-w2q§(param1:StoreType) : uint
+        {
+            return §_-t15§.§_-Hl§(param1.mType,param1.§_-G45§);
+        }
+        
+        public static function §_-e3h§(param1:§_-p1Y§) : uint
+        {
+            return §_-t15§.§_-Hl§(param1.mType,param1.§_-G45§);
+        }
+        
+        public static function §_-Hl§(param1:String, param2:String) : uint
+        {
+            var _loc5_:* = null as StringMap;
+            var _loc3_:String = param1 + "|" + param2;
+            var _loc4_:StringMap = §_-t15§.§_-933§;
+            if(_loc3_ in StringMap.reserved ? _loc4_.existsReserved(_loc3_) : _loc3_ in _loc4_.h)
+            {
+                _loc5_ = §_-t15§.§_-933§;
+                if(_loc3_ in StringMap.reserved)
+                {
+                    return _loc5_.getReserved(_loc3_);
+                }
+                return _loc5_.h[_loc3_];
+            }
+            return 0;
+        }
+        
+        public static function §_-W6v§(param1:uint) : Vector.<§_-t15§>
+        {
+            return §_-t15§.§_-f31§.h[param1];
+        }
+        
+        public static function §_-6k§(param1:uint, param2:uint) : Vector.<§_-t15§>
+        {
+            var _loc3_:IMap = §_-t15§.§_-Q4l§;
+            if(param1 in _loc3_.h)
+            {
+                return §_-t15§.§_-Q4l§.h[param1].h[param2];
+            }
+            return null;
+        }
+        
+        public static function §_-su§(param1:uint, param2:uint) : §_-t15§
+        {
+            var _loc3_:IMap = §_-t15§.§_-x2R§;
+            if(param2 in _loc3_.h)
+            {
+                return §_-t15§.§_-x2R§.h[param2].h[param1];
+            }
+            return null;
+        }
+        
+        public static function §_-Z5h§(param1:uint) : §_-t15§
+        {
+            return §_-t15§.§_-65e§.h[param1];
+        }
+        
+        public static function §_-z2Y§(param1:uint, param2:uint) : uint
+        {
+            var _loc3_:IMap = §_-t15§.§_-m2u§;
+            if(param2 in _loc3_.h)
+            {
+                return §_-t15§.§_-m2u§.h[param2].h[param1];
+            }
+            return 0;
+        }
+        
+        public static function §_-f3l§(param1:uint, param2:uint, param3:uint) : Vector.<§_-y3f§>
+        {
+            var _loc4_:IMap = §_-t15§.§_-J23§;
+            if(param3 in _loc4_.h)
+            {
+                return §_-t15§.§_-J23§.h[param3].h[uint(param2 << 16) | param1];
+            }
+            return null;
+        }
+        
+        public static function §_-e1W§(param1:int, param2:uint) : §_-y3f§
+        {
+            var _loc3_:Vector.<§_-y3f§> = §_-t15§.§_-s3r§.h[param2];
+            if(_loc3_ != null && param1 >= 0 && int(_loc3_.length) > param1)
+            {
+                return _loc3_[param1];
+            }
+            return null;
+        }
+        
+        public static function §_-P38§(param1:uint) : int
+        {
+            var _loc2_:Vector.<§_-y3f§> = §_-t15§.§_-s3r§.h[param1];
+            if(_loc2_ != null)
+            {
+                return int(_loc2_.length);
+            }
+            return 0;
+        }
+        
+        public static function §_-J2y§(param1:uint, param2:uint, param3:uint) : Vector.<§_-t15§>
+        {
+            var _loc4_:IMap = §_-t15§.§_-d4U§;
+            if(param3 in _loc4_.h)
+            {
+                return §_-t15§.§_-d4U§.h[param3].h[uint(param2 << 16) | param1];
+            }
+            return null;
+        }
+        
+        public static function §_-w3z§(param1:uint, param2:uint, param3:Boolean, param4:uint) : Vector.<§_-t15§>
+        {
+            var _loc5_:IMap = param3 ? §_-t15§.§_-K3§ : §_-t15§.§_-J3n§;
+            if(param4 in _loc5_.h)
+            {
+                return _loc5_.h[param4].h[uint(param2 << 16) | param1];
+            }
+            return null;
+        }
+        
+        public static function §_-G2v§(param1:uint, param2:uint, param3:uint) : uint
+        {
+            var _loc4_:Vector.<§_-y3f§> = §_-t15§.§_-f3l§(param1,param2,param3);
+            if(_loc4_ == null)
+            {
+                return 0;
+            }
+            return int(_loc4_.length);
+        }
+        
+        public static function §_-ng§(param1:uint, param2:uint) : uint
+        {
+            var _loc3_:IMap = §_-t15§.§_-s§;
+            if(param2 in _loc3_.h)
+            {
+                return §_-t15§.§_-s§.h[param2].h[param1];
+            }
+            return 0;
+        }
+        
+        public static function §_-J6X§(param1:uint, param2:uint) : uint
+        {
+            var _loc3_:IMap = §_-t15§.§_-n26§;
+            if(param2 in _loc3_.h)
+            {
+                return §_-t15§.§_-n26§.h[param2].h[param1];
+            }
+            return 0;
+        }
+        
+        public static function §_-X6V§(param1:uint) : uint
+        {
+            if(param1 == 0)
+            {
+                return 1;
+            }
+            return 0;
+        }
+        
+        public static function §_-c4z§(param1:uint) : uint
+        {
+            return §_-t15§.§_-W3Q§.h[param1];
+        }
+        
+        public static function §_-72E§(param1:uint) : uint
+        {
+            return §_-t15§.§_-e1g§.h[param1];
+        }
+        
+        public static function §_-D2u§(param1:uint) : §_-o31§
+        {
+            var _loc2_:IMap = §_-t15§.§_-Lx§;
+            if(param1 in _loc2_.h)
+            {
+                return §_-t15§.§_-Lx§.h[param1];
+            }
+            return null;
+        }
+        
+        public static function §_-R6x§(param1:uint, param2:uint) : §_-t15§
+        {
+            var _loc3_:IMap = §_-t15§.§_-o4y§;
+            if(param1 in _loc3_.h)
+            {
+                return §_-t15§.§_-o4y§.h[param1].h[param2];
+            }
+            return null;
+        }
+        
+        public static function §_-I46§(param1:uint) : §_-t15§
+        {
+            return §_-t15§.§_-04X§.h[param1];
+        }
+        
+        public static function §_-51B§(param1:uint) : §_-t15§
+        {
+            return §_-t15§.§_-71a§.h[param1];
+        }
+        
+        public static function §_-E1Q§(param1:§_-t15§) : Boolean
+        {
+            if(!param1.§_-64w§)
+            {
+                return param1.§_-518§ == "DoubleTall";
+            }
+            return false;
+        }
+        
+        public static function §_-X3u§(param1:String) : Object
+        {
+            var _loc2_:String = param1;
+            if(_loc2_ != "Avatar")
+            {
+                if(_loc2_ != "BattlePointsMult")
+                {
+                    if(_loc2_ != "Emoji")
+                    {
+                        if(_loc2_ != "RandomColor")
+                        {
+                            if(_loc2_ != "Costume")
+                            {
+                                if(_loc2_ != "EmitterGroup")
+                                {
+                                    if(_loc2_ != "LootTable")
+                                    {
+                                        if(_loc2_ != "MammothCoins")
+                                        {
+                                            if(_loc2_ != "Moniker")
+                                            {
+                                                if(_loc2_ != "Podium")
+                                                {
+                                                    if(_loc2_ != "UniversalColor")
+                                                    {
+                                                        if(_loc2_ != "Border")
+                                                        {
+                                                            if(_loc2_ != "Companion")
+                                                            {
+                                                                if(_loc2_ != "KOEffect")
+                                                                {
+                                                                    if(_loc2_ != "PlayerTheme")
+                                                                    {
+                                                                        if(_loc2_ != "SpawnBot")
+                                                                        {
+                                                                            if(_loc2_ != "Taunt")
+                                                                            {
+                                                                                if(_loc2_ != "WeaponSkin")
+                                                                                {
+                                                                                    return {
+                                                                                        "key":"UI_BattlePass_RewardRarity_Common",
+                                                                                        "color":510118
+                                                                                    };
+                                                                                }
+                                                                            }
+                                                                        }
+                                                                    }
+                                                                }
+                                                            }
+                                                        }
+                                                        return {
+                                                            "key":"UI_BattlePass_RewardRarity_Uncommon",
+                                                            "color":895230
+                                                        };
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                            return {
+                                "key":"UI_BattlePass_RewardRarity_Rare",
+                                "color":7890902
+                            };
+                        }
+                    }
+                }
+            }
+            return {
+                "key":"UI_BattlePass_RewardRarity_Common",
+                "color":510118
+            };
+        }
+        
+        public function toString() : String
+        {
+            return "[id" + §_-53H§.§_-96n§(§_-E2v§) + "][t" + §_-53H§.§_-96n§(§_-X6a§) + "]" + (§_-64w§ ? "[f]" : "[$]") + (" " + mType + ": ") + §_-53H§.§_-96n§(§_-J2a§ != 0 ? §_-J2a§ : §_-G45§);
+        }
+        
+        public function §_-o50§() : Boolean
+        {
+            if(mSigSwapImage1 != null)
+            {
+                return mSigSwapImage2 != null;
+            }
+            return false;
+        }
+        
+        public function §_-I6n§() : Boolean
+        {
+            return §_-E4D§ != null;
+        }
+        
+        public function §_-N4v§() : uint
+        {
+            return uint(§_-j3q§ << 16) | §_-X6a§;
+        }
+        
+        public function §_-U5U§() : Boolean
+        {
+            var _loc1_:String = §_-Q3i§;
+            return !(_loc1_ == null || _loc1_.length == 0);
+        }
+        
+        public function §_-c1l§() : uint
+        {
+            return §_-Kc§ % 100;
+        }
+        
+        public function §_-O4Q§(param1:§_-H2U§) : Object
+        {
+            var _loc2_:Boolean = false;
+            var _loc3_:Boolean = false;
+            if(mType == "Costume")
+            {
+                _loc2_ = §_-Q3i§ == "Upgrade";
+                _loc3_ = §_-j3q§ == uint(§_-t15§.§_-W3Q§.get(param1.§_-G6m§.§_-S6v§)) && §_-X6a§ == §_-t15§.§_-ng§(§_-j3q§,param1.§_-G6m§.§_-S6v§);
+                if(_loc2_ || _loc3_)
+                {
+                    return {
+                        "key":"UI_BattlePass_RewardRarity_Legendary",
+                        "color":16750876
+                    };
+                }
+            }
+            return §_-t15§.§_-X3u§(mType);
+        }
+        
+        public function §_-611§() : String
+        {
+            var _loc1_:String = §_-Q3i§;
+            var _loc2_:String = _loc1_;
+            if(_loc2_ == "Epic")
+            {
+                return "StoreType_Rarity_Epic";
+            }
+            if(_loc2_ == "Mythic")
+            {
+                return "StoreType_Rarity_Mythic";
+            }
+            if(_loc2_ == "Upgrade")
+            {
+                return "StoreType_Rarity_Upgrade";
+            }
+            return "";
+        }
+        
+        public function §_-8h§() : String
+        {
+            var _loc1_:* = null as §_-mu§;
+            if(mType == "Taunt")
+            {
+                _loc1_ = §_-mu§.§_-g4q§.get(§_-G45§);
+                if(_loc1_ != null && _loc1_.§_-t3o§)
+                {
+                    return "UI_TeamTaunt";
+                }
+            }
+            var _loc2_:String = mType;
+            var _loc3_:StringMap = §_-t15§.§_-E4B§;
+            if(_loc2_ in StringMap.reserved)
+            {
+                return _loc3_.getReserved(_loc2_);
+            }
+            return _loc3_.h[_loc2_];
+        }
+        
+        public function §_-F6s§() : void
+        {
+        }
+    }
+}
+

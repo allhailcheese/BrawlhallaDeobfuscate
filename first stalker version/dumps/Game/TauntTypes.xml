@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<TauntTypes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<TauntType TauntName="Template">
+		<TauntID>0</TauntID>
+		<DisplayName>---</DisplayName>
+		<PowerName>TestTaunt</PowerName>
+	</TauntType>
+	<TauntType TauntName="BeatChest">
+		<TauntID>1</TauntID>
+		<DisplayName>Primal Roar</DisplayName>
+		<PowerName>TauntBeatChest</PowerName>
+	</TauntType>
+	<TauntType TauntName="HammerDance">
+		<TauntID>2</TauntID>
+		<DisplayName>The Running Man</DisplayName>
+		<PowerName>TauntHammerDance</PowerName>
+	</TauntType>
+	<TauntType TauntName="Bow">
+		<TauntID>3</TauntID>
+		<DisplayName>Take a Bow</DisplayName>
+		<PowerName>TauntBow</PowerName>
+	</TauntType>
+	<TauntType TauntName="Nooo">
+		<TauntID>4</TauntID>
+		<DisplayName>Nooo</DisplayName>
+		<PowerName>TauntNooo</PowerName>
+	</TauntType>
+	<TauntType TauntName="RoofDance">
+		<TauntID>5</TauntID>
+		<DisplayName>Roof Dance</DisplayName>
+		<PowerName>TauntRoofDance</PowerName>
+	</TauntType>
+	<TauntType TauntName="GoodBye">
+		<TauntID>6</TauntID>
+		<DisplayName>See Ya!</DisplayName>
+		<PowerName>TauntGoodBye</PowerName>
+	</TauntType>
+	<TauntType TauntName="BotPicture">
+		<TauntID>7</TauntID>
+		<DisplayName>Bot Picture</DisplayName>
+		<PowerName>TauntBotPicture</PowerName>
+	</TauntType>
+	<TauntType TauntName="BotHighFive">
+		<TauntID>8</TauntID>
+		<DisplayName>Bot High Five</DisplayName>
+		<PowerName>TauntBotHighFive</PowerName>
+	</TauntType>
+	<TauntType TauntName="ComeAtMe">
+		<TauntID>9</TauntID>
+		<DisplayName>Come At Me</DisplayName>
+		<PowerName>TauntComeAtMe</PowerName>
+	</TauntType>
+	<TauntType TauntName="EvilLaugh">
+		<TauntID>10</TauntID>
+		<DisplayName>Maniacal Laugh</DisplayName>
+		<PowerName>TauntEvilLaugh</PowerName>
+	</TauntType>
+	<TauntType TauntName="SlowClap">
+		<TauntID>11</TauntID>
+		<DisplayName>Slow Clap</DisplayName>
+		<PowerName>TauntSlowClap</PowerName>
+	</TauntType>
+	<TauntType TauntName="DEFAULT">
+		<TauntID>12</TauntID>
+		<DisplayName>I Win, You Lose</DisplayName>
+		<PowerName>TauntWin</PowerName>
+	</TauntType>
+	<TauntType TauntName="CakeBoss">
+		<TauntID>13</TauntID>
+		<DisplayName>Cake, Delicious Cake</DisplayName>
+		<PowerName>TauntCakeBoss</PowerName>
+	</TauntType>
+	<TauntType TauntName="CossackDance">
+		<TauntID>14</TauntID>
+		<DisplayName>Cossack Dance</DisplayName>
+		<PowerName>TauntCossackDance</PowerName>
+	</TauntType>
+	<TauntType TauntName="Vandelay">
+		<TauntID>15</TauntID>
+		<DisplayName>Vandelay</DisplayName>
+		<PowerName>TauntVandelay</PowerName>
+	</TauntType>
+	<TauntType TauntName="Salt">
+		<TauntID>16</TauntID>
+		<DisplayName>Too Salty</DisplayName>
+		<PowerName>TauntSalt</PowerName>
+	</TauntType>
+</TauntTypes>

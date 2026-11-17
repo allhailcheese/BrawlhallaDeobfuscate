@@ -1,0 +1,486 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ScenarioTypes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<ScenarioType ScenarioName="Template">
+		<ScenarioID>0</ScenarioID>
+		<DisplayName>Display Name</DisplayName>
+		<Type>Event</Type>
+		<TargetLevel>Map</TargetLevel>
+		<Cutscene>Cutscene Name</Cutscene>
+		<SpawnableWeapons>ALL</SpawnableWeapons>
+		<SpawnableGadgets>NONE</SpawnableGadgets>
+		<VictoryConditions>TIME_180</VictoryConditions>
+		<DefeatConditions>STOCK</DefeatConditions>
+		<Score>TIME</Score>
+		<Entity0>PLAYER</Entity0>
+		<Entity1>PLAYER</Entity1>
+		<Entity2>PLAYER</Entity2>
+		<Entity3>PLAYER</Entity3>
+		<Entity4>PLAYER</Entity4>
+		<Entity5>PLAYER</Entity5>
+		<Entity6>PLAYER</Entity6>
+		<Entity7>PLAYER</Entity7>
+	</ScenarioType>
+	<ScenarioType ScenarioName="1v3Joust">
+		<ScenarioID>1</ScenarioID>
+		<Type>Event</Type>
+		<TargetLevel>Ruins</TargetLevel>
+		<SpawnableWeapons>NONE</SpawnableWeapons>
+		<SpawnableGadgets>NONE</SpawnableGadgets>
+		<VictoryConditions>ELIMINATE</VictoryConditions>
+		<DefeatConditions>TIME_45, STOCK</DefeatConditions>
+		<Score>TIME</Score>
+		<Entity0>PLAYER, COWGIRL, TEAM_0, STOCK_1, ITEMLOCKED, BasicRocketLance</Entity0>
+		<Entity1>VALKYRIE, HARD, TEAM_1, STOCK_1, ITEMLOCKED, BasicRocketLance, MULTIPLE_3</Entity1>
+	</ScenarioType>
+	<ScenarioType ScenarioName="PistolDuel">
+		<ScenarioID>2</ScenarioID>
+		<Type>Event</Type>
+		<TargetLevel>Ruins</TargetLevel>
+		<SpawnableWeapons>NONE</SpawnableWeapons>
+		<SpawnableGadgets>NONE</SpawnableGadgets>
+		<VictoryConditions>ELIMINATE</VictoryConditions>
+		<DefeatConditions>STOCK</DefeatConditions>
+		<Score>TIME</Score>
+		<Entity0>PLAYER, COWGIRL, TEAM_0, STOCK_3, ITEMLOCKED, BasicPistol</Entity0>
+		<Entity1>ALIEN, HARD, TEAM_1, STOCK_3, ITEMLOCKED, BasicPistol</Entity1>
+	</ScenarioType>
+	<ScenarioType ScenarioName="BombSurvival">
+		<ScenarioID>3</ScenarioID>
+		<Type>Event</Type>
+		<TargetLevel>Ruins</TargetLevel>
+		<SpawnableWeapons>NONE</SpawnableWeapons>
+		<SpawnableGadgets>BouncyBomb, ProxMine</SpawnableGadgets>
+		<VictoryConditions>TIME_120</VictoryConditions>
+		<DefeatConditions>STOCK</DefeatConditions>
+		<Score>TIME</Score>
+		<Entity0>PLAYER, HIGHWAYMAN, TEAM_0, STOCK_1</Entity0>
+		<Entity1>VIKING, HARD, TEAM_1</Entity1>
+		<Entity2>VIKING, HARD, TEAM_1</Entity2>
+		<Entity3>VIKING, HARD, TEAM_1</Entity3>
+	</ScenarioType>
+	<ScenarioType ScenarioName="SpikeBallVolleyBall">
+		<ScenarioID>4</ScenarioID>
+		<Type>Event</Type>
+		<TargetLevel>Ruins</TargetLevel>
+		<SpawnableWeapons>NONE</SpawnableWeapons>
+		<SpawnableGadgets>SpikeBall</SpawnableGadgets>
+		<VictoryConditions>ELIMINATE</VictoryConditions>
+		<DefeatConditions>STOCK</DefeatConditions>
+		<Score>TIME</Score>
+		<Entity0>PLAYER, VALKYRIE, TEAM_0, STOCK_4, SpikeBall</Entity0>
+		<Entity1>KNIGHT, HARD, TEAM_0, STOCK_4, SpikeBall</Entity1>
+		<Entity2>{VIKING &amp; CAVEMAN}, HARD, TEAM_1, STOCK_4, SpikeBall</Entity2>
+	</ScenarioType>
+	<ScenarioType ScenarioName="VoodooDefense">
+		<ScenarioID>5</ScenarioID>
+		<Type>Event</Type>
+		<TargetLevel>Temple</TargetLevel>
+		<SpawnableWeapons>NONE</SpawnableWeapons>
+		<SpawnableGadgets>BouncyBomb, ProxMine</SpawnableGadgets>
+		<VictoryConditions>TIME_120</VictoryConditions>
+		<DefeatConditions>STOCK</DefeatConditions>
+		<Score>TIME</Score>
+		<Entity0>PLAYER, WITCH, TEAM_0, STOCK_1</Entity0>
+		<Entity1>{NINJA &amp; HIGHWAYMAN &amp; CAVEMAN}, HARD, TEAM_1</Entity1>
+	</ScenarioType>
+	<ScenarioType ScenarioName="HammerMuscle">
+		<ScenarioID>6</ScenarioID>
+		<Type>Event</Type>
+		<TargetLevel>Ruins</TargetLevel>
+		<SpawnableWeapons>NONE</SpawnableWeapons>
+		<SpawnableGadgets>NONE</SpawnableGadgets>
+		<VictoryConditions>ELIMINATE</VictoryConditions>
+		<DefeatConditions>STOCK</DefeatConditions>
+		<Score>TIME</Score>
+		<Entity0>PLAYER, CAVEMAN, TEAM_0, STOCK_4, ITEMLOCKED, BasicHammer</Entity0>
+		<Entity1>VIKING, HARD, TEAM_1, STOCK_4, ITEMLOCKED, BasicHammer</Entity1>
+	</ScenarioType>
+	<ScenarioType ScenarioName="StepCarefully">
+		<ScenarioID>7</ScenarioID>
+		<Type>Event</Type>
+		<TargetLevel>Ruins</TargetLevel>
+		<SpawnableWeapons>NONE</SpawnableWeapons>
+		<SpawnableGadgets>ProxMine</SpawnableGadgets>
+		<VictoryConditions>ELIMINATE</VictoryConditions>
+		<DefeatConditions>STOCK</DefeatConditions>
+		<Score>TIME</Score>
+		<Entity0>PLAYER, VIKING, TEAM_0, STOCK_4</Entity0>
+		<Entity1>CAVEMAN, HARD, TEAM_0, STOCK_4</Entity1>
+		<Entity2>{HIGHWAYMAN &amp; ALIEN}, TEAM_1, STOCK_4</Entity2>
+	</ScenarioType>
+	<ScenarioType ScenarioName="survive">
+		<ScenarioID>9</ScenarioID>
+		<Type>Challenge</Type>
+		<TargetLevel>Ruins</TargetLevel>
+		<SpawnableWeapons>ALL</SpawnableWeapons>
+		<SpawnableGadgets>ALL</SpawnableGadgets>
+		<DefeatConditions>STOCK</DefeatConditions>
+		<Score>TIME</Score>
+		<Entity0>PLAYER, TEAM_0, STOCK_1</Entity0>
+		<Entity1>VALKYRIE, PATHETIC, TEAM_1, ITEMLOCKED, WEAK, MULTIPLE_5</Entity1>
+	</ScenarioType>
+	<ScenarioType ScenarioName="HowManyKOs">
+		<ScenarioID>10</ScenarioID>
+		<Type>Challenge</Type>
+		<TargetLevel>Ruins</TargetLevel>
+		<SpawnableWeapons>ALL</SpawnableWeapons>
+		<SpawnableGadgets>ALL</SpawnableGadgets>
+		<DefeatConditions>TIME_60</DefeatConditions>
+		<Score>KO</Score>
+		<Entity0>PLAYER, TEAM_0, STOCK_1</Entity0>
+		<Entity1>VALKYRIE, PATHETIC, TEAM_1, ITEMLOCKED, WEAK, MULTIPLE_5</Entity1>
+	</ScenarioType>
+	<ScenarioType ScenarioName="F Noble Joust">
+		<ScenarioID>11</ScenarioID>
+		<Type>Event</Type>
+		<TargetLevel>Ruins</TargetLevel>
+		<SpawnableWeapons>NONE</SpawnableWeapons>
+		<SpawnableGadgets>NONE</SpawnableGadgets>
+		<VictoryConditions>ELIMINATE</VictoryConditions>
+		<DefeatConditions>STOCK</DefeatConditions>
+		<Score>TIME</Score>
+		<Entity0>PLAYER, KNIGHT, TEAM_0, STOCK_2, ITEMLOCKED, BASICROCKETLANCE</Entity0>
+		<Entity1>VALKYRIE, HARD, TEAM_1, STOCK_2, ITEMLOCKED, BASICROCKETLANCE</Entity1>
+	</ScenarioType>
+	<ScenarioType ScenarioName="F Pistol n Swords">
+		<ScenarioID>12</ScenarioID>
+		<Type>Event</Type>
+		<TargetLevel>Ruins</TargetLevel>
+		<SpawnableWeapons>NONE</SpawnableWeapons>
+		<SpawnableGadgets>NONE</SpawnableGadgets>
+		<VictoryConditions>ELIMINATE</VictoryConditions>
+		<DefeatConditions>STOCK</DefeatConditions>
+		<Score>TIME</Score>
+		<Entity0>PLAYER, COWGIRL, TEAM_0, STOCK_2, ITEMLOCKED, BASICPISTOL</Entity0>
+		<Entity1>ALIEN, HARD, TEAM_0, STOCK_2, ITEMLOCKED, BASICPISTOL</Entity1>
+		<Entity2>{KNIGHT &amp; NINJA}, HARD, TEAM_1, STOCK_2, ITEMLOCKED, BASICSWORD</Entity2>
+	</ScenarioType>
+	<ScenarioType ScenarioName="F Brute Strength">
+		<ScenarioID>13</ScenarioID>
+		<Type>Event</Type>
+		<TargetLevel>Ruins</TargetLevel>
+		<SpawnableWeapons>NONE</SpawnableWeapons>
+		<SpawnableGadgets>NONE</SpawnableGadgets>
+		<VictoryConditions>ELIMINATE</VictoryConditions>
+		<DefeatConditions>STOCK</DefeatConditions>
+		<Score>TIME</Score>
+		<Entity0>PLAYER, CAVEMAN, TEAM_0, STOCK_2, ITEMLOCKED, BasicHammer</Entity0>
+		<Entity1>VIKING, HARD, TEAM_1, STOCK_4, ITEMLOCKED, BasicHammer</Entity1>
+	</ScenarioType>
+	<ScenarioType ScenarioName="F Against All Odds">
+		<ScenarioID>14</ScenarioID>
+		<Type>Event</Type>
+		<TargetLevel>Temple</TargetLevel>
+		<SpawnableWeapons>ALL</SpawnableWeapons>
+		<SpawnableGadgets>NONE</SpawnableGadgets>
+		<VictoryConditions>ELIMINATE</VictoryConditions>
+		<DefeatConditions>STOCK</DefeatConditions>
+		<Score>TIME</Score>
+		<Entity0>PLAYER, Random[!VALKYRIE | !COWGIRL | !CAVEMAN | !WITCH], TEAM_0, STOCK_2</Entity0>
+		<Entity1>RANDOM[!VALKYRIE | !COWGIRL | !CAVEMAN | !WITCH], HARD, TEAM_1, STOCK_1</Entity1>
+		<Entity2>RANDOM[!VALKYRIE | !CAVEMAN | !WITCH], HARD, TEAM_1, STOCK_1</Entity2>
+	</ScenarioType>
+	<ScenarioType ScenarioName="KillThemFast">
+		<ScenarioID>15</ScenarioID>
+		<Type>Challenge</Type>
+		<TargetLevel>Ruins</TargetLevel>
+		<SpawnableWeapons>ALL</SpawnableWeapons>
+		<SpawnableGadgets>ALL</SpawnableGadgets>
+		<VictoryConditions>ELIMINATE</VictoryConditions>
+		<Score>TIME</Score>
+		<Entity0>PLAYER, TEAM_0</Entity0>
+		<Entity1>{VIKING &amp; CAVEMAN}, HARD, ITEMLOCKED, TEAM_1, STOCK_1</Entity1>
+	</ScenarioType>
+	<ScenarioType ScenarioName="Damage Resist and Weakness">
+		<ScenarioID>16</ScenarioID>
+		<DisplayName>Damage Example</DisplayName>
+		<Type>Event</Type>
+		<TargetLevel>Ruins</TargetLevel>
+		<SpawnableWeapons>NONE</SpawnableWeapons>
+		<SpawnableGadgets>ALL</SpawnableGadgets>
+		<VictoryConditions>ELIMINATE</VictoryConditions>
+		<DefeatConditions>STOCK</DefeatConditions>
+		<Score>TIME</Score>
+		<Entity0>PLAYER, VIKING, TEAM_0, DAMAGERESIST%50</Entity0>
+		<Entity1>VALKYRIE, TEAM_1, DAMAGEWEAK%180</Entity1>
+	</ScenarioType>
+	<ScenarioType ScenarioName="unnamedScenario17">
+		<ScenarioID>17</ScenarioID>
+		<Type>Event</Type>
+		<TargetLevel>Ruins</TargetLevel>
+		<SpawnableWeapons>ALL</SpawnableWeapons>
+		<SpawnableGadgets>ALL</SpawnableGadgets>
+		<VictoryConditions>ELIMINATE</VictoryConditions>
+		<DefeatConditions>STOCK</DefeatConditions>
+		<Score>TIME</Score>
+		<Entity0>PLAYER, VIKING, TEAM_0, STOCK_2</Entity0>
+		<Entity1>VALKYRIE</Entity1>
+	</ScenarioType>
+	<ScenarioType ScenarioName="Dialog Test">
+		<ScenarioID>18</ScenarioID>
+		<Type>Event</Type>
+		<TargetLevel>Ruins</TargetLevel>
+		<Cutscene>Intro</Cutscene>
+		<SpawnableWeapons>ALL</SpawnableWeapons>
+		<SpawnableGadgets>ALL</SpawnableGadgets>
+		<VictoryConditions>ELIMINATE</VictoryConditions>
+		<DefeatConditions>STOCK</DefeatConditions>
+		<Score>TIME</Score>
+		<Entity0>PLAYER, VIKING, TEAM_0, STOCK_2</Entity0>
+		<Entity1>VALKYRIE</Entity1>
+	</ScenarioType>
+	<ScenarioType ScenarioName="Generic Ladder Part 1">
+		<ScenarioID>19</ScenarioID>
+		<Type>Ladder</Type>
+		<TargetLevel>Ruins</TargetLevel>
+		<Cutscene>LadderGeneric01</Cutscene>
+		<SpawnableWeapons>ALL</SpawnableWeapons>
+		<SpawnableGadgets>ALL</SpawnableGadgets>
+		<VictoryConditions>ELIMINATE</VictoryConditions>
+		<DefeatConditions>STOCK</DefeatConditions>
+		<Score>TIME</Score>
+		<Entity0>PLAYER, TEAM_0, STOCK_3</Entity0>
+		<Entity1>RANDOM, TEAM_1, STOCK_1</Entity1>
+	</ScenarioType>
+	<ScenarioType ScenarioName="Generic Ladder Part 2">
+		<ScenarioID>20</ScenarioID>
+		<Type>Ladder</Type>
+		<TargetLevel>Ruins</TargetLevel>
+		<Cutscene>LadderGeneric02</Cutscene>
+		<SpawnableWeapons>ALL</SpawnableWeapons>
+		<SpawnableGadgets>ALL</SpawnableGadgets>
+		<VictoryConditions>ELIMINATE</VictoryConditions>
+		<DefeatConditions>STOCK</DefeatConditions>
+		<Score>TIME</Score>
+		<Entity0>PLAYER, TEAM_0, STOCK_3</Entity0>
+		<Entity1>RANDOM, TEAM_1, STOCK_1</Entity1>
+	</ScenarioType>
+	<ScenarioType ScenarioName="Generic Ladder Part 3">
+		<ScenarioID>21</ScenarioID>
+		<Type>Ladder</Type>
+		<TargetLevel>Ruins</TargetLevel>
+		<Cutscene>LadderGeneric03</Cutscene>
+		<SpawnableWeapons>ALL</SpawnableWeapons>
+		<SpawnableGadgets>ALL</SpawnableGadgets>
+		<VictoryConditions>ELIMINATE</VictoryConditions>
+		<DefeatConditions>STOCK</DefeatConditions>
+		<Score>TIME</Score>
+		<Entity0>PLAYER, TEAM_0, STOCK_3</Entity0>
+		<Entity1>RANDOM, TEAM_1, STOCK_1</Entity1>
+	</ScenarioType>
+	<ScenarioType ScenarioName="Generic Ladder Part 4">
+		<ScenarioID>22</ScenarioID>
+		<Type>Ladder</Type>
+		<TargetLevel>Ruins</TargetLevel>
+		<Cutscene>LadderGeneric04</Cutscene>
+		<SpawnableWeapons>ALL</SpawnableWeapons>
+		<SpawnableGadgets>ALL</SpawnableGadgets>
+		<VictoryConditions>ELIMINATE</VictoryConditions>
+		<DefeatConditions>STOCK</DefeatConditions>
+		<Score>TIME</Score>
+		<Entity0>PLAYER, TEAM_0, STOCK_3</Entity0>
+		<Entity1>RANDOM, TEAM_1, STOCK_1</Entity1>
+	</ScenarioType>
+	<ScenarioType ScenarioName="Generic Ladder Part 5">
+		<ScenarioID>23</ScenarioID>
+		<Type>Ladder</Type>
+		<TargetLevel>Ruins</TargetLevel>
+		<Cutscene>LadderGeneric05</Cutscene>
+		<SpawnableWeapons>ALL</SpawnableWeapons>
+		<SpawnableGadgets>ALL</SpawnableGadgets>
+		<VictoryConditions>ELIMINATE</VictoryConditions>
+		<DefeatConditions>STOCK</DefeatConditions>
+		<Score>TIME</Score>
+		<Entity0>PLAYER, TEAM_0, STOCK_3</Entity0>
+		<Entity1>RANDOM, TEAM_1, STOCK_1</Entity1>
+	</ScenarioType>
+	<ScenarioType ScenarioName="Generic Ladder Part 6">
+		<ScenarioID>24</ScenarioID>
+		<Type>Ladder</Type>
+		<TargetLevel>Ruins</TargetLevel>
+		<Cutscene>LadderGeneric06</Cutscene>
+		<SpawnableWeapons>ALL</SpawnableWeapons>
+		<SpawnableGadgets>ALL</SpawnableGadgets>
+		<VictoryConditions>ELIMINATE</VictoryConditions>
+		<DefeatConditions>STOCK</DefeatConditions>
+		<Score>TIME</Score>
+		<Entity0>PLAYER, TEAM_0, STOCK_3</Entity0>
+		<Entity1>RANDOM, TEAM_1, STOCK_1</Entity1>
+	</ScenarioType>
+	<ScenarioType ScenarioName="Generic Ladder Part 7">
+		<ScenarioID>25</ScenarioID>
+		<Type>Ladder</Type>
+		<TargetLevel>Ruins</TargetLevel>
+		<Cutscene>LadderGeneric07</Cutscene>
+		<SpawnableWeapons>ALL</SpawnableWeapons>
+		<SpawnableGadgets>ALL</SpawnableGadgets>
+		<VictoryConditions>ELIMINATE</VictoryConditions>
+		<DefeatConditions>STOCK</DefeatConditions>
+		<Score>TIME</Score>
+		<Entity0>PLAYER, TEAM_0, STOCK_3</Entity0>
+		<Entity1>RANDOM, TEAM_1, STOCK_1</Entity1>
+	</ScenarioType>
+	<ScenarioType ScenarioName="Viking Ladder Part 1">
+		<ScenarioID>26</ScenarioID>
+		<DisplayName>Bodvar 01</DisplayName>
+		<Type>Ladder</Type>
+		<TargetLevel>Ruins</TargetLevel>
+		<Cutscene>LadderViking01</Cutscene>
+		<SpawnableWeapons>NONE</SpawnableWeapons>
+		<SpawnableGadgets>NONE</SpawnableGadgets>
+		<VictoryConditions>ELIMINATE</VictoryConditions>
+		<DefeatConditions>STOCK</DefeatConditions>
+		<Score>TIME</Score>
+		<Entity0>PLAYER, VIKING, TEAM_0, STOCK_3, BASICHAMMER, ITEMLOCKED</Entity0>
+		<Entity1>ALIEN, TEAM_1, STOCK_3, EASY, BASICPISTOL, ITEMLOCKED</Entity1>
+	</ScenarioType>
+	<ScenarioType ScenarioName="Viking Ladder Part 2">
+		<ScenarioID>27</ScenarioID>
+		<DisplayName>Bodvar 02</DisplayName>
+		<Type>Ladder</Type>
+		<TargetLevel>Ruins</TargetLevel>
+		<Cutscene>LadderViking02</Cutscene>
+		<SpawnableWeapons>ALL</SpawnableWeapons>
+		<SpawnableGadgets>NONE</SpawnableGadgets>
+		<VictoryConditions>ELIMINATE</VictoryConditions>
+		<DefeatConditions>STOCK</DefeatConditions>
+		<Score>KO</Score>
+		<Entity0>PLAYER, VIKING, TEAM_0, STOCK_3</Entity0>
+		<Entity1>RANDOM[!ALIEN | !KNIGHT | !VALKYRIE], TEAM_1, STOCK_3, EASY</Entity1>
+	</ScenarioType>
+	<ScenarioType ScenarioName="Viking Ladder Part 3">
+		<ScenarioID>28</ScenarioID>
+		<DisplayName>Bodvar 03</DisplayName>
+		<Type>Ladder</Type>
+		<TargetLevel>Ruins</TargetLevel>
+		<Cutscene>LadderViking03</Cutscene>
+		<SpawnableWeapons>ALL</SpawnableWeapons>
+		<SpawnableGadgets>NONE</SpawnableGadgets>
+		<VictoryConditions>ELIMINATE</VictoryConditions>
+		<DefeatConditions>STOCK</DefeatConditions>
+		<Score>KO</Score>
+		<Entity0>PLAYER, VIKING, TEAM_0, STOCK_3</Entity0>
+		<Entity1>RANDOM[!ALIEN | !KNIGHT | !VALKYRIE], TEAM_1, STOCK_2, EASY</Entity1>
+		<Entity2>RANDOM[!ALIEN | !KNIGHT | !VALKYRIE], TEAM_1, STOCK_2, EASY</Entity2>
+	</ScenarioType>
+	<ScenarioType ScenarioName="Viking Ladder Part 4">
+		<ScenarioID>29</ScenarioID>
+		<DisplayName>Bodvar 04</DisplayName>
+		<Type>Ladder</Type>
+		<TargetLevel>Ruins</TargetLevel>
+		<Cutscene>LadderViking04</Cutscene>
+		<SpawnableWeapons>NONE</SpawnableWeapons>
+		<SpawnableGadgets>ALL</SpawnableGadgets>
+		<VictoryConditions>TIME_90</VictoryConditions>
+		<DefeatConditions>STOCK</DefeatConditions>
+		<Score>KO</Score>
+		<Entity0>PLAYER, VIKING, TEAM_0, STOCK_3</Entity0>
+		<Entity1>VALKYRIE, MEDIUM, WEAK, TEAM_1, ITEMLOCKED, BasicSword, MULTIPLE_3</Entity1>
+	</ScenarioType>
+	<ScenarioType ScenarioName="Viking Ladder Part 5">
+		<ScenarioID>30</ScenarioID>
+		<DisplayName>Bodvar 05</DisplayName>
+		<Type>Ladder</Type>
+		<TargetLevel>Ruins</TargetLevel>
+		<Cutscene>LadderViking05</Cutscene>
+		<SpawnableWeapons>ALL</SpawnableWeapons>
+		<SpawnableGadgets>ALL</SpawnableGadgets>
+		<VictoryConditions>ELIMINATE</VictoryConditions>
+		<DefeatConditions>STOCK</DefeatConditions>
+		<Score>KO</Score>
+		<Entity0>PLAYER, VIKING, TEAM_0, STOCK_2</Entity0>
+		<Entity1>VALKYRIE, MEDIUM, TEAM_0, STOCK_2</Entity1>
+		<Entity2>RANDOM[!ALIEN | !KNIGHT | !VALKYRIE], TEAM_1, STOCK_3, MEDIUM, STOCK_3</Entity2>
+		<Entity3>RANDOM[!ALIEN | !KNIGHT | !VALKYRIE], TEAM_1, STOCK_3, MEDIUM, STOCK_3</Entity3>
+	</ScenarioType>
+	<ScenarioType ScenarioName="Viking Ladder Part 6">
+		<ScenarioID>31</ScenarioID>
+		<DisplayName>Bodvar 06</DisplayName>
+		<Type>Ladder</Type>
+		<TargetLevel>Ruins</TargetLevel>
+		<Cutscene>LadderViking06</Cutscene>
+		<SpawnableWeapons>ALL</SpawnableWeapons>
+		<SpawnableGadgets>ALL</SpawnableGadgets>
+		<VictoryConditions>ELIMINATE</VictoryConditions>
+		<DefeatConditions>STOCK</DefeatConditions>
+		<Score>KO</Score>
+		<Entity0>PLAYER, VIKING, TEAM_0, STOCK_3</Entity0>
+		<Entity1>RANDOM[!ALIEN | !KNIGHT | !VALKYRIE], TEAM_1, MEDIUM, STOCK_2</Entity1>
+		<Entity2>RANDOM[!ALIEN | !KNIGHT | !VALKYRIE], TEAM_1, MEDIUM, STOCK_2</Entity2>
+		<Entity3>RANDOM[!ALIEN | !KNIGHT | !VALKYRIE], TEAM_1, MEDIUM, STOCK_2</Entity3>
+	</ScenarioType>
+	<ScenarioType ScenarioName="Viking Ladder Part 7">
+		<ScenarioID>32</ScenarioID>
+		<DisplayName>Bodvar 07</DisplayName>
+		<Type>Ladder</Type>
+		<TargetLevel>Ruins</TargetLevel>
+		<Cutscene>LadderViking07</Cutscene>
+		<SpawnableWeapons>ALL</SpawnableWeapons>
+		<SpawnableGadgets>ALL</SpawnableGadgets>
+		<VictoryConditions>ELIMINATE</VictoryConditions>
+		<DefeatConditions>STOCK</DefeatConditions>
+		<Score>KO</Score>
+		<Entity0>PLAYER, VIKING, TEAM_0, STOCK_3</Entity0>
+		<Entity1>KNIGHT, HARD, TEAM_1, STOCK_3, ITEMLOCKED, BasicSword</Entity1>
+	</ScenarioType>
+	<ScenarioType ScenarioName="Campaign 1 Part 1">
+		<ScenarioID>33</ScenarioID>
+		<Type>Campaign</Type>
+		<TargetLevel>Ruins</TargetLevel>
+		<SpawnableWeapons>NONE</SpawnableWeapons>
+		<SpawnableGadgets>NONE</SpawnableGadgets>
+		<VictoryConditions>ELIMINATE</VictoryConditions>
+		<DefeatConditions>STOCK</DefeatConditions>
+		<Score>TIME</Score>
+		<Entity0>PLAYER, VIKING, TEAM_0, STOCK_2</Entity0>
+		<Entity1>RANDOM, TEAM_1, STOCK_1</Entity1>
+	</ScenarioType>
+	<ScenarioType ScenarioName="Campaign 1 Part 2">
+		<ScenarioID>34</ScenarioID>
+		<Type>Campaign</Type>
+		<TargetLevel>Ruins</TargetLevel>
+		<SpawnableWeapons>NONE</SpawnableWeapons>
+		<SpawnableGadgets>NONE</SpawnableGadgets>
+		<VictoryConditions>ELIMINATE</VictoryConditions>
+		<DefeatConditions>STOCK</DefeatConditions>
+		<Score>TIME</Score>
+		<Entity0>PLAYER, VIKING, TEAM_0, STOCK_2</Entity0>
+		<Entity1>RANDOM, TEAM_1, STOCK_1</Entity1>
+	</ScenarioType>
+	<ScenarioType ScenarioName="Campaign 1 Part 3">
+		<ScenarioID>35</ScenarioID>
+		<Type>Campaign</Type>
+		<TargetLevel>Ruins</TargetLevel>
+		<SpawnableWeapons>NONE</SpawnableWeapons>
+		<SpawnableGadgets>NONE</SpawnableGadgets>
+		<VictoryConditions>ELIMINATE</VictoryConditions>
+		<DefeatConditions>STOCK</DefeatConditions>
+		<Score>TIME</Score>
+		<Entity0>PLAYER, VIKING, TEAM_0, STOCK_2</Entity0>
+		<Entity1>RANDOM, TEAM_1, STOCK_1</Entity1>
+	</ScenarioType>
+	<ScenarioType ScenarioName="Campaign 1 Part 4">
+		<ScenarioID>36</ScenarioID>
+		<Type>Campaign</Type>
+		<TargetLevel>Ruins</TargetLevel>
+		<SpawnableWeapons>NONE</SpawnableWeapons>
+		<SpawnableGadgets>NONE</SpawnableGadgets>
+		<VictoryConditions>ELIMINATE</VictoryConditions>
+		<DefeatConditions>STOCK</DefeatConditions>
+		<Score>TIME</Score>
+		<Entity0>PLAYER, VIKING, TEAM_0, STOCK_2</Entity0>
+		<Entity1>RANDOM, TEAM_1, STOCK_1</Entity1>
+	</ScenarioType>
+	<ScenarioType ScenarioName="Campaign 1 Part 5">
+		<ScenarioID>37</ScenarioID>
+		<Type>Campaign</Type>
+		<TargetLevel>Ruins</TargetLevel>
+		<SpawnableWeapons>NONE</SpawnableWeapons>
+		<SpawnableGadgets>NONE</SpawnableGadgets>
+		<VictoryConditions>ELIMINATE</VictoryConditions>
+		<DefeatConditions>STOCK</DefeatConditions>
+		<Score>TIME</Score>
+		<Entity0>PLAYER, VIKING, TEAM_0, STOCK_2</Entity0>
+		<Entity1>RANDOM, TEAM_1, STOCK_1</Entity1>
+	</ScenarioType>
+</ScenarioTypes>

@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<StatTypes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<StatType StatName="Template">
+		<ImpulseMult>1</ImpulseMult>
+		<DamageFixed>0</DamageFixed>
+		<AttackSpeed>1</AttackSpeed>
+		<Recovery>4</Recovery>
+		<RunSpeed>30</RunSpeed>
+		<JumpXImpulse>30</JumpXImpulse>
+		<AnimSpeed>1</AnimSpeed>
+		<Acceleration>4.7</Acceleration>
+		<Friction>2.5</Friction>
+		<AirAcceleration>5.16</AirAcceleration>
+		<AirFriction>1.2</AirFriction>
+		<SelfImpulseMult>1</SelfImpulseMult>
+		<Gravity>3.75</Gravity>
+	</StatType>
+	<StatType StatName="Weight0">
+		<Recovery>3.76665</Recovery>
+	</StatType>
+	<StatType StatName="Weight1">
+		<Recovery>3.8476</Recovery>
+	</StatType>
+	<StatType StatName="Weight2">
+		<Recovery>4.0812</Recovery>
+	</StatType>
+	<StatType StatName="Weight3">
+		<Recovery>4.48185</Recovery>
+	</StatType>
+	<StatType StatName="Weight4">
+		<Recovery>5.0796</Recovery>
+	</StatType>
+	<StatType StatName="Weight5">
+		<Recovery>5.9375</Recovery>
+	</StatType>
+	<StatType StatName="Weight6">
+		<Recovery>7.031</Recovery>
+	</StatType>
+	<StatType StatName="Weight7">
+		<Recovery>8.21145</Recovery>
+	</StatType>
+	<StatType StatName="Weight8">
+		<Recovery>9.33805</Recovery>
+	</StatType>
+	<StatType StatName="Weight9">
+		<Recovery>10.1874</Recovery>
+	</StatType>
+	<StatType StatName="Weight10">
+		<Recovery>10.52545</Recovery>
+	</StatType>
+	<StatType StatName="Speed0">
+		<RunSpeed>28.07</RunSpeed>
+		<JumpXImpulse>28.07</JumpXImpulse>
+		<AnimSpeed>0.8772</AnimSpeed>
+		<Acceleration>3.977</Acceleration>
+		<Friction>1.97</Friction>
+		<AirAcceleration>4.618</AirAcceleration>
+		<AirFriction>1.313</AirFriction>
+		<SelfImpulseMult>0.8361</SelfImpulseMult>
+	</StatType>
+	<StatType StatName="Speed1">
+		<RunSpeed>28.22</RunSpeed>
+		<JumpXImpulse>28.22</JumpXImpulse>
+		<AnimSpeed>0.8818</AnimSpeed>
+		<Acceleration>4.012</Acceleration>
+		<Friction>1.991</Friction>
+		<AirAcceleration>4.672</AirAcceleration>
+		<AirFriction>1.327</AirFriction>
+		<SelfImpulseMult>0.842</SelfImpulseMult>
+	</StatType>
+	<StatType StatName="Speed2">
+		<RunSpeed>28.65</RunSpeed>
+		<JumpXImpulse>28.65</JumpXImpulse>
+		<AnimSpeed>0.8953</AnimSpeed>
+		<Acceleration>4.114</Acceleration>
+		<Friction>2.052</Friction>
+		<AirAcceleration>4.833</AirAcceleration>
+		<AirFriction>1.368</AirFriction>
+		<SelfImpulseMult>0.8593</SelfImpulseMult>
+	</StatType>
+	<StatType StatName="Speed3">
+		<RunSpeed>29.38</RunSpeed>
+		<JumpXImpulse>29.38</JumpXImpulse>
+		<AnimSpeed>0.9183</AnimSpeed>
+		<Acceleration>4.292</Acceleration>
+		<Friction>2.158</Friction>
+		<AirAcceleration>5.121</AirAcceleration>
+		<AirFriction>1.439</AirFriction>
+		<SelfImpulseMult>0.8892</SelfImpulseMult>
+	</StatType>
+	<StatType StatName="Speed4">
+		<RunSpeed>30.48</RunSpeed>
+		<JumpXImpulse>30.48</JumpXImpulse>
+		<AnimSpeed>0.9524</AnimSpeed>
+		<Acceleration>4.566</Acceleration>
+		<Friction>2.323</Friction>
+		<AirAcceleration>5.583</AirAcceleration>
+		<AirFriction>1.548</AirFriction>
+		<SelfImpulseMult>0.9346</SelfImpulseMult>
+	</StatType>
+	<StatType StatName="Speed5">
+		<RunSpeed>32</RunSpeed>
+		<JumpXImpulse>32</JumpXImpulse>
+		<AnimSpeed>1</AnimSpeed>
+		<Acceleration>4.96</Acceleration>
+		<Friction>2.56</Friction>
+		<AirAcceleration>6.307</AirAcceleration>
+		<AirFriction>1.707</AirFriction>
+		<SelfImpulseMult>1</SelfImpulseMult>
+	</StatType>
+	<StatType StatName="Speed6">
+		<RunSpeed>33.6</RunSpeed>
+		<JumpXImpulse>33.6</JumpXImpulse>
+		<AnimSpeed>1.05</AnimSpeed>
+		<Acceleration>5.39</Acceleration>
+		<Friction>2.822</Friction>
+		<AirAcceleration>7.126</AirAcceleration>
+		<AirFriction>1.882</AirFriction>
+		<SelfImpulseMult>1.07</SelfImpulseMult>
+	</StatType>
+	<StatType StatName="Speed7">
+		<RunSpeed>34.85</RunSpeed>
+		<JumpXImpulse>34.85</JumpXImpulse>
+		<AnimSpeed>1.089</AnimSpeed>
+		<Acceleration>5.735</Acceleration>
+		<Friction>3.036</Friction>
+		<AirAcceleration>7.77</AirAcceleration>
+		<AirFriction>2.024</AirFriction>
+		<SelfImpulseMult>1.1246</SelfImpulseMult>
+	</StatType>
+	<StatType StatName="Speed8">
+		<RunSpeed>35.74</RunSpeed>
+		<JumpXImpulse>35.74</JumpXImpulse>
+		<AnimSpeed>1.117</AnimSpeed>
+		<Acceleration>5.986</Acceleration>
+		<Friction>3.193</Friction>
+		<AirAcceleration>8.236</AirAcceleration>
+		<AirFriction>2.129</AirFriction>
+		<SelfImpulseMult>1.1638</SelfImpulseMult>
+	</StatType>
+	<StatType StatName="Speed9">
+		<RunSpeed>36.29</RunSpeed>
+		<JumpXImpulse>36.29</JumpXImpulse>
+		<AnimSpeed>1.134</AnimSpeed>
+		<Acceleration>6.142</Acceleration>
+		<Friction>3.292</Friction>
+		<AirAcceleration>8.521</AirAcceleration>
+		<AirFriction>2.195</AirFriction>
+		<SelfImpulseMult>1.1876</SelfImpulseMult>
+	</StatType>
+	<StatType StatName="Speed10">
+		<RunSpeed>36.48</RunSpeed>
+		<JumpXImpulse>36.48</JumpXImpulse>
+		<AnimSpeed>1.14</AnimSpeed>
+		<Acceleration>6.197</Acceleration>
+		<Friction>3.327</Friction>
+		<AirAcceleration>8.621</AirAcceleration>
+		<AirFriction>2.218</AirFriction>
+		<SelfImpulseMult>1.196</SelfImpulseMult>
+	</StatType>
+	<StatType StatName="Strength0">
+		<ImpulseMult>0.941974</ImpulseMult>
+		<DamageFixed>3.8</DamageFixed>
+	</StatType>
+	<StatType StatName="Strength1">
+		<ImpulseMult>0.944323</ImpulseMult>
+		<DamageFixed>4.28</DamageFixed>
+	</StatType>
+	<StatType StatName="Strength2">
+		<ImpulseMult>0.95104</ImpulseMult>
+		<DamageFixed>5.64</DamageFixed>
+	</StatType>
+	<StatType StatName="Strength3">
+		<ImpulseMult>0.962316</ImpulseMult>
+		<DamageFixed>7.88</DamageFixed>
+	</StatType>
+	<StatType StatName="Strength4">
+		<ImpulseMult>0.978474</ImpulseMult>
+		<DamageFixed>11</DamageFixed>
+	</StatType>
+	<StatType StatName="Strength5">
+		<ImpulseMult>1</ImpulseMult>
+		<DamageFixed>15</DamageFixed>
+	</StatType>
+	<StatType StatName="Strength6">
+		<ImpulseMult>1.022</ImpulseMult>
+		<DamageFixed>19</DamageFixed>
+	</StatType>
+	<StatType StatName="Strength7">
+		<ImpulseMult>1.03916</ImpulseMult>
+		<DamageFixed>22.12</DamageFixed>
+	</StatType>
+	<StatType StatName="Strength8">
+		<ImpulseMult>1.05148</ImpulseMult>
+		<DamageFixed>24.36</DamageFixed>
+	</StatType>
+	<StatType StatName="Strength9">
+		<ImpulseMult>1.05896</ImpulseMult>
+		<DamageFixed>25.72</DamageFixed>
+	</StatType>
+	<StatType StatName="Strength10">
+		<ImpulseMult>1.0616</ImpulseMult>
+		<DamageFixed>26.2</DamageFixed>
+	</StatType>
+	<StatType StatName="Dexterity0">
+		<AttackSpeed>0.899281</AttackSpeed>
+	</StatType>
+	<StatType StatName="Dexterity1">
+		<AttackSpeed>0.903179</AttackSpeed>
+	</StatType>
+	<StatType StatName="Dexterity2">
+		<AttackSpeed>0.914411</AttackSpeed>
+	</StatType>
+	<StatType StatName="Dexterity3">
+		<AttackSpeed>0.933532</AttackSpeed>
+	</StatType>
+	<StatType StatName="Dexterity4">
+		<AttackSpeed>0.961538</AttackSpeed>
+	</StatType>
+	<StatType StatName="Dexterity5">
+		<AttackSpeed>1</AttackSpeed>
+	</StatType>
+	<StatType StatName="Dexterity6">
+		<AttackSpeed>1.04</AttackSpeed>
+	</StatType>
+	<StatType StatName="Dexterity7">
+		<AttackSpeed>1.0712</AttackSpeed>
+	</StatType>
+	<StatType StatName="Dexterity8">
+		<AttackSpeed>1.0936</AttackSpeed>
+	</StatType>
+	<StatType StatName="Dexterity9">
+		<AttackSpeed>1.1072</AttackSpeed>
+	</StatType>
+	<StatType StatName="Dexterity10">
+		<AttackSpeed>1.112</AttackSpeed>
+	</StatType>
+	<StatType StatName="JuggernautStats">
+		<ImpulseMult>1.2</ImpulseMult>
+		<DamageFixed>35</DamageFixed>
+		<AttackSpeed>1</AttackSpeed>
+		<Recovery>8.7963</Recovery>
+		<RunSpeed>38.4</RunSpeed>
+		<JumpXImpulse>38.4</JumpXImpulse>
+		<AnimSpeed>1.2</AnimSpeed>
+		<Acceleration>6.758</Acceleration>
+		<Friction>3.686</Friction>
+		<AirAcceleration>9.634</AirAcceleration>
+		<AirFriction>2.458</AirFriction>
+	</StatType>
+	<StatType StatName="BrawlballStats">
+		<RunSpeed>26.67</RunSpeed>
+		<JumpXImpulse>26.67</JumpXImpulse>
+		<AnimSpeed>0.8503</AnimSpeed>
+		<Acceleration>3.653</Acceleration>
+		<Friction>1.778</Friction>
+		<AirAcceleration>4.134</AirAcceleration>
+		<AirFriction>1.185</AirFriction>
+	</StatType>
+	<StatType StatName="BrawlballStats2">
+		<RunSpeed>22</RunSpeed>
+		<JumpXImpulse>41</JumpXImpulse>
+		<AnimSpeed>0.8503</AnimSpeed>
+		<Acceleration>3.285</Acceleration>
+		<Friction>1.778</Friction>
+		<AirAcceleration>3.804</AirAcceleration>
+		<AirFriction>1.185</AirFriction>
+		<Gravity>3.25</Gravity>
+	</StatType>
+	<StatType StatName="HoldTheThingStats">
+		<RunSpeed>24</RunSpeed>
+		<JumpXImpulse>24</JumpXImpulse>
+		<AnimSpeed>0.8503</AnimSpeed>
+		<Acceleration>3.653</Acceleration>
+		<Friction>1.778</Friction>
+		<AirAcceleration>4.134</AirAcceleration>
+		<AirFriction>1.185</AirFriction>
+	</StatType>
+	<StatType StatName="ArcadeStrong">
+		<ImpulseMult>1.2</ImpulseMult>
+		<DamageFixed>35</DamageFixed>
+		<AttackSpeed>0.943396</AttackSpeed>
+		<Recovery>4.7727</Recovery>
+		<RunSpeed>30.48</RunSpeed>
+		<JumpXImpulse>30.48</JumpXImpulse>
+		<AnimSpeed>0.9615</AnimSpeed>
+		<Acceleration>4.566</Acceleration>
+		<Friction>2.323</Friction>
+		<AirAcceleration>5.583</AirAcceleration>
+		<AirFriction>1.548</AirFriction>
+	</StatType>
+	<StatType StatName="ArcadeAdept">
+		<ImpulseMult>0.952381</ImpulseMult>
+		<DamageFixed>10</DamageFixed>
+		<AttackSpeed>1.24</AttackSpeed>
+		<Recovery>4.7727</Recovery>
+		<RunSpeed>30.48</RunSpeed>
+		<JumpXImpulse>30.48</JumpXImpulse>
+		<AnimSpeed>0.9615</AnimSpeed>
+		<Acceleration>4.566</Acceleration>
+		<Friction>2.323</Friction>
+		<AirAcceleration>5.583</AirAcceleration>
+		<AirFriction>1.548</AirFriction>
+	</StatType>
+	<StatType StatName="ArcadeAgile">
+		<ImpulseMult>0.952381</ImpulseMult>
+		<DamageFixed>10</DamageFixed>
+		<AttackSpeed>0.943396</AttackSpeed>
+		<Recovery>4.7727</Recovery>
+		<RunSpeed>38.4</RunSpeed>
+		<JumpXImpulse>38.4</JumpXImpulse>
+		<AnimSpeed>1.1</AnimSpeed>
+		<Acceleration>6.758</Acceleration>
+		<Friction>3.686</Friction>
+		<AirAcceleration>9.634</AirAcceleration>
+		<AirFriction>2.458</AirFriction>
+	</StatType>
+	<StatType StatName="ArcadeBeefy">
+		<ImpulseMult>0.952381</ImpulseMult>
+		<DamageFixed>10</DamageFixed>
+		<AttackSpeed>0.943396</AttackSpeed>
+		<Recovery>8.7963</Recovery>
+		<RunSpeed>30.48</RunSpeed>
+		<JumpXImpulse>30.48</JumpXImpulse>
+		<AnimSpeed>0.9615</AnimSpeed>
+		<Acceleration>4.566</Acceleration>
+		<Friction>2.323</Friction>
+		<AirAcceleration>5.583</AirAcceleration>
+		<AirFriction>1.548</AirFriction>
+	</StatType>
+</StatTypes>

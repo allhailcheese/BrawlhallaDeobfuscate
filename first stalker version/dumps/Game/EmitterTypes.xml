@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<EmitterTypes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<EmitterType EmitterName="Template">
+		<EmitterID>0</EmitterID>
+		<Lifespan>1000</Lifespan>
+		<Frequency>250</Frequency>
+		<Animations>animation</Animations>
+		<AnimScale>1</AnimScale>
+		<AnimSpeed>1</AnimSpeed>
+		<AutoCleanUp>true</AutoCleanUp>
+	</EmitterType>
+	<EmitterType EmitterName="SmokeTrail">
+		<EmitterID>1</EmitterID>
+		<Lifespan>6000</Lifespan>
+		<Frequency>60</Frequency>
+		<Animations>a_SmokeTrail03,a_SmokeTrail04</Animations>
+		<AnimScale>1</AnimScale>
+		<AnimSpeed>1</AnimSpeed>
+		<AutoCleanUp>false</AutoCleanUp>
+	</EmitterType>
+	<EmitterType EmitterName="SpawnbotTrail">
+		<EmitterID>2</EmitterID>
+		<Lifespan>6000</Lifespan>
+		<Frequency>60</Frequency>
+		<Animations>a_SmokeTrail03,a_SmokeTrail04</Animations>
+		<AnimScale>1</AnimScale>
+		<AnimSpeed>1</AnimSpeed>
+		<AutoCleanUp>false</AutoCleanUp>
+	</EmitterType>
+</EmitterTypes>

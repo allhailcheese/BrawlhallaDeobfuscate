@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<RewardpackTypes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<RewardpackType RewardpackName="---Template---">
+		<RewardpackID>0</RewardpackID>
+		<RewardItem>Widget</RewardItem>
+		<Value>0</Value>
+		<RewardType>Template</RewardType>
+		<AlternateRewardpack>None</AlternateRewardpack>
+		<Rarity>M</Rarity>
+	</RewardpackType>
+	<RewardpackType RewardpackName="Freebox01">
+		<RewardpackID>1</RewardpackID>
+		<RewardItem>Armor</RewardItem>
+		<RewardType>SpawnBot</RewardType>
+		<AlternateRewardpack>Freebox01SafeLegendary</AlternateRewardpack>
+		<Rarity>L</Rarity>
+	</RewardpackType>
+	<RewardpackType>
+		<RewardItem>Sands</RewardItem>
+		<RewardType>PlayerTheme</RewardType>
+		<AlternateRewardpack>Freebox01SafeLegendary</AlternateRewardpack>
+		<Rarity>L</Rarity>
+	</RewardpackType>
+	<RewardpackType>
+		<RewardItem>ColorRare</RewardItem>
+		<RewardType>ColorScheme</RewardType>
+		<AlternateRewardpack>Freebox01SafeLegendary</AlternateRewardpack>
+		<Rarity>L</Rarity>
+	</RewardpackType>
+	<RewardpackType>
+		<RewardItem>ColorMagic</RewardItem>
+		<RewardType>ColorScheme</RewardType>
+		<AlternateRewardpack>Freebox01Safe</AlternateRewardpack>
+		<Rarity>M</Rarity>
+	</RewardpackType>
+	<RewardpackType>
+		<RewardItem>Gold</RewardItem>
+		<Value>375</Value>
+		<RewardType>Gold</RewardType>
+		<Rarity>M</Rarity>
+	</RewardpackType>
+	<RewardpackType RewardpackName="Freebox01SafeLegendary">
+		<RewardpackID>2</RewardpackID>
+		<RewardItem>Gold</RewardItem>
+		<Value>1125</Value>
+		<RewardType>Gold</RewardType>
+		<Rarity>L</Rarity>
+	</RewardpackType>
+	<RewardpackType RewardpackName="Freebox01Safe">
+		<RewardpackID>3</RewardpackID>
+		<RewardItem>Gold</RewardItem>
+		<Value>375</Value>
+		<RewardType>Gold</RewardType>
+		<Rarity>M</Rarity>
+	</RewardpackType>
+</RewardpackTypes>

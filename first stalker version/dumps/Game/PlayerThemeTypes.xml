@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PlayerThemeTypes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<PlayerThemeType PlayerThemeName="Template">
+		<PlayerThemeID>0</PlayerThemeID>
+		<AvailableInStore>false</AvailableInStore>
+		<DisplayName>---</DisplayName>
+		<IconName>---</IconName>
+		<NameplateAsset>---</NameplateAsset>
+		<KillplateAsset>---</KillplateAsset>
+		<ShowInUI>False</ShowInUI>
+	</PlayerThemeType>
+	<PlayerThemeType PlayerThemeName="DEFAULT">
+		<PlayerThemeID>1</PlayerThemeID>
+		<AvailableInStore>false</AvailableInStore>
+		<DisplayName>Basic Brawler</DisplayName>
+		<IconName>a_Icon_Theme_Basic</IconName>
+		<KillplateAsset>a_KillPlate_Basic</KillplateAsset>
+		<ShowInUI>True</ShowInUI>
+	</PlayerThemeType>
+	<PlayerThemeType PlayerThemeName="Collectors">
+		<PlayerThemeID>2</PlayerThemeID>
+		<AvailableInStore>false</AvailableInStore>
+		<DisplayName>Might of Asgard</DisplayName>
+		<IconName>a_Icon_Theme_Collectors</IconName>
+		<KillplateAsset>a_KillPlate_Collectors</KillplateAsset>
+		<ShowInUI>False</ShowInUI>
+	</PlayerThemeType>
+	<PlayerThemeType PlayerThemeName="Founders">
+		<PlayerThemeID>3</PlayerThemeID>
+		<AvailableInStore>false</AvailableInStore>
+		<DisplayName>Founders</DisplayName>
+		<IconName>a_Icon_Theme_Collectors</IconName>
+		<KillplateAsset>a_KillPlate_Collectors</KillplateAsset>
+		<ShowInUI>False</ShowInUI>
+	</PlayerThemeType>
+	<PlayerThemeType PlayerThemeName="Sands">
+		<PlayerThemeID>4</PlayerThemeID>
+		<AvailableInStore>false</AvailableInStore>
+		<DisplayName>Sands</DisplayName>
+		<IconName>a_Icon_Theme_Collectors</IconName>
+		<KillplateAsset>a_KillPlate_Collectors</KillplateAsset>
+		<ShowInUI>False</ShowInUI>
+	</PlayerThemeType>
+</PlayerThemeTypes>

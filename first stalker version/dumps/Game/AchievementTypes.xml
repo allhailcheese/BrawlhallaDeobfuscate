@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<AchievementTypes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<AchievementType AchievementName="Template">
+		<ID>0</ID>
+		<Title>---</Title>
+		<Description>---</Description>
+		<Art>---</Art>
+		<Scope>---</Scope>
+		<Condition1>---</Condition1>
+		<Condition2>---</Condition2>
+		<Condition3>---</Condition3>
+		<Points>0</Points>
+	</AchievementType>
+	<AchievementType AchievementName="RespawnStrike">
+		<ID>1</ID>
+		<Title>Pre-emptive Strike</Title>
+		<Description>Strike Someone while under RespawnProtection</Description>
+		<Art>a__Achievement_Generic</Art>
+		<Scope>GameLoop</Scope>
+		<Condition1>UNIQUE</Condition1>
+		<Points>100</Points>
+	</AchievementType>
+	<AchievementType AchievementName="Slacker">
+		<ID>2</ID>
+		<Title>Wait, What Was I Supposed To Do?</Title>
+		<Description>Do Nothing for an Entire Match</Description>
+		<Art>a__Achievement_Generic</Art>
+		<Scope>EndOfMatch</Scope>
+		<Condition1>KillsThisMatch == 0</Condition1>
+		<Condition2>DeathsThisMatch == 0</Condition2>
+		<Condition3>SuicidesThisMatch == 0</Condition3>
+		<Points>50</Points>
+	</AchievementType>
+	<AchievementType AchievementName="LoadLobby">
+		<ID>3</ID>
+		<Title>The Brawl Begins</Title>
+		<Description>Play a Local Game</Description>
+		<Art>a__Achievement_Generic</Art>
+		<Scope>UI</Scope>
+		<Condition1>UI_GOTO(screenSelectCharacter)</Condition1>
+		<Points>10</Points>
+	</AchievementType>
+	<AchievementType AchievementName="PerfectGame">
+		<ID>4</ID>
+		<Title>Professional Brawler</Title>
+		<Description>Have a Flawless Victory</Description>
+		<Art>a__Achievement_Generic</Art>
+		<Scope>EndOfMatch</Scope>
+		<Condition1>DeathsThisMatch == 0</Condition1>
+		<Condition2>DamageTakenThisMatch == 0</Condition2>
+		<Points>0</Points>
+	</AchievementType>
+</AchievementTypes>

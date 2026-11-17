@@ -2650,7 +2650,7 @@ package
                 {
                     _loc4_.§_-41F§ = _loc4_.§_-41F§ + 1;
                 }
-                _loc49_ = 1 + int(Math.ceil(_loc45_ / _loc46_));
+                _loc49_ = 1 + int(Math.ceil(_loc45_ / _loc46_));// 1 + active
                 _loc4_.§_-K2O§.push(_loc44_);//before :/@ (Startup)
                 _loc4_.§_-K4y§.push(_loc31_);//the string itself
                 _loc4_.§_-V4m§.push(_loc41_);//cast index
@@ -3217,7 +3217,7 @@ package
             }
         }
         
-        //                  ParseIndex(pt:PowerType, strArray:Array, numVector:Vector.<Number>, castIdx:uint, durrCount:uint) : Number
+        //                  ParseIndex(pt:PowerType, strArray:Array, numVector:Vector.<Number>, castIdx:uint, durrCount:uint, activeFrames:uint) : Number
         public static function §_-U2S§(param1:§_-Y3o§, param2:Array, param3:Vector.<Number>, param4:Vector.<int>, param5:uint, param6:uint) : Number
         {
             var _loc17_:uint = 0;
@@ -3277,7 +3277,7 @@ package
                     §_-Y3o§.§_-s1J§(param3,param4,param6,0);
                     return 0;
                 }
-                _loc17_ = uint(int(param1.§_-K2O§.length) - param6);//cast number
+                _loc17_ = uint(int(param1.§_-K2O§.length) - param6);//first frame
                 _loc18_ = param3 != null ? uint(int(param3.length)) : uint(int(param4.length));
                 _loc19_ = _loc12_.split("&");
                 _loc20_ = int(_loc19_.length);
@@ -3912,6 +3912,7 @@ package
             }
         }
         
+        // has damage
         public function §_-z39§(param1:uint) : Boolean
         {
             var _loc2_:int = int(param1);

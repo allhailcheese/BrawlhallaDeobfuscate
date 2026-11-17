@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<CutsceneTypes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<CutsceneType CutsceneName="Template">
+		<CutsceneID>0</CutsceneID>
+		<DisplayName>Cutscene Display Name</DisplayName>
+		<SplashImage>ImageName</SplashImage>
+		<CutsceneStep0>Dialog Change</CutsceneStep0>
+		<CutsceneStep1>Dialog Change</CutsceneStep1>
+		<CutsceneStep2>Dialog Change</CutsceneStep2>
+		<CutsceneStep3>Dialog Change</CutsceneStep3>
+		<CutsceneStep4>Dialog Change</CutsceneStep4>
+		<CutsceneStep5>Dialog Change</CutsceneStep5>
+		<CutsceneStep6>Dialog Change</CutsceneStep6>
+		<CutsceneStep7>Dialog Change</CutsceneStep7>
+		<CutsceneStep8>Dialog Change</CutsceneStep8>
+		<CutsceneStep9>Dialog Change</CutsceneStep9>
+		<CutsceneStep10>Dialog Change</CutsceneStep10>
+		<CutsceneStep11>Dialog Change</CutsceneStep11>
+		<CutsceneStep12>Dialog Change</CutsceneStep12>
+		<CutsceneStep13>Dialog Change</CutsceneStep13>
+		<CutsceneStep14>Dialog Change</CutsceneStep14>
+		<CutsceneStep15>Dialog Change</CutsceneStep15>
+		<CutsceneStep16>Dialog Change</CutsceneStep16>
+		<CutsceneStep17>Dialog Change</CutsceneStep17>
+		<CutsceneStep18>Dialog Change</CutsceneStep18>
+		<CutsceneStep19>Dialog Change</CutsceneStep19>
+	</CutsceneType>
+	<CutsceneType CutsceneName="LadderGeneric01">
+		<CutsceneID>1</CutsceneID>
+		<DisplayName>Generic Ladder Cutscene 1</DisplayName>
+		<CutsceneStep0>Viking: This is my Hammer, and I will fight ANYONE. CHANGEPIC: a_CutscenePic_bodvar_hammer01</CutsceneStep0>
+	</CutsceneType>
+	<CutsceneType CutsceneName="LadderGeneric02">
+		<CutsceneID>2</CutsceneID>
+		<DisplayName>Generic Ladder Cutscene 2</DisplayName>
+		<CutsceneStep0>Viking: This is my Hammer, and I will fight ANYONE for a second time. CHANGEPIC: a_CutscenePic_bodvar_hammer01</CutsceneStep0>
+	</CutsceneType>
+	<CutsceneType CutsceneName="LadderGeneric03">
+		<CutsceneID>3</CutsceneID>
+		<DisplayName>Generic Ladder Cutscene 3</DisplayName>
+		<CutsceneStep0>Viking: This is my Hammer, and I will fight ANYONE for a third time. CHANGEPIC: a_CutscenePic_bodvar_hammer01</CutsceneStep0>
+	</CutsceneType>
+	<CutsceneType CutsceneName="LadderGeneric04">
+		<CutsceneID>4</CutsceneID>
+		<DisplayName>Generic Ladder Cutscene 4</DisplayName>
+		<CutsceneStep0>Viking: This is my Hammer, and I will fight ANYONE for a fourth time. CHANGEPIC: a_CutscenePic_bodvar_hammer01</CutsceneStep0>
+	</CutsceneType>
+	<CutsceneType CutsceneName="LadderGeneric05">
+		<CutsceneID>5</CutsceneID>
+		<DisplayName>Generic Ladder Cutscene 5</DisplayName>
+		<CutsceneStep0>Viking: This is my Hammer, and I will fight ANYONE for a fifth time. CHANGEPIC: a_CutscenePic_bodvar_hammer01</CutsceneStep0>
+	</CutsceneType>
+	<CutsceneType CutsceneName="LadderGeneric06">
+		<CutsceneID>6</CutsceneID>
+		<DisplayName>Generic Ladder Cutscene 6</DisplayName>
+		<CutsceneStep0>Viking: This is my Hammer, and I will fight ANYONE for a sixth time. CHANGEPIC: a_CutscenePic_bodvar_hammer01</CutsceneStep0>
+	</CutsceneType>
+	<CutsceneType CutsceneName="LadderGeneric07">
+		<CutsceneID>7</CutsceneID>
+		<DisplayName>Generic Ladder Cutscene 7</DisplayName>
+		<CutsceneStep0>Viking: This is my Hammer, and I will fight ANYONE for a seventh time. CHANGEPIC: a_CutscenePic_bodvar_hammer01</CutsceneStep0>
+	</CutsceneType>
+	<CutsceneType CutsceneName="LadderGenericFinale">
+		<CutsceneID>8</CutsceneID>
+		<DisplayName>Generic Ladder Finale</DisplayName>
+		<CutsceneStep0>Viking: I am the Winner!</CutsceneStep0>
+	</CutsceneType>
+	<CutsceneType CutsceneName="Bodvar01">
+		<CutsceneID>9</CutsceneID>
+		<DisplayName>This is the Intro</DisplayName>
+		<CutsceneStep0>[L]Viking: I could never doubt you, my fair one. You have always been true in my hour of need. Together we have won battles without number!</CutsceneStep0>
+		<CutsceneStep1>[L]Viking: Yet it has been many, many feasts since all hailed me as The Champion of Champions! CHANGEPIC: a_CutscenePic_bodvar_hammer01</CutsceneStep1>
+		<CutsceneStep2>[R]Alien: Bodvar, are you speaking to your hammer?</CutsceneStep2>
+		<CutsceneStep3>[L]Viking: Hail and welcome, Lord Vraxx. Aye, I was preparing us both for the tourney. Only my weapons truly know me from boot to beard.</CutsceneStep3>
+		<CutsceneStep4>[R]Alien: Does that heavy hammer of yours answer you back when you whisper to it?</CutsceneStep4>
+		<CutsceneStep5>[R]Alien: My Atomic Blasters speak, but they have a rather limited range of conversation. CHANGEPIC: a_CutscenePic_vraxx_guns_01</CutsceneStep5>
+		<CutsceneStep6>[L]Viking: Ha HA! When guns talk, 'tis good that they speak of important matters like finding a target in need of a blast or two.</CutsceneStep6>
+		<CutsceneStep7>[R]Alien: Shall we begin? These gawking gods and lounging legends are salivating for us to battle once again. CHANGEPIC: a_CutscenePic_Bodvar_v_Vraxx</CutsceneStep7>
+		<CutsceneStep8>[L]Viking: Aye, Moon Man, let us see what hammer and blaster have to say to one another!</CutsceneStep8>
+		<CutsceneStep9>[L]Viking: The 2381st Tournament begins!</CutsceneStep9>
+	</CutsceneType>
+	<CutsceneType CutsceneName="LadderViking01">
+		<CutsceneID>9</CutsceneID>
+		<DisplayName>Round 1</DisplayName>
+		<CutsceneStep0>[L]Viking: I have faith in you, fair one. You've always been there in my hour of need. Together we've won battles without number! CHANGEPIC: a_CutscenePic_arena_bg</CutsceneStep0>
+		<CutsceneStep1>[L]Viking: Yet it has been many, many feasts since all hailed me as The Champion of Champions! CHANGEPIC: a_CutscenePic_bodvar_hold_hammer</CutsceneStep1>
+		<CutsceneStep2>[R]Alien: Bodvar, are you speaking to your hammer?</CutsceneStep2>
+		<CutsceneStep3>[L]Viking: Hail, Lord Vraxx. I was preparing us both for the tourney. These masterwork weapons truly know me from boot to beard. CHANGEPIC: a_CutscenePic_Bodvar_v_Vraxx</CutsceneStep3>
+		<CutsceneStep4>[R]Alien: Does that heavy hammer of yours answer you back when you whisper to it? CHANGEPIC: a_CutscenePic_bodvar_hammer01</CutsceneStep4>
+		<CutsceneStep5>[R]Alien: My Atomic Blasters say a few words, but they have a rather limited range of conversation. CHANGEPIC: a_CutscenePic_vraxx_guns_01</CutsceneStep5>
+		<CutsceneStep6>[L]Viking: Ha HA! When guns talk, 'tis good that they speak of important matters like finding targets in need blasting.</CutsceneStep6>
+		<CutsceneStep7>[R]Alien: Shall we begin? These gawking gods and lounging legends are salivating for us to battle once again. CHANGEPIC: a_CutscenePic_Bodvar_v_Vraxx</CutsceneStep7>
+		<CutsceneStep8>[L]Viking: Aye, Moon Man, let us see what hammer and blaster have to say to one another!</CutsceneStep8>
+		<CutsceneStep9>[L]Viking: The Tournament begins!</CutsceneStep9>
+	</CutsceneType>
+<CutsceneType CutsceneName="LadderViking02">
+		<CutsceneID>9</CutsceneID>
+		<DisplayName>Round 2</DisplayName>
+		<CutsceneStep0>[L]Viking(FaceVictory): A beginning worthy of song, my sweetie! CHANGEPIC: a_CutscenePic_bodvar_hold_hammer</CutsceneStep0>
+		<CutsceneStep1>[L]Viking: Now let your fellow weapons join in our glorious tale. CHANGEPIC: a_cutscenePic_bodvar_weapons</CutsceneStep1>
+		<CutsceneStep2>[R]Highwayman: I AM RANDOMLY PICKED. THIS IS A CATCHPHRASE FROM ME! CHANGEPIC: a_CutscenePic_hotspur_v_1random</CutsceneStep2>
+		<CutsceneStep3>[L]Viking: Challenge accepted, RANDOM foe!</CutsceneStep3>
+	</CutsceneType>
+	<CutsceneType CutsceneName="LadderViking03">
+		<CutsceneID>10</CutsceneID>
+		<DisplayName>Round 3</DisplayName>
+		<CutsceneStep0>[L]Viking(FaceVictory): The third round begins soon. Hammer my dear friend, we've almost made it through Day One! CHANGEPIC: a_CutscenePic_bodvar_hold_hammer</CutsceneStep0>
+		<CutsceneStep1>[L]Viking: We must best these two foes to advance towards victory. CHANGEPIC: a_CutscenePic_bodvar_v_2random</CutsceneStep1>
+		<CutsceneStep2>[R]Witch: I AM RANDOMLY PICKED. Can you handle the pair of us?</CutsceneStep2>
+		<CutsceneStep3>[R]Ninja: I AM RANDOM TOO</CutsceneStep3>
+		<CutsceneStep4>[L]Viking: Even two of you can't keep me from victory's sweet embrace.</CutsceneStep4>
+	</CutsceneType>
+	<CutsceneType CutsceneName="LadderViking04">
+		<CutsceneID>11</CutsceneID>
+		<DisplayName>Round 4</DisplayName>
+		<CutsceneStep0>[L]Viking(FaceVictory): The first day finished, and I've suffered scarce a scratch! CHANGEPIC: a_CutscenePic_bodvar_weapons</CutsceneStep0>
+		<CutsceneStep1>[L]Viking: Hammer, you serve me true. Sword, your razor edge shall never dull. Lance, you...</CutsceneStep1>
+		<CutsceneStep2>[R]Valkyrie: Bodvar, I see you're thanking your weapons once again. It is good that you honor your tools.</CutsceneStep2>
+		<CutsceneStep3>[L]Viking: They're not tools, Volst, they are my family. Why, I remember one time when... CHANGEPIC: a_CutscenePic_bodvar_v_volst</CutsceneStep3>
+		<CutsceneStep4>[R]Valkyrie: But you rely on them too much, brave Bodvar. The newest contender, Hotspur, is a master swordsman and has bested all his rivals today.</CutsceneStep4>
+		<CutsceneStep5>[R]Valkyrie: If you want the Champion's Crown again, you'll need to use more versatlie strategies.</CutsceneStep5>
+		<CutsceneStep6>[L]Viking: You speak of those cowardly bombs and spheres. I prefer a weapon that knows its place is in my hands.</CutsceneStep6>
+		<CutsceneStep7>[R]Valkyrie: That might explain why you haven't won the tournament in so long.</CutsceneStep7>
+		<CutsceneStep8>[L]Viking: Hmmf! Well, if it would please you, I could play your game of tossing to and fro, just to show you I am flexible when needs be.</CutsceneStep8>
+		<CutsceneStep9>[R]Valkyrie: A wise decision, Bodvar. We will give you a fine lesson, and you won't be needing your weapons.</CutsceneStep9>
+		<CutsceneStep10>[L]Viking: What do you mean, "We"?</CutsceneStep10>
+	 </CutsceneType>
+	<CutsceneType CutsceneName="LadderViking05">
+		<CutsceneID>12</CutsceneID>
+		<DisplayName>Round 5</DisplayName>
+		<CutsceneStep0>[L]Viking(FaceVictory): Day Two and the hour for for Round 5 arrives! CHANGEPIC: a_CutscenePic_forest_bg</CutsceneStep0>
+		<CutsceneStep1>[L]Valkyrie: I will be fighting by your side this round, but our foes have more revocery chances then we will, so we'll need to be twice as good. CHANGEPIC: a_CutscenePic_bodvar_volst_v_2random</CutsceneStep1>
+		<CutsceneStep2>[R]Cowgirl: I AM RANDOMLY PICKED. Can you handle me?</CutsceneStep2>
+		<CutsceneStep3>[R]Highwayman: I AM RANDOM TOO Can you handle us both? </CutsceneStep3>
+		<CutsceneStep4>[L]Viking: Today I could best twice your number!</CutsceneStep4>
+	</CutsceneType>
+	<CutsceneType CutsceneName="LadderViking06">
+		<CutsceneID>13</CutsceneID>
+		<DisplayName>Round 6</DisplayName>
+		<CutsceneStep0>[L]Viking(FaceVictory): Just one victory stands between me and the championship round. I have word that Hotspur awaits me in the final arena. CHANGEPIC: a_CutscenePic_arena_bg</CutsceneStep0>
+		<CutsceneStep1>[L]Cowgirl: I AM RANDOM You must defeat all three of us. CHANGEPIC: a_CutscenePic_bodvar_v_3random</CutsceneStep1>
+		<CutsceneStep2>[R]Witch: I AM RANDOMLY PICKED. Can you face three great warriors?</CutsceneStep2>
+		<CutsceneStep3>[R]Caveman: I AM RANDOM TOO Fight now! </CutsceneStep3>
+		<CutsceneStep4>[L]Viking: I Can beat you all!</CutsceneStep4>
+	</CutsceneType>
+	<CutsceneType CutsceneName="LadderViking07">
+		<CutsceneID>14</CutsceneID>
+		<DisplayName>Round 7</DisplayName>
+		<CutsceneStep0>[L]Viking: The Championship Round! At last I shall cross blades with this Hotspur, who has caused such a stir. CHANGEPIC: a_CutscenePic_bodvar_v_hotspur</CutsceneStep0>
+		<CutsceneStep1>[L]Viking: Well met, warrior. You have made a name for yourself with your victories this day. CHANGEPIC: a_CutscenePic_hotspur_body</CutsceneStep1>
+		<CutsceneStep2>[R]Knight: Hail, Bodvar. Your legend is writ in the stars, and 'tis an honour to face thee.</CutsceneStep2>
+		<CutsceneStep3>[L]Viking: No one has won more tourneys than me, knight. You will have the honor of losing to the best. CHANGEPIC: a_CutscenePic_bodvar_v_hotspur</CutsceneStep3>
+		<CutsceneStep4>[R]Knight: There is not room in the stars for both our names, Bodvar.</CutsceneStep4>
+		<CutsceneStep5>[R]Knight: By blade and brawn I shall cast thee down from the heavens and write mine own name in the night's sky. CHANGEPIC: a_CutscenePic_hotspur_body</CutsceneStep5>
+		<CutsceneStep6>[L]Viking: I've bested men and giants, armies and dragons. You'll learn what a true champion is today.</CutsceneStep6>
+		<CutsceneStep7>[R]Knight: The time for boasts and bluster is passed. To arms, sirrah! Let us begin. CHANGEPIC: a_CutscenePic_bodvar_v_hotspur</CutsceneStep7>
+	 </CutsceneType>
+	 <CutsceneType CutsceneName="LadderVikingFinale">
+		<CutsceneID>15</CutsceneID>
+		<DisplayName>Finale</DisplayName>
+		<CutsceneStep0>[R]Valkyrie: Congratulations, Bodvar! You won 12,381st Tournament of Legends! CHANGEPIC: a_CutscenePic_bodvar_wins</CutsceneStep0>
+		<CutsceneStep1>[R]Knight: You fought with honour and skill, Sir Bodvar. I bow to you as champion.</CutsceneStep1>
+		<CutsceneStep2>[L]Viking: To have defeated a swordsman of your prowess, makes the victory all the greater honor.</CutsceneStep2>
+		<CutsceneStep3>[L]Viking: I could not have wished for a more worthy opponent.</CutsceneStep3>
+		<CutsceneStep4>[R]Valkyrie: This is your 214th victory, Bodvar, your first in over 100 tournaments. What's next for you?</CutsceneStep4>
+		<CutsceneStep5>[L]Viking: Tonight we FEAST! Mead and roast boar for all, sleep and rest for none!</CutsceneStep5>
+		<CutsceneStep6>[L]Viking: We shall all be full of drink and meat by morning...</CutsceneStep6>
+		<CutsceneStep7>[L]Knight: When the next tournament begins!</CutsceneStep7>
+	 </CutsceneType>
+</CutsceneTypes>

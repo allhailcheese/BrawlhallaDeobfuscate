@@ -150,6 +150,8 @@ package
         
         public var §_-UE§:uint;
         // curent cast? frame?
+        // based on the power viewer, it's frame!
+        // ish. the startup frames are grouped together.
         public var §_-U1T§:uint;
         
         public var §_-p3f§:Number;
@@ -258,6 +260,7 @@ package
             return (§_-p3j§ & uint(2)) != 0;
         }
         
+        // move held entity
         public function §_-o3T§(param1:uint) : void
         {
             var _loc7_:Number = NaN;
@@ -318,6 +321,7 @@ package
                     _loc9_ = Number(§_-D2f§.§_-ze§());
                 }
             }
+            // fire socket
             else if(_loc6_ != null)
             {
                 if(§_-U2J§)
@@ -375,8 +379,8 @@ package
                 {
                     _loc7_ = §_-F2V§.§_-D5O§;
                 }
-                _loc8_ = Number(Number(§_-D2f§.§_-p1C§()) + _loc7_);
-                _loc9_ = Number(Number(§_-D2f§.§_-ze§()) + §_-F2V§.§_-01e§);
+                _loc8_ = Number(Number(§_-D2f§.§_-p1C§()) + _loc7_);// HoldOffsetX
+                _loc9_ = Number(Number(§_-D2f§.§_-ze§()) + §_-F2V§.§_-01e§);// HoldOffsetY
             }
             if(_loc8_ != Number(_loc11_.§_-p1C§()) || _loc9_ != Number(_loc11_.§_-ze§()))
             {
@@ -482,6 +486,7 @@ package
                     §_-th§.§_-Iv§.x = §_-U3s§.x + _loc6_ - _loc2_;
                     §_-th§.§_-Iv§.y = §_-U3s§.y + _loc5_ - _loc3_;
                     _loc7_ = uint(1);
+                    // thor orb dsig followup thing
                     if(!§_-F2V§.§_-M1g§)
                     {
                         _loc7_ |= uint(2);
@@ -910,6 +915,7 @@ package
                     §_-UE§ = §_-UE§ + 1;
                 }
             }
+            // AnimateFire. _-R1i is the FireAnimSource frame
             if(§_-F2V§.§_-R1i§ == _loc6_)
             {
                 §_-zv§(param1);
@@ -957,6 +963,7 @@ package
                         _loc16_ = 1;
                     }
                 }
+                // has hitboxes that can hit
                 _loc17_ = §_-l3D§.§_-b4g§() && !§_-F2V§.§_-wY§ && Boolean(§_-F2V§.§_-z39§(§_-U1T§));
                 _loc18_ = null;
                 if(_loc17_)
@@ -1019,6 +1026,7 @@ package
                         }
                         if(!_loc25_ && _loc18_ != null)
                         {
+                            // show hitboxes outside of power viewer
                             §_-F2V§.§_-i2T§(_loc18_,_loc26_,§_-D2f§,§_-T3m§,§_-U1T§,_loc21_,§_-U2J§);
                         }
                     }
@@ -1090,6 +1098,7 @@ package
                             // set target to be held entity
                             §_-C38§ = §_-l3D§.§_-GY§(§_-32u§);
                         }
+                        // set target to the first non-teammate that we are hitting
                         else if(int(_loc22_.length) != 0)
                         {
                             _loc10_ = 0;
@@ -1126,7 +1135,8 @@ package
                         _loc12_ = _loc10_++;
                         _loc24_ = uint(§_-F2V§.§_-g4L§[_loc12_]);
                         if(_loc24_ == §_-U1T§)
-                        {
+                        
+                            // BGPowerOnFire
                             _loc32_ = _loc12_ < int(§_-F2V§.§_-p4Q§.length) ? §_-F2V§.§_-p4Q§[_loc12_] : §_-F2V§.§_-p4Q§[0];
                             _loc33_ = §_-Y3o§.§_-YP§(_loc32_);
                             _loc34_ = §_-D2f§.§_-p3I§.§_-v4U§(_loc33_,§_-C38§,§_-T3m§,§_-v1n§,§_-8m§);
@@ -1347,6 +1357,7 @@ package
             }
         }
         
+        // release hold?
         public function §_-G31§(param1:uint) : void
         {
             var _loc3_:Number = NaN;
@@ -1382,6 +1393,7 @@ package
                 }
                 _loc2_.§_-Y22§(_loc4_,_loc5_,param1);
             }
+            // ReleaseHeldByPower
             _loc2_.§_-15n§(§_-D2f§);
         }
         
@@ -2528,7 +2540,9 @@ package
             }
             var _loc6_:int = §_-U1T§;
             var _loc7_:int = uint(uint(int(Math.round((uint(param1 - param1 % 16)) / 16))) - §_-G2L§);
+            // has damage
             var _loc8_:Boolean = _loc6_ >= int(§_-F2V§.§_-O1Q§.length) ? Number(§_-F2V§.§_-O1Q§[0]) != 0 : Number(§_-F2V§.§_-O1Q§[§_-U1T§]) != 0;
+            //           !IsAttackFireGfx
             if((_loc8_ || !§_-F2V§.§_-ID§) && (§_-F2V§.§_-65g§ < 0 || §_-F2V§.§_-65g§ == _loc6_) && (§_-F2V§.§_-R1i§ < 0 || §_-F2V§.§_-R1i§ == _loc7_))
             {
                 if(§_-F2V§.§_-d4x§)
@@ -2578,6 +2592,7 @@ package
             }
         }
         
+        // play cast gfx?
         public function §_-A58§(param1:uint, param2:GfxType, param3:Boolean) : void
         {
             var _loc4_:§_-xP§ = §_-D2f§.§_-p3I§;
@@ -2998,6 +3013,8 @@ package
             §_-C38§ = param1;
         }
         
+        // fire gfx
+        // AnimateFire
         public function §_-zv§(param1:uint, param2:Boolean = false) : void
         {
             var _loc3_:* = null as GfxType;
@@ -3049,11 +3066,13 @@ package
             {
                 return;
             }
+            // cast gfx
             if(§_-t2B§.§_-a39§ != null)
             {
                 _loc2_ = §_-t2B§.§_-a39§[int(Math.floor(§_-zp§.Random() * int(§_-t2B§.§_-a39§.length)))];
                 §_-A58§(param1,_loc2_,true);
             }
+            // rear
             if(§_-t2B§.§_-C3v§ != null)
             {
                 §_-A58§(param1,§_-t2B§.§_-C3v§,false);

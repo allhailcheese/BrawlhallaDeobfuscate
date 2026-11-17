@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<SteamPurchaseTypes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<SteamPurchaseType SteamPurchaseName="---Template---">
+		<ItemID>0</ItemID>
+		<AppID>291550</AppID>
+		<Language>EN</Language>
+		<Currency>USD</Currency>
+		<Amount>10</Amount>
+		<Description>WhatIDo</Description>
+		<Category>Category</Category>
+		<Idols>1</Idols>
+	</SteamPurchaseType>
+	<SteamPurchaseType SteamPurchaseName="Coins3">
+		<ItemID>1</ItemID>
+		<AppID>291550</AppID>
+		<Language>EN</Language>
+		<Currency>USD</Currency>
+		<Amount>299</Amount>
+		<Description>60 Mammoth Coins</Description>
+		<Category>Idols</Category>
+		<Idols>60</Idols>
+	</SteamPurchaseType>
+	<SteamPurchaseType SteamPurchaseName="Coins6">
+		<ItemID>2</ItemID>
+		<AppID>291550</AppID>
+		<Language>EN</Language>
+		<Currency>USD</Currency>
+		<Amount>599</Amount>
+		<Description>120 Mammoth Coins and 5 Bonus Coins</Description>
+		<Category>Idols</Category>
+		<Idols>125</Idols>
+	</SteamPurchaseType>
+	<SteamPurchaseType SteamPurchaseName="Coins10">
+		<ItemID>3</ItemID>
+		<AppID>291550</AppID>
+		<Language>EN</Language>
+		<Currency>USD</Currency>
+		<Amount>999</Amount>
+		<Description>200 Mammoth Coins and 10 Bonus Coins</Description>
+		<Category>Idols</Category>
+		<Idols>210</Idols>
+	</SteamPurchaseType>
+	<SteamPurchaseType SteamPurchaseName="Coins20">
+		<ItemID>4</ItemID>
+		<AppID>291550</AppID>
+		<Language>EN</Language>
+		<Currency>USD</Currency>
+		<Amount>1999</Amount>
+		<Description>400 Mammoth Coins and 30 Bonus Coins</Description>
+		<Category>Idols</Category>
+		<Idols>430</Idols>
+	</SteamPurchaseType>
+	<SteamPurchaseType SteamPurchaseName="Coins50">
+		<ItemID>5</ItemID>
+		<AppID>291550</AppID>
+		<Language>EN</Language>
+		<Currency>USD</Currency>
+		<Amount>4999</Amount>
+		<Description>1000 Mammoth Coins and 100 Bonus Coins</Description>
+		<Category>Idols</Category>
+		<Idols>1100</Idols>
+	</SteamPurchaseType>
+	<SteamPurchaseType SteamPurchaseName="Coins100">
+		<ItemID>6</ItemID>
+		<AppID>291550</AppID>
+		<Language>EN</Language>
+		<Currency>USD</Currency>
+		<Amount>9999</Amount>
+		<Description>2000 Mammoth Coins and 300 Bonus Coins</Description>
+		<Category>Idols</Category>
+		<Idols>2300</Idols>
+	</SteamPurchaseType>
+</SteamPurchaseTypes>

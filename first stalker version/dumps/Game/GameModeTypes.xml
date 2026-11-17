@@ -1,0 +1,342 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<GameModeTypes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<GameModeType GameModeName="XLTemplate">
+		<GameModeID>0</GameModeID>
+		<DisplayName>Template</DisplayName>
+		<Teams>FALSE</Teams>
+		<MaxPlayers>4</MaxPlayers>
+		<Duration>240</Duration>
+		<RoundDuration>0</RoundDuration>
+		<StartingLives>0</StartingLives>
+		<ScoringType>TIMED</ScoringType>
+		<ScoreToWin>0</ScoreToWin>
+		<FixedCamera>false</FixedCamera>
+		<LevelList>Ruins1v1,Ruins,Temple</LevelList>
+		<GameSpeed>1</GameSpeed>
+		<IsExperimental>FALSE</IsExperimental>
+		<GadgetsOff>FALSE</GadgetsOff>
+		<WeaponsOff>FALSE</WeaponsOff>
+		<DamageRatio>1</DamageRatio>
+		<Tournament>FALSE</Tournament>
+		<Event>FALSE</Event>
+		<TeamDamage>FALSE</TeamDamage>
+	</GameModeType>
+	<GameModeType GameModeName="Timed">
+		<GameModeID>1</GameModeID>
+		<DisplayName>Free-4-All</DisplayName>
+		<Teams>FALSE</Teams>
+		<MaxPlayers>4</MaxPlayers>
+		<Duration>240</Duration>
+		<StartingLives>0</StartingLives>
+		<ScoringType>TIMED</ScoringType>
+	</GameModeType>
+	<GameModeType GameModeName="Stock">
+		<GameModeID>2</GameModeID>
+		<DisplayName>Stock</DisplayName>
+		<Teams>FALSE</Teams>
+		<MaxPlayers>4</MaxPlayers>
+		<Duration>480</Duration>
+		<StartingLives>5</StartingLives>
+		<ScoringType>STOCK</ScoringType>
+	</GameModeType>
+	<GameModeType GameModeName="TeamTimed">
+		<GameModeID>3</GameModeID>
+		<DisplayName>2v2 Timed</DisplayName>
+		<Teams>TRUE</Teams>
+		<MaxPlayers>4</MaxPlayers>
+		<Duration>240</Duration>
+		<StartingLives>0</StartingLives>
+		<ScoringType>TIMED</ScoringType>
+	</GameModeType>
+	<GameModeType GameModeName="TeamStock">
+		<GameModeID>4</GameModeID>
+		<DisplayName>2v2 Stock</DisplayName>
+		<Teams>TRUE</Teams>
+		<MaxPlayers>4</MaxPlayers>
+		<Duration>480</Duration>
+		<StartingLives>5</StartingLives>
+		<ScoringType>STOCK</ScoringType>
+	</GameModeType>
+	<GameModeType GameModeName="SixTimed">
+		<GameModeID>5</GameModeID>
+		<DisplayName>Free-4-All</DisplayName>
+		<Teams>FALSE</Teams>
+		<MaxPlayers>6</MaxPlayers>
+		<Duration>270</Duration>
+		<StartingLives>0</StartingLives>
+		<ScoringType>TIMED</ScoringType>
+	</GameModeType>
+	<GameModeType GameModeName="SixStock">
+		<GameModeID>6</GameModeID>
+		<DisplayName>Stock</DisplayName>
+		<Teams>FALSE</Teams>
+		<MaxPlayers>6</MaxPlayers>
+		<Duration>360</Duration>
+		<StartingLives>5</StartingLives>
+		<ScoringType>STOCK</ScoringType>
+	</GameModeType>
+	<GameModeType GameModeName="SixTeamTimed">
+		<GameModeID>7</GameModeID>
+		<DisplayName>3v3 Timed</DisplayName>
+		<Teams>TRUE</Teams>
+		<MaxPlayers>6</MaxPlayers>
+		<Duration>300</Duration>
+		<StartingLives>0</StartingLives>
+		<ScoringType>TIMED</ScoringType>
+	</GameModeType>
+	<GameModeType GameModeName="SixTeamStock">
+		<GameModeID>8</GameModeID>
+		<DisplayName>Team Stock</DisplayName>
+		<Teams>TRUE</Teams>
+		<MaxPlayers>6</MaxPlayers>
+		<Duration>480</Duration>
+		<StartingLives>5</StartingLives>
+		<ScoringType>STOCK</ScoringType>
+	</GameModeType>
+	<GameModeType GameModeName="BigTeamTimed">
+		<GameModeID>9</GameModeID>
+		<DisplayName>4v4 Timed</DisplayName>
+		<Teams>TRUE</Teams>
+		<MaxPlayers>8</MaxPlayers>
+		<Duration>240</Duration>
+		<StartingLives>0</StartingLives>
+		<ScoringType>TIMED</ScoringType>
+		<LevelList>BigTeam</LevelList>
+	</GameModeType>
+	<GameModeType GameModeName="Endless">
+		<GameModeID>10</GameModeID>
+		<DisplayName>Endless F4A</DisplayName>
+		<Teams>FALSE</Teams>
+		<MaxPlayers>4</MaxPlayers>
+		<Duration>0</Duration>
+		<StartingLives>0</StartingLives>
+		<ScoringType>TIMED</ScoringType>
+	</GameModeType>
+	<GameModeType GameModeName="BigEndless">
+		<GameModeID>12</GameModeID>
+		<DisplayName>6v6 Endless</DisplayName>
+		<Teams>FALSE</Teams>
+		<MaxPlayers>12</MaxPlayers>
+		<Duration>0</Duration>
+		<StartingLives>0</StartingLives>
+		<ScoringType>TIMED</ScoringType>
+	</GameModeType>
+	<GameModeType GameModeName="MedTeamTimed">
+		<GameModeID>13</GameModeID>
+		<DisplayName>4v4 Timed</DisplayName>
+		<Teams>TRUE</Teams>
+		<MaxPlayers>8</MaxPlayers>
+		<Duration>240</Duration>
+		<StartingLives>0</StartingLives>
+		<ScoringType>TIMED</ScoringType>
+	</GameModeType>
+	<GameModeType GameModeName="Event">
+		<GameModeID>17</GameModeID>
+		<DisplayName>Event</DisplayName>
+		<Teams>FALSE</Teams>
+		<MaxPlayers>0</MaxPlayers>
+		<Duration>0</Duration>
+		<StartingLives>0</StartingLives>
+		<ScoringType>TIMED</ScoringType>
+		<Event>TRUE</Event>
+	</GameModeType>
+	<GameModeType GameModeName="TournamentTimed">
+		<GameModeID>18</GameModeID>
+		<DisplayName>Tournament-Match</DisplayName>
+		<Teams>FALSE</Teams>
+		<MaxPlayers>4</MaxPlayers>
+		<Duration>100</Duration>
+		<StartingLives>0</StartingLives>
+		<ScoringType>TIMED</ScoringType>
+		<LevelList>Ruins</LevelList>
+		<Tournament>TRUE</Tournament>
+	</GameModeType>
+	<GameModeType GameModeName="TournamentStock">
+		<GameModeID>19</GameModeID>
+		<DisplayName>Tournament-Match</DisplayName>
+		<Teams>FALSE</Teams>
+		<MaxPlayers>4</MaxPlayers>
+		<Duration>0</Duration>
+		<StartingLives>3</StartingLives>
+		<ScoringType>STOCK</ScoringType>
+		<LevelList>Ruins</LevelList>
+		<Tournament>TRUE</Tournament>
+	</GameModeType>
+	<GameModeType GameModeName="Bombsketball">
+		<GameModeID>21</GameModeID>
+		<DisplayName>Demolition Basketball</DisplayName>
+		<Teams>TRUE</Teams>
+		<MaxPlayers>4</MaxPlayers>
+		<Duration>120</Duration>
+		<StartingLives>0</StartingLives>
+		<ScoringType>BOMBSKETBALL</ScoringType>
+		<FixedCamera>true</FixedCamera>
+		<LevelList>Bombsketball</LevelList>
+		<IsExperimental>TRUE</IsExperimental>
+	</GameModeType>
+	<GameModeType GameModeName="Conquest">
+		<GameModeID>22</GameModeID>
+		<DisplayName>Bot Conquest</DisplayName>
+		<Teams>4</Teams>
+		<MaxPlayers>4</MaxPlayers>
+		<Duration>240</Duration>
+		<StartingLives>0</StartingLives>
+		<ScoringType>CONQUEST</ScoringType>
+		<FixedCamera>true</FixedCamera>
+		<LevelList>Ruins,Temple</LevelList>
+		<IsExperimental>TRUE</IsExperimental>
+	</GameModeType>
+	<GameModeType GameModeName="HoldTheThing">
+		<GameModeID>23</GameModeID>
+		<DisplayName>Hold The Thing</DisplayName>
+		<Teams>FALSE</Teams>
+		<MaxPlayers>4</MaxPlayers>
+		<Duration>240</Duration>
+		<StartingLives>0</StartingLives>
+		<ScoringType>HOLDTHETHING</ScoringType>
+		<LevelList>HoldTheThing</LevelList>
+		<IsExperimental>TRUE</IsExperimental>
+	</GameModeType>
+	<GameModeType GameModeName="Juggernaut">
+		<GameModeID>24</GameModeID>
+		<DisplayName>Juggernaut Mode</DisplayName>
+		<Teams>TRUE</Teams>
+		<MaxPlayers>4</MaxPlayers>
+		<Duration>0</Duration>
+		<StartingLives>0</StartingLives>
+		<ScoringType>JUGGERNAUT</ScoringType>
+		<IsExperimental>TRUE</IsExperimental>
+	</GameModeType>
+	<GameModeType GameModeName="Ricochet">
+		<GameModeID>25</GameModeID>
+		<DisplayName>Ricochet</DisplayName>
+		<Teams>FALSE</Teams>
+		<MaxPlayers>4</MaxPlayers>
+		<Duration>0</Duration>
+		<StartingLives>5</StartingLives>
+		<ScoringType>RICOCHET</ScoringType>
+		<FixedCamera>true</FixedCamera>
+		<LevelList>Ricochet</LevelList>
+		<IsExperimental>TRUE</IsExperimental>
+		<GadgetsOff>TRUE</GadgetsOff>
+	</GameModeType>
+	<GameModeType GameModeName="Brawlball">
+		<GameModeID>26</GameModeID>
+		<DisplayName>Brawlball</DisplayName>
+		<Teams>TRUE</Teams>
+		<MaxPlayers>4</MaxPlayers>
+		<Duration>1200</Duration>
+		<RoundDuration>45</RoundDuration>
+		<StartingLives>0</StartingLives>
+		<ScoringType>BRAWLBALL</ScoringType>
+		<ScoreToWin>5</ScoreToWin>
+		<LevelList>Brawlball2,Brawlball</LevelList>
+		<IsExperimental>TRUE</IsExperimental>
+		<GadgetsOff>TRUE</GadgetsOff>
+	</GameModeType>
+	<GameModeType GameModeName="Dodgeball">
+		<GameModeID>27</GameModeID>
+		<DisplayName>Dodgeball</DisplayName>
+		<Teams>TRUE</Teams>
+		<MaxPlayers>4</MaxPlayers>
+		<Duration>240</Duration>
+		<StartingLives>3</StartingLives>
+		<ScoringType>DODGEBALL</ScoringType>
+		<LevelList>Dodgeball</LevelList>
+		<IsExperimental>TRUE</IsExperimental>
+		<GadgetsOff>TRUE</GadgetsOff>
+	</GameModeType>
+	<GameModeType GameModeName="Volleyball">
+		<GameModeID>28</GameModeID>
+		<DisplayName>2v2 Volleyball</DisplayName>
+		<Teams>TRUE</Teams>
+		<MaxPlayers>4</MaxPlayers>
+		<Duration>120</Duration>
+		<StartingLives>0</StartingLives>
+		<ScoringType>VOLLEYBALL</ScoringType>
+		<LevelList>Volleyball</LevelList>
+		<IsExperimental>TRUE</IsExperimental>
+		<GadgetsOff>TRUE</GadgetsOff>
+	</GameModeType>
+	<GameModeType GameModeName="Gauntlet">
+		<GameModeID>29</GameModeID>
+		<DisplayName>1v3 Gauntlet</DisplayName>
+		<Teams>FALSE</Teams>
+		<MaxPlayers>4</MaxPlayers>
+		<RoundDuration>45</RoundDuration>
+		<StartingLives>0</StartingLives>
+		<ScoringType>GAUNTLET</ScoringType>
+		<LevelList>Gauntlet</LevelList>
+		<IsExperimental>TRUE</IsExperimental>
+		<GadgetsOff>TRUE</GadgetsOff>
+	</GameModeType>
+	<GameModeType GameModeName="HotPotato">
+		<GameModeID>30</GameModeID>
+		<DisplayName>Hot Potato</DisplayName>
+		<Teams>FALSE</Teams>
+		<MaxPlayers>4</MaxPlayers>
+		<Duration>120</Duration>
+		<StartingLives>0</StartingLives>
+		<ScoringType>HOTPOTATO</ScoringType>
+		<IsExperimental>TRUE</IsExperimental>
+	</GameModeType>
+	<GameModeType GameModeName="FastForward">
+		<GameModeID>31</GameModeID>
+		<DisplayName>Fast Forward</DisplayName>
+		<Teams>FALSE</Teams>
+		<MaxPlayers>4</MaxPlayers>
+		<Duration>120</Duration>
+		<StartingLives>0</StartingLives>
+		<ScoringType>TIMED</ScoringType>
+		<GameSpeed>1.2</GameSpeed>
+		<IsExperimental>TRUE</IsExperimental>
+	</GameModeType>
+	<GameModeType GameModeName="Soccer">
+		<GameModeID>32</GameModeID>
+		<DisplayName>Spikeball Soccer</DisplayName>
+		<Teams>TRUE</Teams>
+		<MaxPlayers>4</MaxPlayers>
+		<RoundDuration>30</RoundDuration>
+		<StartingLives>0</StartingLives>
+		<ScoringType>SOCCER</ScoringType>
+		<ScoreToWin>5</ScoreToWin>
+		<FixedCamera>true</FixedCamera>
+		<LevelList>Soccer</LevelList>
+		<IsExperimental>TRUE</IsExperimental>
+		<GadgetsOff>TRUE</GadgetsOff>
+	</GameModeType>
+	<GameModeType GameModeName="ArcadeSurvival">
+		<GameModeID>33</GameModeID>
+		<DisplayName>Arcade Survival</DisplayName>
+		<Teams>FALSE</Teams>
+		<MaxPlayers>4</MaxPlayers>
+		<RoundDuration>120</RoundDuration>
+		<StartingLives>0</StartingLives>
+		<ScoringType>ARCADE</ScoringType>
+		<LevelList>Altar,Arcade_FFA,Arcade_TournamentHybrid,Arcade_TournamentHybridFFA</LevelList>
+	</GameModeType>
+	<GameModeType GameModeName="8FFA">
+		<GameModeID>34</GameModeID>
+		<DisplayName>8 Person Mayhem</DisplayName>
+		<Teams>FALSE</Teams>
+		<MaxPlayers>8</MaxPlayers>
+		<Duration>240</Duration>
+		<StartingLives>0</StartingLives>
+		<ScoringType>TIMED</ScoringType>
+		<LevelList>BigTeam,Clash</LevelList>
+	</GameModeType>
+	<GameModeType GameModeName="4v4Brawlball">
+		<GameModeID>35</GameModeID>
+		<DisplayName>Big Team Brawlball</DisplayName>
+		<Teams>TRUE</Teams>
+		<MaxPlayers>8</MaxPlayers>
+		<Duration>1200</Duration>
+		<RoundDuration>90</RoundDuration>
+		<StartingLives>0</StartingLives>
+		<ScoringType>BRAWLBALL</ScoringType>
+		<ScoreToWin>3</ScoreToWin>
+		<LevelList>Brawlball4v4</LevelList>
+		<IsExperimental>TRUE</IsExperimental>
+		<GadgetsOff>TRUE</GadgetsOff>
+	</GameModeType>
+</GameModeTypes>

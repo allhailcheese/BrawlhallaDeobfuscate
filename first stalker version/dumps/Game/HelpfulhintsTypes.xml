@@ -1,0 +1,500 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<HelpfulhintsTypes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<HelpfulhintsType HelpfulhintsName="HeavyJump">
+		<Description>Using your heavy attack in the air gives your character a vertical boost.</Description>
+		<Category>Controls</Category>
+		<Weight>1</Weight>
+		<MinLevel>1</MinLevel>
+		<MaxLevel>20</MaxLevel>
+	</HelpfulhintsType>
+	<HelpfulhintsType HelpfulhintsName="DirectionalAttack">
+		<Description>Pressing different directions and attacking will perform different attacks.</Description>
+		<Category>Controls</Category>
+		<Weight>1</Weight>
+		<MinLevel>1</MinLevel>
+		<MaxLevel>20</MaxLevel>
+	</HelpfulhintsType>
+	<HelpfulhintsType HelpfulhintsName="LocalControllers">
+		<Description>Plug in up to four controllers for great local fun!</Description>
+		<Category>Controls</Category>
+		<Weight>1</Weight>
+		<MinLevel>1</MinLevel>
+		<MaxLevel>20</MaxLevel>
+	</HelpfulhintsType>
+	<HelpfulhintsType HelpfulhintsName="CustomKeybinds">
+		<Description>You can change your keybinds in the options menu.</Description>
+		<Category>Controls</Category>
+		<Weight>1</Weight>
+		<MinLevel>1</MinLevel>
+		<MaxLevel>20</MaxLevel>
+	</HelpfulhintsType>
+	<HelpfulhintsType HelpfulhintsName="SpecialMovesUsing">
+		<Description>Press heavy attack on the ground to perform your Legend's special move.</Description>
+		<Category>Controls</Category>
+		<Weight>1</Weight>
+		<MinLevel>1</MinLevel>
+		<MaxLevel>20</MaxLevel>
+	</HelpfulhintsType>
+	<HelpfulhintsType HelpfulhintsName="ControllerSupport">
+		<Description>Contact gamepads@brawlhalla.com if your controller does not work.</Description>
+		<Category>Controls</Category>
+		<Weight>1</Weight>
+		<MinLevel>1</MinLevel>
+		<MaxLevel>20</MaxLevel>
+	</HelpfulhintsType>
+	<HelpfulhintsType HelpfulhintsName="AirMoves">
+		<Description>A weapon's air moves are different than its ground moves.</Description>
+		<Category>Controls</Category>
+		<Weight>1</Weight>
+		<MinLevel>1</MinLevel>
+		<MaxLevel>20</MaxLevel>
+	</HelpfulhintsType>
+	<HelpfulhintsType HelpfulhintsName="CustomSkins">
+		<Description>Change your Legend's skins for an even more unique look.</Description>
+		<Category>Customization</Category>
+		<Weight>1</Weight>
+		<MinLevel>1</MinLevel>
+		<MaxLevel>20</MaxLevel>
+	</HelpfulhintsType>
+	<HelpfulhintsType HelpfulhintsName="CustomRunes">
+		<Description>Customize the way your Legend feels by equipping different runes.</Description>
+		<Category>Customization</Category>
+		<Weight>0</Weight>
+		<MinLevel>1</MinLevel>
+		<MaxLevel>20</MaxLevel>
+	</HelpfulhintsType>
+	<HelpfulhintsType HelpfulhintsName="CustomWeaponSkins">
+		<Description>Customize your Legend's weapons to brawl in style!</Description>
+		<Category>Customization</Category>
+		<Weight>1</Weight>
+		<MinLevel>1</MinLevel>
+		<MaxLevel>20</MaxLevel>
+	</HelpfulhintsType>
+	<HelpfulhintsType HelpfulhintsName="CustomLoadout">
+		<Description>Save your favorite loadout for each Legend in the Accounts page.</Description>
+		<Category>Customization</Category>
+		<Weight>0</Weight>
+		<MinLevel>1</MinLevel>
+		<MaxLevel>20</MaxLevel>
+	</HelpfulhintsType>
+	<HelpfulhintsType HelpfulhintsName="EquipTaunts">
+		<Description>You can equip your four favorite taunts to use in Brawlhalla matches.</Description>
+		<Category>Customization</Category>
+		<Weight>1</Weight>
+		<MinLevel>1</MinLevel>
+		<MaxLevel>20</MaxLevel>
+	</HelpfulhintsType>
+	<HelpfulhintsType HelpfulhintsName="CustomSpawnbot">
+		<Description>Equip your VALKRI skin to bring to Brawlhalla matches.</Description>
+		<Category>Customization</Category>
+		<Weight>1</Weight>
+		<MinLevel>1</MinLevel>
+		<MaxLevel>20</MaxLevel>
+	</HelpfulhintsType>
+	<HelpfulhintsType HelpfulhintsName="EarnGold">
+		<Description>Play games to earn Gold to unlock cool things!</Description>
+		<Category>Earning</Category>
+		<Weight>0</Weight>
+		<MinLevel>1</MinLevel>
+		<MaxLevel>20</MaxLevel>
+	</HelpfulhintsType>
+	<HelpfulhintsType HelpfulhintsName="EarnColors">
+		<Description>Unlocking colors allow you to customize how your Legend appears.</Description>
+		<Category>Earning</Category>
+		<Weight>0</Weight>
+		<MinLevel>1</MinLevel>
+		<MaxLevel>20</MaxLevel>
+	</HelpfulhintsType>
+	<HelpfulhintsType HelpfulhintsName="BlowHorn">
+		<Description>Using the horn will call your VALKRI to bring you a weapon.</Description>
+		<Category>GamePlay</Category>
+		<Weight>1</Weight>
+		<MinLevel>1</MinLevel>
+		<MaxLevel>20</MaxLevel>
+	</HelpfulhintsType>
+	<HelpfulhintsType HelpfulhintsName="ThrowBomb">
+		<Description>Throw a bomb into the fray for maximum impact!</Description>
+		<Category>Gameplay</Category>
+		<Weight>1</Weight>
+		<MinLevel>1</MinLevel>
+		<MaxLevel>20</MaxLevel>
+	</HelpfulhintsType>
+	<HelpfulhintsType HelpfulhintsName="TwoWeaponSystem">
+		<Description>Each Legend uses a unique combination of two weapons.</Description>
+		<Category>GamePlay</Category>
+		<Weight>1</Weight>
+		<MinLevel>1</MinLevel>
+		<MaxLevel>20</MaxLevel>
+	</HelpfulhintsType>
+	<HelpfulhintsType HelpfulhintsName="OfflineMode">
+		<Description>No connection? No problem. Play in offline mode!</Description>
+		<Category>GamePlay</Category>
+		<Weight>1</Weight>
+		<MinLevel>1</MinLevel>
+		<MaxLevel>20</MaxLevel>
+	</HelpfulhintsType>
+	<HelpfulhintsType HelpfulhintsName="Impulse">
+		<Description>Strength affects how far your opponent goes flying.</Description>
+		<Category>GamePlay</Category>
+		<Weight>1</Weight>
+		<MinLevel>1</MinLevel>
+		<MaxLevel>20</MaxLevel>
+	</HelpfulhintsType>
+	<HelpfulhintsType HelpfulhintsName="AttackSpeed">
+		<Description>Dexterity affects how quickly your moves fire and how quickly you recover.</Description>
+		<Category>GamePlay</Category>
+		<Weight>1</Weight>
+		<MinLevel>1</MinLevel>
+		<MaxLevel>20</MaxLevel>
+	</HelpfulhintsType>
+	<HelpfulhintsType HelpfulhintsName="Defense">
+		<Description>Defense affects how quickly your legend slows down after getting hit.</Description>
+		<Category>GamePlay</Category>
+		<Weight>1</Weight>
+		<MinLevel>1</MinLevel>
+		<MaxLevel>20</MaxLevel>
+	</HelpfulhintsType>
+	<HelpfulhintsType HelpfulhintsName="Speed">
+		<Description>Speed affects how quickly your legend moves across the map.</Description>
+		<Category>GamePlay</Category>
+		<Weight>1</Weight>
+		<MinLevel>1</MinLevel>
+		<MaxLevel>20</MaxLevel>
+	</HelpfulhintsType>
+	<HelpfulhintsType HelpfulhintsName="SpecialMovesUnique">
+		<Description>Each Legend has one unique special move per weapon.</Description>
+		<Category>GamePlay</Category>
+		<Weight>1</Weight>
+		<MinLevel>1</MinLevel>
+		<MaxLevel>20</MaxLevel>
+	</HelpfulhintsType>
+	<HelpfulhintsType HelpfulhintsName="BotDifficulty">
+		<Description>There are easy, medium and hard bots to fight in Brawhalla</Description>
+		<Category>GamePlay</Category>
+		<Weight>1</Weight>
+		<MinLevel>1</MinLevel>
+		<MaxLevel>20</MaxLevel>
+	</HelpfulhintsType>
+	<HelpfulhintsType HelpfulhintsName="TeamMode">
+		<Description>You cannot hurt your allies in team mode. Careful, you still can with gadgets.</Description>
+		<Category>GamePlay</Category>
+		<Weight>1</Weight>
+		<MinLevel>1</MinLevel>
+		<MaxLevel>20</MaxLevel>
+	</HelpfulhintsType>
+	<HelpfulhintsType HelpfulhintsName="CustomRules">
+		<Description>Change between different game modes in the custom rules screen.</Description>
+		<Category>GamePlay</Category>
+		<Weight>1</Weight>
+		<MinLevel>1</MinLevel>
+		<MaxLevel>20</MaxLevel>
+	</HelpfulhintsType>
+	<HelpfulhintsType HelpfulhintsName="OnlineChat">
+		<Description>Tell your opponents "Good Game" in the post-game chatter!</Description>
+		<Category>GamePlay</Category>
+		<Weight>1</Weight>
+		<MinLevel>1</MinLevel>
+		<MaxLevel>20</MaxLevel>
+	</HelpfulhintsType>
+	<HelpfulhintsType HelpfulhintsName="Bugs">
+		<Description>You can report bugs from the main menu.</Description>
+		<Category>Meta</Category>
+		<Weight>1</Weight>
+		<MinLevel>1</MinLevel>
+		<MaxLevel>20</MaxLevel>
+	</HelpfulhintsType>
+	<HelpfulhintsType HelpfulhintsName="TrainingMode">
+		<Description>Have you tried Training Mode? It's the only place to see hitboxes and exact damage numbers.</Description>
+		<Category>Modes</Category>
+		<Weight>2</Weight>
+		<MinLevel>1</MinLevel>
+		<MaxLevel>19</MaxLevel>
+	</HelpfulhintsType>
+	<HelpfulhintsType HelpfulhintsName="ArcadeMode">
+		<Description>Enter Arcade Mode for some quick single player fun with bots.</Description>
+		<Category>Modes</Category>
+		<Weight>1</Weight>
+		<MinLevel>1</MinLevel>
+		<MaxLevel>19</MaxLevel>
+	</HelpfulhintsType>
+	<HelpfulhintsType HelpfulhintsName="OnlineBrawl">
+		<Description>Play OnlineBrawl to get matched up with a random opponent.</Description>
+		<Category>Modes</Category>
+		<Weight>1</Weight>
+		<MinLevel>1</MinLevel>
+		<MaxLevel>19</MaxLevel>
+	</HelpfulhintsType>
+	<HelpfulhintsType HelpfulhintsName="CustomOnline">
+		<Description>Play Custom Online and invite your friends to an online game.</Description>
+		<Category>Modes</Category>
+		<Weight>1</Weight>
+		<MinLevel>1</MinLevel>
+		<MaxLevel>19</MaxLevel>
+	</HelpfulhintsType>
+	<HelpfulhintsType HelpfulhintsName="LocalMatch">
+		<Description>Play Local Matches to play with bots or with friends all from one computer.</Description>
+		<Category>Modes</Category>
+		<Weight>1</Weight>
+		<MinLevel>1</MinLevel>
+		<MaxLevel>19</MaxLevel>
+	</HelpfulhintsType>
+	<HelpfulhintsType HelpfulhintsName="PurchaseTaunts">
+		<Description>Taunts can be purchased in the Mallhalla.</Description>
+		<Category>Store</Category>
+		<Weight>1</Weight>
+		<MinLevel>5</MinLevel>
+		<MaxLevel>20</MaxLevel>
+	</HelpfulhintsType>
+	<HelpfulhintsType HelpfulhintsName="PurchaseSkins">
+		<Description>Legend Skins can be purchased in the Mallhalla.</Description>
+		<Category>Store</Category>
+		<Weight>1</Weight>
+		<MinLevel>5</MinLevel>
+		<MaxLevel>20</MaxLevel>
+	</HelpfulhintsType>
+	<HelpfulhintsType HelpfulhintsName="WeaponSkinsStore">
+		<Description>Weapon Skins can be purchased in the Mallhalla.</Description>
+		<Category>Store</Category>
+		<Weight>1</Weight>
+		<MinLevel>5</MinLevel>
+		<MaxLevel>20</MaxLevel>
+	</HelpfulhintsType>
+	<HelpfulhintsType HelpfulhintsName="StoreHeroes">
+		<Description>Unlock Legends in the Mallhalla.</Description>
+		<Category>Store</Category>
+		<Weight>0</Weight>
+		<MinLevel>5</MinLevel>
+		<MaxLevel>20</MaxLevel>
+	</HelpfulhintsType>
+	<HelpfulhintsType HelpfulhintsName="HUDHighScore">
+		<Description>The indicators in the top right show what place each hero is in.</Description>
+		<Category>UI</Category>
+		<Weight>1</Weight>
+		<MinLevel>1</MinLevel>
+		<MaxLevel>20</MaxLevel>
+	</HelpfulhintsType>
+	<HelpfulhintsType HelpfulhintsName="CustomGameName">
+		<Description>Invite your friends to Custom Online games using the 4-digit game id.</Description>
+		<Category>UI</Category>
+		<Weight>1</Weight>
+		<MinLevel>1</MinLevel>
+		<MaxLevel>20</MaxLevel>
+	</HelpfulhintsType>
+	<HelpfulhintsType HelpfulhintsName="HattoriLore">
+		<Description>Hattori is half ninja, half demon.</Description>
+		<Category>Lore</Category>
+		<Weight>2</Weight>
+		<MinLevel>10</MinLevel>
+		<MaxLevel>20</MaxLevel>
+	</HelpfulhintsType>
+	<HelpfulhintsType HelpfulhintsName="ThrowWeapons">
+		<Description>You can throw your weapons at opponents. It's a great way to keep them from recovering!</Description>
+		<Category>GamePlay</Category>
+		<Weight>1</Weight>
+		<MinLevel>10</MinLevel>
+		<MaxLevel>20</MaxLevel>
+	</HelpfulhintsType>
+	<HelpfulhintsType HelpfulhintsName="AerialJumps">
+		<Description>You get 2 aerial jumps and a recovery attack. Landing on the ground or wall sliding resets them.</Description>
+		<Category>GamePlay</Category>
+		<Weight>1</Weight>
+		<MinLevel>1</MinLevel>
+		<MaxLevel>10</MaxLevel>
+	</HelpfulhintsType>
+	<HelpfulhintsType HelpfulhintsName="ExtraJumps">
+		<Description>If you're out of jumps and get hit, you get one back.</Description>
+		<Category>GamePlay</Category>
+		<Weight>1</Weight>
+		<MinLevel>1</MinLevel>
+		<MaxLevel>10</MaxLevel>
+	</HelpfulhintsType>
+	<HelpfulhintsType HelpfulhintsName="Recovery">
+		<Description>You get one free recovery move while airborne. Extra will cost you aerial jumps.</Description>
+		<Category>GamePlay</Category>
+		<Weight>1</Weight>
+		<MinLevel>1</MinLevel>
+		<MaxLevel>10</MaxLevel>
+	</HelpfulhintsType>
+	<HelpfulhintsType HelpfulhintsName="WallSliding1">
+		<Description>Wall sliding is easy! Just jump into a wall to stick to it.</Description>
+		<Category>GamePlay</Category>
+		<Weight>1</Weight>
+		<MinLevel>1</MinLevel>
+		<MaxLevel>10</MaxLevel>
+	</HelpfulhintsType>
+	<HelpfulhintsType HelpfulhintsName="WallSliding2">
+		<Description>You can use wall sliding to reset your jumps or move away from a wall to fling yourself off it.</Description>
+		<Category>GamePlay</Category>
+		<Weight>1</Weight>
+		<MinLevel>1</MinLevel>
+		<MaxLevel>10</MaxLevel>
+	</HelpfulhintsType>
+	<HelpfulhintsType HelpfulhintsName="SpikeBallPro">
+		<Description>When you hit an enemy with a spike ball, it pops up into the air. Catch it to continue your spike ball barrage!</Description>
+		<Category>GamePlay</Category>
+		<Weight>1</Weight>
+		<MinLevel>8</MinLevel>
+		<MaxLevel>20</MaxLevel>
+	</HelpfulhintsType>
+	<HelpfulhintsType HelpfulhintsName="ThrowPro">
+		<Description>How fast a non-explosive item travels and how long it's been airborne factor into how hard it hits.</Description>
+		<Category>GamePlay</Category>
+		<Weight>1</Weight>
+		<MinLevel>8</MinLevel>
+		<MaxLevel>20</MaxLevel>
+	</HelpfulhintsType>
+	<HelpfulhintsType HelpfulhintsName="Damage1">
+		<Description>Don't want to check the HUD? Players will flash their damage color when hit.</Description>
+		<Category>GamePlay</Category>
+		<Weight>5</Weight>
+		<MinLevel>1</MinLevel>
+		<MaxLevel>20</MaxLevel>
+	</HelpfulhintsType>
+	<HelpfulhintsType HelpfulhintsName="Damage2">
+		<Description>Every time you get hit you take damage. The more damage you take, the farther you fly when you get hit.</Description>
+		<Category>GamePlay</Category>
+		<Weight>5</Weight>
+		<MinLevel>1</MinLevel>
+		<MaxLevel>10</MaxLevel>
+	</HelpfulhintsType>
+	<HelpfulhintsType HelpfulhintsName="LedgeGuard">
+		<Description>Don't just stand there and wait for your opponents to get back to the map. Get out there!</Description>
+		<Category>GamePlay</Category>
+		<Weight>3</Weight>
+		<MinLevel>10</MinLevel>
+		<MaxLevel>19</MaxLevel>
+	</HelpfulhintsType>
+	<HelpfulhintsType HelpfulhintsName="SpearThrow">
+		<Description>You can throw spears harder than you can throw other weapons.</Description>
+		<Category>GamePlay</Category>
+		<Weight>1</Weight>
+		<MinLevel>10</MinLevel>
+		<MaxLevel>20</MaxLevel>
+	</HelpfulhintsType>
+	<HelpfulhintsType HelpfulhintsName="AirDodge">
+		<Description>There's no limit on how many times you can dodge while airborne, but the cooldown is much longer.</Description>
+		<Category>GamePlay</Category>
+		<Weight>1</Weight>
+		<MinLevel>1</MinLevel>
+		<MaxLevel>20</MaxLevel>
+	</HelpfulhintsType>
+	<HelpfulhintsType HelpfulhintsName="RespawnProtection">
+		<Description>You are invincible for a short time after your VALKRI returns you to the battlefield.</Description>
+		<Category>GamePlay</Category>
+		<Weight>2</Weight>
+		<MinLevel>1</MinLevel>
+		<MaxLevel>20</MaxLevel>
+	</HelpfulhintsType>
+	<HelpfulhintsType HelpfulhintsName="Mines1">
+		<Description>Armed mines will explode if you get too close to them. Best to leave them be until they go off on their own.</Description>
+		<Category>GamePlay</Category>
+		<Weight>1</Weight>
+		<MinLevel>4</MinLevel>
+		<MaxLevel>20</MaxLevel>
+	</HelpfulhintsType>
+	<HelpfulhintsType HelpfulhintsName="Mines2">
+		<Description>Throw objects at mines to give them maximum speed...and knockout potential.</Description>
+		<Category>GamePlay</Category>
+		<Weight>1</Weight>
+		<MinLevel>10</MinLevel>
+		<MaxLevel>20</MaxLevel>
+	</HelpfulhintsType>
+	<HelpfulhintsType HelpfulhintsName="Mines3">
+		<Description>Try hitting opponents into their own mines. You'll get credit as if you had planted it.</Description>
+		<Category>GamePlay</Category>
+		<Weight>1</Weight>
+		<MinLevel>15</MinLevel>
+		<MaxLevel>20</MaxLevel>
+	</HelpfulhintsType>
+	<HelpfulhintsType HelpfulhintsName="ThrowPro2">
+		<Description>Thrown items maintain some of your velocity as they leave your hand.</Description>
+		<Category>GamePlay</Category>
+		<Weight>1</Weight>
+		<MinLevel>10</MinLevel>
+		<MaxLevel>20</MaxLevel>
+	</HelpfulhintsType>
+	<HelpfulhintsType HelpfulhintsName="ThrowPro3">
+		<Description>You can catch thrown gadgets, but it requires careful timing.</Description>
+		<Category>GamePlay</Category>
+		<Weight>1</Weight>
+		<MinLevel>5</MinLevel>
+		<MaxLevel>20</MaxLevel>
+	</HelpfulhintsType>
+	<HelpfulhintsType HelpfulhintsName="Dodge">
+		<Description>Can't seem to avoid getting hit? Have you tried dodging?</Description>
+		<Category>GamePlay</Category>
+		<Weight>2</Weight>
+		<MinLevel>2</MinLevel>
+		<MaxLevel>10</MaxLevel>
+	</HelpfulhintsType>
+	<HelpfulhintsType HelpfulhintsName="Dodge2">
+		<Description>Want to dodge without moving? Press down when you dodge to dodge in place.</Description>
+		<Category>Controls</Category>
+		<Weight>2</Weight>
+		<MinLevel>12</MinLevel>
+		<MaxLevel>20</MaxLevel>
+	</HelpfulhintsType>
+	<HelpfulhintsType HelpfulhintsName="Damage3">
+		<Description>Just because an attack doesn't send your opponents flying very far doesn't mean it's not racking up damage.</Description>
+		<Category>GamePlay</Category>
+		<Weight>2</Weight>
+		<MinLevel>5</MinLevel>
+		<MaxLevel>20</MaxLevel>
+	</HelpfulhintsType>
+	<HelpfulhintsType HelpfulhintsName="Accidents">
+		<Description>If you knock out yourself or a teammate, you'll get an Accident.</Description>
+		<Category>GamePlay</Category>
+		<Weight>2</Weight>
+		<MinLevel>5</MinLevel>
+		<MaxLevel>20</MaxLevel>
+	</HelpfulhintsType>
+	<HelpfulhintsType HelpfulhintsName="KnockOuts">
+		<Description>In Timed mode, Knock Outs are worth 2 points and being knocked out is worth -1 point.</Description>
+		<Category>GamePlay</Category>
+		<Weight>2</Weight>
+		<MinLevel>5</MinLevel>
+		<MaxLevel>20</MaxLevel>
+	</HelpfulhintsType>
+	<HelpfulhintsType HelpfulhintsName="KnockOuts2">
+		<Description>Don't try knocking yourself out to get an advantage; that will net you -3 points.</Description>
+		<Category>GamePlay</Category>
+		<Weight>2</Weight>
+		<MinLevel>5</MinLevel>
+		<MaxLevel>20</MaxLevel>
+	</HelpfulhintsType>
+	<HelpfulhintsType HelpfulhintsName="Horn">
+		<Description>VALKRIs summoned by horn not only bring you a fresh weapon, but will barrel through enemies on the way.</Description>
+		<Category>GamePlay</Category>
+		<Weight>1</Weight>
+		<MinLevel>5</MinLevel>
+		<MaxLevel>15</MaxLevel>
+	</HelpfulhintsType>
+	<HelpfulhintsType HelpfulhintsName="Horn2">
+		<Description>If you didn't summon that flaming VALKRI, prepare to dodge.</Description>
+		<Category>GamePlay</Category>
+		<Weight>2</Weight>
+		<MinLevel>2</MinLevel>
+		<MaxLevel>10</MaxLevel>
+	</HelpfulhintsType>
+	<HelpfulhintsType HelpfulhintsName="Horn3">
+		<Description>We affectionately refer to VALKRIs as "SpawnBots"... just don't tell them that.</Description>
+		<Category>Meta</Category>
+		<Weight>1</Weight>
+		<MinLevel>20</MinLevel>
+		<MaxLevel>20</MaxLevel>
+	</HelpfulhintsType>
+	<HelpfulhintsType HelpfulhintsName="SpikeBallPhysics">
+		<Description>Spike Balls do not bounce very much. This makes them great at "defusing" mines.</Description>
+		<Category>GamePlay</Category>
+		<Weight>1</Weight>
+		<MinLevel>5</MinLevel>
+		<MaxLevel>20</MaxLevel>
+	</HelpfulhintsType>
+	<HelpfulhintsType HelpfulhintsName="ThrowPro4">
+		<Description>You can throw weapons and gadgets in eight directions.</Description>
+		<Category>GamePlay</Category>
+		<Weight>2</Weight>
+		<MinLevel>1</MinLevel>
+		<MaxLevel>8</MaxLevel>
+	</HelpfulhintsType>
+</HelpfulhintsTypes>

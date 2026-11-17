@@ -3252,6 +3252,7 @@ package
         {
         }
         
+        // oddbrawl loop
         public function §_-Yb§(param1:uint) : void
         {
             var _loc4_:* = null as §_-BH§;
@@ -4875,6 +4876,7 @@ package
             §_-x4F§ = §_-M2N§("a_DashDust03",0.55,"SFX_Spear.swf");
         }
         
+        // kung foot
         public function §_-C1r§(param1:uint) : void
         {
             var _loc4_:* = null as Volume;

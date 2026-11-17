@@ -1,0 +1,1931 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<RuneTypes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<RuneType>
+		<HeroName>Viking</HeroName>
+		<RuneIndex>0</RuneIndex>
+		<IsMajor>true</IsMajor>
+		<Strength>4</Strength>
+		<Dexterity>3</Dexterity>
+		<Weight>3</Weight>
+		<Speed>3</Speed>
+		<DisplayName>Hammer of Headsmiting</DisplayName>
+		<IconName>a_RuneIconMajor1</IconName>
+		<Description>My first hammer, given to me by my mother when I was but a boy. Bested many a foe with it before I cracked it on the nose of a stone giant.</Description>
+	</RuneType>
+	<RuneType>
+		<RuneIndex>1</RuneIndex>
+		<IsMajor>true</IsMajor>
+		<Strength>5</Strength>
+		<Dexterity>2</Dexterity>
+		<Weight>4</Weight>
+		<Speed>2</Speed>
+		<DisplayName>Broken Blade of Ulther</DisplayName>
+		<IconName>a_RuneIconMajor2</IconName>
+		<Description>Not my own sword, mind you. Belonged to the foul King Ulther. He claimed it was magic and that made him king. I snapped the blade off and beat him senseless with the handle.</Description>
+	</RuneType>
+	<RuneType>
+		<RuneIndex>2</RuneIndex>
+		<IsMajor>true</IsMajor>
+		<Strength>3</Strength>
+		<Dexterity>5</Dexterity>
+		<Weight>2</Weight>
+		<Speed>3</Speed>
+		<DisplayName>Warhorn of a Thousand Woes</DisplayName>
+		<IconName>a_RuneIconMajor3</IconName>
+		<Description>Was a time when the sound of this war horn set my foes shivering with fear. That time continues unto this very day, although now you might see a god or two shiver as well.</Description>
+	</RuneType>
+	<RuneType>
+		<RuneIndex>3</RuneIndex>
+		<IsMajor>true</IsMajor>
+		<Strength>5</Strength>
+		<Dexterity>4</Dexterity>
+		<Weight>3</Weight>
+		<Speed>1</Speed>
+		<DisplayName>Rune of Rending</DisplayName>
+		<IconName>a_RuneIconMajor4</IconName>
+		<Description>I never was one for magic and spells and such dark mysteries. But I took this Runestone from a mother troll’s den. It brought me luck almost to the day I died.</Description>
+	</RuneType>
+	<RuneType>
+		<RuneIndex>4</RuneIndex>
+		<Strength>2</Strength>
+		<Dexterity>2</Dexterity>
+		<Weight>2</Weight>
+		<Speed>1</Speed>
+		<DisplayName>Tuft of Bear’s Fur</DisplayName>
+		<IconName>a_RuneIconMinor1</IconName>
+		<Description>All I ever knew of my father. They said he was the fiercest bear ever that ever lived.</Description>
+	</RuneType>
+	<RuneType>
+		<RuneIndex>5</RuneIndex>
+		<Strength>1</Strength>
+		<Dexterity>2</Dexterity>
+		<Weight>1</Weight>
+		<Speed>3</Speed>
+		<DisplayName>Wolf’s Tooth Pendant</DisplayName>
+		<IconName>a_RuneIconMinor2</IconName>
+		<Description>It was wolf or me when I was only three. Last time a wolf was that foolish in my presence.</Description>
+	</RuneType>
+	<RuneType>
+		<RuneIndex>6</RuneIndex>
+		<Strength>1</Strength>
+		<Dexterity>2</Dexterity>
+		<Weight>3</Weight>
+		<Speed>1</Speed>
+		<DisplayName>Shark Skin Slippers</DisplayName>
+		<IconName>a_RuneIconMinor3</IconName>
+		<Description>The terror of my home fjords, it would chew whole longships to splinters if it smelled cod on board. I learned to swim chasing this toothy, great fish.</Description>
+	</RuneType>
+	<RuneType>
+		<RuneIndex>7</RuneIndex>
+		<Strength>2</Strength>
+		<Dexterity>1</Dexterity>
+		<Weight>1</Weight>
+		<Speed>3</Speed>
+		<DisplayName>Troll Paw Oven Mitt</DisplayName>
+		<IconName>a_RuneIconMinor4</IconName>
+		<Description>My first famous deed. This monster had been eating its fill every night in the Jarl’s feast hall. No weapon could scratch it, so I took that arm off with my bare hands.</Description>
+	</RuneType>
+	<RuneType>
+		<RuneIndex>8</RuneIndex>
+		<Strength>2</Strength>
+		<Dexterity>1</Dexterity>
+		<Weight>3</Weight>
+		<Speed>1</Speed>
+		<DisplayName>Serpent Tongue Belt</DisplayName>
+		<IconName>a_RuneIconMinor5</IconName>
+		<Description>A sneak of a snake. Hid in wells and came out at night. I thought the poison was in its tongue. Found out the hard way that’s not true.</Description>
+	</RuneType>
+	<RuneType>
+		<RuneIndex>9</RuneIndex>
+		<Strength>2</Strength>
+		<Dexterity>2</Dexterity>
+		<Weight>1</Weight>
+		<Speed>2</Speed>
+		<DisplayName>Giant’s Thumb Stool</DisplayName>
+		<IconName>a_RuneIconMinor6</IconName>
+		<Description>This bullying brute’s bellowing caused an avalanche when I hit him the first time. Now he’s nice and quiet.</Description>
+	</RuneType>
+	<RuneType>
+		<RuneIndex>10</RuneIndex>
+		<Strength>1</Strength>
+		<Dexterity>1</Dexterity>
+		<Weight>3</Weight>
+		<Speed>2</Speed>
+		<DisplayName>Kraken Beak Walnut Cracker</DisplayName>
+		<IconName>a_RuneIconMinor7</IconName>
+		<Description>My trip across the Western Sea got cut short when this beast grappled my longship. I had to sail its carcass back home.</Description>
+	</RuneType>
+	<RuneType>
+		<RuneIndex>11</RuneIndex>
+		<Strength>3</Strength>
+		<Dexterity>1</Dexterity>
+		<Weight>1</Weight>
+		<Speed>2</Speed>
+		<DisplayName>Dragon Drinking Horn</DisplayName>
+		<IconName>a_RuneIconMinor8</IconName>
+		<Description>My last act on Earth, but at least I took this flame-spoutings sack of scales with me. I hear tell he found his own heaven with the Fire Giants.</Description>
+	</RuneType>
+	<RuneType>
+		<HeroName>Cowgirl</HeroName>
+		<RuneIndex>0</RuneIndex>
+		<IsMajor>true</IsMajor>
+		<Strength>3</Strength>
+		<Dexterity>5</Dexterity>
+		<Weight>2</Weight>
+		<Speed>3</Speed>
+		<DisplayName>Marshal's Star</DisplayName>
+		<IconName>a_RuneIconMajor1</IconName>
+		<Description>My proudest day was in Paris (the one in Texas, not Pah-ree, France) when I was commissioned Deputy U.S. Marshal.</Description>
+	</RuneType>
+	<RuneType>
+		<RuneIndex>1</RuneIndex>
+		<IsMajor>true</IsMajor>
+		<Strength>4</Strength>
+		<Dexterity>4</Dexterity>
+		<Weight>3</Weight>
+		<Speed>2</Speed>
+		<DisplayName>Unlucky Horseshoe</DisplayName>
+		<IconName>a_RuneIconMajor2</IconName>
+		<Description>I don’t set much by luck and whatnot, but this old shoe brought more worries than a herd of preachers. I took to sneakin’ it into the saddlebags of those as gave me cause for worry.</Description>
+	</RuneType>
+	<RuneType>
+		<RuneIndex>2</RuneIndex>
+		<IsMajor>true</IsMajor>
+		<Strength>4</Strength>
+		<Dexterity>4</Dexterity>
+		<Weight>1</Weight>
+		<Speed>4</Speed>
+		<DisplayName>Golden Bullet</DisplayName>
+		<IconName>a_RuneIconMajor3</IconName>
+		<Description>Cast this .45 round my ownself as a present for a fellow Marshal. But one thing led to another, and I was in desperate need of a bullet to save President Grant from certain undead desperadoes.</Description>
+	</RuneType>
+	<RuneType>
+		<RuneIndex>3</RuneIndex>
+		<IsMajor>true</IsMajor>
+		<Strength>3</Strength>
+		<Dexterity>7</Dexterity>
+		<Weight>1</Weight>
+		<Speed>2</Speed>
+		<DisplayName>Shot-Riddled Hat</DisplayName>
+		<IconName>a_RuneIconMajor4</IconName>
+		<Description>This battered old war bonnet looks moth eaten, but those holes come from Max Burr’s scattergun. Left it atop a scarecrow while I got the jump on the rascal from the tall grass.</Description>
+	</RuneType>
+	<RuneType>
+		<RuneIndex>4</RuneIndex>
+		<Strength>2</Strength>
+		<Dexterity>3</Dexterity>
+		<Weight>1</Weight>
+		<Speed>1</Speed>
+		<DisplayName>Wild Zeb’s Z-Brand</DisplayName>
+		<IconName>a_RuneIconMinor1</IconName>
+		<Description>This bumpkin made off with thirty head of cattle from my uncle’s ranch and tried rebranding ‘em. I tracked him thirty miles east and hogtied him for the sheriff. Not bad for a girl of thirteen.</Description>
+	</RuneType>
+	<RuneType>
+		<RuneIndex>5</RuneIndex>
+		<Strength>1</Strength>
+		<Dexterity>2</Dexterity>
+		<Weight>2</Weight>
+		<Speed>2</Speed>
+		<DisplayName>Dynamite Plunger</DisplayName>
+		<IconName>a_RuneIconMinor2</IconName>
+		<Description>Sadie Hooks and her Trout Teeth Gang would hide in ponds, waiting to ambush helpless travelers. How I cottoned to fishin’ with dynamite.</Description>
+	</RuneType>
+	<RuneType>
+		<RuneIndex>6</RuneIndex>
+		<Strength>2</Strength>
+		<Dexterity>2</Dexterity>
+		<Weight>2</Weight>
+		<Speed>1</Speed>
+		<DisplayName>Dodge City Bank Vault Dial</DisplayName>
+		<IconName>a_RuneIconMinor3</IconName>
+		<Description>The Clockwork Count of Dodge City and his automatons busted into every bank of note between the Rockies and the Mississippi. I had to used magnetic bullets just to hit his clockwork safe-crackers.</Description>
+	</RuneType>
+	<RuneType>
+		<RuneIndex>7</RuneIndex>
+		<Strength>0</Strength>
+		<Dexterity>3</Dexterity>
+		<Weight>2</Weight>
+		<Speed>2</Speed>
+		<DisplayName>Tombstone of Antonio Huesos</DisplayName>
+		<IconName>a_RuneIconMinor4</IconName>
+		<Description>I caught this devilish deviant grave robbing outside Eldorado Canyon, Nevada. That night his zombies busted him out of the hoosegow, and I spent three sleepless nights resting them all in pieces.</Description>
+	</RuneType>
+	<RuneType>
+		<RuneIndex>8</RuneIndex>
+		<Strength>2</Strength>
+		<Dexterity>2</Dexterity>
+		<Weight>1</Weight>
+		<Speed>2</Speed>
+		<DisplayName>Wanted Poster for La Vacca</DisplayName>
+		<IconName>a_RuneIconMinor5</IconName>
+		<Description>This bovine bandita was not so much rustlin’ cattle as “liberating them.” We came to an understanding after one heckuva tussle, and she took her gang on up to Wisconsin.</Description>
+	</RuneType>
+	<RuneType>
+		<RuneIndex>9</RuneIndex>
+		<Strength>3</Strength>
+		<Dexterity>2</Dexterity>
+		<Weight>1</Weight>
+		<Speed>1</Speed>
+		<DisplayName>Raman Hotep’s Bandages</DisplayName>
+		<IconName>a_RuneIconMinor6</IconName>
+		<Description>Caught this curious fella runnin’ a faro game in Ruby, Arizona. I took hold of him, but there weren’t nothin’ under those bandages he wore! Followed his footprints for three weeks before wrangling him.</Description>
+	</RuneType>
+	<RuneType>
+		<RuneIndex>10</RuneIndex>
+		<Strength>3</Strength>
+		<Dexterity>3</Dexterity>
+		<Weight>1</Weight>
+		<Speed>0</Speed>
+		<DisplayName>Maxime Napoleon Burr’s Monocle</DisplayName>
+		<IconName>a_RuneIconMinor7</IconName>
+		<Description>This self-proclaimed Emperor of New Texas was rasing an army of desperadoes. I snuck into one of his secret fandangos and got the drop on him. Weren’t near so tough caught with his trousers down.</Description>
+	</RuneType>
+	<RuneType>
+		<RuneIndex>11</RuneIndex>
+		<Strength>3</Strength>
+		<Dexterity>3</Dexterity>
+		<Weight>0</Weight>
+		<Speed>1</Speed>
+		<DisplayName>Zhao Shih’s Rail Spike</DisplayName>
+		<IconName>a_RuneIconMinor8</IconName>
+		<Description>Famous for the Greatest Train Robbery out in San Fran, Zhao Shih stole an entire Western Pacific train and sold all 18 rail cars in Manilla. I caught up to her outside of Tombstone, and we had more than words.</Description>
+	</RuneType>
+	<RuneType>
+		<HeroName>Valkyrie</HeroName>
+		<RuneIndex>0</RuneIndex>
+		<IsMajor>true</IsMajor>
+		<Strength>3</Strength>
+		<Dexterity>3</Dexterity>
+		<Weight>4</Weight>
+		<Speed>3</Speed>
+		<DisplayName>Golden Griffin Beacon</DisplayName>
+		<IconName>a_RuneIconMajor1</IconName>
+		<Description>Shouting, “Griffin Knights, Unite!” I’d activate my homing beacon to summon my Warbot. Loved the shocked look on Oort Trooper faces when my ‘bot flew over the horizon, roaring like a monster.</Description>
+	</RuneType>
+	<RuneType>
+		<RuneIndex>1</RuneIndex>
+		<IsMajor>true</IsMajor>
+		<Strength>2</Strength>
+		<Dexterity>2</Dexterity>
+		<Weight>5</Weight>
+		<Speed>4</Speed>
+		<DisplayName>Warbot Master Headset</DisplayName>
+		<IconName>a_RuneIconMajor2</IconName>
+		<Description>As Knight Prime, I headed of the entire Warbot formation. Whether we were fighting toe to toe on the ground or piloting our Griffs in space, this headset united me with my fellow knights.</Description>
+	</RuneType>
+	<RuneType>
+		<RuneIndex>2</RuneIndex>
+		<IsMajor>true</IsMajor>
+		<Strength>3</Strength>
+		<Dexterity>5</Dexterity>
+		<Weight>3</Weight>
+		<Speed>2</Speed>
+		<DisplayName>Oscillation Meta Thruster</DisplayName>
+		<IconName>a_RuneIconMajor3</IconName>
+		<Description>The Oort Empire came not from another star but from another dimension. The reality-bending O.M.T. was the only way to strike back against the Oort Lich King and save Earth.</Description>
+	</RuneType>
+	<RuneType>
+		<RuneIndex>3</RuneIndex>
+		<IsMajor>true</IsMajor>
+		<Strength>1</Strength>
+		<Dexterity>4</Dexterity>
+		<Weight>5</Weight>
+		<Speed>3</Speed>
+		<DisplayName>Bodvar Bobblehead</DisplayName>
+		<IconName>a_RuneIconMajor4</IconName>
+		<Description>Cloned from the essences of Earth’s greatest heroes, the heroic destiny of The Knights Stellar  was literally in our genes. This bearlike ole’ bruiser was the basis for my hard-hitting DNA, and his bobblehead sat proudly in my Griff’s cockpit.</Description>
+	</RuneType>
+	<RuneType>
+		<RuneIndex>4</RuneIndex>
+		<Strength>1</Strength>
+		<Dexterity>2</Dexterity>
+		<Weight>2</Weight>
+		<Speed>2</Speed>
+		<DisplayName>Cy-Jitsu Training Holo</DisplayName>
+		<IconName>a_RuneIconMinor1</IconName>
+		<Description>Oort Troopers hide behind particle shields and lasguns. Cy-Jitsu trained us to charge in and deliver the finishing blow point blank, whether we’re wielding Vibro Spears or piloting battle Griffs.</Description>
+	</RuneType>
+	<RuneType>
+		<RuneIndex>5</RuneIndex>
+		<Strength>3</Strength>
+		<Dexterity>2</Dexterity>
+		<Weight>1</Weight>
+		<Speed>1</Speed>
+		<DisplayName>Green Knight’s Medallion</DisplayName>
+		<IconName>a_RuneIconMinor2</IconName>
+		<Description>My mentor and wingman, Taurus the Green Knight, fell during the Solstice Offence of 2368. He was leading our team through the Lunar trenches when the Oorts ambushed us.</Description>
+	</RuneType>
+	<RuneType>
+		<RuneIndex>6</RuneIndex>
+		<Strength>1</Strength>
+		<Dexterity>2</Dexterity>
+		<Weight>1</Weight>
+		<Speed>3</Speed>
+		<DisplayName>Anthem of The Knights Stellar</DisplayName>
+		<IconName>a_RuneIconMinor3</IconName>
+		<Description>SynthStar Ako Lennon von Mozart generated this stirring anthem as a tribute to my victory on the Lunar Front, it topped every Earthling’s playlists for the rest of the war. I especially love the whalesong chorus.</Description>
+	</RuneType>
+	<RuneType>
+		<RuneIndex>7</RuneIndex>
+		<Strength>3</Strength>
+		<Dexterity>1</Dexterity>
+		<Weight>2</Weight>
+		<Speed>1</Speed>
+		<DisplayName>Gargantunaut Tooth</DisplayName>
+		<IconName>a_RuneIconMinor4</IconName>
+		<Description>When the Oort Empire Gargantunauts warped into orbit, studded with fiery plasma claws and gnashing planet-crusher jaws, everyone thought Earth was doomed. Everyone but me and my fellow knights.</Description>
+	</RuneType>
+	<RuneType>
+		<RuneIndex>8</RuneIndex>
+		<Strength>1</Strength>
+		<Dexterity>1</Dexterity>
+		<Weight>2</Weight>
+		<Speed>3</Speed>
+		<DisplayName>5-Leaf Clover</DisplayName>
+		<IconName>a_RuneIconMinor5</IconName>
+		<Description>Picked from the ruins of the Mars Colony hydroponics dome, this lucky piece of green gave me hope on one of my bleakest days. Plus it glows green when you sing to it.</Description>
+	</RuneType>
+	<RuneType>
+		<RuneIndex>9</RuneIndex>
+		<Strength>2</Strength>
+		<Dexterity>2</Dexterity>
+		<Weight>2</Weight>
+		<Speed>1</Speed>
+		<DisplayName>Oort Occupation Spike</DisplayName>
+		<IconName>a_RuneIconMinor6</IconName>
+		<Description>Stuck in the ground, the spike poisons whole planets with Oort anti-life particles. I had to kick, stab, and spear my way past a thousand troopers to yank it from the Martian soil in time.</Description>
+	</RuneType>
+	<RuneType>
+		<RuneIndex>10</RuneIndex>
+		<Strength>2</Strength>
+		<Dexterity>1</Dexterity>
+		<Weight>1</Weight>
+		<Speed>3</Speed>
+		<DisplayName>Emblazoned Blade Crystal</DisplayName>
+		<IconName>a_RuneIconMinor7</IconName>
+		<Description>The Griffin Warbot’s Emblazoned Blade was our secret weapon. We could only activate it for a few seconds at a time, since the edge was hotter than the surface of the sun. I seldom needed more than a full second.</Description>
+	</RuneType>
+	<RuneType>
+		<RuneIndex>11</RuneIndex>
+		<Strength>2</Strength>
+		<Dexterity>1</Dexterity>
+		<Weight>3</Weight>
+		<Speed>1</Speed>
+		<DisplayName>Unsent Love Letters</DisplayName>
+		<IconName>a_RuneIconMinor8</IconName>
+		<Description>Never delivered. Always preferred the Red Knight. I guess marriage and all that would’ve been too distracting, right? Seriously though, I wish them all the best.</Description>
+	</RuneType>
+	<RuneType>
+		<HeroName>Alien</HeroName>
+		<RuneIndex>0</RuneIndex>
+		<IsMajor>true</IsMajor>
+		<Strength>3</Strength>
+		<Dexterity>4</Dexterity>
+		<Weight>2</Weight>
+		<Speed>4</Speed>
+		<DisplayName>Star Marshal’s Baton</DisplayName>
+		<IconName>a_RuneIconMajor1</IconName>
+		<Description>I was the first to claim the rank of Star Marshal in 712 cycles. All the Selenite loyalists rallied to my cause, knowing that under my command alone could the Martians be defeated.</Description>
+	</RuneType>
+	<RuneType>
+		<RuneIndex>1</RuneIndex>
+		<IsMajor>true</IsMajor>
+		<Strength>3</Strength>
+		<Dexterity>5</Dexterity>
+		<Weight>3</Weight>
+		<Speed>2</Speed>
+		<DisplayName>Pet Gwiq</DisplayName>
+		<IconName>a_RuneIconMajor2</IconName>
+		<Description>This little fellow has been with me since I was but a spawnling. I find his overly-large eyes and diminutive frame to be quite charming.</Description>
+	</RuneType>
+	<RuneType>
+		<RuneIndex>2</RuneIndex>
+		<IsMajor>true</IsMajor>
+		<Strength>2</Strength>
+		<Dexterity>5</Dexterity>
+		<Weight>1</Weight>
+		<Speed>5</Speed>
+		<DisplayName>The Eon Throne</DisplayName>
+		<IconName>a_RuneIconMajor3</IconName>
+		<Description>I created the Eon Throne as a fitting seat of power for my new empire. Hewn from the heart of a dwarf star, any other who sits upon it would be instantly crushed.</Description>
+	</RuneType>
+	<RuneType>
+		<RuneIndex>3</RuneIndex>
+		<IsMajor>true</IsMajor>
+		<Strength>2</Strength>
+		<Dexterity>6</Dexterity>
+		<Weight>2</Weight>
+		<Speed>3</Speed>
+		<DisplayName>Iridescent Red Button</DisplayName>
+		<IconName>a_RuneIconMajor4</IconName>
+		<Description>Only I, Lord Vraxx the Conqueror, know what will happen should I choose to press this button. Of course I know. I know exactly what it will do. Exactly. No doubt at all.</Description>
+	</RuneType>
+	<RuneType>
+		<RuneIndex>4</RuneIndex>
+		<Strength>1</Strength>
+		<Dexterity>3</Dexterity>
+		<Weight>1</Weight>
+		<Speed>2</Speed>
+		<DisplayName>Selenite Saucer</DisplayName>
+		<IconName>a_RuneIconMinor1</IconName>
+		<Description>A grand craft, the pride of our space force. All would tremble to hear its fearsome hum and none was more skilled a pilot than the youthful ace, Vraxx.</Description>
+	</RuneType>
+	<RuneType>
+		<RuneIndex>5</RuneIndex>
+		<Strength>0</Strength>
+		<Dexterity>3</Dexterity>
+		<Weight>1</Weight>
+		<Speed>3</Speed>
+		<DisplayName>Martian Tripod</DisplayName>
+		<IconName>a_RuneIconMinor2</IconName>
+		<Description>I toppled thirty Tripods during the First Martian War. If one knows the secret, it’s simply a matter of superb skill to reflect their own heat rays back upon them.</Description>
+	</RuneType>
+	<RuneType>
+		<RuneIndex>6</RuneIndex>
+		<Strength>1</Strength>
+		<Dexterity>1</Dexterity>
+		<Weight>2</Weight>
+		<Speed>3</Speed>
+		<DisplayName>Oort Imperium Dive Bomber</DisplayName>
+		<IconName>a_RuneIconMinor3</IconName>
+		<Description>The Oort Imperium’s answer to our gorgeous saucers. I single-handedly saved the Selenite Armada when I proved these fighters’ tremendous speed was of no use in Saturn’s Rings.</Description>
+	</RuneType>
+	<RuneType>
+		<RuneIndex>7</RuneIndex>
+		<Strength>0</Strength>
+		<Dexterity>2</Dexterity>
+		<Weight>2</Weight>
+		<Speed>3</Speed>
+		<DisplayName>Plutonian Dwarf Nova</DisplayName>
+		<IconName>a_RuneIconMinor4</IconName>
+		<Description>Invulnerable to all known weaponry, it took a leader of my unprecedented genius to realize their one weakness was their general’s insufferable pride.</Description>
+	</RuneType>
+	<RuneType>
+		<RuneIndex>8</RuneIndex>
+		<Strength>2</Strength>
+		<Dexterity>1</Dexterity>
+		<Weight>2</Weight>
+		<Speed>2</Speed>
+		<DisplayName>Starslime Pseudopod</DisplayName>
+		<IconName>a_RuneIconMinor5</IconName>
+		<Description>Others feared these monstrous entities. I discovered how to communicate with them. Their secrets helped me do what the Starslime could not: seize the Selenite Throne.</Description>
+	</RuneType>
+	<RuneType>
+		<RuneIndex>9</RuneIndex>
+		<Strength>2</Strength>
+		<Dexterity>2</Dexterity>
+		<Weight>1</Weight>
+		<Speed>2</Speed>
+		<DisplayName>Venusian Battlebarge</DisplayName>
+		<IconName>a_RuneIconMinor6</IconName>
+		<Description>Now that I was Lord Vraxx, I could lead our people to glory. The Venusians offered fierce resistance, but my skilled soldiers outfought them at every turn.</Description>
+	</RuneType>
+	<RuneType>
+		<RuneIndex>10</RuneIndex>
+		<Strength>3</Strength>
+		<Dexterity>1</Dexterity>
+		<Weight>0</Weight>
+		<Speed>3</Speed>
+		<DisplayName>Interdimensional Welcome Wagon</DisplayName>
+		<IconName>a_RuneIconMinor7</IconName>
+		<Description>Of course this so-called peace envoy was a spy for the Martian resistance. Many doubted my decision, but doubters and Interdimensional spies both paid the ultimate price for defying me.</Description>
+	</RuneType>
+	<RuneType>
+		<RuneIndex>11</RuneIndex>
+		<Strength>3</Strength>
+		<Dexterity>2</Dexterity>
+		<Weight>0</Weight>
+		<Speed>2</Speed>
+		<DisplayName>War Toad of Epsilon 9</DisplayName>
+		<IconName>a_RuneIconMinor8</IconName>
+		<Description>This being’s strange riddles and trans-temporal missile system almost defeated my intellect. Almost, of course. Even a mighty toad is no match for Lord Vraxx!</Description>
+	</RuneType>
+	<RuneType>
+		<HeroName>Caveman</HeroName>
+		<RuneIndex>0</RuneIndex>
+		<IsMajor>true</IsMajor>
+		<Strength>4</Strength>
+		<Dexterity>2</Dexterity>
+		<Weight>3</Weight>
+		<Speed>4</Speed>
+		<DisplayName>Flint And Tinder</DisplayName>
+		<IconName>a_RuneIconMajor1</IconName>
+		<Description>Fight darkness. Fight cold. Fight hunger. Fire fights for The Clan.</Description>
+	</RuneType>
+	<RuneType>
+		<RuneIndex>1</RuneIndex>
+		<IsMajor>true</IsMajor>
+		<Strength>3</Strength>
+		<Dexterity>3</Dexterity>
+		<Weight>4</Weight>
+		<Speed>3</Speed>
+		<DisplayName>The Speaking Shell</DisplayName>
+		<IconName>a_RuneIconMajor2</IconName>
+		<Description>Loud noise. Silence others. Show respect. Forbid lies.</Description>
+	</RuneType>
+	<RuneType>
+		<RuneIndex>2</RuneIndex>
+		<IsMajor>true</IsMajor>
+		<Strength>3</Strength>
+		<Dexterity>2</Dexterity>
+		<Weight>3</Weight>
+		<Speed>5</Speed>
+		<DisplayName>Red War Paint</DisplayName>
+		<IconName>a_RuneIconMajor3</IconName>
+		<Description>Hide fear. Show courage. Make flee. We fight as one Clan. Drive away Others.</Description>
+	</RuneType>
+	<RuneType>
+		<RuneIndex>3</RuneIndex>
+		<IsMajor>true</IsMajor>
+		<Strength>6</Strength>
+		<Dexterity>1</Dexterity>
+		<Weight>3</Weight>
+		<Speed>3</Speed>
+		<DisplayName>Ghost Stone Knife</DisplayName>
+		<IconName>a_RuneIconMajor4</IconName>
+		<Description>Fell from sky. Killed many. Stone-beast’s skin. Shines as water. Cuts as stone.</Description>
+	</RuneType>
+	<RuneType>
+		<RuneIndex>4</RuneIndex>
+		<Strength>2</Strength>
+		<Dexterity>1</Dexterity>
+		<Weight>2</Weight>
+		<Speed>2</Speed>
+		<DisplayName>Stone-tipped Spear</DisplayName>
+		<IconName>a_RuneIconMinor1</IconName>
+		<Description>Spear best for hunt. Spear best for fight. Spear best for fish. Spear just best.</Description>
+	</RuneType>
+	<RuneType>
+		<RuneIndex>5</RuneIndex>
+		<Strength>1</Strength>
+		<Dexterity>2</Dexterity>
+		<Weight>2</Weight>
+		<Speed>2</Speed>
+		<DisplayName>Mammoth Leash</DisplayName>
+		<IconName>a_RuneIconMinor2</IconName>
+		<Description>Clan serves Mammoths. Mammoths serve The Clan. Together we are strong.</Description>
+	</RuneType>
+	<RuneType>
+		<RuneIndex>6</RuneIndex>
+		<Strength>2</Strength>
+		<Dexterity>1</Dexterity>
+		<Weight>3</Weight>
+		<Speed>1</Speed>
+		<DisplayName>Bow and Arrow</DisplayName>
+		<IconName>a_RuneIconMinor3</IconName>
+		<Description>Hit far away. Hit well or chase. Better hit well. Chase make meat tough. Hate chase.</Description>
+	</RuneType>
+	<RuneType>
+		<RuneIndex>7</RuneIndex>
+		<Strength>2</Strength>
+		<Dexterity>2</Dexterity>
+		<Weight>1</Weight>
+		<Speed>2</Speed>
+		<DisplayName>Sabertooth Knife</DisplayName>
+		<IconName>a_RuneIconMinor4</IconName>
+		<Description>Tiger eats with it. Kill tiger. Now Clan can kill with it. And eat with it. Happy not smell like tiger mouth.</Description>
+	</RuneType>
+	<RuneType>
+		<RuneIndex>8</RuneIndex>
+		<Strength>2</Strength>
+		<Dexterity>2</Dexterity>
+		<Weight>0</Weight>
+		<Speed>3</Speed>
+		<DisplayName>Yeti War Band Atlatl</DisplayName>
+		<IconName>a_RuneIconMinor5</IconName>
+		<Description>Furry big men. Fling arrows. Angry outsiders. Not start fight. Not let furry big men win.</Description>
+	</RuneType>
+	<RuneType>
+		<RuneIndex>9</RuneIndex>
+		<Strength>1</Strength>
+		<Dexterity>0</Dexterity>
+		<Weight>3</Weight>
+		<Speed>3</Speed>
+		<DisplayName>Wolf Net</DisplayName>
+		<IconName>a_RuneIconMinor6</IconName>
+		<Description>Many days make net. Dire wolf hunts many moons. Days of work end moons of fear. Wolf hung in net is easy hit.</Description>
+	</RuneType>
+	<RuneType>
+		<RuneIndex>10</RuneIndex>
+		<Strength>3</Strength>
+		<Dexterity>0</Dexterity>
+		<Weight>3</Weight>
+		<Speed>1</Speed>
+		<DisplayName>Crocodile Crusher</DisplayName>
+		<IconName>a_RuneIconMinor7</IconName>
+		<Description>Skin tough. Tougher than spear. Knife can’t cut. Need crush. Crushing Rock Spear cracks Croc. Meat tender. Don’t overcook. Meat tough.</Description>
+	</RuneType>
+	<RuneType>
+		<RuneIndex>11</RuneIndex>
+		<Strength>3</Strength>
+		<Dexterity>1</Dexterity>
+		<Weight>1</Weight>
+		<Speed>2</Speed>
+		<DisplayName>Giant Snare</DisplayName>
+		<IconName>a_RuneIconMinor8</IconName>
+		<Description>Three-legs, shining stone monster. Burns all near. Cannot fight. Can trick. Monster fall down. Make loud noise. Tastes like burning.</Description>
+	</RuneType>
+	<RuneType>
+		<HeroName>Witch</HeroName>
+		<RuneIndex>0</RuneIndex>
+		<IsMajor>true</IsMajor>
+		<Strength>5</Strength>
+		<Dexterity>2</Dexterity>
+		<Weight>4</Weight>
+		<Speed>2</Speed>
+		<DisplayName>Golden Censer</DisplayName>
+		<IconName>a_RuneIconMajor1</IconName>
+		<Description>Steeped with herbs and essences from the deepest forest, when the sacred fumes rise up around me, truth and lie dissolve into revelation.</Description>
+	</RuneType>
+	<RuneType>
+		<RuneIndex>1</RuneIndex>
+		<IsMajor>true</IsMajor>
+		<Strength>3</Strength>
+		<Dexterity>3</Dexterity>
+		<Weight>4</Weight>
+		<Speed>3</Speed>
+		<DisplayName>Bahlam Mask</DisplayName>
+		<IconName>a_RuneIconMajor2</IconName>
+		<Description>Given unto me as I did ascend to the priestly throne, when I donned this mask, the great jaguar’s power flowed through me as a river overflows its banks.</Description>
+	</RuneType>
+	<RuneType>
+		<RuneIndex>2</RuneIndex>
+		<IsMajor>true</IsMajor>
+		<Strength>4</Strength>
+		<Dexterity>1</Dexterity>
+		<Weight>6</Weight>
+		<Speed>2</Speed>
+		<DisplayName>Obsidian Cornerstone</DisplayName>
+		<IconName>a_RuneIconMajor3</IconName>
+		<Description>Quarried from the black earth in the House of Gloom, I decreed unto my followers that a great obsidian temple be raised to honor and appease the death god Ah Puch.</Description>
+	</RuneType>
+	<RuneType>
+		<RuneIndex>3</RuneIndex>
+		<IsMajor>true</IsMajor>
+		<Strength>6</Strength>
+		<Dexterity>2</Dexterity>
+		<Weight>4</Weight>
+		<Speed>1</Speed>
+		<DisplayName>Crystal Skull</DisplayName>
+		<IconName>a_RuneIconMajor4</IconName>
+		<Description>From whence came this strange skull? No mortal nor any god seems to know its source, but it whispers secrets when the moon is dark.</Description>
+	</RuneType>
+	<RuneType>
+		<RuneIndex>4</RuneIndex>
+		<Strength>2</Strength>
+		<Dexterity>1</Dexterity>
+		<Weight>3</Weight>
+		<Speed>1</Speed>
+		<DisplayName>Game Ball</DisplayName>
+		<IconName>a_RuneIconMinor1</IconName>
+		<Description>Ere I could wield spear or spell I honored the gods in the great ball courts of Ixkun.</Description>
+	</RuneType>
+	<RuneType>
+		<RuneIndex>5</RuneIndex>
+		<Strength>2</Strength>
+		<Dexterity>1</Dexterity>
+		<Weight>2</Weight>
+		<Speed>2</Speed>
+		<DisplayName>Amulet of Ochan</DisplayName>
+		<IconName>a_RuneIconMinor2</IconName>
+		<Description>The great serpent Ochan did speak unto me whilst I was but a babe in arms. It revealed the fearsome magicks that would save my people.</Description>
+	</RuneType>
+	<RuneType>
+		<RuneIndex>6</RuneIndex>
+		<Strength>1</Strength>
+		<Dexterity>2</Dexterity>
+		<Weight>2</Weight>
+		<Speed>2</Speed>
+		<DisplayName>Cebia Tree Wand</DisplayName>
+		<IconName>a_RuneIconMinor3</IconName>
+		<Description>With great wrath, I cast curses upon the heads of mine enemies. All who threatened Ixkun feared my hexes.</Description>
+	</RuneType>
+	<RuneType>
+		<RuneIndex>7</RuneIndex>
+		<Strength>2</Strength>
+		<Dexterity>2</Dexterity>
+		<Weight>3</Weight>
+		<Speed>0</Speed>
+		<DisplayName>Vucub Talon</DisplayName>
+		<IconName>a_RuneIconMinor4</IconName>
+		<Description>This bird-like demon camest from the House of Gloom, and did set upon the innocent with its talons. I clipped its wings and speared its foul heart.</Description>
+	</RuneType>
+	<RuneType>
+		<RuneIndex>8</RuneIndex>
+		<Strength>3</Strength>
+		<Dexterity>1</Dexterity>
+		<Weight>1</Weight>
+		<Speed>2</Speed>
+		<DisplayName>Nagual Crown</DisplayName>
+		<IconName>a_RuneIconMinor5</IconName>
+		<Description>Impelled by visions, I sought the hidden threat amongst my people. A Nagual shapeshifter preyed upon our children until I struck this cursed crown from atop its head.</Description>
+	</RuneType>
+	<RuneType>
+		<RuneIndex>9</RuneIndex>
+		<Strength>3</Strength>
+		<Dexterity>0</Dexterity>
+		<Weight>2</Weight>
+		<Speed>2</Speed>
+		<DisplayName>Serpent Feather</DisplayName>
+		<IconName>a_RuneIconMinor6</IconName>
+		<Description>To touch the great serpent is to lay one’s hand upon the heart of time. I awoke with but one glorious feather, given unto me by Gukumatz.</Description>
+	</RuneType>
+	<RuneType>
+		<RuneIndex>10</RuneIndex>
+		<Strength>3</Strength>
+		<Dexterity>2</Dexterity>
+		<Weight>2</Weight>
+		<Speed>0</Speed>
+		<DisplayName>Ritual of the Bacabs</DisplayName>
+		<IconName>a_RuneIconMinor7</IconName>
+		<Description>As foretold in the great cosmic calendar, when the moon doth occult the sun, then this great ritual invocation of the Bacabs shall hearken a new age for my people.</Description>
+	</RuneType>
+	<RuneType>
+		<RuneIndex>11</RuneIndex>
+		<Strength>3</Strength>
+		<Dexterity>0</Dexterity>
+		<Weight>3</Weight>
+		<Speed>1</Speed>
+		<DisplayName>Tourist Trinkets</DisplayName>
+		<IconName>a_RuneIconMinor8</IconName>
+		<Description>With carven trifles, my descendents honor the great battles of yore. Some nights I project a vision of myself through these trinkets, and my people’ tormentors do quail and tremble.</Description>
+	</RuneType>
+	<RuneType>
+		<HeroName>Highwayman</HeroName>
+		<RuneIndex>0</RuneIndex>
+		<IsMajor>true</IsMajor>
+		<Strength>1</Strength>
+		<Dexterity>4</Dexterity>
+		<Weight>4</Weight>
+		<Speed>4</Speed>
+		<DisplayName>Baron d’Aix’s Pistol</DisplayName>
+		<IconName>a_RuneIconMajor1</IconName>
+		<Description>I never understood fools who stand at ten paces waiting to be shot by some fop in a powdered wig. While he looked the other way, I plugged the baron’s barrel and naturally won the day.</Description>
+	</RuneType>
+	<RuneType>
+		<RuneIndex>1</RuneIndex>
+		<IsMajor>true</IsMajor>
+		<Strength>4</Strength>
+		<Dexterity>2</Dexterity>
+		<Weight>3</Weight>
+		<Speed>4</Speed>
+		<DisplayName>Dr. Guillotin’s Razor</DisplayName>
+		<IconName>a_RuneIconMajor2</IconName>
+		<Description>The Terror took many heads in the Place de la Revolution. Even I could never be so cold and bloodthirsty as this marvel. It is, shall we say, and inspiration for me. We can always do more, no?</Description>
+	</RuneType>
+	<RuneType>
+		<RuneIndex>2</RuneIndex>
+		<IsMajor>true</IsMajor>
+		<Strength>4</Strength>
+		<Dexterity>4</Dexterity>
+		<Weight>1</Weight>
+		<Speed>4</Speed>
+		<DisplayName>Hussar Dufort’s Saber</DisplayName>
+		<IconName>a_RuneIconMajor3</IconName>
+		<Description>Even my cold heart can admire a flashy uniform and a finely-wrought sword. So of course I took poor Captain Dufort’s from him on the eve of Austerlitz. After our duel he had little need of it.</Description>
+	</RuneType>
+	<RuneType>
+		<RuneIndex>3</RuneIndex>
+		<IsMajor>true</IsMajor>
+		<Strength>3</Strength>
+		<Dexterity>2</Dexterity>
+		<Weight>1</Weight>
+		<Speed>7</Speed>
+		<DisplayName>Tsar Alexander’s Rifle</DisplayName>
+		<IconName>a_RuneIconMajor4</IconName>
+		<Description>The young Tsar offered this amber-inlaid masterwork in payment for killing The Corsican. When Wellington beat me to it, I stole it for myself. I sadly learned later that Mother Russia never forgets.</Description>
+	</RuneType>
+	<RuneType>
+		<RuneIndex>4</RuneIndex>
+		<Strength>2</Strength>
+		<Dexterity>1</Dexterity>
+		<Weight>1</Weight>
+		<Speed>3</Speed>
+		<DisplayName>Purloined Payroll</DisplayName>
+		<IconName>a_RuneIconMinor1</IconName>
+		<Description>I’ve no shame regarding my youthful banditry. The nobility had so much more than me, you see? But the fops could not even keep the wages for their hired guards from me.</Description>
+	</RuneType>
+	<RuneType>
+		<RuneIndex>5</RuneIndex>
+		<Strength>1</Strength>
+		<Dexterity>2</Dexterity>
+		<Weight>2</Weight>
+		<Speed>2</Speed>
+		<DisplayName>Key to the Bastille</DisplayName>
+		<IconName>a_RuneIconMinor2</IconName>
+		<Description>My first night as a spy. Before the Paris mobs stormed it, I infiltrated the prison, overpowered the guards, and freed a certain depraved Marquis on behalf of a wealthy and perverted patron.</Description>
+	</RuneType>
+	<RuneType>
+		<RuneIndex>6</RuneIndex>
+		<Strength>2</Strength>
+		<Dexterity>1</Dexterity>
+		<Weight>2</Weight>
+		<Speed>2</Speed>
+		<DisplayName>Queen Marie’s Necklace</DisplayName>
+		<IconName>a_RuneIconMinor3</IconName>
+		<Description>Count Cagliostro tasked me with planting a certain diamond necklace in The Queen’s chambers. I never dreamed the scandal might help launch a revolution.</Description>
+	</RuneType>
+	<RuneType>
+		<RuneIndex>7</RuneIndex>
+		<Strength>0</Strength>
+		<Dexterity>2</Dexterity>
+		<Weight>2</Weight>
+		<Speed>3</Speed>
+		<DisplayName>Comte de Plassans’ Wig</DisplayName>
+		<IconName>a_RuneIconMinor4</IconName>
+		<Description>Not his powdered wig. His wife’s wig. He wore it along with her plainest dress as a tried to escape The Terror. I caught him at the Italian border and he fought like a lion. A lion in a dress.</Description>
+	</RuneType>
+	<RuneType>
+		<RuneIndex>8</RuneIndex>
+		<Strength>2</Strength>
+		<Dexterity>2</Dexterity>
+		<Weight>1</Weight>
+		<Speed>2</Speed>
+		<DisplayName>Pressed Pimpernel</DisplayName>
+		<IconName>a_RuneIconMinor5</IconName>
+		<Description>Citizen Robespierre charged me with ending this noble-coddling masked vigilante with a floral sobriquet. One of the great duels of my life, and the only foe even shiftier than I.</Description>
+	</RuneType>
+	<RuneType>
+		<RuneIndex>9</RuneIndex>
+		<Strength>3</Strength>
+		<Dexterity>1</Dexterity>
+		<Weight>1</Weight>
+		<Speed>2</Speed>
+		<DisplayName>Infernal Machine</DisplayName>
+		<IconName>a_RuneIconMinor6</IconName>
+		<Description>An ingenious explosive device, if it had gone off a few minutes sooner, the First Consul would have preceded me to the afterlife. Even so, it began in me a love affair with killer automatons.</Description>
+	</RuneType>
+	<RuneType>
+		<RuneIndex>10</RuneIndex>
+		<Strength>3</Strength>
+		<Dexterity>0</Dexterity>
+		<Weight>1</Weight>
+		<Speed>3</Speed>
+		<DisplayName>Careme’s Recipe</DisplayName>
+		<IconName>a_RuneIconMinor7</IconName>
+		<Description>A few changes to the master chef’s recipes and the addition of a hallucinogenic compound proved the distraction I needed to abscond with Prince Talleyrand’s private letters to the Emperor.</Description>
+	</RuneType>
+	<RuneType>
+		<RuneIndex>11</RuneIndex>
+		<Strength>3</Strength>
+		<Dexterity>1</Dexterity>
+		<Weight>0</Weight>
+		<Speed>3</Speed>
+		<DisplayName>Napoleon’s Ciphers</DisplayName>
+		<IconName>a_RuneIconMinor8</IconName>
+		<Description>The petit corporal, he won so many battles. Some I even helped him win. But I saw his end coming before he did. These codes paid my way to safety across the English Channel.</Description>
+	</RuneType>
+	<RuneType>
+		<HeroName>Ninja</HeroName>
+		<RuneIndex>0</RuneIndex>
+		<IsMajor>true</IsMajor>
+		<Strength>2</Strength>
+		<Dexterity>4</Dexterity>
+		<Weight>2</Weight>
+		<Speed>5</Speed>
+		<DisplayName>Painting of Iga Province</DisplayName>
+		<IconName>a_RuneIconMajor1</IconName>
+		<Description>Clan choked hills in gloom / Wintery discontent thrives / Mistaken past lies</Description>
+	</RuneType>
+	<RuneType>
+		<RuneIndex>1</RuneIndex>
+		<IsMajor>true</IsMajor>
+		<Strength>3</Strength>
+		<Dexterity>3</Dexterity>
+		<Weight>3</Weight>
+		<Speed>4</Speed>
+		<DisplayName>Bone Carved Tea Set</DisplayName>
+		<IconName>a_RuneIconMajor2</IconName>
+		<Description>Steeped water blooming / The kettle dictates the tea / Foes bones hold heat well</Description>
+	</RuneType>
+	<RuneType>
+		<RuneIndex>2</RuneIndex>
+		<IsMajor>true</IsMajor>
+		<Strength>1</Strength>
+		<Dexterity>5</Dexterity>
+		<Weight>1</Weight>
+		<Speed>6</Speed>
+		<DisplayName>Poisonous Bonsai</DisplayName>
+		<IconName>a_RuneIconMajor3</IconName>
+		<Description>A forest for homes / Studied pruning through seasons / Bears bitterest cuts</Description>
+	</RuneType>
+	<RuneType>
+		<RuneIndex>3</RuneIndex>
+		<IsMajor>true</IsMajor>
+		<Strength>2</Strength>
+		<Dexterity>3</Dexterity>
+		<Weight>1</Weight>
+		<Speed>7</Speed>
+		<DisplayName>Death Tuned Harp</DisplayName>
+		<IconName>a_RuneIconMajor4</IconName>
+		<Description>Simple songs of old / A chord strung with dearest gut / Endings are never heard</Description>
+	</RuneType>
+	<RuneType>
+		<RuneIndex>4</RuneIndex>
+		<Strength>1</Strength>
+		<Dexterity>2</Dexterity>
+		<Weight>1</Weight>
+		<Speed>3</Speed>
+		<DisplayName>Shuriken</DisplayName>
+		<IconName>a_RuneIconMinor1</IconName>
+		<Description>Spinning steel flies through / Spring into summer passes / Youthful death bringer</Description>
+	</RuneType>
+	<RuneType>
+		<RuneIndex>5</RuneIndex>
+		<Strength>1</Strength>
+		<Dexterity>2</Dexterity>
+		<Weight>2</Weight>
+		<Speed>2</Speed>
+		<DisplayName>Ninja-to</DisplayName>
+		<IconName>a_RuneIconMinor2</IconName>
+		<Description>First task and first sword / While duty done, Nobunga betrays / Blades without honor</Description>
+	</RuneType>
+	<RuneType>
+		<RuneIndex>6</RuneIndex>
+		<Strength>2</Strength>
+		<Dexterity>2</Dexterity>
+		<Weight>1</Weight>
+		<Speed>2</Speed>
+		<DisplayName>Family Crest</DisplayName>
+		<IconName>a_RuneIconMinor3</IconName>
+		<Description>Cracked crest in ashes / Oaths in honorable haste made / Vengeance on all</Description>
+	</RuneType>
+	<RuneType>
+		<RuneIndex>7</RuneIndex>
+		<Strength>0</Strength>
+		<Dexterity>3</Dexterity>
+		<Weight>2</Weight>
+		<Speed>2</Speed>
+		<DisplayName>Demon Pact Mask</DisplayName>
+		<IconName>a_RuneIconMinor4</IconName>
+		<Description>Honor lacks in void / Oni’s fury answers call / Demon, ninja, one</Description>
+	</RuneType>
+	<RuneType>
+		<RuneIndex>8</RuneIndex>
+		<Strength>2</Strength>
+		<Dexterity>3</Dexterity>
+		<Weight>0</Weight>
+		<Speed>2</Speed>
+		<DisplayName>Head of Nobunga</DisplayName>
+		<IconName>a_RuneIconMinor5</IconName>
+		<Description>Dark smoke makes day night / Mitsuhide’s guise opens gates / Oni strength claims prize</Description>
+	</RuneType>
+	<RuneType>
+		<RuneIndex>9</RuneIndex>
+		<Strength>2</Strength>
+		<Dexterity>1</Dexterity>
+		<Weight>1</Weight>
+		<Speed>3</Speed>
+		<DisplayName>String of Red Coins</DisplayName>
+		<IconName>a_RuneIconMinor6</IconName>
+		<Description>Debts paid in shadow / What could demons want from us? / Four times four times, more</Description>
+	</RuneType>
+	<RuneType>
+		<RuneIndex>10</RuneIndex>
+		<Strength>0</Strength>
+		<Dexterity>2</Dexterity>
+		<Weight>2</Weight>
+		<Speed>3</Speed>
+		<DisplayName>Imperial Sword</DisplayName>
+		<IconName>a_RuneIconMinor7</IconName>
+		<Description>Treasured katana / Emperor knows shame and loss / Winter without Spring</Description>
+	</RuneType>
+	<RuneType>
+		<RuneIndex>11</RuneIndex>
+		<Strength>2</Strength>
+		<Dexterity>2</Dexterity>
+		<Weight>0</Weight>
+		<Speed>3</Speed>
+		<DisplayName>Super Famicom Cartridge</DisplayName>
+		<IconName>a_RuneIconMinor8</IconName>
+		<Description>Deeds done in darkness / Dancing lights, click, press, up, down / All time knows justice</Description>
+	</RuneType>
+	<RuneType>
+		<HeroName>Knight</HeroName>
+		<RuneIndex>0</RuneIndex>
+		<IsMajor>true</IsMajor>
+		<Strength>3</Strength>
+		<Dexterity>3</Dexterity>
+		<Weight>5</Weight>
+		<Speed>2</Speed>
+		<DisplayName>Coat of Arms</DisplayName>
+		<IconName>a_RuneIconMajor1</IconName>
+		<Description>I wore these proud arms in every battle since my youth, and hast won more titles, praises, and victories than any knight before or since.</Description>
+	</RuneType>
+	<RuneType>
+		<RuneIndex>1</RuneIndex>
+		<IsMajor>true</IsMajor>
+		<Strength>4</Strength>
+		<Dexterity>2</Dexterity>
+		<Weight>4</Weight>
+		<Speed>3</Speed>
+		<DisplayName>Le Chanson de Roland</DisplayName>
+		<IconName>a_RuneIconMajor2</IconName>
+		<Description>My father named me for Charlemagne's greatest knight, and I ever endeavored to deserve the honor. Never did I read the book, for I speak not French. I am told ‘tis good.</Description>
+	</RuneType>
+	<RuneType>
+		<RuneIndex>2</RuneIndex>
+		<IsMajor>true</IsMajor>
+		<Strength>4</Strength>
+		<Dexterity>4</Dexterity>
+		<Weight>4</Weight>
+		<Speed>1</Speed>
+		<DisplayName>Horseshoe Nail</DisplayName>
+		<IconName>a_RuneIconMajor3</IconName>
+		<Description>For wont of this nail, I did lose mine horse. One thing led unto another and it did transpire the the whole kingdom was thus lost. T’was my squire’s fault.</Description>
+	</RuneType>
+	<RuneType>
+		<RuneIndex>3</RuneIndex>
+		<IsMajor>true</IsMajor>
+		<Strength>3</Strength>
+		<Dexterity>2</Dexterity>
+		<Weight>7</Weight>
+		<Speed>1</Speed>
+		<DisplayName>Knight of Roses Board Game</DisplayName>
+		<IconName>a_RuneIconMajor4</IconName>
+		<Description>Reduced to even a single card in a pasteboard game, my name lives on, symbol of triumphs past, with a Strength Rating of 100; twice hated Neville or despised Warwick’s meager 50.</Description>
+	</RuneType>
+	<RuneType>
+		<RuneIndex>4</RuneIndex>
+		<Strength>2</Strength>
+		<Dexterity>1</Dexterity>
+		<Weight>3</Weight>
+		<Speed>1</Speed>
+		<DisplayName>Battered Quintain</DisplayName>
+		<IconName>a_RuneIconMinor1</IconName>
+		<Description>From my youth as a squire until my first joust, I struck this wooden foe a thousand upon thousand times over so that my skill with lance knew no equal.</Description>
+	</RuneType>
+	<RuneType>
+		<RuneIndex>5</RuneIndex>
+		<Strength>1</Strength>
+		<Dexterity>2</Dexterity>
+		<Weight>2</Weight>
+		<Speed>2</Speed>
+		<DisplayName>Pierced Gorget</DisplayName>
+		<IconName>a_RuneIconMinor2</IconName>
+		<Description>I lost but once in all my glorious days. I met Henry Percy on the lists and he unhorsed and near beheaded me, saved only by this piece of armor. Thus I swore unto the heavens to never lose again.</Description>
+	</RuneType>
+	<RuneType>
+		<RuneIndex>6</RuneIndex>
+		<Strength>2</Strength>
+		<Dexterity>1</Dexterity>
+		<Weight>2</Weight>
+		<Speed>2</Speed>
+		<DisplayName>St. George’s Chalice</DisplayName>
+		<IconName>a_RuneIconMinor3</IconName>
+		<Description>A golden trophy for a golden day, where I did face the best knights in the land in Battle Royale. We traded blows for many an hour, until but one brave and battered knight still stood.</Description>
+	</RuneType>
+	<RuneType>
+		<RuneIndex>7</RuneIndex>
+		<Strength>0</Strength>
+		<Dexterity>2</Dexterity>
+		<Weight>3</Weight>
+		<Speed>2</Speed>
+		<DisplayName>Lady Anne’s Favor</DisplayName>
+		<IconName>a_RuneIconMinor4</IconName>
+		<Description>A silken scarf of rosy scent, I wore it 'round my neck when I tilted with the Duke of York. I know not what grieved him more, losing by me or losing while I didst wear his wife’s favor.</Description>
+	</RuneType>
+	<RuneType>
+		<RuneIndex>8</RuneIndex>
+		<Strength>2</Strength>
+		<Dexterity>2</Dexterity>
+		<Weight>2</Weight>
+		<Speed>1</Speed>
+		<DisplayName>Traitor’s Dagger</DisplayName>
+		<IconName>a_RuneIconMinor5</IconName>
+		<Description>Thinking me a knave and cur, those who didst conspire ‘gainst The King sought to enroll me in their ranks. T’was the last mistake they ever did make, and marked me well in King Henry’s eye.</Description>
+	</RuneType>
+	<RuneType>
+		<RuneIndex>9</RuneIndex>
+		<Strength>3</Strength>
+		<Dexterity>1</Dexterity>
+		<Weight>2</Weight>
+		<Speed>1</Speed>
+		<DisplayName>Key to Harfleur Keep</DisplayName>
+		<IconName>a_RuneIconMinor6</IconName>
+		<Description>His grace, King Henry commanded that I besiege Harfleur. I brooked no tiresome tunneling or cowardly waiting, but stormed the parapets and laid low the garrison with sword and valor.</Description>
+	</RuneType>
+	<RuneType>
+		<RuneIndex>10</RuneIndex>
+		<Strength>3</Strength>
+		<Dexterity>0</Dexterity>
+		<Weight>3</Weight>
+		<Speed>1</Speed>
+		<DisplayName>Pennant of Agincourt</DisplayName>
+		<IconName>a_RuneIconMinor7</IconName>
+		<Description>Many a Frenchman did rue the day they faced Sir Roland at the Battle of Agincourt, while the King gave speeches about bands and brothers, I led the charge  that set our the French foes to flight.</Description>
+	</RuneType>
+	<RuneType>
+		<RuneIndex>11</RuneIndex>
+		<Strength>3</Strength>
+		<Dexterity>1</Dexterity>
+		<Weight>3</Weight>
+		<Speed>0</Speed>
+		<DisplayName>King Henry’s Tears</DisplayName>
+		<IconName>a_RuneIconMinor8</IconName>
+		<Description>All England wept at my demise, including the young King Henry VI. Although he had known but two summers when I passed, I know in my breast that he didst weep for me and not his lost blankie as some do claim.</Description>
+	</RuneType>
+	<RuneType>
+		<HeroName>Steampunk</HeroName>
+		<RuneIndex>0</RuneIndex>
+		<IsMajor>true</IsMajor>
+		<Strength>5</Strength>
+		<Dexterity>3</Dexterity>
+		<Weight>3</Weight>
+		<Speed>2</Speed>
+		<DisplayName>Lab Book</DisplayName>
+		<IconName>a_RuneIconMajor1</IconName>
+		<Description>Every great idea I’ve had, I wrote down in this book the moment I had it. I used to have a book for the bad ideas too, but of course it never saw much use.</Description>
+	</RuneType>
+	<RuneType>
+		<RuneIndex>1</RuneIndex>
+		<IsMajor>true</IsMajor>
+		<Strength>4</Strength>
+		<Dexterity>4</Dexterity>
+		<Weight>2</Weight>
+		<Speed>3</Speed>
+		<DisplayName>Pan-Spectral Goggles</DisplayName>
+		<IconName>a_RuneIconMajor2</IconName>
+		<Description>These ever so clever eyepieces let me gaze upon the world as the situation dictates. Be they microscopic, hyperchromatic, or pseudoetheric, all seeing needs are accounted for.</Description>
+	</RuneType>
+	<RuneType>
+		<RuneIndex>2</RuneIndex>
+		<IsMajor>true</IsMajor>
+		<Strength>4</Strength>
+		<Dexterity>2</Dexterity>
+		<Weight>3</Weight>
+		<Speed>4</Speed>
+		<DisplayName>Dashwood Cameo</DisplayName>
+		<IconName>a_RuneIconMajor3</IconName>
+		<Description>My dear aunties who raised me. I knew they’re proud, despite their old-fashioned prejudices against women scientists.</Description>
+	</RuneType>
+	<RuneType>
+		<RuneIndex>3</RuneIndex>
+		<IsMajor>true</IsMajor>
+		<Strength>7</Strength>
+		<Dexterity>2</Dexterity>
+		<Weight>2</Weight>
+		<Speed>2</Speed>
+		<DisplayName>Key to the HMAS Trafalgar</DisplayName>
+		<IconName>a_RuneIconMajor4</IconName>
+		<Description>My time as Royal Engineer aboard the Air-Dreadnought Trafalgar was as thrilling as it was terrifying. I was sorry to leave her, but I did copied the Control Key, just in case I needed to borrow her some day.</Description>
+	</RuneType>
+	<RuneType>
+		<RuneIndex>4</RuneIndex>
+		<Strength>3</Strength>
+		<Dexterity>1</Dexterity>
+		<Weight>1</Weight>
+		<Speed>2</Speed>
+		<DisplayName>Phlogiston Filter</DisplayName>
+		<IconName>a_RuneIconMinor1</IconName>
+		<Description>As a stowaway, I had to prove myself to Captain Nemo lest he toss me overboard. This filter tripled the electro-field intensity and earned me a berth on the Nautilus.</Description>
+	</RuneType>
+	<RuneType>
+		<RuneIndex>5</RuneIndex>
+		<Strength>2</Strength>
+		<Dexterity>1</Dexterity>
+		<Weight>2</Weight>
+		<Speed>2</Speed>
+		<DisplayName>Self-Rotating Cog</DisplayName>
+		<IconName>a_RuneIconMinor2</IconName>
+		<Description>This clever cog made my Bathyspheres roll at flank speed along the seafloor, so we could charge straight through the merfolk lines and smash their typhoon cannons to pieces.</Description>
+	</RuneType>
+	<RuneType>
+		<RuneIndex>6</RuneIndex>
+		<Strength>2</Strength>
+		<Dexterity>1</Dexterity>
+		<Weight>3</Weight>
+		<Speed>1</Speed>
+		<DisplayName>Aetheric Ambulator</DisplayName>
+		<IconName>a_RuneIconMinor3</IconName>
+		<Description>A lady needs to take the airs from time to time. Also, how else was I supposed to board the Battle Balloons of Leng before they bombed Shanghai?</Description>
+	</RuneType>
+	<RuneType>
+		<RuneIndex>7</RuneIndex>
+		<Strength>2</Strength>
+		<Dexterity>2</Dexterity>
+		<Weight>3</Weight>
+		<Speed>0</Speed>
+		<DisplayName>Difference Settling Engine</DisplayName>
+		<IconName>a_RuneIconMinor4</IconName>
+		<Description>I designed this to settle a bar bet with my good friend Mr. Fogg, but it ended up proving vital in negotiating the Peace of Avalon in 1892.</Description>
+	</RuneType>
+	<RuneType>
+		<RuneIndex>8</RuneIndex>
+		<Strength>2</Strength>
+		<Dexterity>0</Dexterity>
+		<Weight>3</Weight>
+		<Speed>2</Speed>
+		<DisplayName>Oscillating Oubliette</DisplayName>
+		<IconName>a_RuneIconMinor5</IconName>
+		<Description>Having captured Sir Sylvester Synister, we found no jail could hold him. So of course I simply invented a panoptical prison that confounded his every escape attempt.</Description>
+	</RuneType>
+	<RuneType>
+		<RuneIndex>9</RuneIndex>
+		<Strength>3</Strength>
+		<Dexterity>1</Dexterity>
+		<Weight>2</Weight>
+		<Speed>1</Speed>
+		<DisplayName>Multifarious Bombard Barrier</DisplayName>
+		<IconName>a_RuneIconMinor6</IconName>
+		<Description>When Nemo joined with the Atlantean Emperor to invade London, I was the first to stand against my old captain.</Description>
+	</RuneType>
+	<RuneType>
+		<RuneIndex>10</RuneIndex>
+		<Strength>3</Strength>
+		<Dexterity>2</Dexterity>
+		<Weight>0</Weight>
+		<Speed>2</Speed>
+		<DisplayName>Nautiloid Sonic Saturator</DisplayName>
+		<IconName>a_RuneIconMinor7</IconName>
+		<Description>It took some doing to transform an Atlantean water weapon into something that could be used against Moleman Marauders beneath Paris.</Description>
+	</RuneType>
+	<RuneType>
+		<RuneIndex>11</RuneIndex>
+		<Strength>3</Strength>
+		<Dexterity>2</Dexterity>
+		<Weight>1</Weight>
+		<Speed>1</Speed>
+		<DisplayName>Chewing Gum</DisplayName>
+		<IconName>a_RuneIconMinor8</IconName>
+		<Description>Strictly speaking I did not invent it, but I did brew up a version that both kept its minty flavor for over an hour and can power an airship for a day when fed to an electric eel.</Description>
+	</RuneType>
+	<RuneType>
+		<HeroName>Thatch</HeroName>
+		<RuneIndex>0</RuneIndex>
+		<IsMajor>true</IsMajor>
+		<Strength>4</Strength>
+		<Dexterity>3</Dexterity>
+		<Weight>2</Weight>
+		<Speed>4</Speed>
+		<DisplayName>Infernal Match</DisplayName>
+		<IconName>a_RuneIconMajor1</IconName>
+		<Description>Prometheus himself dreams of stealing me magic match. I’ve lit a thousand beautiful bombs with this ever-fiery smolderin’ stick.</Description>
+	</RuneType>
+	<RuneType>
+		<RuneIndex>1</RuneIndex>
+		<IsMajor>true</IsMajor>
+		<Strength>5</Strength>
+		<Dexterity>3</Dexterity>
+		<Weight>3</Weight>
+		<Speed>2</Speed>
+		<DisplayName>Immoral Compass</DisplayName>
+		<IconName>a_RuneIconMajor2</IconName>
+		<Description>No scribbled chart nor wheezin’ wind ever set my course. I took to using old Rackham’s knucklebones in place of a magnet. Always had a nose for booty, did that hornswaggler.</Description>
+	</RuneType>
+	<RuneType>
+		<RuneIndex>2</RuneIndex>
+		<IsMajor>true</IsMajor>
+		<Strength>5</Strength>
+		<Dexterity>2</Dexterity>
+		<Weight>1</Weight>
+		<Speed>5</Speed>
+		<DisplayName>Wheel of Misfortune</DisplayName>
+		<IconName>a_RuneIconMajor3</IconName>
+		<Description>A cyclone ne’er spun wilder than me ship’s wheel, but when she stopped as sure as saltpeter there be the enemy hindquarters, ripe for a broadside o’ cannonfire.</Description>
+	</RuneType>
+	<RuneType>
+		<RuneIndex>3</RuneIndex>
+		<IsMajor>true</IsMajor>
+		<Strength>6</Strength>
+		<Dexterity>2</Dexterity>
+		<Weight>2</Weight>
+		<Speed>3</Speed>
+		<DisplayName>Disfiguredhead</DisplayName>
+		<IconName>a_RuneIconMajor4</IconName>
+		<Description>She’ll splinter yon hull with the power o’ Leviathan itself, a steel and sulfur ram’s head that were the scourge of all seven known and three unknown seas.</Description>
+	</RuneType>
+	<RuneType>
+		<RuneIndex>4</RuneIndex>
+		<Strength>3</Strength>
+		<Dexterity>1</Dexterity>
+		<Weight>1</Weight>
+		<Speed>2</Speed>
+		<DisplayName>Double-headed Dubloon</DisplayName>
+		<IconName>a_RuneIconMinor1</IconName>
+		<Description>A loverly lucky coin with twice the heads of your other crowns. That be two more heads than what I left on the scallywag I won it off.</Description>
+	</RuneType>
+	<RuneType>
+		<RuneIndex>5</RuneIndex>
+		<Strength>3</Strength>
+		<Dexterity>0</Dexterity>
+		<Weight>1</Weight>
+		<Speed>3</Speed>
+		<DisplayName>Treasured Chest of Neptune</DisplayName>
+		<IconName>a_RuneIconMinor2</IconName>
+		<Description>Stole this bit o’ manly marble from a certain Sultan. Now, it weren’t so crack’d and broke when me lads pulled it down, but he be a strapping fella all the same.</Description>
+	</RuneType>
+	<RuneType>
+		<RuneIndex>6</RuneIndex>
+		<Strength>1</Strength>
+		<Dexterity>1</Dexterity>
+		<Weight>2</Weight>
+		<Speed>3</Speed>
+		<DisplayName>Blackest Powder Recipe</DisplayName>
+		<IconName>a_RuneIconMinor3</IconName>
+		<Description>Sneaked this recipe from the King’s own alchemist, I did. The secret ingredient be vampire bat guano and ash from a burned orphanage.</Description>
+	</RuneType>
+	<RuneType>
+		<RuneIndex>7</RuneIndex>
+		<Strength>2</Strength>
+		<Dexterity>0</Dexterity>
+		<Weight>2</Weight>
+		<Speed>3</Speed>
+		<DisplayName>Gerarldo’s Golden Gunwale</DisplayName>
+		<IconName>a_RuneIconMinor4</IconName>
+		<Description>Looted this rail from His Spanish Majesty’s own flagship. Shined like the devil’s horns when I fired me swivels from its golden perch.</Description>
+	</RuneType>
+	<RuneType>
+		<RuneIndex>8</RuneIndex>
+		<Strength>1</Strength>
+		<Dexterity>2</Dexterity>
+		<Weight>2</Weight>
+		<Speed>2</Speed>
+		<DisplayName>Piece o’ Nine</DisplayName>
+		<IconName>a_RuneIconMinor5</IconName>
+		<Description>Took this here curse’d coin from a skeleton’s hand. Me grenadoes took care of the rest of that boney undead band.</Description>
+	</RuneType>
+	<RuneType>
+		<RuneIndex>9</RuneIndex>
+		<Strength>2</Strength>
+		<Dexterity>2</Dexterity>
+		<Weight>1</Weight>
+		<Speed>2</Speed>
+		<DisplayName>Mad Mac’s Map</DisplayName>
+		<IconName>a_RuneIconMinor6</IconName>
+		<Description>Swiped this precious parchment from Captain Mac, a crook’d and crazed Scotsman who drew this here map to his treasure trove in explosive ink.</Description>
+	</RuneType>
+	<RuneType>
+		<RuneIndex>10</RuneIndex>
+		<Strength>1</Strength>
+		<Dexterity>3</Dexterity>
+		<Weight>0</Weight>
+		<Speed>3</Speed>
+		<DisplayName>Sapphire Decanter of Rotgut</DisplayName>
+		<IconName>a_RuneIconMinor7</IconName>
+		<Description>Thieved this here loverly drink’n glass from a Javanese buccaneer. Fill with equal parts rum, gunpowder, and whale oil for a fine bit o’ fun.</Description>
+	</RuneType>
+	<RuneType>
+		<RuneIndex>11</RuneIndex>
+		<Strength>2</Strength>
+		<Dexterity>3</Dexterity>
+		<Weight>0</Weight>
+		<Speed>2</Speed>
+		<DisplayName>Crown of Atlantis</DisplayName>
+		<IconName>a_RuneIconMinor8</IconName>
+		<Description>Snatched from the head of the Atlantean Emperor his own self. T’was my miraculous water-proof powder that burst his throne room doors wide.</Description>
+	</RuneType>
+	<RuneType>
+		<HeroName>Cyber</HeroName>
+		<RuneIndex>0</RuneIndex>
+		<IsMajor>true</IsMajor>
+		<Strength>4</Strength>
+		<Dexterity>4</Dexterity>
+		<Weight>2</Weight>
+		<Speed>3</Speed>
+		<DisplayName>Counterfeit Memory Shades</DisplayName>
+		<IconName>a_RuneIconMajor1</IconName>
+		<Description>Can’t get outside without passing a Minder. I brain dumped the KindCorp Director of PR into my mirrorshades. Now everytime I think about food I’m full of doublespeak about the junk I feed my face.</Description>
+	</RuneType>
+	<RuneType>
+		<RuneIndex>1</RuneIndex>
+		<IsMajor>true</IsMajor>
+		<Strength>3</Strength>
+		<Dexterity>3</Dexterity>
+		<Weight>3</Weight>
+		<Speed>4</Speed>
+		<DisplayName>Botz Stompers</DisplayName>
+		<IconName>a_RuneIconMajor2</IconName>
+		<Description>No tech, no gizmos, just steel toes and rubber insulation. Did you know when you stomp the positronic brain of a GogDroid it gives off 20,000 volts? Wearing these, I didn’t need to know.</Description>
+	</RuneType>
+	<RuneType>
+		<RuneIndex>2</RuneIndex>
+		<IsMajor>true</IsMajor>
+		<Strength>3</Strength>
+		<Dexterity>5</Dexterity>
+		<Weight>2</Weight>
+		<Speed>3</Speed>
+		<DisplayName>Net Intraface</DisplayName>
+		<IconName>a_RuneIconMajor3</IconName>
+		<Description>I know I sorta look like I fell face-first into a bowl of neon noodles. Milliseconds matter, so better to have superhuman reflexes from a little computer in your face than a lot of computer-targeted bullets in your heart.</Description>
+	</RuneType>
+	<RuneType>
+		<RuneIndex>3</RuneIndex>
+		<IsMajor>true</IsMajor>
+		<Strength>6</Strength>
+		<Dexterity>3</Dexterity>
+		<Weight>1</Weight>
+		<Speed>3</Speed>
+		<DisplayName>Power Gauntlet</DisplayName>
+		<IconName>a_RuneIconMajor4</IconName>
+		<Description>I love this powered glove: Insulated against mal and hard warez. Custom knit to my hand. It’s so badass.</Description>
+	</RuneType>
+	<RuneType>
+		<RuneIndex>4</RuneIndex>
+		<Strength>2</Strength>
+		<Dexterity>2</Dexterity>
+		<Weight>1</Weight>
+		<Speed>2</Speed>
+		<DisplayName>KindCorp Soy Goop</DisplayName>
+		<IconName>a_RuneIconMinor1</IconName>
+		<Description>Taste of my youth! That’s how they get ya - put enough artificial everything into goop and it’ll taste like whatever. You’ll never notice the anger-dampening psychotropic additives. After I switched to bugs, I found my anger.</Description>
+	</RuneType>
+	<RuneType>
+		<RuneIndex>5</RuneIndex>
+		<Strength>1</Strength>
+		<Dexterity>2</Dexterity>
+		<Weight>2</Weight>
+		<Speed>2</Speed>
+		<DisplayName>Restrain-O-Matic Twist-tie</DisplayName>
+		<IconName>a_RuneIconMinor2</IconName>
+		<Description>D-Corp Ceiling Drones kept us slummed. Get close and they tag and bag ya, then a long drop. I figured how to slip that twist and bagged the bot with his own sack. He dropped. I went up and out.</Description>
+	</RuneType>
+	<RuneType>
+		<RuneIndex>6</RuneIndex>
+		<Strength>2</Strength>
+		<Dexterity>1</Dexterity>
+		<Weight>1</Weight>
+		<Speed>3</Speed>
+		<DisplayName>Nanodye No. 5</DisplayName>
+		<IconName>a_RuneIconMinor3</IconName>
+		<Description>Sure the hair looks good. Hell, it looks great. But that’s pure bonus. Trick is, the nanodiamonds in the dye dazzle GogNet Mk 5 sensor arrays. Can’t lock on fast enough to stop me from blasting first.</Description>
+	</RuneType>
+	<RuneType>
+		<RuneIndex>7</RuneIndex>
+		<Strength>2</Strength>
+		<Dexterity>2</Dexterity>
+		<Weight>2</Weight>
+		<Speed>1</Speed>
+		<DisplayName>Right Wrong Hard-Tag</DisplayName>
+		<IconName>a_RuneIconMinor4</IconName>
+		<Description>We called ourselves the Right Wrong Cavaliers. We busted every D-Corp drone and hacked every GogNet node attached to the grid. These molten tungsten graffiti tags were our version of a calling card.</Description>
+	</RuneType>
+	<RuneType>
+		<RuneIndex>8</RuneIndex>
+		<Strength>2</Strength>
+		<Dexterity>3</Dexterity>
+		<Weight>2</Weight>
+		<Speed>0</Speed>
+		<DisplayName>Platinum Polyhedron</DisplayName>
+		<IconName>a_RuneIconMinor5</IconName>
+		<Description>Nothing vital goes in a machine. You have a secret, you keep it analog. I had a lot of secrets. All the freakin’ secrets. Micro-engraved in coded tetrominos, no one outside of the Right Wrongs knew how to read ‘em.</Description>
+	</RuneType>
+	<RuneType>
+		<RuneIndex>9</RuneIndex>
+		<Strength>1</Strength>
+		<Dexterity>3</Dexterity>
+		<Weight>0</Weight>
+		<Speed>3</Speed>
+		<DisplayName>Polarity Inversion Arc</DisplayName>
+		<IconName>a_RuneIconMinor6</IconName>
+		<Description>Sweet piece of gear, disguised like a prop from a Bitsy the Clownbot costume. Activate within ten meters of a Quantum Drive and flip the Schrodinger State of every processor. Usually followed by a lot of smoke.</Description>
+	</RuneType>
+	<RuneType>
+		<RuneIndex>10</RuneIndex>
+		<Strength>3</Strength>
+		<Dexterity>1</Dexterity>
+		<Weight>0</Weight>
+		<Speed>3</Speed>
+		<DisplayName>Springloaded E-Lance</DisplayName>
+		<IconName>a_RuneIconMinor7</IconName>
+		<Description>Shrinks down to the size of a pencil. Or at least I think so - never seen an actual pencil. Point is, it’s tiny, click, it’s big and has a very sharp point.</Description>
+	</RuneType>
+	<RuneType>
+		<RuneIndex>11</RuneIndex>
+		<Strength>3</Strength>
+		<Dexterity>2</Dexterity>
+		<Weight>1</Weight>
+		<Speed>1</Speed>
+		<DisplayName>Ada Action Figure</DisplayName>
+		<IconName>a_RuneIconMinor8</IconName>
+		<Description>No matter where you go, there I am. This simulation called Valhalla might be heaven, but copies of my mind are back in the living world, making miniaturize mischief controlling self-replicating Ada action figs.</Description>
+	</RuneType>
+	<RuneType>
+		<HeroName>Super</HeroName>
+		<RuneIndex>0</RuneIndex>
+		<IsMajor>true</IsMajor>
+		<Strength>3</Strength>
+		<Dexterity>3</Dexterity>
+		<Weight>4</Weight>
+		<Speed>3</Speed>
+		<DisplayName>9.5 Graded Comic Book</DisplayName>
+		<IconName>a_RuneIconMajor1</IconName>
+		<Description>I had the original when I was a kid. It taught me everything I needed to know about being a hero: fight injustice, protect the powerless, and Never, Ever Kill. Those three rules became my mantra as a crime-fighter.</Description>
+	</RuneType>
+	<RuneType>
+		<RuneIndex>1</RuneIndex>
+		<IsMajor>true</IsMajor>
+		<Strength>3</Strength>
+		<Dexterity>2</Dexterity>
+		<Weight>5</Weight>
+		<Speed>3</Speed>
+		<DisplayName>Arc-Hammer Prototype</DisplayName>
+		<IconName>a_RuneIconMajor2</IconName>
+		<Description>Looking to give my crime fighting a non-lethal extra punch, I made this from used electronics and metal bits out of broken appliances. KO’d myself testing it, but woke up before my manager saw me.</Description>
+	</RuneType>
+	<RuneType>
+		<RuneIndex>2</RuneIndex>
+		<IsMajor>true</IsMajor>
+		<Strength>4</Strength>
+		<Dexterity>2</Dexterity>
+		<Weight>3</Weight>
+		<Speed>4</Speed>
+		<DisplayName>Climbing Boots</DisplayName>
+		<IconName>a_RuneIconMajor3</IconName>
+		<Description>The climbing is actually the easy part. It’s the landing from six stories up that gets ya. Installed shock absorbers that ran all the way up to my knees. Worth it to see the fools chasing me gawk in disbelief.</Description>
+	</RuneType>
+	<RuneType>
+		<RuneIndex>3</RuneIndex>
+		<IsMajor>true</IsMajor>
+		<Strength>2</Strength>
+		<Dexterity>1</Dexterity>
+		<Weight>5</Weight>
+		<Speed>5</Speed>
+		<DisplayName>Arrest Warrant</DisplayName>
+		<IconName>a_RuneIconMajor4</IconName>
+		<Description>When you publicly shame the city’s biggest fat cats and politicos by dropping an unconscious, criminal mayor on their dinner table, they generally issue a warrant for your arrest. I framed it and hung it on the wall.</Description>
+	</RuneType>
+	<RuneType>
+		<RuneIndex>4</RuneIndex>
+		<Strength>2</Strength>
+		<Dexterity>0</Dexterity>
+		<Weight>3</Weight>
+		<Speed>2</Speed>
+		<DisplayName>Tarnished Handcuffs</DisplayName>
+		<IconName>a_RuneIconMinor1</IconName>
+		<Description>The terror of my neighborhood hid behind his badge extorting protection money from my family’s bodega. I tricked him into confessing on video and made him wear his own cuffs when I turned him in to face justice.</Description>
+	</RuneType>
+	<RuneType>
+		<RuneIndex>5</RuneIndex>
+		<Strength>1</Strength>
+		<Dexterity>1</Dexterity>
+		<Weight>2</Weight>
+		<Speed>3</Speed>
+		<DisplayName>Lie “Detector”</DisplayName>
+		<IconName>a_RuneIconMinor2</IconName>
+		<Description>Criminals mostly aren’t very bright. White collar crook or street-level enforcer, everyone’s scared of gadgets they don’t understand. This is just a box with two lights on it, but it’s gotten more confessions than the Pope.</Description>
+	</RuneType>
+	<RuneType>
+		<RuneIndex>6</RuneIndex>
+		<Strength>1</Strength>
+		<Dexterity>3</Dexterity>
+		<Weight>1</Weight>
+		<Speed>2</Speed>
+		<DisplayName>KABAL Membership Patch</DisplayName>
+		<IconName>a_RuneIconMinor3</IconName>
+		<Description>This sinister syndicate of corrupt politicians and gun-running gangsters called themselves KABAL. I started stapling these patches to their shirts when I dropped off their unconscious asses at the FBI task force’s doorstep.</Description>
+	</RuneType>
+	<RuneType>
+		<RuneIndex>7</RuneIndex>
+		<Strength>0</Strength>
+		<Dexterity>2</Dexterity>
+		<Weight>2</Weight>
+		<Speed>3</Speed>
+		<DisplayName>Twit Tip</DisplayName>
+		<IconName>a_RuneIconMinor4</IconName>
+		<Description>I find most of my leads on Twitter. Really. This phone uses military-grade encryption and doesn’t even make calls - just hijacks local wifi to access my Twitter account and collect anonymous tips.</Description>
+	</RuneType>
+	<RuneType>
+		<RuneIndex>8</RuneIndex>
+		<Strength>2</Strength>
+		<Dexterity>1</Dexterity>
+		<Weight>3</Weight>
+		<Speed>1</Speed>
+		<DisplayName>Emerald Tie Pin</DisplayName>
+		<IconName>a_RuneIconMinor5</IconName>
+		<Description>Even I was surprised that the head of KABAL turned out to be The Mayor. His famous Emerald Four Leaf Clover tie pin didn’t bring him much luck the night I showed up at his inaugural ball to bring him to justice.</Description>
+	</RuneType>
+	<RuneType>
+		<RuneIndex>9</RuneIndex>
+		<Strength>2</Strength>
+		<Dexterity>2</Dexterity>
+		<Weight>1</Weight>
+		<Speed>2</Speed>
+		<DisplayName>Nemesis Viral Video</DisplayName>
+		<IconName>a_RuneIconMinor6</IconName>
+		<Description>Three citizens caught my first fight with Master Zed on video, and some fourth dude edited them together with a soundtrack. My beatdown of Zed broke every YouTube record for both fights and music videos and made me world-famous.</Description>
+	</RuneType>
+	<RuneType>
+		<RuneIndex>10</RuneIndex>
+		<Strength>2</Strength>
+		<Dexterity>2</Dexterity>
+		<Weight>3</Weight>
+		<Speed>0</Speed>
+		<DisplayName>Master Zed’s Multigun</DisplayName>
+		<IconName>a_RuneIconMinor7</IconName>
+		<Description>When Zed teamed up with KABAL, they made him one monster of a gun. This shot-machine- sniper-flare-gun had something deadly for every poor fool who got in his way. I took a dozen bullets before I put the cuffs on him.</Description>
+	</RuneType>
+	<RuneType>
+		<RuneIndex>11</RuneIndex>
+		<Strength>3</Strength>
+		<Dexterity>0</Dexterity>
+		<Weight>3</Weight>
+		<Speed>1</Speed>
+		<DisplayName>Graffiti Tag Stencil</DisplayName>
+		<IconName>a_RuneIconMinor8</IconName>
+		<Description>After I went down for good capturing Zed, my fame went up. Folks started tagging my face all over the city as a warning to the corrupt and evil. You see one of these, you’ll know justice is coming soon.</Description>
+	</RuneType>
+	<RuneType>
+		<HeroName>BowTest</HeroName>
+		<RuneIndex>0</RuneIndex>
+		<IsMajor>true</IsMajor>
+		<Strength>3</Strength>
+		<Dexterity>3</Dexterity>
+		<Weight>4</Weight>
+		<Speed>3</Speed>
+		<IconName>a_RuneIconMajor1</IconName>
+	</RuneType>
+	<RuneType>
+		<RuneIndex>1</RuneIndex>
+		<IsMajor>true</IsMajor>
+		<Strength>3</Strength>
+		<Dexterity>2</Dexterity>
+		<Weight>5</Weight>
+		<Speed>3</Speed>
+		<IconName>a_RuneIconMajor2</IconName>
+	</RuneType>
+	<RuneType>
+		<RuneIndex>2</RuneIndex>
+		<IsMajor>true</IsMajor>
+		<Strength>4</Strength>
+		<Dexterity>2</Dexterity>
+		<Weight>3</Weight>
+		<Speed>4</Speed>
+		<IconName>a_RuneIconMajor3</IconName>
+	</RuneType>
+	<RuneType>
+		<RuneIndex>3</RuneIndex>
+		<IsMajor>true</IsMajor>
+		<Strength>2</Strength>
+		<Dexterity>1</Dexterity>
+		<Weight>5</Weight>
+		<Speed>5</Speed>
+		<IconName>a_RuneIconMajor4</IconName>
+	</RuneType>
+	<RuneType>
+		<RuneIndex>4</RuneIndex>
+		<Strength>2</Strength>
+		<Dexterity>2</Dexterity>
+		<Weight>1</Weight>
+		<Speed>2</Speed>
+		<IconName>a_RuneIconMinor1</IconName>
+	</RuneType>
+	<RuneType>
+		<RuneIndex>5</RuneIndex>
+		<Strength>1</Strength>
+		<Dexterity>1</Dexterity>
+		<Weight>2</Weight>
+		<Speed>3</Speed>
+		<IconName>a_RuneIconMinor2</IconName>
+	</RuneType>
+	<RuneType>
+		<RuneIndex>6</RuneIndex>
+		<Strength>1</Strength>
+		<Dexterity>3</Dexterity>
+		<Weight>1</Weight>
+		<Speed>2</Speed>
+		<IconName>a_RuneIconMinor3</IconName>
+	</RuneType>
+	<RuneType>
+		<RuneIndex>7</RuneIndex>
+		<Strength>0</Strength>
+		<Dexterity>2</Dexterity>
+		<Weight>2</Weight>
+		<Speed>3</Speed>
+		<IconName>a_RuneIconMinor4</IconName>
+	</RuneType>
+	<RuneType>
+		<RuneIndex>8</RuneIndex>
+		<Strength>2</Strength>
+		<Dexterity>1</Dexterity>
+		<Weight>3</Weight>
+		<Speed>1</Speed>
+		<IconName>a_RuneIconMinor5</IconName>
+	</RuneType>
+	<RuneType>
+		<RuneIndex>9</RuneIndex>
+		<Strength>2</Strength>
+		<Dexterity>2</Dexterity>
+		<Weight>1</Weight>
+		<Speed>2</Speed>
+		<IconName>a_RuneIconMinor6</IconName>
+	</RuneType>
+	<RuneType>
+		<RuneIndex>10</RuneIndex>
+		<Strength>2</Strength>
+		<Dexterity>2</Dexterity>
+		<Weight>3</Weight>
+		<Speed>0</Speed>
+		<IconName>a_RuneIconMinor7</IconName>
+	</RuneType>
+	<RuneType>
+		<RuneIndex>11</RuneIndex>
+		<Strength>3</Strength>
+		<Dexterity>0</Dexterity>
+		<Weight>3</Weight>
+		<Speed>1</Speed>
+		<IconName>a_RuneIconMinor8</IconName>
+	</RuneType>
+	<RuneType>
+		<HeroName>AxeTest</HeroName>
+		<RuneIndex>0</RuneIndex>
+		<IsMajor>true</IsMajor>
+		<Strength>3</Strength>
+		<Dexterity>3</Dexterity>
+		<Weight>4</Weight>
+		<Speed>3</Speed>
+		<IconName>a_RuneIconMajor1</IconName>
+	</RuneType>
+	<RuneType>
+		<RuneIndex>1</RuneIndex>
+		<IsMajor>true</IsMajor>
+		<Strength>3</Strength>
+		<Dexterity>2</Dexterity>
+		<Weight>5</Weight>
+		<Speed>3</Speed>
+		<IconName>a_RuneIconMajor2</IconName>
+	</RuneType>
+	<RuneType>
+		<RuneIndex>2</RuneIndex>
+		<IsMajor>true</IsMajor>
+		<Strength>4</Strength>
+		<Dexterity>2</Dexterity>
+		<Weight>3</Weight>
+		<Speed>4</Speed>
+		<IconName>a_RuneIconMajor3</IconName>
+	</RuneType>
+	<RuneType>
+		<RuneIndex>3</RuneIndex>
+		<IsMajor>true</IsMajor>
+		<Strength>2</Strength>
+		<Dexterity>1</Dexterity>
+		<Weight>5</Weight>
+		<Speed>5</Speed>
+		<IconName>a_RuneIconMajor4</IconName>
+	</RuneType>
+	<RuneType>
+		<RuneIndex>4</RuneIndex>
+		<Strength>2</Strength>
+		<Dexterity>2</Dexterity>
+		<Weight>1</Weight>
+		<Speed>2</Speed>
+		<IconName>a_RuneIconMinor1</IconName>
+	</RuneType>
+	<RuneType>
+		<RuneIndex>5</RuneIndex>
+		<Strength>1</Strength>
+		<Dexterity>1</Dexterity>
+		<Weight>2</Weight>
+		<Speed>3</Speed>
+		<IconName>a_RuneIconMinor2</IconName>
+	</RuneType>
+	<RuneType>
+		<RuneIndex>6</RuneIndex>
+		<Strength>1</Strength>
+		<Dexterity>3</Dexterity>
+		<Weight>1</Weight>
+		<Speed>2</Speed>
+		<IconName>a_RuneIconMinor3</IconName>
+	</RuneType>
+	<RuneType>
+		<RuneIndex>7</RuneIndex>
+		<Strength>0</Strength>
+		<Dexterity>2</Dexterity>
+		<Weight>2</Weight>
+		<Speed>3</Speed>
+		<IconName>a_RuneIconMinor4</IconName>
+	</RuneType>
+	<RuneType>
+		<RuneIndex>8</RuneIndex>
+		<Strength>2</Strength>
+		<Dexterity>1</Dexterity>
+		<Weight>3</Weight>
+		<Speed>1</Speed>
+		<IconName>a_RuneIconMinor5</IconName>
+	</RuneType>
+	<RuneType>
+		<RuneIndex>9</RuneIndex>
+		<Strength>2</Strength>
+		<Dexterity>2</Dexterity>
+		<Weight>1</Weight>
+		<Speed>2</Speed>
+		<IconName>a_RuneIconMinor6</IconName>
+	</RuneType>
+	<RuneType>
+		<RuneIndex>10</RuneIndex>
+		<Strength>2</Strength>
+		<Dexterity>2</Dexterity>
+		<Weight>3</Weight>
+		<Speed>0</Speed>
+		<IconName>a_RuneIconMinor7</IconName>
+	</RuneType>
+	<RuneType>
+		<RuneIndex>11</RuneIndex>
+		<Strength>3</Strength>
+		<Dexterity>0</Dexterity>
+		<Weight>3</Weight>
+		<Speed>1</Speed>
+		<IconName>a_RuneIconMinor8</IconName>
+	</RuneType>
+	<RuneType>
+		<HeroName>Stalker</HeroName>
+		<RuneIndex>0</RuneIndex>
+		<IsMajor>true</IsMajor>
+		<Strength>3</Strength>
+		<Dexterity>3</Dexterity>
+		<Weight>4</Weight>
+		<Speed>3</Speed>
+		<IconName>a_RuneIconMajor1</IconName>
+	</RuneType>
+	<RuneType>
+		<RuneIndex>1</RuneIndex>
+		<IsMajor>true</IsMajor>
+		<Strength>3</Strength>
+		<Dexterity>2</Dexterity>
+		<Weight>5</Weight>
+		<Speed>3</Speed>
+		<IconName>a_RuneIconMajor2</IconName>
+	</RuneType>
+	<RuneType>
+		<RuneIndex>2</RuneIndex>
+		<IsMajor>true</IsMajor>
+		<Strength>4</Strength>
+		<Dexterity>2</Dexterity>
+		<Weight>3</Weight>
+		<Speed>4</Speed>
+		<IconName>a_RuneIconMajor3</IconName>
+	</RuneType>
+	<RuneType>
+		<RuneIndex>3</RuneIndex>
+		<IsMajor>true</IsMajor>
+		<Strength>2</Strength>
+		<Dexterity>1</Dexterity>
+		<Weight>5</Weight>
+		<Speed>5</Speed>
+		<IconName>a_RuneIconMajor4</IconName>
+	</RuneType>
+	<RuneType>
+		<RuneIndex>4</RuneIndex>
+		<Strength>2</Strength>
+		<Dexterity>2</Dexterity>
+		<Weight>1</Weight>
+		<Speed>2</Speed>
+		<IconName>a_RuneIconMinor1</IconName>
+	</RuneType>
+	<RuneType>
+		<RuneIndex>5</RuneIndex>
+		<Strength>1</Strength>
+		<Dexterity>1</Dexterity>
+		<Weight>2</Weight>
+		<Speed>3</Speed>
+		<IconName>a_RuneIconMinor2</IconName>
+	</RuneType>
+	<RuneType>
+		<RuneIndex>6</RuneIndex>
+		<Strength>1</Strength>
+		<Dexterity>3</Dexterity>
+		<Weight>1</Weight>
+		<Speed>2</Speed>
+		<IconName>a_RuneIconMinor3</IconName>
+	</RuneType>
+	<RuneType>
+		<RuneIndex>7</RuneIndex>
+		<Strength>0</Strength>
+		<Dexterity>2</Dexterity>
+		<Weight>2</Weight>
+		<Speed>3</Speed>
+		<IconName>a_RuneIconMinor4</IconName>
+	</RuneType>
+	<RuneType>
+		<RuneIndex>8</RuneIndex>
+		<Strength>2</Strength>
+		<Dexterity>1</Dexterity>
+		<Weight>3</Weight>
+		<Speed>1</Speed>
+		<IconName>a_RuneIconMinor5</IconName>
+	</RuneType>
+	<RuneType>
+		<RuneIndex>9</RuneIndex>
+		<Strength>2</Strength>
+		<Dexterity>2</Dexterity>
+		<Weight>1</Weight>
+		<Speed>2</Speed>
+		<IconName>a_RuneIconMinor6</IconName>
+	</RuneType>
+	<RuneType>
+		<RuneIndex>10</RuneIndex>
+		<Strength>2</Strength>
+		<Dexterity>2</Dexterity>
+		<Weight>3</Weight>
+		<Speed>0</Speed>
+		<IconName>a_RuneIconMinor7</IconName>
+	</RuneType>
+	<RuneType>
+		<RuneIndex>11</RuneIndex>
+		<Strength>3</Strength>
+		<Dexterity>0</Dexterity>
+		<Weight>3</Weight>
+		<Speed>1</Speed>
+		<IconName>a_RuneIconMinor8</IconName>
+	</RuneType>
+</RuneTypes>

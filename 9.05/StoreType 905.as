@@ -508,6 +508,7 @@ package
             }
         }
         
+        // PromoTypes
         public static function §_-F33§(param1:§_-X5D§) : void
         {
             var _loc3_:* = null as §_-W3I§;

@@ -1,0 +1,402 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<LevelTypes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<LevelType LevelName="Ruins1v1">
+		<DisplayName>Twilight Grove</DisplayName>
+		<LevelID>1</LevelID>
+		<DisplayOrder>3</DisplayOrder>
+		<FileName>Level_Ruins.swf</FileName>
+		<AssetName>a_Level_Ruins_1v1</AssetName>
+		<MaxPlayers>4</MaxPlayers>
+		<CrateColorA>0xff55dd</CrateColorA>
+		<CrateColorB>0xffc1f2</CrateColorB>
+		<LeftKill>700</LeftKill>
+		<RightKill>700</RightKill>
+		<TopKill>400</TopKill>
+		<BottomKill>850</BottomKill>
+		<BGMusic>Level03Theme</BGMusic>
+		<Thumbnail>a_LevelThumbNail_Grove1v1</Thumbnail>
+		<AIStrictRecover>FALSE</AIStrictRecover>
+		<BotTint>0</BotTint>
+		<BotOffset>0x0065B1</BotOffset>
+		<BotFraction>0.44</BotFraction>
+	</LevelType>
+	<LevelType LevelName="Ruins">
+		<DisplayName>Brawlhaven</DisplayName>
+		<LevelID>2</LevelID>
+		<DisplayOrder>1</DisplayOrder>
+		<FileName>Level_Ruins.swf</FileName>
+		<AssetName>a_Level_Ruins</AssetName>
+		<MaxPlayers>4</MaxPlayers>
+		<CrateColorA>0xff7c5b</CrateColorA>
+		<CrateColorB>0xffc1b3</CrateColorB>
+		<LeftKill>700</LeftKill>
+		<RightKill>700</RightKill>
+		<TopKill>400</TopKill>
+		<BottomKill>850</BottomKill>
+		<BGMusic>Level01Theme</BGMusic>
+		<Thumbnail>a_LevelThumbNail_Ruins4FFA</Thumbnail>
+		<BotTint>0</BotTint>
+		<BotOffset>0xC4FFFF</BotOffset>
+		<BotFraction>0.44</BotFraction>
+	</LevelType>
+	<LevelType LevelName="Temple">
+		<DisplayName>Grumpy Temple</DisplayName>
+		<LevelID>3</LevelID>
+		<DisplayOrder>2</DisplayOrder>
+		<FileName>Level_Ruins.swf</FileName>
+		<AssetName>a_Level_Temple</AssetName>
+		<MaxPlayers>4</MaxPlayers>
+		<LeftKill>700</LeftKill>
+		<RightKill>700</RightKill>
+		<TopKill>400</TopKill>
+		<BottomKill>850</BottomKill>
+		<BGMusic>Level03Theme</BGMusic>
+		<Thumbnail>a_LevelThumbNail_Temple4FFA</Thumbnail>
+		<BotTint>0</BotTint>
+		<BotOffset>0x8E314B</BotOffset>
+		<BotFraction>0.44</BotFraction>
+	</LevelType>
+	<LevelType LevelName="BigTeam">
+		<DisplayName>Big T of Doom</DisplayName>
+		<LevelID>4</LevelID>
+		<FileName>Level_BigTeam.swf</FileName>
+		<AssetName>a_Level_BigT</AssetName>
+		<MaxPlayers>8</MaxPlayers>
+		<LeftKill>700</LeftKill>
+		<RightKill>700</RightKill>
+		<TopKill>400</TopKill>
+		<BottomKill>850</BottomKill>
+		<BotTint>0</BotTint>
+		<BotOffset>0xC4FFFF</BotOffset>
+		<BotFraction>0.44</BotFraction>
+	</LevelType>
+	<LevelType LevelName="Wall">
+		<DisplayName>The Wall</DisplayName>
+		<LevelID>5</LevelID>
+		<FileName>Level_Ruins.swf</FileName>
+		<AssetName>a_Level_VertMaze03</AssetName>
+		<MaxPlayers>4</MaxPlayers>
+		<LeftKill>700</LeftKill>
+		<RightKill>700</RightKill>
+		<TopKill>400</TopKill>
+		<BottomKill>850</BottomKill>
+	</LevelType>
+	<LevelType LevelName="Random">
+		<DisplayName>Random</DisplayName>
+		<LevelID>6</LevelID>
+		<Thumbnail>a_LevelThumbNail_Random</Thumbnail>
+	</LevelType>
+	<LevelType LevelName="Fjord">
+		<DisplayName>Kings Pass</DisplayName>
+		<LevelID>11</LevelID>
+		<DisplayOrder>4</DisplayOrder>
+		<FileName>Level_Ruins.swf</FileName>
+		<AssetName>a_Level_1v1_Simple2</AssetName>
+		<MaxPlayers>4</MaxPlayers>
+		<LeftKill>700</LeftKill>
+		<RightKill>700</RightKill>
+		<TopKill>400</TopKill>
+		<BottomKill>850</BottomKill>
+		<BGMusic>Level01Theme</BGMusic>
+		<Thumbnail>a_LevelThumbNail_1v1Simple2</Thumbnail>
+		<BotTint>0</BotTint>
+		<BotOffset>0x6EFEF2</BotOffset>
+		<BotFraction>0.36</BotFraction>
+	</LevelType>
+	<LevelType LevelName="Clash">
+		<DisplayName>Clash</DisplayName>
+		<LevelID>14</LevelID>
+		<FileName>Level_BigTeam.swf</FileName>
+		<AssetName>a_Level_Clash</AssetName>
+		<MaxPlayers>4</MaxPlayers>
+		<LeftKill>700</LeftKill>
+		<RightKill>700</RightKill>
+		<TopKill>400</TopKill>
+		<BottomKill>850</BottomKill>
+		<Thumbnail>a_LevelThumbNail_Ruins1v1</Thumbnail>
+	</LevelType>
+	<LevelType LevelName="Brawlball">
+		<DisplayName>Brawlball</DisplayName>
+		<LevelID>15</LevelID>
+		<FileName>Level_GameModes.swf</FileName>
+		<AssetName>a_Level_Brawlball</AssetName>
+		<MaxPlayers>4</MaxPlayers>
+		<LeftKill>700</LeftKill>
+		<RightKill>700</RightKill>
+		<TopKill>400</TopKill>
+		<BottomKill>850</BottomKill>
+		<Thumbnail>a_LevelThumbNail_Ruins1v1</Thumbnail>
+	</LevelType>
+	<LevelType LevelName="Bombsketball">
+		<DisplayName>Bombsketball Arena</DisplayName>
+		<LevelID>16</LevelID>
+		<FileName>Level_GameModes.swf</FileName>
+		<AssetName>a_Level_Bombsketball</AssetName>
+		<MaxPlayers>4</MaxPlayers>
+		<LeftKill>700</LeftKill>
+		<RightKill>700</RightKill>
+		<TopKill>400</TopKill>
+		<BottomKill>850</BottomKill>
+		<Thumbnail>a_LevelThumbNail_Ruins1v1</Thumbnail>
+	</LevelType>
+	<LevelType LevelName="Ricochet">
+		<DisplayName>Ricochet Arena</DisplayName>
+		<LevelID>17</LevelID>
+		<FileName>Level_GameModes.swf</FileName>
+		<AssetName>a_Level_Ricochet</AssetName>
+		<MaxPlayers>4</MaxPlayers>
+		<LeftKill>700</LeftKill>
+		<RightKill>700</RightKill>
+		<TopKill>400</TopKill>
+		<BottomKill>850</BottomKill>
+		<Thumbnail>a_LevelThumbNail_Ruins1v1</Thumbnail>
+	</LevelType>
+	<LevelType LevelName="Dodgeball">
+		<DisplayName>Dodgeball Arena</DisplayName>
+		<LevelID>18</LevelID>
+		<FileName>Level_GameModes.swf</FileName>
+		<AssetName>a_Level_Dodgeball</AssetName>
+		<MaxPlayers>4</MaxPlayers>
+		<LeftKill>700</LeftKill>
+		<RightKill>700</RightKill>
+		<TopKill>400</TopKill>
+		<BottomKill>850</BottomKill>
+		<Thumbnail>a_LevelThumbNail_Ruins1v1</Thumbnail>
+	</LevelType>
+	<LevelType LevelName="Gauntlet">
+		<DisplayName>Gauntlet Arena</DisplayName>
+		<LevelID>19</LevelID>
+		<FileName>Level_GameModes.swf</FileName>
+		<AssetName>a_Level_Gauntlet</AssetName>
+		<MaxPlayers>4</MaxPlayers>
+		<LeftKill>700</LeftKill>
+		<RightKill>700</RightKill>
+		<TopKill>400</TopKill>
+		<BottomKill>850</BottomKill>
+		<Thumbnail>a_LevelThumbNail_Ruins1v1</Thumbnail>
+	</LevelType>
+	<LevelType LevelName="Volleyball">
+		<DisplayName>Volleyball Arena</DisplayName>
+		<LevelID>20</LevelID>
+		<FileName>Level_GameModes.swf</FileName>
+		<AssetName>a_Level_Volleyball</AssetName>
+		<MaxPlayers>4</MaxPlayers>
+		<LeftKill>700</LeftKill>
+		<RightKill>700</RightKill>
+		<TopKill>400</TopKill>
+		<BottomKill>850</BottomKill>
+		<Thumbnail>a_LevelThumbNail_Ruins1v1</Thumbnail>
+	</LevelType>
+	<LevelType LevelName="Soccer">
+		<DisplayName>Handball Arena</DisplayName>
+		<LevelID>21</LevelID>
+		<FileName>Level_GameModes.swf</FileName>
+		<AssetName>a_Level_Soccer</AssetName>
+		<MaxPlayers>4</MaxPlayers>
+		<LeftKill>700</LeftKill>
+		<RightKill>700</RightKill>
+		<TopKill>400</TopKill>
+		<BottomKill>850</BottomKill>
+		<Thumbnail>a_LevelThumbNail_Ruins1v1</Thumbnail>
+	</LevelType>
+	<LevelType LevelName="Yggdrasil">
+		<DisplayName>Titan's End</DisplayName>
+		<LevelID>22</LevelID>
+		<DisplayOrder>6</DisplayOrder>
+		<FileName>Level_Ruins.swf</FileName>
+		<AssetName>a_Level_Yggdrasil</AssetName>
+		<MaxPlayers>4</MaxPlayers>
+		<LeftKill>700</LeftKill>
+		<RightKill>700</RightKill>
+		<TopKill>800</TopKill>
+		<BottomKill>850</BottomKill>
+		<BGMusic>Level02Theme</BGMusic>
+		<Thumbnail>a_LevelThumbNail_GolemPit</Thumbnail>
+		<AIStrictRecover>TRUE</AIStrictRecover>
+		<BotTint>0</BotTint>
+		<BotOffset>0x9C8C6A</BotOffset>
+		<BotFraction>0.48</BotFraction>
+	</LevelType>
+	<LevelType LevelName="HoldTheThing">
+		<DisplayName>HoldTheThing Arena</DisplayName>
+		<LevelID>23</LevelID>
+		<FileName>Level_GameModes.swf</FileName>
+		<AssetName>a_Level_HoldTheThing</AssetName>
+		<MaxPlayers>4</MaxPlayers>
+		<LeftKill>700</LeftKill>
+		<RightKill>700</RightKill>
+		<TopKill>400</TopKill>
+		<BottomKill>850</BottomKill>
+		<Thumbnail>a_LevelThumbNail_Ruins1v1</Thumbnail>
+	</LevelType>
+	<LevelType LevelName="FlatMap">
+		<DisplayName>Thundergard Stadium</DisplayName>
+		<LevelID>24</LevelID>
+		<DisplayOrder>5</DisplayOrder>
+		<FileName>Level_Ruins.swf</FileName>
+		<AssetName>a_Level_FlatMap</AssetName>
+		<MaxPlayers>4</MaxPlayers>
+		<LeftKill>1250</LeftKill>
+		<RightKill>1250</RightKill>
+		<TopKill>800</TopKill>
+		<BottomKill>1000</BottomKill>
+		<BGMusic>Level02Theme</BGMusic>
+		<Thumbnail>a_LevelThumbNail_FlatMap</Thumbnail>
+	</LevelType>
+	<LevelType LevelName="Trap">
+		<DisplayName>Trap</DisplayName>
+		<LevelID>25</LevelID>
+		<FileName>Level_Ruins.swf</FileName>
+		<AssetName>a_Level_Trap</AssetName>
+		<MaxPlayers>4</MaxPlayers>
+		<LeftKill>700</LeftKill>
+		<RightKill>700</RightKill>
+		<TopKill>700</TopKill>
+		<BottomKill>700</BottomKill>
+		<Thumbnail>a_LevelThumbNail_Ruins1v1</Thumbnail>
+	</LevelType>
+	<LevelType LevelName="BigWedge">
+		<DisplayName>Big Wedge</DisplayName>
+		<LevelID>26</LevelID>
+		<FileName>Level_Ruins.swf</FileName>
+		<AssetName>a_Level_BigWedge</AssetName>
+		<MaxPlayers>4</MaxPlayers>
+		<LeftKill>700</LeftKill>
+		<RightKill>700</RightKill>
+		<TopKill>700</TopKill>
+		<BottomKill>700</BottomKill>
+		<Thumbnail>a_LevelThumbNail_Ruins1v1</Thumbnail>
+	</LevelType>
+	<LevelType LevelName="Brawlball2">
+		<DisplayName>Brawlball2</DisplayName>
+		<LevelID>27</LevelID>
+		<FileName>Level_GameModes.swf</FileName>
+		<AssetName>a_Level_Brawlball2</AssetName>
+		<MaxPlayers>4</MaxPlayers>
+		<LeftKill>700</LeftKill>
+		<RightKill>700</RightKill>
+		<TopKill>400</TopKill>
+		<BottomKill>850</BottomKill>
+		<Thumbnail>a_LevelThumbNail_Ruins1v1</Thumbnail>
+	</LevelType>
+	<LevelType LevelName="Altar">
+		<DisplayName>Altar</DisplayName>
+		<LevelID>34</LevelID>
+		<FileName>Level_GameModes.swf</FileName>
+		<AssetName>a_Level_Altar</AssetName>
+		<MaxPlayers>4</MaxPlayers>
+		<LeftKill>700</LeftKill>
+		<RightKill>700</RightKill>
+		<TopKill>400</TopKill>
+		<BottomKill>850</BottomKill>
+		<Thumbnail>a_LevelThumbNail_Altar</Thumbnail>
+	</LevelType>
+	<LevelType LevelName="Arcade_FFA">
+		<DisplayName>Original FFA</DisplayName>
+		<LevelID>35</LevelID>
+		<FileName>Level_GameModes.swf</FileName>
+		<AssetName>a_Level_Altar</AssetName>
+		<MaxPlayers>4</MaxPlayers>
+		<LeftKill>700</LeftKill>
+		<RightKill>700</RightKill>
+		<TopKill>400</TopKill>
+		<BottomKill>850</BottomKill>
+		<Thumbnail>a_LevelThumbNail_Altar</Thumbnail>
+	</LevelType>
+	<LevelType LevelName="Arcade_TournamentHybrid">
+		<DisplayName>Tournament Hybrid</DisplayName>
+		<LevelID>36</LevelID>
+		<FileName>Level_GameModes.swf</FileName>
+		<AssetName>a_Level_Altar</AssetName>
+		<MaxPlayers>4</MaxPlayers>
+		<LeftKill>700</LeftKill>
+		<RightKill>700</RightKill>
+		<TopKill>400</TopKill>
+		<BottomKill>850</BottomKill>
+		<Thumbnail>a_LevelThumbNail_Altar</Thumbnail>
+	</LevelType>
+	<LevelType LevelName="Arcade_TournamentHybridFFA">
+		<DisplayName>Tournament Hybrid FFA</DisplayName>
+		<LevelID>37</LevelID>
+		<FileName>Level_GameModes.swf</FileName>
+		<AssetName>a_Level_Altar</AssetName>
+		<MaxPlayers>4</MaxPlayers>
+		<LeftKill>700</LeftKill>
+		<RightKill>700</RightKill>
+		<TopKill>400</TopKill>
+		<BottomKill>850</BottomKill>
+		<Thumbnail>a_LevelThumbNail_Altar</Thumbnail>
+	</LevelType>
+	<LevelType LevelName="Devland">
+		<DisplayName>Devland</DisplayName>
+		<LevelID>38</LevelID>
+		<FileName>Level_GameModes.swf</FileName>
+		<AssetName>a_Level_Devland</AssetName>
+		<MaxPlayers>4</MaxPlayers>
+		<LeftKill>700</LeftKill>
+		<RightKill>700</RightKill>
+		<TopKill>400</TopKill>
+		<BottomKill>850</BottomKill>
+		<Thumbnail>a_LevelThumbNail_Ruins1v1</Thumbnail>
+	</LevelType>
+	<LevelType LevelName="Brawlball4v4">
+		<DisplayName>4v4 Brawlball</DisplayName>
+		<LevelID>39</LevelID>
+		<FileName>Level_GameModes.swf</FileName>
+		<AssetName>a_Level_Brawlball4v4</AssetName>
+		<MaxPlayers>8</MaxPlayers>
+		<LeftKill>700</LeftKill>
+		<RightKill>700</RightKill>
+		<TopKill>400</TopKill>
+		<BottomKill>850</BottomKill>
+		<Thumbnail>a_LevelThumbNail_Ruins1v1</Thumbnail>
+	</LevelType>
+	<LevelType LevelName="Temple2">
+		<DisplayName>Happy Temple</DisplayName>
+		<LevelID>40</LevelID>
+		<FileName>Level_Ruins.swf</FileName>
+		<AssetName>a_Level_Temple2</AssetName>
+		<MaxPlayers>4</MaxPlayers>
+		<LeftKill>700</LeftKill>
+		<RightKill>700</RightKill>
+		<TopKill>400</TopKill>
+		<BottomKill>850</BottomKill>
+		<BGMusic>Level02Theme</BGMusic>
+		<Thumbnail>a_LevelThumbNail_Temple4FFA</Thumbnail>
+		<BotTint>0</BotTint>
+		<BotOffset>0x8E314B</BotOffset>
+		<BotFraction>0.44</BotFraction>
+	</LevelType>
+	<LevelType LevelName="PirateShip">
+		<DisplayName>Thatch's Ship</DisplayName>
+		<LevelID>41</LevelID>
+		<FileName>Level_Ruins.swf</FileName>
+		<AssetName>a_Level_Ship</AssetName>
+		<MaxPlayers>4</MaxPlayers>
+		<LeftKill>1000</LeftKill>
+		<RightKill>1000</RightKill>
+		<TopKill>750</TopKill>
+		<BottomKill>400</BottomKill>
+		<BGMusic>Level02Theme</BGMusic>
+		<Thumbnail>a_LevelThumbNail_Temple4FFA</Thumbnail>
+		<BotTint>0</BotTint>
+		<BotOffset>0x8E314B</BotOffset>
+		<BotFraction>0.44</BotFraction>
+	</LevelType>
+	<LevelType LevelName="Space">
+		<DisplayName>Space</DisplayName>
+		<LevelID>42</LevelID>
+		<FileName>Level_Ruins.swf</FileName>
+		<AssetName>a_Level_space</AssetName>
+		<MaxPlayers>4</MaxPlayers>
+		<LeftKill>800</LeftKill>
+		<RightKill>1000</RightKill>
+		<TopKill>750</TopKill>
+		<BottomKill>600</BottomKill>
+		<BGMusic>Level02Theme</BGMusic>
+		<Thumbnail>a_LevelThumbNail_Temple4FFA</Thumbnail>
+		<BotTint>0</BotTint>
+		<BotOffset>0x8E314B</BotOffset>
+		<BotFraction>0.44</BotFraction>
+	</LevelType>
+</LevelTypes>

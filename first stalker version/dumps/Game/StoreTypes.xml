@@ -1,0 +1,651 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<StoreTypes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<StoreType StoreName="---Template---">
+		<StoreID>0</StoreID>
+		<DisplayName>Template</DisplayName>
+		<IconName>text</IconName>
+		<Quantity>10</Quantity>
+		<IdolCost>10</IdolCost>
+		<GoldCost>10</GoldCost>
+		<Description>WhatIDo</Description>
+		<Tags>Potions:1</Tags>
+		<Type>Template</Type>
+		<Item>-</Item>
+		<AllowDupes>False</AllowDupes>
+	</StoreType>
+	<StoreType StoreName="Bodvar">
+		<StoreID>1</StoreID>
+		<DisplayName>Bödvar</DisplayName>
+		<IconName>a_StoreDummyIcon</IconName>
+		<Quantity>1</Quantity>
+		<IdolCost>20</IdolCost>
+		<Description>Born of a bear father and a viking mother, Bodvar’s mighty hammer and flashing sword protected the Norse folk from every terrifying monster and marauder that menaced the fjords.</Description>
+		<Tags>Hero:1</Tags>
+		<Type>Hero</Type>
+		<Item>Viking</Item>
+	</StoreType>
+	<StoreType StoreName="Cassidy">
+		<StoreID>2</StoreID>
+		<DisplayName>Cassidy</DisplayName>
+		<IconName>a_StoreDummyIcon</IconName>
+		<Quantity>1</Quantity>
+		<IdolCost>20</IdolCost>
+		<Description>Sure shooting, heavy hitting Marshal Cassidy single-handedly brought the hammer of justice down on some of the most dangerous desperadoes in the Old West.</Description>
+		<Tags>Hero:2</Tags>
+		<Type>Hero</Type>
+		<Item>Cowgirl</Item>
+	</StoreType>
+	<StoreType StoreName="Volst">
+		<StoreID>3</StoreID>
+		<DisplayName>Orion</DisplayName>
+		<IconName>a_StoreDummyIcon</IconName>
+		<Quantity>1</Quantity>
+		<IdolCost>100</IdolCost>
+		<Description>Knight Prime of the Armored Space Fleet, Orion led a team in the vicious hand to hand warfare during the Battle of Luna and single-handedly smashed the Oort Lichking’s transdimensional throne.</Description>
+		<Tags>Hero:7</Tags>
+		<Type>Hero</Type>
+		<Item>Valkyrie</Item>
+	</StoreType>
+	<StoreType StoreName="Vraxx">
+		<StoreID>4</StoreID>
+		<DisplayName>Lord Vraxx</DisplayName>
+		<IconName>a_StoreDummyIcon</IconName>
+		<Quantity>1</Quantity>
+		<IdolCost>100</IdolCost>
+		<Description>Alien Overlord Vraxx conquered the solar system in his war against the Martians, destroying the last of the Martian tripods on Earth in 1938. Dying in that final fight, he was surprised to awaken in a human afterlife.</Description>
+		<Tags>Hero:3</Tags>
+		<Type>Hero</Type>
+		<Item>Alien</Item>
+	</StoreType>
+	<StoreType StoreName="Thrulk">
+		<StoreID>5</StoreID>
+		<DisplayName>Gnash</DisplayName>
+		<IconName>a_StoreDummyIcon</IconName>
+		<Quantity>1</Quantity>
+		<IdolCost>100</IdolCost>
+		<Description>Chieftain of the prehistoric Mammoth Clan, Gnash could track a sabertooth tiger during a thunderstorm, and lay low the beast with a single punch if needed.</Description>
+		<Tags>Hero:8</Tags>
+		<Type>Hero</Type>
+		<Item>Caveman</Item>
+	</StoreType>
+	<StoreType StoreName="Nai">
+		<StoreID>6</StoreID>
+		<DisplayName>Queen Nai</DisplayName>
+		<IconName>a_StoreDummyIcon</IconName>
+		<Quantity>1</Quantity>
+		<IdolCost>100</IdolCost>
+		<Description>An ancient Mayan Sorceress, Queen Nai’s mastery of magic and warfare built an empire for her and her people.</Description>
+		<Tags>Hero:11</Tags>
+		<Type>Hero</Type>
+		<Item>Witch</Item>
+	</StoreType>
+	<StoreType StoreName="Lucien">
+		<StoreID>7</StoreID>
+		<DisplayName>Lucien</DisplayName>
+		<IconName>a_StoreDummyIcon</IconName>
+		<Quantity>1</Quantity>
+		<IdolCost>100</IdolCost>
+		<Description>Master spy and deadly duelist Lucien Davout stalked the shadows of the French Revolution and rose to riches over the bodies of fallen nobles and rivals as an agent of The Terror.</Description>
+		<Tags>Hero:12</Tags>
+		<Type>Hero</Type>
+		<Item>Highwayman</Item>
+	</StoreType>
+	<StoreType StoreName="Hattori">
+		<StoreID>8</StoreID>
+		<DisplayName>Hattori</DisplayName>
+		<IconName>a_StoreDummyIcon</IconName>
+		<Quantity>1</Quantity>
+		<IdolCost>100</IdolCost>
+		<Description>The deadliest blade to ever emerge from the Iga Ninja Clan, Hattori’s pact with a demon made her an unstoppable force for vengeance against samurai lords who had betrayed her clan.</Description>
+		<Tags>Hero:9</Tags>
+		<Type>Hero</Type>
+		<Item>Ninja</Item>
+	</StoreType>
+	<StoreType StoreName="Hero">
+		<StoreID>9</StoreID>
+		<DisplayName>Sentinel</DisplayName>
+		<IconName>a_StoreDummyIcon</IconName>
+		<Quantity>1</Quantity>
+		<IdolCost>100</IdolCost>
+		<Description>The world's first costumed crime fighter, Sentinel used his homemade electro-weapons to wage a one-hero war against the criminal secret society known as KABAL.</Description>
+		<Tags>Hero:5</Tags>
+		<Type>Hero</Type>
+		<Item>Super</Item>
+	</StoreType>
+	<StoreType StoreName="Scarlet">
+		<StoreID>10</StoreID>
+		<DisplayName>Scarlet</DisplayName>
+		<IconName>a_StoreDummyIcon</IconName>
+		<Quantity>1</Quantity>
+		<IdolCost>100</IdolCost>
+		<Description>Famed inventor Scarlet and her steam-powered contraptions blasted a path through the Victorian age, leaving fallen madmen and defeated Atlantean armies in her wake.</Description>
+		<Tags>Hero:6</Tags>
+		<Type>Hero</Type>
+		<Item>Steampunk</Item>
+	</StoreType>
+	<StoreType StoreName="Thatch">
+		<StoreID>11</StoreID>
+		<DisplayName>Thatch</DisplayName>
+		<IconName>a_StoreDummyIcon</IconName>
+		<Quantity>1</Quantity>
+		<IdolCost>100</IdolCost>
+		<Description>The infamous pirate Thatch’s love of black powder and obsession with setting the world aflame combined to sink hundreds of ships, sack dozens of ports, and prematurely erupt at least two volcanoes.</Description>
+		<Tags>Hero:10</Tags>
+		<Type>Hero</Type>
+		<Item>Thatch</Item>
+	</StoreType>
+	<StoreType StoreName="Ada">
+		<StoreID>12</StoreID>
+		<DisplayName>Ada</DisplayName>
+		<IconName>a_StoreDummyIcon</IconName>
+		<Quantity>1</Quantity>
+		<IdolCost>100</IdolCost>
+		<Description>Cyber-enhanced freedom fighter Ada led a masterful guerilla campaign against the Upload Enslavement Initiative, saving humanity from being enslaved cyborgs so they could stay free cyborgs.</Description>
+		<Tags>Hero:4</Tags>
+		<Type>Hero</Type>
+		<Item>Cyber</Item>
+	</StoreType>
+	<StoreType StoreName="Beardvar">
+		<StoreID>13</StoreID>
+		<DisplayName>Bear'dvar</DisplayName>
+		<IconName>a_StoreDummyIcon</IconName>
+		<Quantity>1</Quantity>
+		<IdolCost>140</IdolCost>
+		<Description>Some days, Bödvar Bear-Son takes after his dad.</Description>
+		<Tags>Costume:1</Tags>
+		<Type>Costume</Type>
+		<Item>Bear</Item>
+	</StoreType>
+	<StoreType StoreName="TruckerBodvar">
+		<StoreID>14</StoreID>
+		<DisplayName>Big Rig Bödvar</DisplayName>
+		<IconName>a_StoreDummyIcon</IconName>
+		<Quantity>1</Quantity>
+		<IdolCost>140</IdolCost>
+		<Description>Ten-four, good buddy!</Description>
+		<Tags>Costume:2</Tags>
+		<Type>Costume</Type>
+		<Item>Trucker</Item>
+	</StoreType>
+	<StoreType StoreName="SpaceCassidy">
+		<StoreID>15</StoreID>
+		<DisplayName>Space Race Cassidy</DisplayName>
+		<IconName>a_StoreDummyIcon</IconName>
+		<Quantity>1</Quantity>
+		<IdolCost>140</IdolCost>
+		<Description>No space is safe for desperadoes on the run from Space Marshal Cassidy.</Description>
+		<Tags>Costume:4</Tags>
+		<Type>Costume</Type>
+		<Item>Space</Item>
+	</StoreType>
+	<StoreType StoreName="HeroCassidy">
+		<StoreID>16</StoreID>
+		<DisplayName>Masked Hero Cassidy</DisplayName>
+		<IconName>a_StoreDummyIcon</IconName>
+		<Quantity>1</Quantity>
+		<IdolCost>85</IdolCost>
+		<Description>Who is that lone masked ma'am?</Description>
+		<Tags>Costume:3</Tags>
+		<Type>Costume</Type>
+		<Item>Hero</Item>
+	</StoreType>
+	<StoreType StoreName="VolstKnight">
+		<StoreID>17</StoreID>
+		<DisplayName>Dark Age Orion</DisplayName>
+		<IconName>a_StoreDummyIcon</IconName>
+		<Quantity>1</Quantity>
+		<IdolCost>140</IdolCost>
+		<Description>Classic, old school Heavy Metal Thunder.</Description>
+		<Tags>Costume:6,Featured:4</Tags>
+		<Type>Costume</Type>
+		<Item>VolstKnight</Item>
+	</StoreType>
+	<StoreType StoreName="AtomicVolst">
+		<StoreID>18</StoreID>
+		<DisplayName>Atomic Orion</DisplayName>
+		<IconName>a_StoreDummyIcon</IconName>
+		<Quantity>1</Quantity>
+		<IdolCost>85</IdolCost>
+		<Description>Bzzt! Bleep! Blorp! Critical Mass Kicking Engaged!</Description>
+		<Tags>Costume:5</Tags>
+		<Type>Costume</Type>
+		<Item>Atomic</Item>
+	</StoreType>
+	<StoreType StoreName="AlienViking">
+		<StoreID>19</StoreID>
+		<DisplayName>Vraxx the Viking</DisplayName>
+		<IconName>a_StoreDummyIcon</IconName>
+		<Quantity>1</Quantity>
+		<IdolCost>85</IdolCost>
+		<Description>Alien Vikings DID have horns on their helmets, because aliens know what's cool.</Description>
+		<Tags>Costume:7</Tags>
+		<Type>Costume</Type>
+		<Item>AlienViking</Item>
+	</StoreType>
+	<StoreType StoreName="KingVraxx">
+		<StoreID>20</StoreID>
+		<DisplayName>Vraxx the King</DisplayName>
+		<IconName>a_StoreDummyIcon</IconName>
+		<Quantity>1</Quantity>
+		<IdolCost>140</IdolCost>
+		<Description>Wise men say, only foooools fight Vraxx.</Description>
+		<Tags>Costume:8</Tags>
+		<Type>Costume</Type>
+		<Item>Rocker</Item>
+	</StoreType>
+	<StoreType StoreName="MascotThrulk">
+		<StoreID>21</StoreID>
+		<DisplayName>Team Spirit Gnash</DisplayName>
+		<IconName>a_StoreDummyIcon</IconName>
+		<Quantity>1</Quantity>
+		<IdolCost>140</IdolCost>
+		<Description>GNASH HAVE SPIRIT, YES HIM DO!</Description>
+		<Tags>Costume:10</Tags>
+		<Type>Costume</Type>
+		<Item>Mascot</Item>
+	</StoreType>
+	<StoreType StoreName="SafariThrulk">
+		<StoreID>22</StoreID>
+		<DisplayName>Outback Gnash</DisplayName>
+		<IconName>a_StoreDummyIcon</IconName>
+		<Quantity>1</Quantity>
+		<IdolCost>85</IdolCost>
+		<Description>You call that a hammer? THIS is a hammer!</Description>
+		<Tags>Costume:9</Tags>
+		<Type>Costume</Type>
+		<Item>Safari</Item>
+	</StoreType>
+	<StoreType StoreName="TrackJacketHattori">
+		<StoreID>23</StoreID>
+		<DisplayName>Kill Thrill Hattori</DisplayName>
+		<IconName>a_StoreDummyIcon</IconName>
+		<Quantity>1</Quantity>
+		<IdolCost>140</IdolCost>
+		<Description>Only Hattori, The Bride, and Bruce can pull off this look.</Description>
+		<Tags>Costume:12,Featured:5</Tags>
+		<Type>Costume</Type>
+		<Item>TrackJacket</Item>
+	</StoreType>
+	<StoreType StoreName="OniHattori">
+		<StoreID>24</StoreID>
+		<DisplayName>Oni no Hattori</DisplayName>
+		<IconName>a_StoreDummyIcon</IconName>
+		<Quantity>1</Quantity>
+		<IdolCost>85</IdolCost>
+		<Description>Let Hattori's inner demon come out to play.</Description>
+		<Tags>Costume:11</Tags>
+		<Type>Costume</Type>
+		<Item>Oni</Item>
+	</StoreType>
+	<StoreType StoreName="CastawayThatch">
+		<StoreID>25</StoreID>
+		<DisplayName>Castaway Thatch</DisplayName>
+		<IconName>a_StoreDummyIcon</IconName>
+		<Quantity>1</Quantity>
+		<IdolCost>200</IdolCost>
+		<Description>HEY! HEY, CRABBIE! A SHIP! HEY! LOOK, LOOK, LOOOOOK!\nBonus: Crabbie animates with Thatch's expressions!</Description>
+		<Tags>Costume:14</Tags>
+		<Type>Costume</Type>
+		<Item>Castaway</Item>
+	</StoreType>
+	<StoreType StoreName="BikerThatch">
+		<StoreID>26</StoreID>
+		<DisplayName>Biker Thatch</DisplayName>
+		<IconName>a_StoreDummyIcon</IconName>
+		<Quantity>1</Quantity>
+		<IdolCost>140</IdolCost>
+		<Description>Get your motor runnin' and head out for some brawlin'.</Description>
+		<Tags>Costume:13</Tags>
+		<Type>Costume</Type>
+		<Item>Biker</Item>
+	</StoreType>
+	<StoreType StoreName="CharmerNai">
+		<StoreID>27</StoreID>
+		<DisplayName>Snake Charmer Nai</DisplayName>
+		<IconName>a_StoreDummyIcon</IconName>
+		<Quantity>1</Quantity>
+		<IdolCost>85</IdolCost>
+		<Description>Don't look her in the eyes, lest it be thine demise.</Description>
+		<Tags>Costume:15</Tags>
+		<Type>Costume</Type>
+		<Item>Charmer</Item>
+	</StoreType>
+	<StoreType StoreName="ExplorerNai">
+		<StoreID>28</StoreID>
+		<DisplayName>Tomb Tamer Nai</DisplayName>
+		<IconName>a_StoreDummyIcon</IconName>
+		<Quantity>1</Quantity>
+		<IdolCost>140</IdolCost>
+		<Description>She doesn't need pit traps or rolling rocks to win her fights.</Description>
+		<Tags>Costume:16</Tags>
+		<Type>Costume</Type>
+		<Item>Explorer</Item>
+	</StoreType>
+	<StoreType StoreName="BeatChest">
+		<StoreID>29</StoreID>
+		<DisplayName>Primal Roar</DisplayName>
+		<IconName>a_StoreDummyIcon</IconName>
+		<Quantity>1</Quantity>
+		<IdolCost>60</IdolCost>
+		<Description>Unleash your inner triumph!</Description>
+		<Tags>Taunt:1</Tags>
+		<Type>Taunt</Type>
+		<Item>BeatChest</Item>
+	</StoreType>
+	<StoreType StoreName="Bow">
+		<StoreID>30</StoreID>
+		<DisplayName>Take a Bow</DisplayName>
+		<IconName>a_StoreDummyIcon</IconName>
+		<Quantity>1</Quantity>
+		<IdolCost>60</IdolCost>
+		<Description>You're a winner. You deserve it.</Description>
+		<Tags>Taunt:2</Tags>
+		<Type>Taunt</Type>
+		<Item>Bow</Item>
+	</StoreType>
+	<StoreType StoreName="RunningMan">
+		<StoreID>31</StoreID>
+		<DisplayName>The Running Man</DisplayName>
+		<IconName>a_StoreDummyIcon</IconName>
+		<Quantity>1</Quantity>
+		<IdolCost>120</IdolCost>
+		<Description>Go, Brawler! Go, Brawler! Go! Go! Go, Brawler!</Description>
+		<Tags>Taunt:3,Featured:10</Tags>
+		<Type>Taunt</Type>
+		<Item>HammerDance</Item>
+	</StoreType>
+	<StoreType StoreName="GoodBye">
+		<StoreID>32</StoreID>
+		<DisplayName>See Ya!</DisplayName>
+		<IconName>a_StoreDummyIcon</IconName>
+		<Quantity>1</Quantity>
+		<IdolCost>60</IdolCost>
+		<Description>Bye-bye, Brawler, bye-bye!</Description>
+		<Tags>Taunt:4</Tags>
+		<Type>Taunt</Type>
+		<Item>GoodBye</Item>
+	</StoreType>
+	<StoreType StoreName="EvilLaugh">
+		<StoreID>33</StoreID>
+		<DisplayName>Maniacal Laugh</DisplayName>
+		<IconName>a_StoreDummyIcon</IconName>
+		<Quantity>1</Quantity>
+		<IdolCost>120</IdolCost>
+		<Description>BWAHAHAHAHA! HA! HAAAA!</Description>
+		<Tags>Taunt:5,Featured:9</Tags>
+		<Type>Taunt</Type>
+		<Item>EvilLaugh</Item>
+	</StoreType>
+	<StoreType StoreName="HammerMegaton">
+		<StoreID>34</StoreID>
+		<DisplayName>Atom Smasher</DisplayName>
+		<IconName>a_StoreDummyIcon</IconName>
+		<Quantity>1</Quantity>
+		<IdolCost>60</IdolCost>
+		<Description>Smash your foes with the force of a nuclear warhead!</Description>
+		<Tags>WeaponSkin:3,Featured:7</Tags>
+		<Type>WeaponSkin</Type>
+		<Item>HammerMegaton</Item>
+	</StoreType>
+	<StoreType StoreName="HammerMedieval">
+		<StoreID>35</StoreID>
+		<DisplayName>Gothic Warhammer</DisplayName>
+		<IconName>a_StoreDummyIcon</IconName>
+		<Quantity>1</Quantity>
+		<IdolCost>40</IdolCost>
+		<Description>That classic medieval look that never goes out of style.</Description>
+		<Tags>WeaponSkin:2</Tags>
+		<Type>WeaponSkin</Type>
+		<Item>HammerMedieval</Item>
+	</StoreType>
+	<StoreType StoreName="PistolPearlDerringer">
+		<StoreID>36</StoreID>
+		<DisplayName>Mother of Pearl Blasters</DisplayName>
+		<IconName>a_StoreDummyIcon</IconName>
+		<Quantity>1</Quantity>
+		<IdolCost>60</IdolCost>
+		<Description>Blast away with beauty and elegance using this true work of art.</Description>
+		<Tags>WeaponSkin:5</Tags>
+		<Type>WeaponSkin</Type>
+		<Item>PistolPearlDerringer</Item>
+	</StoreType>
+	<StoreType StoreName="PistolMecha">
+		<StoreID>37</StoreID>
+		<DisplayName>Ebon Blasters</DisplayName>
+		<IconName>a_StoreDummyIcon</IconName>
+		<Quantity>1</Quantity>
+		<IdolCost>40</IdolCost>
+		<Description>Black on yellow, blast a fellow. Yellow on black, they won't come back.</Description>
+		<Tags>WeaponSkin:4</Tags>
+		<Type>WeaponSkin</Type>
+		<Item>PistolMecha</Item>
+	</StoreType>
+	<StoreType StoreName="RocketLanceWarhead">
+		<StoreID>38</StoreID>
+		<DisplayName>Ultra-Lance</DisplayName>
+		<IconName>a_StoreDummyIcon</IconName>
+		<Quantity>1</Quantity>
+		<IdolCost>40</IdolCost>
+		<Description>Sleek, high-tech, and handles like a dream. The supercar of Rocket Lances.</Description>
+		<Tags>WeaponSkin:6</Tags>
+		<Type>WeaponSkin</Type>
+		<Item>RocketLanceWarhead</Item>
+	</StoreType>
+	<StoreType StoreName="RocketLanceMechaDrill">
+		<StoreID>39</StoreID>
+		<DisplayName>Cobalt Mecha Lance</DisplayName>
+		<IconName>a_StoreDummyIcon</IconName>
+		<Quantity>1</Quantity>
+		<IdolCost>40</IdolCost>
+		<Description>Straight from a battle mech's hands to yours, ready for action.</Description>
+		<Tags>WeaponSkin:7</Tags>
+		<Type>WeaponSkin</Type>
+		<Item>RocketLanceMechaDrill</Item>
+	</StoreType>
+	<StoreType StoreName="SwordTwistedShadow">
+		<StoreID>40</StoreID>
+		<DisplayName>Dark Elf Flamberge</DisplayName>
+		<IconName>a_StoreDummyIcon</IconName>
+		<Quantity>1</Quantity>
+		<IdolCost>40</IdolCost>
+		<Description>A cruely cool blade that strikes fear into every heart.</Description>
+		<Tags>WeaponSkin:8</Tags>
+		<Type>WeaponSkin</Type>
+		<Item>SwordTwistedShadow</Item>
+	</StoreType>
+	<StoreType StoreName="SwordSteamEdge">
+		<StoreID>41</StoreID>
+		<DisplayName>Steam-Charged Saber</DisplayName>
+		<IconName>a_StoreDummyIcon</IconName>
+		<Quantity>1</Quantity>
+		<IdolCost>60</IdolCost>
+		<Description>That whistling doesn't mean it's tea time. It means your foes are doomed!</Description>
+		<Tags>WeaponSkin:9,Featured:8</Tags>
+		<Type>WeaponSkin</Type>
+		<Item>SwordSteamEdge</Item>
+	</StoreType>
+	<StoreType StoreName="NappyLucien">
+		<StoreID>42</StoreID>
+		<DisplayName>Vive L'Empereur Lucien</DisplayName>
+		<IconName>a_StoreDummyIcon</IconName>
+		<Quantity>1</Quantity>
+		<IdolCost>140</IdolCost>
+		<Description>You don't have to be short to have a Napoleon Complex.</Description>
+		<Type>Costume</Type>
+		<Item>Napoleon</Item>
+	</StoreType>
+	<StoreType StoreName="SpecOpsLucien">
+		<StoreID>43</StoreID>
+		<DisplayName>Spec-Ops Lucien</DisplayName>
+		<IconName>a_StoreDummyIcon</IconName>
+		<Quantity>1</Quantity>
+		<IdolCost>200</IdolCost>
+		<Description>Tango down. I'm Oscar Mike for extract.\nBonus: Night vision goggles glow with Lucien's expressions!</Description>
+		<Tags>Costume:25,Featured:1</Tags>
+		<Type>Costume</Type>
+		<Item>SpecOps</Item>
+	</StoreType>
+	<StoreType StoreName="FutureAda">
+		<StoreID>44</StoreID>
+		<DisplayName>Technomancer Ada</DisplayName>
+		<IconName>a_StoreDummyIcon</IconName>
+		<Quantity>1</Quantity>
+		<IdolCost>140</IdolCost>
+		<Description>Hack the planet!</Description>
+		<Tags>Costume:17</Tags>
+		<Type>Costume</Type>
+		<Item>Future</Item>
+	</StoreType>
+	<StoreType StoreName="HackerAda">
+		<StoreID>45</StoreID>
+		<DisplayName>DJ Ada</DisplayName>
+		<IconName>a_StoreDummyIcon</IconName>
+		<Quantity>1</Quantity>
+		<IdolCost>140</IdolCost>
+		<Description>Neo-Industrial Techno Robo-Apocalypse mix track not included.</Description>
+		<Tags>Costume:18,Featured:6</Tags>
+		<Type>Costume</Type>
+		<Item>Hacker</Item>
+	</StoreType>
+	<StoreType StoreName="DetectiveSentinel">
+		<StoreID>46</StoreID>
+		<DisplayName>Gumshoe Sentinel</DisplayName>
+		<IconName>a_StoreDummyIcon</IconName>
+		<Quantity>1</Quantity>
+		<IdolCost>140</IdolCost>
+		<Description>He knows what evil lurks in the hearts of men, women, and evil aiens.</Description>
+		<Tags>Costume:19</Tags>
+		<Type>Costume</Type>
+		<Item>Detective</Item>
+	</StoreType>
+	<StoreType StoreName="ArmoredSentinel">
+		<StoreID>47</StoreID>
+		<DisplayName>High Impact Sentinel</DisplayName>
+		<IconName>a_StoreDummyIcon</IconName>
+		<Quantity>1</Quantity>
+		<IdolCost>140</IdolCost>
+		<Description>Bullet-proof, flame-resistant, and death-ray reflective. Dry clean only.</Description>
+		<Tags>Costume:20</Tags>
+		<Type>Costume</Type>
+		<Item>Armored</Item>
+	</StoreType>
+	<StoreType StoreName="AviatorScarlet">
+		<StoreID>48</StoreID>
+		<DisplayName>Sky Captain Scarlet</DisplayName>
+		<IconName>a_StoreDummyIcon</IconName>
+		<Quantity>1</Quantity>
+		<IdolCost>85</IdolCost>
+		<Description>Head to the sky, where only Air-Dreadnaughts and murderous Sky Pirates dare fly.</Description>
+		<Tags>Costume:21</Tags>
+		<Type>Costume</Type>
+		<Item>Aviator</Item>
+	</StoreType>
+	<StoreType StoreName="SteamgirlScarlet">
+		<StoreID>49</StoreID>
+		<DisplayName>Steam Tank Scarlet</DisplayName>
+		<IconName>a_StoreDummyIcon</IconName>
+		<Quantity>1</Quantity>
+		<IdolCost>140</IdolCost>
+		<Description>No one hits harder than Scarlet when she has a full head of steam.</Description>
+		<Tags>Costume:22</Tags>
+		<Type>Costume</Type>
+		<Item>Steamgirl</Item>
+	</StoreType>
+	<StoreType StoreName="StarterCharacters">
+		<StoreID>50</StoreID>
+		<DisplayName>Character Starter Pack</DisplayName>
+		<IconName>a_StoreDummyIcon</IconName>
+		<Quantity>1</Quantity>
+		<IdolCost>300</IdolCost>
+		<Description>Some of our most popular Legends at a special rate to get you started!</Description>
+		<Type>Bundle</Type>
+		<Item>Hattori,Bodvar,Ada,Cassidy,Hero,Thrulk</Item>
+	</StoreType>
+	<StoreType StoreName="SpearFire">
+		<StoreID>51</StoreID>
+		<DisplayName>Red-Hot Ranseur</DisplayName>
+		<IconName>a_StoreDummyIcon</IconName>
+		<Quantity>1</Quantity>
+		<IdolCost>40</IdolCost>
+		<Description>Volcano-forged to a razor edge, it simultaneously pierces, slices, and sears.</Description>
+		<Tags>WeaponSkin:10</Tags>
+		<Type>WeaponSkin</Type>
+		<Item>SpearFlame1</Item>
+	</StoreType>
+	<StoreType StoreName="SpearIce">
+		<StoreID>52</StoreID>
+		<DisplayName>Arctic Edge Spear</DisplayName>
+		<IconName>a_StoreDummyIcon</IconName>
+		<Quantity>1</Quantity>
+		<IdolCost>60</IdolCost>
+		<Description>Hewn from the heart of a glacier, it makes any warrior cold-blooded.</Description>
+		<Tags>WeaponSkin:11</Tags>
+		<Type>WeaponSkin</Type>
+		<Item>SpearIce</Item>
+	</StoreType>
+	<StoreType StoreName="KatarTalon">
+		<StoreID>53</StoreID>
+		<DisplayName>Dragon Tooth Katars</DisplayName>
+		<IconName>a_StoreDummyIcon</IconName>
+		<Quantity>1</Quantity>
+		<IdolCost>60</IdolCost>
+		<Description>Two teeth from an ancient Norse Dragon, mounted in brushed steel.</Description>
+		<Tags>WeaponSkin:12</Tags>
+		<Type>WeaponSkin</Type>
+		<Item>KatarTalon</Item>
+	</StoreType>
+	<StoreType StoreName="KatarClaw">
+		<StoreID>54</StoreID>
+		<DisplayName>Bear Claws</DisplayName>
+		<IconName>a_StoreDummyIcon</IconName>
+		<Quantity>1</Quantity>
+		<IdolCost>60</IdolCost>
+		<Description>These grizzly claws aren't fried dough; they're pure pain for your foes.</Description>
+		<Tags>WeaponSkin:13</Tags>
+		<Type>WeaponSkin</Type>
+		<Item>KatarClaw</Item>
+	</StoreType>
+	<StoreType StoreName="KingRoland">
+		<StoreID>55</StoreID>
+		<DisplayName>King Roland</DisplayName>
+		<IconName>a_StoreDummyIcon</IconName>
+		<Quantity>1</Quantity>
+		<IdolCost>140</IdolCost>
+		<Description>We are all Britons. And I am your King.</Description>
+		<Tags>Costume:23,Featured:3</Tags>
+		<Type>Costume</Type>
+		<Item>King</Item>
+	</StoreType>
+	<StoreType StoreName="ClubRoland">
+		<StoreID>56</StoreID>
+		<DisplayName>Match Point Roland</DisplayName>
+		<IconName>a_StoreDummyIcon</IconName>
+		<Quantity>1</Quantity>
+		<IdolCost>140</IdolCost>
+		<Description>Pink? No no no, this shirt is clearly Salmon.</Description>
+		<Tags>Costume:24</Tags>
+		<Type>Costume</Type>
+		<Item>Club</Item>
+	</StoreType>
+	<StoreType StoreName="HammerKasper">
+		<StoreID>57</StoreID>
+		<DisplayName>The Cure Seeker</DisplayName>
+		<IconName>a_StoreDummyIcon</IconName>
+		<Quantity>1</Quantity>
+		<IdolCost>60</IdolCost>
+		<Description>Limited Availability: 12/12/14 through 01/02/15\nWe will give all of our proceeds from The Cure Seeker to Kasper and Friends Quest for the Cause!</Description>
+		<Type>WeaponSkin</Type>
+		<Item>HammerKasper</Item>
+	</StoreType>
+	<StoreType StoreName="NightLucien">
+		<StoreID>58</StoreID>
+		<DisplayName>Dark of Night Lucien</DisplayName>
+		<IconName>a_StoreDummyIcon</IconName>
+		<Quantity>1</Quantity>
+		<IdolCost>140</IdolCost>
+		<Description>Your money or your life. Or perhaps both?</Description>
+		<Tags>Costume:26,Featured:2</Tags>
+		<Type>Costume</Type>
+		<Item>Stealth</Item>
+	</StoreType>
+</StoreTypes>

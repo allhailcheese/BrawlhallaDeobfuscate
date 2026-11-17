@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<TrailEffectTypes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<TrailEffectType TrailEffectName="Template">
+		<TrailEffectID>0</TrailEffectID>
+		<DisplayName>Template</DisplayName>
+		<IconScale>1</IconScale>
+		<KOSound>a_Sound_Something</KOSound>
+		<KOGfx>
+			<AnimFile>KOGfx</AnimFile>
+			<AnimClass>----</AnimClass>
+			<AnimScale>0</AnimScale>
+			<Tint>Hex Color</Tint>
+		</KOGfx>
+		<TorsoGfx>
+			<AnimFile>TorsoGfx</AnimFile>
+			<AnimClass>----</AnimClass>
+			<AnimScale>0</AnimScale>
+			<Tint>Hex Color</Tint>
+		</TorsoGfx>
+		<OpeningGfx>
+			<AnimFile>OpeningGfx</AnimFile>
+			<AnimClass>----</AnimClass>
+			<AnimScale>0</AnimScale>
+			<Tint>Hex Color</Tint>
+		</OpeningGfx>
+		<ClosingGfx>
+			<AnimFile>ClosingGfx</AnimFile>
+			<AnimClass>----</AnimClass>
+			<AnimScale>0</AnimScale>
+			<Tint>Hex Color</Tint>
+		</ClosingGfx>
+		<EmitterTypes>names</EmitterTypes>
+	</TrailEffectType>
+	<TrailEffectType TrailEffectName="SmokeTrailEffect">
+		<TrailEffectID>1</TrailEffectID>
+		<DisplayName>Smoke N' Stars</DisplayName>
+		<IconScale>0.16</IconScale>
+		<KOSound>offscreen_explosion</KOSound>
+		<KOGfx>
+			<AnimFile>SFX_1.swf</AnimFile>
+			<AnimClass>a_SmokeTrailEndBlue</AnimClass>
+			<AnimScale>2.1</AnimScale>
+		</KOGfx>
+		<TorsoGfx/>
+		<OpeningGfx/>
+		<ClosingGfx/>
+		<EmitterTypes>SmokeTrail</EmitterTypes>
+	</TrailEffectType>
+	<TrailEffectType TrailEffectName="TestExplodeGreen">
+		<TrailEffectID>2</TrailEffectID>
+		<DisplayName>Green Knock-out</DisplayName>
+		<IconScale>0.16</IconScale>
+		<KOSound>offscreen_explosion</KOSound>
+		<KOGfx>
+			<AnimFile>SFX_1.swf</AnimFile>
+			<AnimClass>a_SmokeTrailEndBlue</AnimClass>
+			<AnimScale>2.1</AnimScale>
+		</KOGfx>
+		<TorsoGfx/>
+		<OpeningGfx/>
+		<ClosingGfx/>
+		<EmitterTypes>SmokeTrail</EmitterTypes>
+	</TrailEffectType>
+	<TrailEffectType TrailEffectName="TestExplodeRed">
+		<TrailEffectID>3</TrailEffectID>
+		<DisplayName>Red Knock-out</DisplayName>
+		<IconScale>0.16</IconScale>
+		<KOSound>offscreen_explosion</KOSound>
+		<KOGfx>
+			<AnimFile>SFX_1.swf</AnimFile>
+			<AnimClass>a_SmokeTrailEndBlue</AnimClass>
+			<AnimScale>2.1</AnimScale>
+		</KOGfx>
+		<TorsoGfx/>
+		<OpeningGfx/>
+		<ClosingGfx/>
+		<EmitterTypes>SmokeTrail</EmitterTypes>
+	</TrailEffectType>
+	<TrailEffectType TrailEffectName="TestExplodeBlue">
+		<TrailEffectID>4</TrailEffectID>
+		<DisplayName>Blue Knock-out</DisplayName>
+		<IconScale>0.16</IconScale>
+		<KOSound>offscreen_explosion</KOSound>
+		<KOGfx>
+			<AnimFile>SFX_1.swf</AnimFile>
+			<AnimClass>a_SmokeTrailEndBlue</AnimClass>
+			<AnimScale>2.1</AnimScale>
+		</KOGfx>
+		<TorsoGfx/>
+		<OpeningGfx/>
+		<ClosingGfx/>
+		<EmitterTypes>SmokeTrail</EmitterTypes>
+	</TrailEffectType>
+	<TrailEffectType TrailEffectName="TestExplodeGold">
+		<TrailEffectID>5</TrailEffectID>
+		<DisplayName>Gold Knock-out</DisplayName>
+		<IconScale>0.16</IconScale>
+		<KOSound>offscreen_explosion</KOSound>
+		<KOGfx>
+			<AnimFile>SFX_1.swf</AnimFile>
+			<AnimClass>a_SmokeTrailEndBlue</AnimClass>
+			<AnimScale>2.1</AnimScale>
+		</KOGfx>
+		<TorsoGfx/>
+		<OpeningGfx/>
+		<ClosingGfx/>
+		<EmitterTypes>SmokeTrail</EmitterTypes>
+	</TrailEffectType>
+	<TrailEffectType TrailEffectName="TestExplodePink">
+		<TrailEffectID>6</TrailEffectID>
+		<DisplayName>Pink Knock-out</DisplayName>
+		<IconScale>0.16</IconScale>
+		<KOSound>offscreen_explosion</KOSound>
+		<KOGfx>
+			<AnimFile>SFX_1.swf</AnimFile>
+			<AnimClass>a_SmokeTrailEndBlue</AnimClass>
+			<AnimScale>2.1</AnimScale>
+		</KOGfx>
+		<TorsoGfx/>
+		<OpeningGfx/>
+		<ClosingGfx/>
+		<EmitterTypes>SmokeTrail</EmitterTypes>
+	</TrailEffectType>
+	<TrailEffectType TrailEffectName="CollectorsSmokeTrail">
+		<TrailEffectID>7</TrailEffectID>
+		<DisplayName>Ragnarök</DisplayName>
+		<IconScale>0.16</IconScale>
+		<KOSound>offscreen_explosion</KOSound>
+		<KOGfx>
+			<AnimFile>SFX_1.swf</AnimFile>
+			<AnimClass>a_SmokeTrailEndCP</AnimClass>
+			<AnimScale>2.1</AnimScale>
+		</KOGfx>
+		<TorsoGfx/>
+		<OpeningGfx/>
+		<ClosingGfx/>
+		<EmitterTypes>SmokeTrail</EmitterTypes>
+	</TrailEffectType>
+</TrailEffectTypes>

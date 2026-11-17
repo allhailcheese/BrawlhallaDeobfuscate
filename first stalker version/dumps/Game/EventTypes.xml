@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<EventTypes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<EventType EventName="Template">
+		<EventID>0</EventID>
+		<DisplayName>Event Display Name</DisplayName>
+		<Scenario>EventName</Scenario>
+	</EventType>
+	<EventType EventName="Honorable Joust">
+		<EventID>1</EventID>
+		<DisplayName>A Noble Joust</DisplayName>
+		<Scenario>F Noble Joust</Scenario>
+	</EventType>
+	<EventType EventName="Brute Strength">
+		<EventID>2</EventID>
+		<DisplayName>Brute Strength</DisplayName>
+		<Scenario>F Brute Strength</Scenario>
+	</EventType>
+	<EventType EventName="BombSurvival">
+		<EventID>3</EventID>
+		<DisplayName>Bomb Survival</DisplayName>
+		<Scenario>BombSurvival</Scenario>
+	</EventType>
+	<EventType EventName="FoolsJoust">
+		<EventID>4</EventID>
+		<DisplayName>A Fool's Joust</DisplayName>
+		<Scenario>1v3Joust</Scenario>
+	</EventType>
+</EventTypes>

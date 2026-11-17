@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<MissionTypes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<MissionType MissionName="--Template--">
+		<MissionID>0</MissionID>
+		<Category>Weekly</Category>
+		<DisplayName>--------------</DisplayName>
+		<RewardGold>0</RewardGold>
+		<RewardXp>0</RewardXp>
+		<AutoStart>FALSE</AutoStart>
+		<CompleteAsBool>FALSE</CompleteAsBool>
+		<SuccessCount>0</SuccessCount>
+		<Event1>--------------</Event1>
+		<Event2>--------------</Event2>
+		<Event3>--------------</Event3>
+		<Event4>--------------</Event4>
+		<Event5>--------------</Event5>
+		<Event6>--------------</Event6>
+	</MissionType>
+	<MissionType MissionName="KnockoutsDailyShort">
+		<MissionID>1</MissionID>
+		<Category>DailyShort</Category>
+		<DisplayName>10 Knockouts</DisplayName>
+		<RewardGold>20</RewardGold>
+		<RewardXp>120</RewardXp>
+		<AutoStart>FALSE</AutoStart>
+		<CompleteAsBool>FALSE</CompleteAsBool>
+		<SuccessCount>10</SuccessCount>
+		<Event1>kill.Player</Event1>
+		<Event2>kill.Bot</Event2>
+	</MissionType>
+	<MissionType MissionName="KnockoutsDailyMedium">
+		<MissionID>2</MissionID>
+		<Category>DailyMedium</Category>
+		<DisplayName>20 Knockouts</DisplayName>
+		<RewardGold>30</RewardGold>
+		<RewardXp>180</RewardXp>
+		<AutoStart>FALSE</AutoStart>
+		<CompleteAsBool>FALSE</CompleteAsBool>
+		<SuccessCount>20</SuccessCount>
+		<Event1>kill.Player</Event1>
+		<Event2>kill.Bot</Event2>
+	</MissionType>
+	<MissionType MissionName="KnockoutsDailyLong">
+		<MissionID>3</MissionID>
+		<Category>DailyLong</Category>
+		<DisplayName>60 Knockouts</DisplayName>
+		<RewardGold>40</RewardGold>
+		<RewardXp>240</RewardXp>
+		<AutoStart>FALSE</AutoStart>
+		<CompleteAsBool>FALSE</CompleteAsBool>
+		<SuccessCount>60</SuccessCount>
+		<Event1>kill.Player</Event1>
+		<Event2>kill.Bot</Event2>
+	</MissionType>
+	<MissionType MissionName="KnockoutsWeekly">
+		<MissionID>4</MissionID>
+		<Category>Weekly</Category>
+		<DisplayName>Weekly Knockouts</DisplayName>
+		<RewardGold>180</RewardGold>
+		<RewardXp>1080</RewardXp>
+		<AutoStart>FALSE</AutoStart>
+		<CompleteAsBool>FALSE</CompleteAsBool>
+		<SuccessCount>60</SuccessCount>
+		<Event1>kill.Player</Event1>
+		<Event2>kill.Bot</Event2>
+	</MissionType>
+	<MissionType MissionName="2ndPlaceShort">
+		<MissionID>5</MissionID>
+		<Category>DailyShort</Category>
+		<DisplayName>Contender</DisplayName>
+		<RewardGold>20</RewardGold>
+		<RewardXp>120</RewardXp>
+		<AutoStart>FALSE</AutoStart>
+		<CompleteAsBool>FALSE</CompleteAsBool>
+		<SuccessCount>1</SuccessCount>
+		<Event1>place.2</Event1>
+		<Event2>place.1</Event2>
+	</MissionType>
+	<MissionType MissionName="TrySwordShort">
+		<MissionID>6</MissionID>
+		<Category>DailyShort</Category>
+		<DisplayName>Sword Practice</DisplayName>
+		<RewardGold>20</RewardGold>
+		<RewardXp>120</RewardXp>
+		<AutoStart>FALSE</AutoStart>
+		<CompleteAsBool>FALSE</CompleteAsBool>
+		<SuccessCount>3</SuccessCount>
+		<Event1>heroPlace.SwordUser.1</Event1>
+		<Event2>heroPlace.SwordUser.2</Event2>
+		<Event3>heroPlace.SwordUser.3</Event3>
+		<Event4>heroPlace.SwordUser.4</Event4>
+	</MissionType>
+	<MissionType MissionName="TryLanceShort">
+		<MissionID>7</MissionID>
+		<Category>DailyShort</Category>
+		<DisplayName>Lance Practice</DisplayName>
+		<RewardGold>20</RewardGold>
+		<RewardXp>120</RewardXp>
+		<AutoStart>FALSE</AutoStart>
+		<CompleteAsBool>FALSE</CompleteAsBool>
+		<SuccessCount>3</SuccessCount>
+		<Event1>heroPlace.LanceUser.1</Event1>
+		<Event2>heroPlace.LanceUser.2</Event2>
+		<Event3>heroPlace.LanceUser.3</Event3>
+		<Event4>heroPlace.LanceUser.4</Event4>
+	</MissionType>
+	<MissionType MissionName="TryHammerShort">
+		<MissionID>8</MissionID>
+		<Category>DailyShort</Category>
+		<DisplayName>Hammer Practice</DisplayName>
+		<RewardGold>20</RewardGold>
+		<RewardXp>120</RewardXp>
+		<AutoStart>FALSE</AutoStart>
+		<CompleteAsBool>FALSE</CompleteAsBool>
+		<SuccessCount>3</SuccessCount>
+		<Event1>heroPlace.HammerUser.1</Event1>
+		<Event2>heroPlace.HammerUser.2</Event2>
+		<Event3>heroPlace.HammerUser.3</Event3>
+		<Event4>heroPlace.HammerUser.4</Event4>
+	</MissionType>
+	<MissionType MissionName="TryPistolShort">
+		<MissionID>9</MissionID>
+		<Category>DailyShort</Category>
+		<DisplayName>Blaster Practice</DisplayName>
+		<RewardGold>20</RewardGold>
+		<RewardXp>120</RewardXp>
+		<AutoStart>FALSE</AutoStart>
+		<CompleteAsBool>FALSE</CompleteAsBool>
+		<SuccessCount>3</SuccessCount>
+		<Event1>heroPlace.PistolUser.1</Event1>
+		<Event2>heroPlace.PistolUser.2</Event2>
+		<Event3>heroPlace.PistolUser.3</Event3>
+		<Event4>heroPlace.PistolUser.4</Event4>
+	</MissionType>
+	<MissionType MissionName="TrySpearShort">
+		<MissionID>10</MissionID>
+		<Category>DailyShort</Category>
+		<DisplayName>Spear Practice</DisplayName>
+		<RewardGold>20</RewardGold>
+		<RewardXp>120</RewardXp>
+		<AutoStart>FALSE</AutoStart>
+		<CompleteAsBool>FALSE</CompleteAsBool>
+		<SuccessCount>3</SuccessCount>
+		<Event1>heroPlace.SpearUser.1</Event1>
+		<Event2>heroPlace.SpearUser.2</Event2>
+		<Event3>heroPlace.SpearUser.3</Event3>
+		<Event4>heroPlace.SpearUser.4</Event4>
+	</MissionType>
+	<MissionType MissionName="TryKatarShort">
+		<MissionID>11</MissionID>
+		<Category>DailyShort</Category>
+		<DisplayName>Katar Practice</DisplayName>
+		<RewardGold>20</RewardGold>
+		<RewardXp>120</RewardXp>
+		<AutoStart>FALSE</AutoStart>
+		<CompleteAsBool>FALSE</CompleteAsBool>
+		<SuccessCount>3</SuccessCount>
+		<Event1>heroPlace.KatarUser.1</Event1>
+		<Event2>heroPlace.KatarUser.2</Event2>
+		<Event3>heroPlace.KatarUser.3</Event3>
+		<Event4>heroPlace.KatarUser.4</Event4>
+	</MissionType>
+	<MissionType MissionName="FirstBloodMedium">
+		<MissionID>12</MissionID>
+		<Category>DailyMedium</Category>
+		<DisplayName>First Blood</DisplayName>
+		<RewardGold>30</RewardGold>
+		<RewardXp>180</RewardXp>
+		<AutoStart>FALSE</AutoStart>
+		<CompleteAsBool>FALSE</CompleteAsBool>
+		<SuccessCount>1</SuccessCount>
+		<Event1>special.FirstBlood</Event1>
+	</MissionType>
+	<MissionType MissionName="MultikillMedium">
+		<MissionID>13</MissionID>
+		<Category>DailyMedium</Category>
+		<DisplayName>Daily DoubleKO</DisplayName>
+		<RewardGold>30</RewardGold>
+		<RewardXp>180</RewardXp>
+		<AutoStart>FALSE</AutoStart>
+		<CompleteAsBool>FALSE</CompleteAsBool>
+		<SuccessCount>1</SuccessCount>
+		<Event1>multiKill.Double</Event1>
+	</MissionType>
+	<MissionType MissionName="WinsMedium">
+		<MissionID>14</MissionID>
+		<Category>DailyMedium</Category>
+		<DisplayName>Victor</DisplayName>
+		<RewardGold>30</RewardGold>
+		<RewardXp>180</RewardXp>
+		<AutoStart>FALSE</AutoStart>
+		<CompleteAsBool>FALSE</CompleteAsBool>
+		<SuccessCount>1</SuccessCount>
+		<Event1>place.1</Event1>
+	</MissionType>
+	<MissionType MissionName="SwordSpree">
+		<MissionID>15</MissionID>
+		<Category>DailyLong</Category>
+		<DisplayName>Sword Spree</DisplayName>
+		<RewardGold>40</RewardGold>
+		<RewardXp>240</RewardXp>
+		<AutoStart>FALSE</AutoStart>
+		<CompleteAsBool>FALSE</CompleteAsBool>
+		<SuccessCount>40</SuccessCount>
+		<Event1>powerKill.Sword</Event1>
+	</MissionType>
+	<MissionType MissionName="LanceSpree">
+		<MissionID>16</MissionID>
+		<Category>DailyLong</Category>
+		<DisplayName>Lance Spree</DisplayName>
+		<RewardGold>40</RewardGold>
+		<RewardXp>240</RewardXp>
+		<AutoStart>FALSE</AutoStart>
+		<CompleteAsBool>FALSE</CompleteAsBool>
+		<SuccessCount>40</SuccessCount>
+		<Event1>powerKill.Lance</Event1>
+	</MissionType>
+	<MissionType MissionName="HammerSpree">
+		<MissionID>17</MissionID>
+		<Category>DailyLong</Category>
+		<DisplayName>Hammer Spree</DisplayName>
+		<RewardGold>40</RewardGold>
+		<RewardXp>240</RewardXp>
+		<AutoStart>FALSE</AutoStart>
+		<CompleteAsBool>FALSE</CompleteAsBool>
+		<SuccessCount>40</SuccessCount>
+		<Event1>powerKill.Hammer</Event1>
+	</MissionType>
+	<MissionType MissionName="PistolSpree">
+		<MissionID>18</MissionID>
+		<Category>DailyLong</Category>
+		<DisplayName>Pistol Spree</DisplayName>
+		<RewardGold>40</RewardGold>
+		<RewardXp>240</RewardXp>
+		<AutoStart>FALSE</AutoStart>
+		<CompleteAsBool>FALSE</CompleteAsBool>
+		<SuccessCount>40</SuccessCount>
+		<Event1>powerKill.Pistol</Event1>
+	</MissionType>
+	<MissionType MissionName="SpearSpree">
+		<MissionID>19</MissionID>
+		<Category>DailyLong</Category>
+		<DisplayName>Spear Spree</DisplayName>
+		<RewardGold>40</RewardGold>
+		<RewardXp>240</RewardXp>
+		<AutoStart>FALSE</AutoStart>
+		<CompleteAsBool>FALSE</CompleteAsBool>
+		<SuccessCount>40</SuccessCount>
+		<Event1>powerKill.Spear</Event1>
+	</MissionType>
+	<MissionType MissionName="KatarSpree">
+		<MissionID>20</MissionID>
+		<Category>DailyLong</Category>
+		<DisplayName>Katar Spree</DisplayName>
+		<RewardGold>40</RewardGold>
+		<RewardXp>240</RewardXp>
+		<AutoStart>FALSE</AutoStart>
+		<CompleteAsBool>FALSE</CompleteAsBool>
+		<SuccessCount>40</SuccessCount>
+		<Event1>powerKill.Katar</Event1>
+	</MissionType>
+	<MissionType MissionName="GadgetSpree">
+		<MissionID>21</MissionID>
+		<Category>Weekly</Category>
+		<DisplayName>Gadgetry</DisplayName>
+		<RewardGold>180</RewardGold>
+		<RewardXp>1080</RewardXp>
+		<AutoStart>FALSE</AutoStart>
+		<CompleteAsBool>FALSE</CompleteAsBool>
+		<SuccessCount>20</SuccessCount>
+		<Event1>powerKill.Gadget</Event1>
+	</MissionType>
+	<MissionType MissionName="UnarmedSpree">
+		<MissionID>22</MissionID>
+		<Category>Weekly</Category>
+		<DisplayName>Fist of Legend</DisplayName>
+		<RewardGold>180</RewardGold>
+		<RewardXp>1080</RewardXp>
+		<AutoStart>FALSE</AutoStart>
+		<CompleteAsBool>FALSE</CompleteAsBool>
+		<SuccessCount>20</SuccessCount>
+		<Event1>powerKill.Unarmed</Event1>
+	</MissionType>
+	<MissionType MissionName="AerialSpree">
+		<MissionID>23</MissionID>
+		<Category>Weekly</Category>
+		<DisplayName>Death from Above</DisplayName>
+		<RewardGold>180</RewardGold>
+		<RewardXp>1080</RewardXp>
+		<AutoStart>FALSE</AutoStart>
+		<CompleteAsBool>FALSE</CompleteAsBool>
+		<SuccessCount>20</SuccessCount>
+		<Event1>powerKill.Aerial</Event1>
+	</MissionType>
+	<MissionType MissionName="SpecialSpree">
+		<MissionID>24</MissionID>
+		<Category>Weekly</Category>
+		<DisplayName>Signature Move</DisplayName>
+		<RewardGold>180</RewardGold>
+		<RewardXp>1080</RewardXp>
+		<AutoStart>FALSE</AutoStart>
+		<CompleteAsBool>FALSE</CompleteAsBool>
+		<SuccessCount>20</SuccessCount>
+		<Event1>powerKill.Special</Event1>
+	</MissionType>
+</MissionTypes>

@@ -1,0 +1,502 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<HeroTypes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<HeroType HeroName="Template">
+		<HeroID>0</HeroID>
+		<HeroDisplayName>---</HeroDisplayName>
+		<BotDisplayName>--</BotDisplayName>
+		<MissionTags>--,--,--</MissionTags>
+		<NameSound>---</NameSound>
+		<OnSelectedSound>---</OnSelectedSound>
+		<CostumeName>---</CostumeName>
+		<TrailEffect>---</TrailEffect>
+		<IsActive>False</IsActive>
+		<CanRandom>False</CanRandom>
+		<Portrait>Roster_Pose_Bodvar</Portrait>
+		<BaseWeapon1>--</BaseWeapon1>
+		<SpecialPower1>--</SpecialPower1>
+		<PowerName1>--</PowerName1>
+		<SpecialPower1_Forward>--</SpecialPower1_Forward>
+		<SpecialPower1_Down>--</SpecialPower1_Down>
+		<BaseWeapon2>--</BaseWeapon2>
+		<SpecialPower2>--</SpecialPower2>
+		<SpecialPower2_Forward>--</SpecialPower2_Forward>
+		<SpecialPower2_Down>--</SpecialPower2_Down>
+		<PowerName2>--</PowerName2>
+		<Strength>5</Strength>
+		<Dexterity>5</Dexterity>
+		<Weight>5</Weight>
+		<Speed>5</Speed>
+		<BioText>---</BioText>
+		<SplashArt>--</SplashArt>
+		<PaperDollWeapon>--</PaperDollWeapon>
+	</HeroType>
+	<HeroType HeroName="DEFAULT_CHARACTER">
+		<HeroID>1</HeroID>
+		<CostumeName>Default</CostumeName>
+		<TrailEffect>SmokeTrailEffect</TrailEffect>
+		<IsActive>False</IsActive>
+		<CanRandom>False</CanRandom>
+		<Portrait>Roster_Pose_Bodvar</Portrait>
+	</HeroType>
+	<HeroType HeroName="Random">
+		<HeroID>2</HeroID>
+		<HeroDisplayName>RANDOM</HeroDisplayName>
+		<BotDisplayName>RANDOBOT</BotDisplayName>
+		<NameSound>Name_Random</NameSound>
+		<OnSelectedSound>[420]Random_CS</OnSelectedSound>
+		<CostumeName>Default</CostumeName>
+		<TrailEffect>SmokeTrailEffect</TrailEffect>
+		<IsActive>True</IsActive>
+		<CanRandom>False</CanRandom>
+		<Portrait>a_Roster_Pose_Random</Portrait>
+	</HeroType>
+	<HeroType HeroName="Viking">
+		<HeroID>3</HeroID>
+		<HeroDisplayName>BÖDVAR</HeroDisplayName>
+		<BotDisplayName>BÖTVAR</BotDisplayName>
+		<MissionTags>HammerUser,SwordUser,Male</MissionTags>
+		<NameSound>Name_Bodvar</NameSound>
+		<OnSelectedSound>[420]Bodvar_CS</OnSelectedSound>
+		<CostumeName>Viking</CostumeName>
+		<TrailEffect>SmokeTrailEffect</TrailEffect>
+		<IsActive>True</IsActive>
+		<CanRandom>True</CanRandom>
+		<Portrait>a_Roster_Pose_Bodvar</Portrait>
+		<BaseWeapon1>Hammer</BaseWeapon1>
+		<SpecialPower1>HammerSmashViking</SpecialPower1>
+		<PowerName1>Blood of the Bear</PowerName1>
+		<BaseWeapon2>Sword</BaseWeapon2>
+		<SpecialPower2>SwordSmashViking</SpecialPower2>
+		<PowerName2>Dragon’s Doom</PowerName2>
+		<Strength>6</Strength>
+		<Dexterity>5</Dexterity>
+		<Weight>5</Weight>
+		<Speed>4</Speed>
+		<BioText>Born of a bear father and a viking mother, Bodvar lived a true hero’s life.  His mighty hammer and flashing sword protected the Norse folk from every terrifying monster and marauder that menaced the fjords. As reigning Champion of Champions in Valhalla, he is the paragon of warrior spirit and has devoted himself to the prestige and glory of the eternal contest.</BioText>
+		<PaperDollWeapon>Sword</PaperDollWeapon>
+	</HeroType>
+	<HeroType HeroName="Cowgirl">
+		<HeroID>4</HeroID>
+		<HeroDisplayName>CASSIDY</HeroDisplayName>
+		<BotDisplayName>CASSIBOT</BotDisplayName>
+		<MissionTags>PistolUser,HammerUser,Female</MissionTags>
+		<NameSound>Name_Cassidy</NameSound>
+		<OnSelectedSound>[378]Cassidy_CS</OnSelectedSound>
+		<CostumeName>Cowgirl</CostumeName>
+		<TrailEffect>SmokeTrailEffect</TrailEffect>
+		<IsActive>True</IsActive>
+		<CanRandom>True</CanRandom>
+		<Portrait>a_Roster_Pose_Cassidy</Portrait>
+		<BaseWeapon1>Pistol</BaseWeapon1>
+		<SpecialPower1>PistolSmashCowgirl</SpecialPower1>
+		<PowerName1>High Noon</PowerName1>
+		<BaseWeapon2>Hammer</BaseWeapon2>
+		<SpecialPower2>HammerSmashCowgirl</SpecialPower2>
+		<PowerName2>Dust Devil</PowerName2>
+		<Strength>5</Strength>
+		<Dexterity>8</Dexterity>
+		<Weight>3</Weight>
+		<Speed>4</Speed>
+		<BioText>No U.S. Marshal ever caught more crooks and killers than Cassidy Miller. Sure shooting, heavy hitting Cassidy single-handedly brought the hammer of justice down on some of the most dangerous desperadoes in the Old West. For her, Valhalla is a chance to improve her skills - to get faster, more accurate, and harder to hit. Even in the afterlife, she’s always on the lookout for suspicious types and thinks trouble is brewing.</BioText>
+		<PaperDollWeapon>Pistol</PaperDollWeapon>
+	</HeroType>
+	<HeroType HeroName="Valkyrie">
+		<HeroID>5</HeroID>
+		<HeroDisplayName>ORION</HeroDisplayName>
+		<BotDisplayName>ORBOT</BotDisplayName>
+		<MissionTags>LanceUser,SpearUser,Male</MissionTags>
+		<NameSound>Name_Orion</NameSound>
+		<OnSelectedSound>[546]Volst_CS</OnSelectedSound>
+		<CostumeName>Valkyrie</CostumeName>
+		<TrailEffect>SmokeTrailEffect</TrailEffect>
+		<IsActive>True</IsActive>
+		<CanRandom>True</CanRandom>
+		<Portrait>a_Roster_Pose_Volst</Portrait>
+		<BaseWeapon1>RocketLance</BaseWeapon1>
+		<SpecialPower1>LanceSmashSpaceKnight</SpecialPower1>
+		<PowerName1>Blaze of Honor</PowerName1>
+		<BaseWeapon2>Spear</BaseWeapon2>
+		<SpecialPower2>SpearSmashSpaceKnight</SpecialPower2>
+		<PowerName2>Shining Jet Slash</PowerName2>
+		<Strength>4</Strength>
+		<Dexterity>5</Dexterity>
+		<Weight>6</Weight>
+		<Speed>5</Speed>
+		<BioText>Knight Prime of the 13th Armored Space Fleet, Orion and his fellow Knights Stellar piloted their Griffin Class Warbots to victory against the Oort Empire Invasion. He led his team in the vicious hand to hand warfare during the Battle of Luna and went on to single-handedly smash the Oort Lichking’s transdimensional throne. In Valhalla he’s thrilled to be able to show off his knightly prowess without the fate of the world on his shoulders.</BioText>
+	</HeroType>
+	<HeroType HeroName="Alien">
+		<HeroID>6</HeroID>
+		<HeroDisplayName>LORD VRAXX</HeroDisplayName>
+		<BotDisplayName>ROBRAXX</BotDisplayName>
+		<MissionTags>LanceUser,PistolUser,Male</MissionTags>
+		<NameSound>Name_Vraxx</NameSound>
+		<OnSelectedSound>[462]Vraxx_CS</OnSelectedSound>
+		<CostumeName>Alien</CostumeName>
+		<TrailEffect>SmokeTrailEffect</TrailEffect>
+		<IsActive>True</IsActive>
+		<CanRandom>True</CanRandom>
+		<Portrait>a_Roster_Pose_Vraxx</Portrait>
+		<BaseWeapon1>RocketLance</BaseWeapon1>
+		<SpecialPower1>LanceSmashAlien</SpecialPower1>
+		<PowerName1>Selenite Sling</PowerName1>
+		<BaseWeapon2>Pistol</BaseWeapon2>
+		<SpecialPower2>PistolSmashAlien</SpecialPower2>
+		<PowerName2>Raygun Rampage</PowerName2>
+		<Strength>4</Strength>
+		<Dexterity>7</Dexterity>
+		<Weight>3</Weight>
+		<Speed>6</Speed>
+		<BioText>For centuries the Selenites, led by Lord Vraxx, waged war against the Martians. In 1938 he finally chased them to Earth, defeating the Martian tripods at last, but Lord Vraxx fell in the Battle of Grover’s Mill. Waking up in a human heaven didn’t slow the Alien Overlord down for more than a moment. He’s as determined to conquer the Tournament as he was the solar system, and may have his one eye on Odin’s throne as well.</BioText>
+	</HeroType>
+	<HeroType HeroName="Caveman">
+		<HeroID>7</HeroID>
+		<HeroDisplayName>GNASH</HeroDisplayName>
+		<BotDisplayName>GNASHOMATON</BotDisplayName>
+		<MissionTags>HammerUser,SpearUser,Male</MissionTags>
+		<NameSound>Name_Gnash</NameSound>
+		<OnSelectedSound>[336]Thrulk_CS</OnSelectedSound>
+		<CostumeName>Caveman</CostumeName>
+		<TrailEffect>SmokeTrailEffect</TrailEffect>
+		<IsActive>True</IsActive>
+		<CanRandom>True</CanRandom>
+		<Portrait>a_Roster_Pose_Thrulk</Portrait>
+		<BaseWeapon1>Hammer</BaseWeapon1>
+		<SpecialPower1>HammerSmashCaveman</SpecialPower1>
+		<PowerName1>Heavy Rock Slam!</PowerName1>
+		<BaseWeapon2>Spear</BaseWeapon2>
+		<SpecialPower2>SpearSmashCaveman</SpecialPower2>
+		<PowerName2>Sharp Stick Slam!</PowerName2>
+		<Strength>6</Strength>
+		<Dexterity>3</Dexterity>
+		<Weight>5</Weight>
+		<Speed>6</Speed>
+		<BioText>Chieftain of the prehistoric Mammoth Clan, Gnash’s prowess as hunter and tracker knew no equal in his time or in any era since. He could track a tiger’s trail during a thunderstorm, and lay low the beast with a single punch if needed. No one has been in Valhalla longer, and some say he was hunting these heavenly forests before Odin company arrived. He talks little about the tournament (or anything else), but his winning record speaks louder than any grunted words ever could.</BioText>
+	</HeroType>
+	<HeroType HeroName="Witch">
+		<HeroID>8</HeroID>
+		<HeroDisplayName>QUEEN NAI</HeroDisplayName>
+		<BotDisplayName>NAIBORG</BotDisplayName>
+		<MissionTags>SpearUser,KatarUser,Female</MissionTags>
+		<NameSound>Name_QueenNai</NameSound>
+		<OnSelectedSound>[420]QueenNai_CS</OnSelectedSound>
+		<CostumeName>Witch</CostumeName>
+		<TrailEffect>SmokeTrailEffect</TrailEffect>
+		<IsActive>True</IsActive>
+		<CanRandom>True</CanRandom>
+		<Portrait>a_Roster_Pose_Witch</Portrait>
+		<BaseWeapon1>Spear</BaseWeapon1>
+		<SpecialPower1>SpearSmashWitch</SpecialPower1>
+		<PowerName1>Jaws of the Coatl</PowerName1>
+		<BaseWeapon2>Katar</BaseWeapon2>
+		<SpecialPower2>KatarSmashWitch</SpecialPower2>
+		<PowerName2>Wings of the Serpent</PowerName2>
+		<Strength>7</Strength>
+		<Dexterity>3</Dexterity>
+		<Weight>7</Weight>
+		<Speed>3</Speed>
+		<BioText>An ancient Mayan Sorceress, Queen Nai’s mastery of magic and warfare built and empire for her and her people. In life she commanded spirits and brought dire curses on her foes. Those powers have not abandoned her in the afterlife of Valhalla. This strange world of foreign gods vexes her. She relished every opportunity to vent her frustrations in the arena, where her spells make her one of the most formidable competitors.</BioText>
+		<PaperDollWeapon>Spear</PaperDollWeapon>
+	</HeroType>
+	<HeroType HeroName="Ninja">
+		<HeroID>10</HeroID>
+		<HeroDisplayName>HATTORI</HeroDisplayName>
+		<BotDisplayName>BOTTORI</BotDisplayName>
+		<MissionTags>SwordUser,SpearUser,Female</MissionTags>
+		<NameSound>Name_Hattori</NameSound>
+		<OnSelectedSound>[550]Hattori_CS</OnSelectedSound>
+		<CostumeName>Ninja</CostumeName>
+		<TrailEffect>SmokeTrailEffect</TrailEffect>
+		<IsActive>True</IsActive>
+		<CanRandom>True</CanRandom>
+		<Portrait>a_Roster_Pose_Hattori</Portrait>
+		<BaseWeapon1>Sword</BaseWeapon1>
+		<SpecialPower1>SwordSmashNinja</SpecialPower1>
+		<PowerName1>Vengeance is Mine</PowerName1>
+		<BaseWeapon2>Spear</BaseWeapon2>
+		<SpecialPower2>SpearSmashNinja</SpecialPower2>
+		<PowerName2>Deadly Distraction</PowerName2>
+		<Strength>3</Strength>
+		<Dexterity>6</Dexterity>
+		<Weight>3</Weight>
+		<Speed>8</Speed>
+		<BioText>The deadliest blade to ever emerge from the Iga Ninja Clan, Hattori speaks only in cryptic poetry, uttered in demonic whispers. She became an unstoppable force for vengeance when she made a pact with a demon in order to learn the identities of those samurai lords who had betrayed her clan. Within the tournament of Valhalla she is a swift and terrifying presence, hell-bent on victory at all costs. At night she has been known to slip out beyond the walls and into the dangerous world of giants and monsters, but she always returns, and is always ready for another challenge.</BioText>
+		<PaperDollWeapon>Sword</PaperDollWeapon>
+	</HeroType>
+	<HeroType HeroName="Knight">
+		<HeroID>11</HeroID>
+		<HeroDisplayName>SIR ROLAND</HeroDisplayName>
+		<BotDisplayName>SIR ROLBOT</BotDisplayName>
+		<MissionTags>LanceUser,SwordUser,Male</MissionTags>
+		<NameSound>Name_SirRoland</NameSound>
+		<OnSelectedSound>[252]Hotspur_CS</OnSelectedSound>
+		<CostumeName>Knight</CostumeName>
+		<TrailEffect>SmokeTrailEffect</TrailEffect>
+		<IsActive>True</IsActive>
+		<CanRandom>True</CanRandom>
+		<Portrait>a_Roster_Pose_Hotspur</Portrait>
+		<BaseWeapon1>RocketLance</BaseWeapon1>
+		<SpecialPower1>LanceSmashKnight</SpecialPower1>
+		<PowerName1>By the Sword</PowerName1>
+		<BaseWeapon2>Sword</BaseWeapon2>
+		<SpecialPower2>SwordSmashKnight</SpecialPower2>
+		<PowerName2>Chivalric Charge</PowerName2>
+		<Strength>5</Strength>
+		<Dexterity>4</Dexterity>
+		<Weight>8</Weight>
+		<Speed>3</Speed>
+		<BioText>Since the Norman Conquest, no knight has won more tournaments than Sir Roland Lansley, nor has any knight broken more hearts. Born to minor nobility on the verge of poverty, he fought his way to fame in jousts and battle royales across England. When war came, he proved even more formidable in the field of battle, becoming The King’s Favorite. No one in Valhalla feels a greater thirst for victory in the tournament than Sir Roland. He rejoices with every win and rages at every loss.</BioText>
+		<PaperDollWeapon>Sword</PaperDollWeapon>
+	</HeroType>
+	<HeroType HeroName="Steampunk">
+		<HeroID>12</HeroID>
+		<HeroDisplayName>SCARLET</HeroDisplayName>
+		<BotDisplayName>SCARBOT</BotDisplayName>
+		<MissionTags>HammerUser,LanceUser,Female</MissionTags>
+		<NameSound>Name_Scarlet</NameSound>
+		<OnSelectedSound>Evelyn_CS</OnSelectedSound>
+		<CostumeName>Steampunk</CostumeName>
+		<TrailEffect>SmokeTrailEffect</TrailEffect>
+		<IsActive>True</IsActive>
+		<CanRandom>True</CanRandom>
+		<Portrait>a_Roster_Pose_Evelyn</Portrait>
+		<BaseWeapon1>Hammer</BaseWeapon1>
+		<SpecialPower1>HammerSmashSteampunk</SpecialPower1>
+		<PowerName1>Centrifugal Force</PowerName1>
+		<BaseWeapon2>RocketLance</BaseWeapon2>
+		<SpecialPower2>LanceSmashSteampunk</SpecialPower2>
+		<PowerName2>Boiling Point</PowerName2>
+		<Strength>8</Strength>
+		<Dexterity>4</Dexterity>
+		<Weight>4</Weight>
+		<Speed>4</Speed>
+		<BioText>Famed inventor and foe to evil masterminds the world over, Scarlet and her steam-powered contraptions saved the world on multiple occasions. From her apprenticeship aboard the Nautilus to her command of the Royal Airship Fleet, Scarlet blasted a path through the Victorian age, leaving fallen madmen and defeated Atlantean armies in her wake. Since arriving in Valhalla, she’s been obsessed with the wondrous technology of the gods, and loves introducing experimental new weapons and gadgets into the tournament.</BioText>
+	</HeroType>
+	<HeroType HeroName="Thatch">
+		<HeroID>13</HeroID>
+		<HeroDisplayName>THATCH</HeroDisplayName>
+		<BotDisplayName>THATCHOMATON</BotDisplayName>
+		<MissionTags>SwordUser,PistolUser,Male</MissionTags>
+		<NameSound>Name_Thatch</NameSound>
+		<OnSelectedSound>[420]Thatch_CS</OnSelectedSound>
+		<CostumeName>Thatch</CostumeName>
+		<TrailEffect>SmokeTrailEffect</TrailEffect>
+		<IsActive>True</IsActive>
+		<CanRandom>True</CanRandom>
+		<Portrait>a_Roster_Pose_Thatch</Portrait>
+		<BaseWeapon1>Sword</BaseWeapon1>
+		<SpecialPower1>SwordSmashPirate</SpecialPower1>
+		<PowerName1>Clear the Decks</PowerName1>
+		<BaseWeapon2>Pistol</BaseWeapon2>
+		<SpecialPower2>PistolSmashPirate</SpecialPower2>
+		<PowerName2>Broadside</PowerName2>
+		<Strength>7</Strength>
+		<Dexterity>4</Dexterity>
+		<Weight>3</Weight>
+		<Speed>6</Speed>
+		<BioText>No pirate ever took more prizes or made more mayhem on the high seas than Captain Thatch.  His love of black powder and obsession with setting the world aflame combined to sink hundreds of ships, sack dozens of ports, and prematurely erupt at least two volcanoes. For Thatch, the Tournament of Valhalla is a paradise of constant chaos and explosions. He constantly pushes that chaos out of the arena, from pranks to outright traps for his fellow Legends.</BioText>
+	</HeroType>
+	<HeroType HeroName="Cyber">
+		<HeroID>14</HeroID>
+		<HeroDisplayName>ADA</HeroDisplayName>
+		<BotDisplayName>ADROID</BotDisplayName>
+		<MissionTags>PistolUser,SpearUser,Female</MissionTags>
+		<NameSound>Name_Ada</NameSound>
+		<OnSelectedSound>[450]UA_H_Up</OnSelectedSound>
+		<CostumeName>Cyber</CostumeName>
+		<TrailEffect>SmokeTrailEffect</TrailEffect>
+		<IsActive>True</IsActive>
+		<CanRandom>True</CanRandom>
+		<Portrait>a_Roster_Pose_Ada</Portrait>
+		<BaseWeapon1>Pistol</BaseWeapon1>
+		<SpecialPower1>PistolSmashPunk</SpecialPower1>
+		<PowerName1>Parting Shots</PowerName1>
+		<BaseWeapon2>Spear</BaseWeapon2>
+		<SpecialPower2>SpearSmashPunk</SpecialPower2>
+		<PowerName2>Bot Buster</PowerName2>
+		<Strength>6</Strength>
+		<Dexterity>6</Dexterity>
+		<Weight>3</Weight>
+		<Speed>5</Speed>
+		<BioText>Ada hacked her way free from the sub-slums beneath the Midwest Mega Arcology, smashing an army of D-Corp Security Drones on her way out. In the undersea free state of Miami Dome, she founded the Right Wrong Cavaliers, whose mindworm musical assaults provided cover for her masterful guerilla campaign against GogNet and the Upload Enslavement Initiative. She’s pretty sure Valhalla is all some sort of computer sim, but until she can find a way out, she’s playing to win.</BioText>
+		<PaperDollWeapon>Pistol</PaperDollWeapon>
+	</HeroType>
+	<HeroType HeroName="Super">
+		<HeroID>15</HeroID>
+		<HeroDisplayName>SENTINEL</HeroDisplayName>
+		<BotDisplayName>BOTINEL</BotDisplayName>
+		<MissionTags>HammerUser,KatarUser,Male</MissionTags>
+		<NameSound>Name_Sentinel</NameSound>
+		<OnSelectedSound>[420]Random_CS</OnSelectedSound>
+		<CostumeName>Super</CostumeName>
+		<TrailEffect>SmokeTrailEffect</TrailEffect>
+		<IsActive>True</IsActive>
+		<CanRandom>True</CanRandom>
+		<Portrait>a_Roster_Pose_Super</Portrait>
+		<BaseWeapon1>Hammer</BaseWeapon1>
+		<SpecialPower1>HammerSmashSuper</SpecialPower1>
+		<PowerName1>Arc of Justice</PowerName1>
+		<BaseWeapon2>Katar</BaseWeapon2>
+		<SpecialPower2>KatarSmashSuper</SpecialPower2>
+		<PowerName2>System Overload</PowerName2>
+		<Strength>5</Strength>
+		<Dexterity>3</Dexterity>
+		<Weight>7</Weight>
+		<Speed>5</Speed>
+		<BioText>Henry Coates, AKA Sentinel, was a born and raised New Yorker who gave up a normal life to become the country’s first costumed crime fighter. Using just his homemade electro-weapons and his wits, he exposed a conspiracy of corruption and launched a war against the criminal secret society known as KABAL. Videos of his heroism online made him world-famous, and his final confrontation with the sinister Master Zed inspired millions to fight for justice. For him, Valhalla is a blessed relief, a place to indulge his hard-won talents without worry and compete with other great fighters.</BioText>
+		<PaperDollWeapon>Katar</PaperDollWeapon>
+	</HeroType>
+	<HeroType HeroName="Highwayman">
+		<HeroID>9</HeroID>
+		<HeroDisplayName>LUCIEN</HeroDisplayName>
+		<BotDisplayName>BOTIEN</BotDisplayName>
+		<MissionTags>KatarUser,PistolUser,Male</MissionTags>
+		<NameSound>Name_Lucien</NameSound>
+		<OnSelectedSound>[378]Lucien_CS</OnSelectedSound>
+		<CostumeName>Highwayman</CostumeName>
+		<TrailEffect>SmokeTrailEffect</TrailEffect>
+		<IsActive>True</IsActive>
+		<CanRandom>True</CanRandom>
+		<Portrait>a_Roster_Pose_Lucien</Portrait>
+		<BaseWeapon1>Katar</BaseWeapon1>
+		<SpecialPower1>KatarSmashHighwayman</SpecialPower1>
+		<PowerName1>Reverse Guillotine</PowerName1>
+		<BaseWeapon2>Pistol</BaseWeapon2>
+		<SpecialPower2>PistolSmashHighwayman</SpecialPower2>
+		<PowerName2>Coup de Grâce</PowerName2>
+		<Strength>3</Strength>
+		<Dexterity>5</Dexterity>
+		<Weight>5</Weight>
+		<Speed>7</Speed>
+		<BioText>Master spy and deadly duelist Lucien Davout stalked the shadows of the French Revolution as an agent of The Terror. A Gascon Bandit, he took full advantage of the chaos of revolution to rise to riches over the bodies of fallen nobles and rivals. He played the double-agent during the Napoleonic Wars, dueling to the death any who dared accuse him of treachery. In the end it took an army of angry Russians to end him. In Valhalla he continues to scheme, and knows the tournament is the surest way to win influence here. He’ll resort to any means necessary to win.</BioText>
+		<PaperDollWeapon>Pistol</PaperDollWeapon>
+	</HeroType>
+	<HeroType HeroName="Cyber_6b">
+		<HeroID>19</HeroID>
+		<HeroDisplayName>S-ADA</HeroDisplayName>
+		<BotDisplayName>ADROID</BotDisplayName>
+		<MissionTags>PistolUser,SpearUser,Female</MissionTags>
+		<NameSound>Name_Ada</NameSound>
+		<OnSelectedSound>[450]UA_H_Up</OnSelectedSound>
+		<CostumeName>Cyber</CostumeName>
+		<TrailEffect>SmokeTrailEffect</TrailEffect>
+		<IsActive>False</IsActive>
+		<CanRandom>False</CanRandom>
+		<Portrait>a_Roster_Pose_Ada</Portrait>
+		<BaseWeapon1>Pistol</BaseWeapon1>
+		<SpecialPower1>PistolSmashDownPunk</SpecialPower1>
+		<PowerName1>Parting Shots</PowerName1>
+		<SpecialPower1_Forward>PistolSmashSidePunk</SpecialPower1_Forward>
+		<SpecialPower1_Down>PistolSmashPunk</SpecialPower1_Down>
+		<BaseWeapon2>Pistol</BaseWeapon2>
+		<SpecialPower2>PistolSmashDownPunk</SpecialPower2>
+		<SpecialPower2_Forward>PistolSmashSidePunk</SpecialPower2_Forward>
+		<SpecialPower2_Down>PistolSmashPunk</SpecialPower2_Down>
+		<PowerName2>Bot Buster</PowerName2>
+		<Strength>6</Strength>
+		<Dexterity>6</Dexterity>
+		<Weight>3</Weight>
+		<Speed>5</Speed>
+		<BioText>Ada hacked her way free from the sub-slums beneath the Midwest Mega Arcology, smashing an army of D-Corp Security Drones on her way out. In the undersea free state of Miami Dome, she founded the Right Wrong Cavaliers, whose mindworm musical assaults provided cover for her masterful guerilla campaign against GogNet and the Upload Enslavement Initiative. She’s pretty sure Valhalla is all some sort of computer sim, but until she can find a way out, she’s playing to win.</BioText>
+		<PaperDollWeapon>Pistol</PaperDollWeapon>
+	</HeroType>
+	<HeroType HeroName="Cowgirl_6b">
+		<HeroID>20</HeroID>
+		<HeroDisplayName>S-CASSIDY</HeroDisplayName>
+		<BotDisplayName>CASSIBOT</BotDisplayName>
+		<MissionTags>PistolUser,HammerUser,Female</MissionTags>
+		<NameSound>Name_Cassidy</NameSound>
+		<OnSelectedSound>[378]Cassidy_CS</OnSelectedSound>
+		<CostumeName>Cowgirl</CostumeName>
+		<TrailEffect>SmokeTrailEffect</TrailEffect>
+		<IsActive>False</IsActive>
+		<CanRandom>False</CanRandom>
+		<Portrait>a_Roster_Pose_Cassidy</Portrait>
+		<BaseWeapon1>Pistol</BaseWeapon1>
+		<SpecialPower1>PistolSmashNeutralCowgirl</SpecialPower1>
+		<PowerName1>High Noon</PowerName1>
+		<SpecialPower1_Forward>PistolSmashSideCowgirl</SpecialPower1_Forward>
+		<SpecialPower1_Down>PistolSmashDownCowgirl</SpecialPower1_Down>
+		<BaseWeapon2>Pistol</BaseWeapon2>
+		<SpecialPower2>PistolSmashNeutralCowgirl</SpecialPower2>
+		<SpecialPower2_Forward>PistolSmashSideCowgirl</SpecialPower2_Forward>
+		<SpecialPower2_Down>PistolSmashDownCowgirl</SpecialPower2_Down>
+		<PowerName2>Dust Devil</PowerName2>
+		<Strength>5</Strength>
+		<Dexterity>8</Dexterity>
+		<Weight>3</Weight>
+		<Speed>4</Speed>
+		<BioText>No U.S. Marshal ever caught more crooks and killers than Cassidy Miller. Sure shooting, heavy hitting Cassidy single-handedly brought the hammer of justice down on some of the most dangerous desperadoes in the Old West. For her, Valhalla is a chance to improve her skills - to get faster, more accurate, and harder to hit. Even in the afterlife, she’s always on the lookout for suspicious types and thinks trouble is brewing.</BioText>
+		<PaperDollWeapon>Pistol</PaperDollWeapon>
+	</HeroType>
+	<HeroType HeroName="AxeTest">
+		<HeroID>16</HeroID>
+		<HeroDisplayName>AXE TEST</HeroDisplayName>
+		<BotDisplayName>AXE TEST</BotDisplayName>
+		<NameSound>Name_Random</NameSound>
+		<OnSelectedSound>[420]Random_CS</OnSelectedSound>
+		<CostumeName>AxeTest</CostumeName>
+		<TrailEffect>SmokeTrailEffect</TrailEffect>
+		<IsActive>False</IsActive>
+		<CanRandom>False</CanRandom>
+		<Portrait>a_Roster_Pose_Bodvar</Portrait>
+		<BaseWeapon1>Axe</BaseWeapon1>
+		<SpecialPower1>HammerSmashHighwayman</SpecialPower1>
+		<PowerName1>Blood of the Bear</PowerName1>
+		<BaseWeapon2>Axe</BaseWeapon2>
+		<SpecialPower2>HammerSmashHighwayman</SpecialPower2>
+		<PowerName2>Blood of the Bear</PowerName2>
+		<Strength>5</Strength>
+		<Dexterity>5</Dexterity>
+		<Weight>5</Weight>
+		<Speed>5</Speed>
+		<BioText>Lucien bio</BioText>
+	</HeroType>
+	<HeroType HeroName="Stalker">
+		<HeroID>17</HeroID>
+		<HeroDisplayName>STALKER</HeroDisplayName>
+		<BotDisplayName>ST-4LK-3R</BotDisplayName>
+		<MissionTags>LanceUser,KatarUser,Female</MissionTags>
+		<NameSound>Name_Random</NameSound>
+		<OnSelectedSound>[420]Random_CS</OnSelectedSound>
+		<CostumeName>Stalker</CostumeName>
+		<TrailEffect>SmokeTrailEffect</TrailEffect>
+		<IsActive>False</IsActive>
+		<CanRandom>False</CanRandom>
+		<Portrait>a_Roster_Pose_Stalker</Portrait>
+		<BaseWeapon1>Katar</BaseWeapon1>
+		<SpecialPower1>KatarSmashStalker</SpecialPower1>
+		<PowerName1>Arc of Justice</PowerName1>
+		<BaseWeapon2>RocketLance</BaseWeapon2>
+		<SpecialPower2>LanceSmashStalker4</SpecialPower2>
+		<PowerName2>System Overload</PowerName2>
+		<Strength>5</Strength>
+		<Dexterity>5</Dexterity>
+		<Weight>5</Weight>
+		<Speed>5</Speed>
+		<BioText>Stalker bio</BioText>
+		<PaperDollWeapon>Katar</PaperDollWeapon>
+	</HeroType>
+	<HeroType HeroName="BowTest">
+		<HeroID>18</HeroID>
+		<HeroDisplayName>BOW TEST</HeroDisplayName>
+		<BotDisplayName>BOW TEST</BotDisplayName>
+		<NameSound>Name_Random</NameSound>
+		<OnSelectedSound>[420]Random_CS</OnSelectedSound>
+		<CostumeName>BowTest</CostumeName>
+		<TrailEffect>SmokeTrailEffect</TrailEffect>
+		<IsActive>False</IsActive>
+		<CanRandom>False</CanRandom>
+		<Portrait>a_Roster_Pose_Lucien</Portrait>
+		<BaseWeapon1>Bow</BaseWeapon1>
+		<SpecialPower1>BowSmashDown2</SpecialPower1>
+		<PowerName1>Reverse Guillotine</PowerName1>
+		<BaseWeapon2>Bow</BaseWeapon2>
+		<SpecialPower2>BowSmashDown2</SpecialPower2>
+		<PowerName2>Coup de Grâce</PowerName2>
+		<Strength>5</Strength>
+		<Dexterity>5</Dexterity>
+		<Weight>5</Weight>
+		<Speed>5</Speed>
+		<BioText>Lucien bio</BioText>
+	</HeroType>
+</HeroTypes>

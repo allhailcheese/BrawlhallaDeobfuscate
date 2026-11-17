@@ -208,18 +208,23 @@ package
             {
                 _loc4_ = _loc2_++;
                 _loc5_ = §_-M4U§[_loc4_];
+                // bIgnoreHit
                 if(!_loc5_.§_-E10§)
                 {
-                    _loc6_ = §_-y4S§.§_-D2F§.get(int(_loc5_.§_-a2B§));
-                    _loc7_ = §_-y4S§.§_-D2F§.get(int(_loc5_.§_-qQ§));
+                    _loc6_ = §_-y4S§.§_-D2F§.get(int(_loc5_.§_-a2B§));//target
+                    _loc7_ = §_-y4S§.§_-D2F§.get(int(_loc5_.§_-qQ§));//user
+                    // no target, no user, or no power used
                     if(_loc6_ == null || _loc7_ == null || _loc5_.§_-J4a§ == null)
                     {
+                        // ignore hit
                         _loc5_.§_-E10§ = true;
                     }
+                    // not idle or being grabbed
                     else if(_loc6_.§_-M44§ != 0 && _loc6_.§_-M44§ != 6)
                     {
                         _loc5_.§_-E10§ = true;
                     }
+                    // not hitting yourself
                     else if(_loc6_ != _loc7_)
                     {
                         _loc8_ = §_-y4S§;
@@ -228,8 +233,10 @@ package
                         {
                             §_-y4S§.§_-i3J§.§_-u10§.§_-t5L§(param1,_loc7_.§_-h1Z§,_loc5_);
                         }
+                        // not spawn bot / throw
                         if(!§_-O3Y§(_loc5_.§_-J4a§))
                         {
+                            // go over all other combat hits
                             _loc10_ = 0;
                             _loc11_ = int(§_-M4U§.length);
                             while(_loc10_ < _loc11_)
@@ -240,16 +247,21 @@ package
                                     _loc13_ = §_-M4U§[_loc12_];
                                     if(!_loc13_.§_-E10§)
                                     {
+                                        // no power
                                         if(_loc13_.§_-J4a§ == null)
                                         {
                                             _loc13_.§_-E10§ = true;
                                         }
+                                        //not throw / spawn bot
                                         else if(!§_-O3Y§(_loc13_.§_-J4a§))
                                         {
-                                            _loc14_ = §_-y4S§.§_-D2F§.get(int(_loc13_.§_-a2B§));
-                                            _loc15_ = §_-y4S§.§_-D2F§.get(int(_loc13_.§_-qQ§));
+                                            _loc14_ = §_-y4S§.§_-D2F§.get(int(_loc13_.§_-a2B§));//target2
+                                            _loc15_ = §_-y4S§.§_-D2F§.get(int(_loc13_.§_-qQ§));//user2
+                                            //same person got hit in both cases. one of these is a grab.
                                             _loc16_ = _loc13_.§_-a2B§ == _loc5_.§_-a2B§ && (_loc13_.§_-J4a§.§_-z1X§ || _loc5_.§_-J4a§.§_-z1X§);
+                                            //               same person got hit                and the same hitter
                                             _loc17_ = _loc13_.§_-a2B§ == _loc5_.§_-a2B§ && _loc13_.§_-qQ§ == _loc5_.§_-qQ§;
+                                            //the same person hit two people. both grabs.
                                             _loc18_ = _loc7_ == _loc15_ && _loc5_.§_-J4a§.§_-z1X§ && _loc13_.§_-J4a§.§_-z1X§;
                                             if(_loc16_)
                                             {

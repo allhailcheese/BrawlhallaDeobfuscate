@@ -1,0 +1,576 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<LanguageTypes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<LanguageType WordName="Template">
+		<DevNote>---</DevNote>
+		<English>---</English>
+		<French>---</French>
+		<Italian>---</Italian>
+		<German>---</German>
+		<Spanish>---</Spanish>
+		<Turkish>---</Turkish>
+		<Polish>---</Polish>
+		<Portuguese>---</Portuguese>
+		<Gibberish>---</Gibberish>
+	</LanguageType>
+	<LanguageType>
+		<DevNote>---Login Screen---</DevNote>
+	</LanguageType>
+	<LanguageType WordName="EMAIL ADDRESS">
+		<English>EMAIL ADDRESS</English>
+		<Gibberish>¿EMAIL ADDRESS?</Gibberish>
+	</LanguageType>
+	<LanguageType WordName="PASSWORD">
+		<English>PASSWORD</English>
+		<Gibberish>¿PASSWORD?</Gibberish>
+	</LanguageType>
+	<LanguageType WordName="LOGIN">
+		<English>LOGIN</English>
+		<Gibberish>¿LOGIN?</Gibberish>
+	</LanguageType>
+	<LanguageType WordName="REMEMBER PASSWORD">
+		<English>REMEMBER PASSWORD</English>
+		<Gibberish>¿REMEMBER PASSWORD?</Gibberish>
+	</LanguageType>
+	<LanguageType WordName="CREATE ACCOUNT">
+		<English>CREATE ACCOUNT</English>
+		<Gibberish>¿CREATE ACCOUNT?</Gibberish>
+	</LanguageType>
+	<LanguageType WordName="CREATE CHARACTER">
+		<English>CREATE CHARACTER</English>
+		<Gibberish>¿CREATE CHARACTER?</Gibberish>
+	</LanguageType>
+	<LanguageType WordName="CHARACTER NAME">
+		<English>CHARACTER NAME</English>
+		<Gibberish>¿CHARACTER NAME?</Gibberish>
+	</LanguageType>
+	<LanguageType WordName="I am 13 years or older">
+		<English>I am 13 years or older</English>
+		<Gibberish>¿I am 13 years or older?</Gibberish>
+	</LanguageType>
+	<LanguageType WordName="PASSWORD IS INCORRECT">
+		<English>PASSWORD IS INCORRECT</English>
+		<Gibberish>¿PASSWORD IS INCORRECT?</Gibberish>
+	</LanguageType>
+	<LanguageType WordName="CLOSE">
+		<English>CLOSE</English>
+		<Gibberish>¿CLOSE?</Gibberish>
+	</LanguageType>
+	<LanguageType>
+		<DevNote>---Main Menu---</DevNote>
+	</LanguageType>
+	<LanguageType WordName="ARCADE">
+		<English>ARCADE</English>
+		<Gibberish>¿ARCADE?</Gibberish>
+	</LanguageType>
+	<LanguageType WordName="LOCAL MATCH">
+		<English>LOCAL MATCH</English>
+		<Gibberish>¿LOCAL MATCH?</Gibberish>
+	</LanguageType>
+	<LanguageType WordName="ONLINE">
+		<English>ONLINE</English>
+		<Gibberish>¿ONLINE?</Gibberish>
+	</LanguageType>
+	<LanguageType WordName="CUSTOM ONLINE">
+		<English>CUSTOM ONLINE</English>
+		<Gibberish>¿CUSTOM ONLINE?</Gibberish>
+	</LanguageType>
+	<LanguageType WordName="TRAINING">
+		<English>TRAINING</English>
+		<Gibberish>¿TRAINING?</Gibberish>
+	</LanguageType>
+	<LanguageType WordName="LEGENDS">
+		<English>LEGENDS</English>
+		<Gibberish>¿LEGENDS?</Gibberish>
+	</LanguageType>
+	<LanguageType WordName="ITEMS">
+		<English>ITEMS</English>
+		<Gibberish>¿ITEMS?</Gibberish>
+	</LanguageType>
+	<LanguageType WordName="MISSIONS">
+		<English>MISSIONS</English>
+		<Gibberish>¿MISSIONS?</Gibberish>
+	</LanguageType>
+	<LanguageType WordName="STORE">
+		<English>STORE</English>
+		<Gibberish>¿STORE?</Gibberish>
+	</LanguageType>
+	<LanguageType WordName="FRIENDS">
+		<English>FRIENDS</English>
+		<Gibberish>¿FRIENDS?</Gibberish>
+	</LanguageType>
+	<LanguageType WordName="OPTIONS">
+		<English>OPTIONS</English>
+		<Gibberish>¿OPTIONS?</Gibberish>
+	</LanguageType>
+	<LanguageType WordName="CONTROLS">
+		<English>CONTROLS</English>
+		<Gibberish>¿CONTROLS?</Gibberish>
+	</LanguageType>
+	<LanguageType WordName="EXIT GAME">
+		<English>EXIT GAME</English>
+		<Gibberish>¿EXIT GAME?</Gibberish>
+	</LanguageType>
+	<LanguageType>
+		<DevNote>---Connection Status---</DevNote>
+	</LanguageType>
+	<LanguageType WordName="OFFLINE">
+		<English>OFFLINE</English>
+		<Gibberish>¿OFFLINE?</Gibberish>
+	</LanguageType>
+	<LanguageType WordName="CONNECTED">
+		<English>CONNECTED</English>
+		<Gibberish>¿CONNECTED?</Gibberish>
+	</LanguageType>
+	<LanguageType>
+		<DevNote>---Arcade---</DevNote>
+	</LanguageType>
+	<LanguageType WordName="TOURNAMENT">
+		<English>TOURNAMENT</English>
+		<Gibberish>¿TOURNAMENT?</Gibberish>
+	</LanguageType>
+	<LanguageType WordName="HIGH SCORE">
+		<English>HIGH SCORE</English>
+		<Gibberish>¿HIGH SCORE?</Gibberish>
+	</LanguageType>
+	<LanguageType WordName="TOTAL SCORE">
+		<English>TOTAL SCORE</English>
+		<Gibberish>¿TOTAL SCORE?</Gibberish>
+	</LanguageType>
+	<LanguageType WordName="ARCADE MODE">
+		<English>ARCADE MODE</English>
+		<Gibberish>¿ARCADE MODE?</Gibberish>
+	</LanguageType>
+	<LanguageType WordName="FINALS">
+		<English>FINALS</English>
+		<Gibberish>¿FINALS?</Gibberish>
+	</LanguageType>
+	<LanguageType>
+		<DevNote>---Select Character / Lobby---</DevNote>
+	</LanguageType>
+	<LanguageType WordName="GO BACK">
+		<English>GO BACK</English>
+		<Gibberish>¿GO BACK?</Gibberish>
+	</LanguageType>
+	<LanguageType WordName="VERSUS LOCAL">
+		<English>VERSUS LOCAL</English>
+		<Gibberish>¿VERSUS LOCAL?</Gibberish>
+	</LanguageType>
+	<LanguageType WordName="TEAMS:">
+		<English>TEAMS:</English>
+		<Gibberish>¿TEAMS:?</Gibberish>
+	</LanguageType>
+	<LanguageType WordName="OFF">
+		<English>OFF</English>
+		<Gibberish>¿OFF?</Gibberish>
+	</LanguageType>
+	<LanguageType WordName="ON">
+		<English>ON</English>
+		<Gibberish>¿ON?</Gibberish>
+	</LanguageType>
+	<LanguageType WordName="PLAYERS">
+		<English>PLAYERS</English>
+		<Gibberish>¿PLAYERS?</Gibberish>
+	</LanguageType>
+	<LanguageType WordName="SLOT #">
+		<English>SLOT #</English>
+		<Gibberish>¿SLOT #?</Gibberish>
+	</LanguageType>
+	<LanguageType WordName="PRESS">
+		<English>PRESS</English>
+		<Gibberish>¿PRESS?</Gibberish>
+	</LanguageType>
+	<LanguageType WordName="TO CHOOSE">
+		<English>TO CHOOSE</English>
+		<Gibberish>¿TO CHOOSE?</Gibberish>
+	</LanguageType>
+	<LanguageType WordName="TO JOIN">
+		<English>TO JOIN</English>
+		<Gibberish>¿TO JOIN?</Gibberish>
+	</LanguageType>
+	<LanguageType WordName="TEAM COLOR">
+		<English>TEAM COLOR</English>
+		<Gibberish>¿TEAM COLOR?</Gibberish>
+	</LanguageType>
+	<LanguageType WordName="DIFFICULTY">
+		<English>DIFFICULTY</English>
+		<Gibberish>¿DIFFICULTY?</Gibberish>
+	</LanguageType>
+	<LanguageType WordName="DISABLE">
+		<English>DISABLE</English>
+		<Gibberish>¿DISABLE?</Gibberish>
+	</LanguageType>
+	<LanguageType WordName="RULES">
+		<English>RULES</English>
+		<Gibberish>¿RULES?</Gibberish>
+	</LanguageType>
+	<LanguageType WordName="PLAYER #">
+		<English>PLAYER #</English>
+		<Gibberish>¿PLAYER #?</Gibberish>
+	</LanguageType>
+	<LanguageType WordName="BOT">
+		<English>BOT</English>
+		<Gibberish>¿BOT?</Gibberish>
+	</LanguageType>
+	<LanguageType WordName="(EASY)">
+		<English>(EASY)</English>
+		<Gibberish>¿(EASY)?</Gibberish>
+	</LanguageType>
+	<LanguageType WordName="(MEDIUM)">
+		<English>(MEDIUM)</English>
+		<Gibberish>¿(MEDIUM)?</Gibberish>
+	</LanguageType>
+	<LanguageType WordName="(HARD)">
+		<English>(HARD)</English>
+		<Gibberish>¿(HARD)?</Gibberish>
+	</LanguageType>
+	<LanguageType WordName="READY FOR BATTLE">
+		<English>READY FOR BATTLE</English>
+		<Gibberish>¿READY FOR BATTLE?</Gibberish>
+	</LanguageType>
+	<LanguageType WordName="TEAM">
+		<English>TEAM</English>
+		<Gibberish>¿TEAM?</Gibberish>
+	</LanguageType>
+	<LanguageType WordName="COMING SOON">
+		<English>COMING SOON</English>
+		<Gibberish>¿COMING SOON?</Gibberish>
+	</LanguageType>
+	<LanguageType>
+		<DevNote>---Character Menu---</DevNote>
+	</LanguageType>
+	<LanguageType WordName="COLORS SCHEMES">
+		<English>COLORS SCHEMES</English>
+		<Gibberish>¿COLORS SCHEMES?</Gibberish>
+	</LanguageType>
+	<LanguageType WordName="MAJOR RELICS">
+		<English>MAJOR RELICS</English>
+		<Gibberish>¿MAJOR RELICS?</Gibberish>
+	</LanguageType>
+	<LanguageType WordName="MINOR RELICS">
+		<English>MINOR RELICS</English>
+		<Gibberish>¿MINOR RELICS?</Gibberish>
+	</LanguageType>
+	<LanguageType WordName="Game Rules">
+		<English>Game Rules</English>
+		<Gibberish>¿Game Rules?</Gibberish>
+	</LanguageType>
+	<LanguageType WordName="Custom Game Rules">
+		<English>Custom Game Rules</English>
+		<Gibberish>¿Custom Game Rules?</Gibberish>
+	</LanguageType>
+	<LanguageType WordName="Mode">
+		<English>Mode</English>
+		<Gibberish>¿Mode?</Gibberish>
+	</LanguageType>
+	<LanguageType WordName="Lives">
+		<English>Lives</English>
+		<Gibberish>¿Lives?</Gibberish>
+	</LanguageType>
+	<LanguageType WordName="Duration">
+		<English>Duration</English>
+		<Gibberish>¿Duration?</Gibberish>
+	</LanguageType>
+	<LanguageType WordName="Damage %">
+		<English>Damage %</English>
+		<Gibberish>¿Damage %?</Gibberish>
+	</LanguageType>
+	<LanguageType WordName="Gadgets">
+		<English>Gadgets</English>
+		<Gibberish>¿Gadgets?</Gibberish>
+	</LanguageType>
+	<LanguageType WordName="Timed">
+		<English>Timed</English>
+		<Gibberish>¿Timed?</Gibberish>
+	</LanguageType>
+	<LanguageType WordName="Stock">
+		<English>Stock</English>
+		<Gibberish>¿Stock?</Gibberish>
+	</LanguageType>
+	<LanguageType WordName="All">
+		<English>All</English>
+		<Gibberish>¿All?</Gibberish>
+	</LanguageType>
+	<LanguageType WordName="None">
+		<English>None</English>
+		<Gibberish>¿None?</Gibberish>
+	</LanguageType>
+	<LanguageType>
+		<DevNote>---Training---</DevNote>
+	</LanguageType>
+	<LanguageType>
+		<DevNote>DUPE:TRAINING</DevNote>
+	</LanguageType>
+	<LanguageType WordName="TRAINING OPTIONS">
+		<English>TRAINING OPTIONS</English>
+		<Gibberish>¿TRAINING OPTIONS?</Gibberish>
+	</LanguageType>
+	<LanguageType WordName="RESUME">
+		<English>RESUME</English>
+		<Gibberish>¿RESUME?</Gibberish>
+	</LanguageType>
+	<LanguageType WordName="RESET">
+		<English>RESET</English>
+		<Gibberish>¿RESET?</Gibberish>
+	</LanguageType>
+	<LanguageType WordName="WEAPON:">
+		<English>WEAPON:</English>
+		<Gibberish>¿WEAPON:?</Gibberish>
+	</LanguageType>
+	<LanguageType WordName="ITEM:">
+		<English>ITEM:</English>
+		<Gibberish>¿ITEM:?</Gibberish>
+	</LanguageType>
+	<LanguageType WordName="EXIT TRAINING">
+		<English>EXIT TRAINING</English>
+		<Gibberish>¿EXIT TRAINING?</Gibberish>
+	</LanguageType>
+	<LanguageType WordName="BOT OPTIONS">
+		<English>BOT OPTIONS</English>
+		<Gibberish>¿BOT OPTIONS?</Gibberish>
+	</LanguageType>
+	<LanguageType WordName="ACTION:">
+		<English>ACTION:</English>
+		<Gibberish>¿ACTION:?</Gibberish>
+	</LanguageType>
+	<LanguageType WordName="HERO:">
+		<English>HERO:</English>
+		<Gibberish>¿HERO:?</Gibberish>
+	</LanguageType>
+	<LanguageType WordName="DAMAGE:">
+		<English>DAMAGE:</English>
+		<Gibberish>¿DAMAGE:?</Gibberish>
+	</LanguageType>
+	<LanguageType WordName="INFO OPTIONS">
+		<English>INFO OPTIONS</English>
+		<Gibberish>¿INFO OPTIONS?</Gibberish>
+	</LanguageType>
+	<LanguageType WordName="SHOW DAMAGE:">
+		<English>SHOW DAMAGE:</English>
+		<Gibberish>¿SHOW DAMAGE:?</Gibberish>
+	</LanguageType>
+	<LanguageType WordName="SHOW STUN:">
+		<English>SHOW STUN:</English>
+		<Gibberish>¿SHOW STUN:?</Gibberish>
+	</LanguageType>
+	<LanguageType WordName="SHOW HITBOXES:">
+		<English>SHOW HITBOXES:</English>
+		<Gibberish>¿SHOW HITBOXES:?</Gibberish>
+	</LanguageType>
+	<LanguageType>
+		<DevNote>Level Voting</DevNote>
+	</LanguageType>
+	<LanguageType WordName="TIME LEFT:">
+		<English>TIME LEFT:</English>
+		<Gibberish>¿TIME LEFT:?</Gibberish>
+	</LanguageType>
+	<LanguageType WordName="VOTE ON A REALM">
+		<English>VOTE ON A REALM</English>
+		<Gibberish>¿VOTE ON A REALM?</Gibberish>
+	</LanguageType>
+	<LanguageType WordName="RANDOM">
+		<English>RANDOM</English>
+		<Gibberish>¿RANDOM?</Gibberish>
+	</LanguageType>
+	<LanguageType WordName="CHOOSING…">
+		<English>CHOOSING…</English>
+		<Gibberish>¿CHOOSING…?</Gibberish>
+	</LanguageType>
+	<LanguageType>
+		<DevNote>Options / Paused</DevNote>
+	</LanguageType>
+	<LanguageType>
+		<DevNote>DUPE:OPTIONS</DevNote>
+	</LanguageType>
+	<LanguageType>
+		<DevNote>DUPE:RESUME</DevNote>
+	</LanguageType>
+	<LanguageType WordName="MUSIC: OFF">
+		<English>MUSIC: OFF</English>
+		<Gibberish>¿MUSIC: OFF?</Gibberish>
+	</LanguageType>
+	<LanguageType WordName="MUSIC: HIGH">
+		<English>MUSIC: HIGH</English>
+		<Gibberish>¿MUSIC: HIGH?</Gibberish>
+	</LanguageType>
+	<LanguageType WordName="MUSIC: MEDIUM">
+		<English>MUSIC: MEDIUM</English>
+		<Gibberish>¿MUSIC: MEDIUM?</Gibberish>
+	</LanguageType>
+	<LanguageType WordName="MUSIC: LOW">
+		<English>MUSIC: LOW</English>
+		<Gibberish>¿MUSIC: LOW?</Gibberish>
+	</LanguageType>
+	<LanguageType WordName="SOUND: OFF">
+		<English>SOUND: OFF</English>
+		<Gibberish>¿SOUND: OFF?</Gibberish>
+	</LanguageType>
+	<LanguageType WordName="SOUND: HIGH">
+		<English>SOUND: HIGH</English>
+		<Gibberish>¿SOUND: HIGH?</Gibberish>
+	</LanguageType>
+	<LanguageType WordName="SOUND: MEDIUM">
+		<English>SOUND: MEDIUM</English>
+		<Gibberish>¿SOUND: MEDIUM?</Gibberish>
+	</LanguageType>
+	<LanguageType WordName="SOUND: LOW">
+		<English>SOUND: LOW</English>
+		<Gibberish>¿SOUND: LOW?</Gibberish>
+	</LanguageType>
+	<LanguageType WordName="FULL SCREEN: OFF">
+		<English>FULL SCREEN: OFF</English>
+		<Gibberish>¿FULL SCREEN: OFF?</Gibberish>
+	</LanguageType>
+	<LanguageType WordName="FULL SCREEN: ON">
+		<English>FULL SCREEN: ON</English>
+		<Gibberish>¿FULL SCREEN: ON?</Gibberish>
+	</LanguageType>
+	<LanguageType WordName="KEY BINDINGS">
+		<English>KEY BINDINGS</English>
+		<Gibberish>¿KEY BINDINGS?</Gibberish>
+	</LanguageType>
+	<LanguageType WordName="LEAVE MATCH">
+		<English>LEAVE MATCH</English>
+		<Gibberish>¿LEAVE MATCH?</Gibberish>
+	</LanguageType>
+	<LanguageType>
+		<DevNote>Match Preview</DevNote>
+	</LanguageType>
+	<LanguageType WordName="LOADING">
+		<English>LOADING</English>
+		<Gibberish>¿LOADING?</Gibberish>
+	</LanguageType>
+	<LanguageType WordName="HINT">
+		<English>HINT</English>
+		<Gibberish>¿HINT?</Gibberish>
+	</LanguageType>
+	<LanguageType>
+		<DevNote>Score Screen</DevNote>
+	</LanguageType>
+	<LanguageType WordName="WINS">
+		<English>WINS</English>
+		<Gibberish>¿WINS?</Gibberish>
+	</LanguageType>
+	<LanguageType WordName="LEAVE">
+		<English>LEAVE</English>
+		<Gibberish>¿LEAVE?</Gibberish>
+	</LanguageType>
+	<LanguageType WordName="SCORE">
+		<English>SCORE</English>
+		<Gibberish>¿SCORE?</Gibberish>
+	</LanguageType>
+	<LanguageType WordName="KOs">
+		<English>KOs</English>
+		<Gibberish>¿KOs?</Gibberish>
+	</LanguageType>
+	<LanguageType WordName="FALLS">
+		<English>FALLS</English>
+		<Gibberish>¿FALLS?</Gibberish>
+	</LanguageType>
+	<LanguageType WordName="ACCIDENTS">
+		<English>ACCIDENTS</English>
+		<Gibberish>¿ACCIDENTS?</Gibberish>
+	</LanguageType>
+	<LanguageType WordName="CHAT HAS BEEN DISABLED FOR LOCAL GAMES">
+		<English>CHAT HAS BEEN DISABLED FOR LOCAL GAMES</English>
+		<Gibberish>¿CHAT HAS BEEN DISABLED FOR LOCAL GAMES?</Gibberish>
+	</LanguageType>
+	<LanguageType>
+		<DevNote>Account Items</DevNote>
+	</LanguageType>
+	<LanguageType WordName="KNOCK-OUT EFFECT">
+		<English>KNOCK-OUT EFFECT</English>
+		<Gibberish>¿KNOCK-OUT EFFECT?</Gibberish>
+	</LanguageType>
+	<LanguageType WordName="KNOCK-OUT EFFECTS">
+		<English>KNOCK-OUT EFFECTS</English>
+		<Gibberish>¿KNOCK-OUT EFFECTS?</Gibberish>
+	</LanguageType>
+	<LanguageType WordName="THEME">
+		<English>THEME</English>
+		<Gibberish>¿THEME?</Gibberish>
+	</LanguageType>
+	<LanguageType WordName="THEMES">
+		<English>THEMES</English>
+		<Gibberish>¿THEMES?</Gibberish>
+	</LanguageType>
+	<LanguageType WordName="VALKRI">
+		<English>VALKRI</English>
+		<Gibberish>¿VALKRI?</Gibberish>
+	</LanguageType>
+	<LanguageType WordName="VALKRIS">
+		<English>VALKRIS</English>
+		<Gibberish>¿VALKRIS?</Gibberish>
+	</LanguageType>
+	<LanguageType WordName="TAUNTS">
+		<English>TAUNTS</English>
+		<Gibberish>¿TAUNTS?</Gibberish>
+	</LanguageType>
+	<LanguageType WordName="TAUNT A">
+		<English>TAUNT A</English>
+		<Gibberish>¿TAUNT A?</Gibberish>
+	</LanguageType>
+	<LanguageType WordName="TAUNT B">
+		<English>TAUNT B</English>
+		<Gibberish>¿TAUNT B?</Gibberish>
+	</LanguageType>
+	<LanguageType WordName="TAUNT C">
+		<English>TAUNT C</English>
+		<Gibberish>¿TAUNT C?</Gibberish>
+	</LanguageType>
+	<LanguageType WordName="TAUNT D">
+		<English>TAUNT D</English>
+		<Gibberish>¿TAUNT D?</Gibberish>
+	</LanguageType>
+	<LanguageType>
+		<DevNote>Mallhalla</DevNote>
+	</LanguageType>
+	<LanguageType WordName="MALLHALLA">
+		<English>MALLHALLA</English>
+		<Gibberish>¿MALLHALLA?</Gibberish>
+	</LanguageType>
+	<LanguageType WordName="FEATURED">
+		<English>FEATURED</English>
+		<Gibberish>¿FEATURED?</Gibberish>
+	</LanguageType>
+	<LanguageType WordName="SKINS">
+		<English>SKINS</English>
+		<Gibberish>¿SKINS?</Gibberish>
+	</LanguageType>
+	<LanguageType WordName="WEAPONS">
+		<English>WEAPONS</English>
+		<Gibberish>¿WEAPONS?</Gibberish>
+	</LanguageType>
+	<LanguageType>
+		<DevNote>DUPE:SKINS</DevNote>
+	</LanguageType>
+	<LanguageType WordName="OWNED">
+		<English>OWNED</English>
+		<Gibberish>¿OWNED?</Gibberish>
+	</LanguageType>
+	<LanguageType>
+		<DevNote>DUPE:INFO OPTIONS</DevNote>
+	</LanguageType>
+	<LanguageType WordName="BUY">
+		<English>BUY</English>
+		<Gibberish>¿BUY?</Gibberish>
+	</LanguageType>
+	<LanguageType WordName="DONE">
+		<English>DONE</English>
+		<Gibberish>¿DONE?</Gibberish>
+	</LanguageType>
+	<LanguageType WordName="YOU GOT A NEW ITEM !">
+		<English>YOU GOT A NEW ITEM !</English>
+		<Gibberish>¿YOU GOT A NEW ITEM !?</Gibberish>
+	</LanguageType>
+	<LanguageType>
+		<DevNote>DUPE:Gameplay</DevNote>
+	</LanguageType>
+	<LanguageType WordName="TIE BREAKER">
+		<English>TIE BREAKER</English>
+		<Gibberish>¿TIE BREAKER?</Gibberish>
+	</LanguageType>
+	<LanguageType WordName="EMPTY"/>
+	<LanguageType WordName="EMPTY"/>
+	<LanguageType WordName="EMPTY"/>
+	<LanguageType WordName="EMPTY"/>
+</LanguageTypes>

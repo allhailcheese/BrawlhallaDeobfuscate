@@ -217,6 +217,7 @@ package
         public static var §_-51s§:uint = 8;
         //00000000000000000000000000010000
         //bit 05
+        //PAPERDOLL
         public static var §_-o1V§:uint = 16;
         //00000000000000000000000000100000
         //bit 06
@@ -6129,6 +6130,7 @@ package
             var _loc6_:* = null as §_-Y3o§;
             var _loc7_:* = null as §_-tS§;
             var _loc5_:Boolean = §_-85n§ == null || !§_-85n§.§_-k2C§;
+            //                  active               not grabbed         not grabbed     same grabber
             if(param3 != null && param3.§_-k2C§ && (§_-Ko§ == uint(0) || _loc5_ || §_-85n§.§_-D2f§ == param3.§_-D2f§))
             {
                 §_-Ko§ = uint(6);
@@ -7664,6 +7666,7 @@ package
             §_-p3O§();
         }
         
+        // interrupt
         public function §_-p4H§(param1:Boolean = false, param2:uint = 0) : void
         {
             var _loc6_:* = null as §_-Y3o§;
@@ -7674,8 +7677,9 @@ package
             var _loc5_:Boolean = false;
             if(_loc3_ != null)
             {
+                // origin power
                 _loc6_ = §_-p3I§.§_-c4B§(_loc3_.§_-F2V§);
-                //                                has exahusted
+                //                                has exahusted                             attack time? throw time?
                 if(!!param1 && _loc3_.§_-k2C§ && _loc6_.§_-5r§ && §_-p3I§.§_-Za§ != 0 && uint(§_-p3I§.§_-Za§ + 300) >= param2)
                 {
                     §_-p3I§.§_-v4U§(§_-Y3o§.§_-43o§,this,null);//HitReactStuffedRecovery
@@ -7686,6 +7690,7 @@ package
                     §_-35d§.§_-Q2C§.§_-C1U§();
                 }
             }
+            // interrupt attacks
             §_-p3I§.§_-y1b§();
             §_-P2f§();
             if(param1)
@@ -7988,7 +7993,7 @@ package
             {
                 return;
             }
-            §_-T2c§(§_-Ej§.§_-61u§);
+            §_-T2c§(§_-Ej§.§_-61u§);// get hurtbox stuff
             var _loc2_:Number = §_-Ej§.§_-61u§.§_-N4Z§;// offset x
             var _loc3_:Number = §_-Ej§.§_-61u§.§_-22Q§;// offset y
             if(_loc2_ > 0 || _loc2_ < 0 || _loc3_ > 0 || _loc3_ < 0)
@@ -8007,7 +8012,9 @@ package
             {
                 _loc4_ = uint(§_-p3I§.§_-y44§.§_-p3f§);
             }
+            // facing left
             var _loc5_:Boolean = §_-I4N§() && !param2;
+            // hurtbox thing
             _loc3_.§_-T2c§(_loc4_,param1,_loc5_);
         }
         

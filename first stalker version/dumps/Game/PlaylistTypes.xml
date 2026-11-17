@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PlaylistTypes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<PlaylistType PlaylistName="Template">
+		<PlaylistID>0</PlaylistID>
+		<DisplayName>---</DisplayName>
+		<NumPlayers>0</NumPlayers>
+		<MinPlayers>0</MinPlayers>
+		<Teams>FALSE</Teams>
+		<GuestsAllowed>0</GuestsAllowed>
+		<GameModeList>--</GameModeList>
+	</PlaylistType>
+	<PlaylistType PlaylistName="FreeForAll">
+		<PlaylistID>1</PlaylistID>
+		<DisplayName>Free for All</DisplayName>
+		<NumPlayers>4</NumPlayers>
+		<MinPlayers>1</MinPlayers>
+		<Teams>FALSE</Teams>
+		<GuestsAllowed>1</GuestsAllowed>
+		<GameModeList>Timed</GameModeList>
+	</PlaylistType>
+	<PlaylistType PlaylistName="2v2">
+		<PlaylistID>2</PlaylistID>
+		<DisplayName>2v2</DisplayName>
+		<NumPlayers>4</NumPlayers>
+		<MinPlayers>4</MinPlayers>
+		<Teams>TRUE</Teams>
+		<GuestsAllowed>1</GuestsAllowed>
+		<GameModeList>TeamTimed,TeamStock</GameModeList>
+	</PlaylistType>
+	<PlaylistType PlaylistName="4v4">
+		<PlaylistID>3</PlaylistID>
+		<DisplayName>4v4</DisplayName>
+		<NumPlayers>8</NumPlayers>
+		<MinPlayers>6</MinPlayers>
+		<Teams>TRUE</Teams>
+		<GuestsAllowed>3</GuestsAllowed>
+		<GameModeList>BigTeamTimed</GameModeList>
+	</PlaylistType>
+	<PlaylistType PlaylistName="8FFA">
+		<PlaylistID>4</PlaylistID>
+		<DisplayName>8 Player Mayhem</DisplayName>
+		<NumPlayers>8</NumPlayers>
+		<MinPlayers>6</MinPlayers>
+		<Teams>False</Teams>
+		<GuestsAllowed>3</GuestsAllowed>
+		<GameModeList>8FFA</GameModeList>
+	</PlaylistType>
+	<PlaylistType PlaylistName="4v4Brawlball">
+		<PlaylistID>5</PlaylistID>
+		<DisplayName>Big Team Brawlball</DisplayName>
+		<NumPlayers>8</NumPlayers>
+		<MinPlayers>6</MinPlayers>
+		<Teams>True</Teams>
+		<GuestsAllowed>3</GuestsAllowed>
+		<GameModeList>4v4Brawlball</GameModeList>
+	</PlaylistType>
+</PlaylistTypes>
